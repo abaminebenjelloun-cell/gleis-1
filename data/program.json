@@ -1,0 +1,3378 @@
+[
+ {
+  "kind": "lesson",
+  "lesson": 1,
+  "title": "Hello and your name",
+  "learn": "Today you learn to greet people at any time of day, say goodbye, and introduce yourself formally (Sie) and informally (du).",
+  "points": [
+   "Guten Morgen, Guten Tag, Guten Abend, Gute Nacht; Hallo and Tschüss vs Auf Wiedersehen",
+   "Ich heiße ... / Ich bin ... / Mein Name ist ...",
+   "Wie heißen Sie? (formal) vs Wie heißt du? (informal)",
+   "sein: ich bin, du bist, Sie sind; heißen: ich heiße, du heißt",
+   "Introduce others: Das ist Frau Keller. Wer ist das?"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 1",
+    "act": {
+     "t": "cards",
+     "lesson": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 1: Hello and your name",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 1,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Das Alphabet: letter names and spelling your name",
+    "act": {
+     "t": "abc",
+     "tab": "letters"
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Personal pronouns and du / Sie, sein and haben, Present tense: regular verbs",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "personal-pronouns",
+      "sein-haben",
+      "present-regular"
+     ],
+     "lesson": 1,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Word stress",
+    "act": {
+     "t": "pron",
+     "section": "word-stress"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Introduce yourself formally to a new client: greet, give your name, say where you come from and which languages you speak. Say it out loud before you type it.",
+    "act": {
+     "t": "speak",
+     "lesson": 1
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 1, course book p. 10-21",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 0,
+  "min": 70
+ },
+ {
+  "kind": "lesson",
+  "lesson": 1,
+  "title": "Countries, languages, spelling",
+  "learn": "Today you learn to say where you come from and which languages you speak, spell your name, and make a short phone call.",
+  "points": [
+   "Woher kommen Sie? Ich komme aus Kanada / aus der Schweiz.",
+   "Countries and languages: Italien and Italienisch, Spanien and Spanisch, but Deutschland and Deutsch",
+   "Ich spreche Französisch und ein bisschen Deutsch. Nur ein bisschen.",
+   "The alphabet with ä, ö, ü, ß; Wie bitte? Buchstabieren Sie, bitte.",
+   "On the phone: Ist Herr ... da? Einen Moment, bitte. Tut mir leid. Auf Wiederhören."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 1",
+    "act": {
+     "t": "cards",
+     "lesson": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 1: Countries, languages, spelling",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 1,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Countries and cities with aus and in, Questions, Word order: verb in position 2",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "countries-aus-in",
+      "questions",
+      "word-order"
+     ],
+     "lesson": 1,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: The German h",
+    "act": {
+     "t": "pron",
+     "section": "h-sound"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Write a short message to introduce yourself to your new German course group: name, origin, city, languages.",
+    "act": {
+     "t": "speak",
+     "lesson": 1,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Sprechen Teil 1",
+    "note": "Introducing yourself (name, country, languages) and spelling your name are the core of Sprechen Teil 1.",
+    "act": {
+     "t": "exam",
+     "sec": "sprechen"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 10-18",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 1 (Guten Tag. Mein Name ist ...). Let's have a short conversation in German at A1 level so I can practise: Greet people and say goodbye, formally and informally, at different times of day.; Ask someone's name and introduce yourself and other people.; Choose between du and Sie.. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 1,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 2,
+  "title": "How are you? My family",
+  "learn": "Today you learn to ask how someone is, answer honestly, and present your family with mein, meine and dein, deine.",
+  "points": [
+   "Wie geht's? Super / Sehr gut / Gut, danke / Na ja, es geht / Nicht so gut",
+   "Family words: der Vater, die Mutter, die Eltern, der Bruder, die Schwester, die Geschwister, der Sohn, die Tochter",
+   "mein Vater, meine Mutter, meine Eltern; Ist das dein Bruder? Ist das Ihre Tochter?",
+   "Wer ist das? Ja, genau. / Nein, falsch, das ist ...",
+   "Pauls Schwester = die Schwester von Paul"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 2",
+    "act": {
+     "t": "cards",
+     "lesson": 2
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 2: How are you? My family",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 2,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Die Zahlen: 0 to 100, then number dictation",
+    "act": {
+     "t": "abc",
+     "tab": "numbers"
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Possessives: mein, dein, sein, ihr..., Names + s: Pauls Bruder, sein and haben",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "possessives",
+      "name-s",
+      "sein-haben"
+     ],
+     "lesson": 2,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Vocalized r and the -er ending",
+    "act": {
+     "t": "pron",
+     "section": "vocalized-r"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Show a photo (real or invented) and present one family member: name, age, where he or she lives, marital status.",
+    "act": {
+     "t": "speak",
+     "lesson": 2
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 1, course book p. 22-33",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 2,
+  "min": 70
+ },
+ {
+  "kind": "lesson",
+  "lesson": 2,
+  "title": "Numbers and personal data",
+  "learn": "Today you learn to count to twenty, talk about other people with er, sie, wir and ihr, and give your personal details for a form or the exam's self-introduction.",
+  "points": [
+   "Numbers 0 to 20 and phone numbers digit by digit",
+   "er/sie wohnt, wir wohnen, ihr wohnt, sie wohnen; du sprichst, er spricht",
+   "Wo sind Sie geboren? Ich bin in ... geboren. Wie alt sind Sie?",
+   "Familienstand: ledig, verheiratet, geschieden, verwitwet",
+   "Sprechen Teil 1: Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 2",
+    "act": {
+     "t": "cards",
+     "lesson": 2
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 2: Numbers and personal data",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 2,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Personal pronouns and du / Sie, Present tense: regular verbs, Irregular verbs in the present",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "personal-pronouns",
+      "present-regular",
+      "present-irregular",
+      "countries-aus-in"
+     ],
+     "lesson": 2,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: Vowel length: a / aa",
+    "act": {
+     "t": "pron",
+     "section": "vowel-length-a"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Write a short text (4 to 6 sentences) about a friend or family member: name, age, origin, place of residence, marital status, languages.",
+    "act": {
+     "t": "speak",
+     "lesson": 2,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Sprechen Teil 1",
+    "note": "The lesson's Prüfungsaufgabe is Sprechen Teil 1: introducing yourself with the keyword card (Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby) and spelling or giving numbers.",
+    "act": {
+     "t": "exam",
+     "sec": "sprechen"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 19-29",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 2 (Meine Familie). Let's have a short conversation in German at A1 level so I can practise: Ask how someone is and say how you are, from super to nicht so gut.; Introduce your family members and ask who someone is.; Use mein, dein and Ihr with family words.. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 3,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 3,
+  "title": "Foods, ein and kein, plurals",
+  "learn": "Today you learn about forty food words, how to say what something is (or is not) with ein and kein, and how to build plurals for your shopping list.",
+  "points": [
+   "Food words with their article: der Apfel, die Birne, das Brötchen, die Milch",
+   "Das ist ein Apfel. / Das ist doch kein Ei, das ist eine Kartoffel.",
+   "Five plural patterns: Fische, Tomaten, Eier, Joghurts, Brötchen, Äpfel",
+   "No article for uncountable things: Haben wir Zucker? Ich trinke Kaffee.",
+   "Yes/no questions with the verb first: Haben wir Kartoffeln? Brauchen wir Brot?"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 3",
+    "act": {
+     "t": "cards",
+     "lesson": 3
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 3: Foods, ein and kein, plurals",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 3,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Articles: der, die, das, Negation: nicht, kein, doch, Plural forms of nouns",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "articles",
+      "negation",
+      "plural",
+      "questions"
+     ],
+     "lesson": 3,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Word stress",
+    "act": {
+     "t": "pron",
+     "section": "word-stress"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: You are checking the fridge with a flatmate. Ask four yes/no questions with Haben wir ...? or Brauchen wir ...? and answer two of them with kein/keine.",
+    "act": {
+     "t": "speak",
+     "lesson": 3
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 1, course book p. 34-45",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 4,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 3,
+  "title": "Prices, amounts, favourite food",
+  "learn": "Today you learn to buy food by the kilo, bottle or piece, to ask and understand prices, and to talk about what you like to eat.",
+  "points": [
+   "Was kostet ein Kilo Tomaten? Was kosten sechs Eier? Was macht das zusammen?",
+   "Amounts: hundert Gramm Käse, ein Liter Milch, eine Flasche Wein, eine Dose Tomaten",
+   "Prices: vier Franken fünfzig, zwei Euro neunundneunzig",
+   "essen: ich esse, du isst, er isst; Ich esse gern Fisch. Ich trinke nicht gern Milch.",
+   "Mein Lieblingsessen ist ... / Das schmeckt gut!"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 3",
+    "act": {
+     "t": "cards",
+     "lesson": 3
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 3: Prices, amounts, favourite food",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 3,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Irregular verbs in the present, Plural forms of nouns",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "present-irregular",
+      "plural"
+     ],
+     "lesson": 3,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: Vowel length: a / aa",
+    "act": {
+     "t": "pron",
+     "section": "vowel-length-a"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Write a short message to a friend: you are cooking on Saturday. Say what you cook, what you have at home and what your friend can buy.",
+    "act": {
+     "t": "speak",
+     "lesson": 3,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Lesen Teil 3",
+    "note": "The workbook exam task trains Lesen Teil 3: short signs and notices (special offers, prices in a cafeteria or shop) with richtig/falsch statements.",
+    "act": {
+     "t": "exam",
+     "sec": "lesen"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 30-40",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 3 (Essen und Trinken). Let's have a short conversation in German at A1 level so I can practise: Name common foods and drinks and ask what something is (Was ist das?); Make a guess and correct it: Das ist doch kein Ei, das ist ein Apfel.; Use plural forms and amounts when you shop (zwei Zwiebeln, drei Joghurts). Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 5,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 4,
+  "title": "Rooms, adjectives, er/es/sie",
+  "learn": "Today you learn to show and describe a flat room by room, and to talk about things with er, es and sie instead of repeating the noun.",
+  "points": [
+   "Rooms: der Flur, das Wohnzimmer, das Schlafzimmer, die Küche, das Bad, der Balkon",
+   "Hier ist die Küche. Das Bad ist dort.",
+   "Adjectives after sein, never with an ending: hell/dunkel, groß/klein, neu/alt, billig/teuer, schön/hässlich",
+   "der Tisch = er, die Lampe = sie, das Bad = es, die Stühle = sie",
+   "Big numbers for rent and size: zweitausend Franken, dreißig Quadratmeter"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 4",
+    "act": {
+     "t": "cards",
+     "lesson": 4
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 4: Rooms, adjectives, er/es/sie",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 4,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Articles: der, die, das, er, es, sie for things",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "articles",
+      "pronouns-things"
+     ],
+     "lesson": 4,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Word stress",
+    "act": {
+     "t": "pron",
+     "section": "word-stress"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Describe your flat in five or six sentences: rooms, size, and what each room is like. Use er, es, sie at least twice.",
+    "act": {
+     "t": "speak",
+     "lesson": 4
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 1, course book p. 46-57",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 6,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 4,
+  "title": "Furniture, colours, flat ads",
+  "learn": "Today you learn furniture and colours, how to say what you like or dislike, and how to decode a flat ad.",
+  "points": [
+   "Furniture: der Schrank, der Tisch, der Stuhl, das Bett, das Sofa, der Sessel, der Herd",
+   "Colours: schwarz, weiß, grau, rot, blau, grün, gelb, braun; hellblau, dunkelrot",
+   "Opinions: Wie findest du das Sofa? Ich finde es schön. Der Sessel gefällt mir. Die Lampe ist nicht modern.",
+   "Compound nouns: the last word gives the article (der Kühlschrank, die Badewanne), the first word gets the stress",
+   "Flat ads: 3-Zi.-Wohnung, ca. 60 m², ab sofort, möbliert, im 2. Stock, Miete"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 4",
+    "act": {
+     "t": "cards",
+     "lesson": 4
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 4: Furniture, colours, flat ads",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 4,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Compound nouns, Negation: nicht, kein, doch, Plural forms of nouns",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "compound-nouns",
+      "negation",
+      "plural"
+     ],
+     "lesson": 4,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: Vowel length: e / ee / eh",
+    "act": {
+     "t": "pron",
+     "section": "vowel-length-e"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: You found a flat ad online. Write a short email to the owner: say who you are, what kind of flat you are looking for, and ask two questions (rent, balcony, furniture, floor).",
+    "act": {
+     "t": "speak",
+     "lesson": 4,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Hören Teil 1",
+    "note": "The workbook exam task trains Hören Teil 1: short everyday conversations (here about furniture, prices and where things come from) with three picture or text options, heard twice.",
+    "act": {
+     "t": "exam",
+     "sec": "hoeren"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 41-51",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 4 (Meine Wohnung). Let's have a short conversation in German at A1 level so I can practise: Name the rooms of a flat and say where they are (hier, dort); Describe a house or flat with adjectives: hell, klein, teuer, modern; Refer back to things with er, es, sie: Der Tisch? Er ist neu.. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 7,
+  "min": 60
+ },
+ {
+  "kind": "review",
+  "lesson": null,
+  "title": "Wiederholung: Lektion 1 bis 4",
+  "learn": "Today you consolidate Lektion 1 to 4: all due cards, your weakest grammar, vowel length, and introducing yourself as in the exam.",
+  "points": [
+   "Introduce yourself in seven sentences, then spell your name",
+   "Articles der/die/das and plural forms",
+   "Numbers, prices and the alphabet"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Flashcards: every card that is due",
+    "act": {
+     "t": "cards"
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: your weakest drills",
+    "act": {
+     "t": "gmix"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Ear training: long and short vowels",
+    "act": {
+     "t": "ear"
+    }
+   },
+   {
+    "src": "exam",
+    "min": 20,
+    "label": "Exam: Sprechen Teil 1, introduce yourself",
+    "act": {
+     "t": "exam",
+     "sec": "sprechen"
+    }
+   }
+  ],
+  "i": 8,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 5,
+  "title": "Mein Tag",
+  "learn": "Today you learn to describe your day from getting up to going to bed, with separable verbs like aufstehen, einkaufen and fernsehen.",
+  "points": [
+   "Daily verbs: aufstehen, frühstücken, einkaufen, aufräumen, anrufen, fernsehen, spazieren gehen, ins Bett gehen",
+   "Separable verbs: Ich stehe früh auf. Er sieht am Abend fern. Stehst du gern früh auf?",
+   "Irregular forms: er schläft, er sieht fern; extra e in du arbeitest, er arbeitet",
+   "Parts of the day: am Morgen, am Vormittag, am Mittag, am Nachmittag, am Abend, but in der Nacht",
+   "Verb in position 2 after a time: Am Abend sehe ich fern."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 5",
+    "act": {
+     "t": "cards",
+     "lesson": 5
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 5: Mein Tag",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 5,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Separable verbs, Irregular verbs in the present, Present tense: regular verbs",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "separable",
+      "present-irregular",
+      "present-regular",
+      "word-order"
+     ],
+     "lesson": 5,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Word stress",
+    "act": {
+     "t": "pron",
+     "section": "word-stress"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Describe a normal weekday: when you get up, have breakfast, work, and what you do in the evening. Say it out loud before you type it.",
+    "act": {
+     "t": "speak",
+     "lesson": 5
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 1, course book p. 58-69",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 9,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 5,
+  "title": "Uhrzeit und Termine",
+  "learn": "Today you learn to ask and tell the time, the everyday way and the official way, and to fix an appointment on a day of the week.",
+  "points": [
+   "Wie spät ist es? Es ist Viertel nach acht. Es ist halb neun (= 8:30!).",
+   "kurz vor, kurz nach, gleich, schon, erst: Es ist erst sieben.",
+   "Official time: Der Zug fährt um vierzehn Uhr dreißig.",
+   "am Montag, um zehn Uhr, von neun bis fünf, jeden Tag, nächste Woche",
+   "Hast du Zeit? Das passt gut. Opening times: täglich, geöffnet, geschlossen"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 5",
+    "act": {
+     "t": "cards",
+     "lesson": 5
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 5: Uhrzeit und Termine",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 5,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Telling the time: Wie spät ist es?, When? am, um, von ... bis",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "clock-time",
+      "time-am-um"
+     ],
+     "lesson": 5,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: Vowel length: a / aa",
+    "act": {
+     "t": "pron",
+     "section": "vowel-length-a"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Write a short message to a friend. Invite him for dinner at your place on Friday, say at what time you eat and what you do before, and ask if he has time.",
+    "act": {
+     "t": "speak",
+     "lesson": 5,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Hören Teil 3",
+    "note": "The workbook's exam task is Hören Teil 3: short phone messages and announcements where you catch one detail, very often a time or a day (um Viertel nach zehn, am Dienstag).",
+    "act": {
+     "t": "exam",
+     "sec": "hoeren"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 52-62",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 5 (Mein Tag). Let's have a short conversation in German at A1 level so I can practise: Describe your daily activities (aufstehen, frühstücken, einkaufen, fernsehen ...) with separable verbs; Ask for and tell the time, the everyday way and the official way; Name the days of the week and say what you do on which day. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 10,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 6,
+  "title": "Das Wetter",
+  "learn": "Today you learn to talk about the weather, understand a short weather report and say where in a country it is sunny or rainy.",
+  "points": [
+   "Es regnet. Es schneit. Die Sonne scheint. Es gibt viele Wolken.",
+   "Es ist kalt, warm, heiß, sonnig, windig, bewölkt; es sind zwanzig Grad, es ist minus ein Grad",
+   "im Norden, im Süden, im Osten, im Westen; Wie ist das Wetter in Zürich?",
+   "Weather report words: der Wetterbericht, die Temperatur, steigen, überall, bleiben"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 6",
+    "act": {
+     "t": "cards",
+     "lesson": 6
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 6: Das Wetter",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 6,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Weather with es, and es gibt",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "es-gibt"
+     ],
+     "lesson": 6,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Final devoicing (Auslautverhärtung)",
+    "act": {
+     "t": "pron",
+     "section": "final-devoicing"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Describe today's weather where you are and say what you do when the weather is like that. Say it out loud first.",
+    "act": {
+     "t": "speak",
+     "lesson": 6
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 1, course book p. 70-81",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 11,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 6,
+  "title": "Am Imbiss",
+  "learn": "Today you learn to order at a snack bar with the accusative and to answer yes/no questions with ja, nein and doch.",
+  "points": [
+   "Ich nehme den Salat / einen Hamburger / eine Cola. Wir haben keinen Saft.",
+   "Only masculine changes: der to den, ein to einen, kein to keinen",
+   "Möchtest du ein Eis? Ja. / Nein. Möchtest du kein Eis? Doch! / Nein.",
+   "Irregular verbs: du nimmst, du liest, du triffst, du fährst; ich möchte lieber ..."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 6",
+    "act": {
+     "t": "cards",
+     "lesson": 6
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 6: Am Imbiss",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 6,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Nominative and accusative, Negation: nicht, kein, doch, Irregular verbs in the present",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "nom-akk",
+      "negation",
+      "present-irregular",
+      "modal"
+     ],
+     "lesson": 6,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Vocalized r and the -er ending",
+    "act": {
+     "t": "pron",
+     "section": "vocalized-r"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: You are at a snack bar. Order a meal and a drink, then answer the question 'Möchten Sie kein Dessert?' with doch or nein.",
+    "act": {
+     "t": "speak",
+     "lesson": 6
+    }
+   }
+  ],
+  "i": 12,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 6,
+  "title": "Hobbys und Jahreszeiten",
+  "learn": "Today you learn to talk about your hobbies and your free time through the year, and to give a short opinion with finden.",
+  "points": [
+   "Hobbies: wandern, klettern, schwimmen, joggen, tanzen, lesen, Ski fahren, grillen, im Internet surfen",
+   "Ich finde Krimis toll / interessant / nicht so gut. Das macht Spaß.",
+   "Seasons: im Frühling, im Sommer, im Herbst, im Winter",
+   "Travel words: der Urlaub, die Reise, die Natur, die Insel, das Angebot"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 6",
+    "act": {
+     "t": "cards",
+     "lesson": 6
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 6: Hobbys und Jahreszeiten",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 6,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Weather with es, and es gibt, Irregular verbs in the present",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "es-gibt",
+      "present-irregular"
+     ],
+     "lesson": 6,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: The ich-Laut [ç]",
+    "act": {
+     "t": "pron",
+     "section": "ich-laut"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Write a short message to a friend. Invite her to a barbecue at the lake on Saturday, mention the weather, the time and ask her to bring something.",
+    "act": {
+     "t": "speak",
+     "lesson": 6,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Lesen Teil 1",
+    "note": "The workbook's exam task is Lesen Teil 1: two short private messages (an invitation and an answer) with five richtig/falsch statements about day, time and who brings what.",
+    "act": {
+     "t": "exam",
+     "sec": "lesen"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 63-74",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 6 (Freizeit). Let's have a short conversation in German at A1 level so I can practise: Understand a simple weather report and talk about the weather (Es regnet. Es sind zwanzig Grad.); Ask about the weather in a region with im Norden, im Süden, im Osten, im Westen; Order food and drinks at a snack bar using the accusative (einen Hamburger, den Salat, keinen Saft). Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 13,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 7,
+  "title": "Ich kann, ich will",
+  "learn": "Today you learn to say what you can and cannot do, what you want to learn, and to suggest an activity with Wollen wir ...?",
+  "points": [
+   "können: ich kann, du kannst, er kann, wir können",
+   "wollen: ich will, du willst, er will, wir wollen",
+   "Modal in position 2, infinitive at the end: Ich kann gut Tennis spielen.",
+   "gut / ein bisschen / nicht so gut / gar nicht",
+   "Hobby verbs: malen, backen, reiten, grillen, Klavier spielen"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 7",
+    "act": {
+     "t": "cards",
+     "lesson": 7
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 7: Ich kann, ich will",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 7,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Modal verbs",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "modal"
+     ],
+     "lesson": 7,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Vowel length: ü, ö, ä",
+    "act": {
+     "t": "pron",
+     "section": "vowel-length-umlauts"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Say three things you can do well and one thing you cannot do at all. Say it out loud first.",
+    "act": {
+     "t": "speak",
+     "lesson": 7
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 1, course book p. 82-93",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 14,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 7,
+  "title": "Was hast du gemacht?",
+  "learn": "Today you learn to tell what you did yesterday or last weekend with the Perfekt, using haben for most verbs and sein for going and coming.",
+  "points": [
+   "haben + ge...t: Ich habe geübt, gekauft, gespielt.",
+   "haben + ge...en: Ich habe gefunden, geschrieben, getroffen.",
+   "sein for movement: Ich bin gefahren, gegangen, nach Hause gekommen.",
+   "Time words: gestern, früher, am Abend, am Wochenende"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 7",
+    "act": {
+     "t": "cards",
+     "lesson": 7
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 7: Was hast du gemacht?",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 7,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: The Perfekt (spoken past)",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "perfekt"
+     ],
+     "lesson": 7,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: The ich-Laut [ç]",
+    "act": {
+     "t": "pron",
+     "section": "ich-laut"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Tell what you did last weekend: two sentences with haben, one with sein, and answer the question 'Bist du schon mal in Bern gewesen?'",
+    "act": {
+     "t": "speak",
+     "lesson": 7
+    }
+   }
+  ],
+  "i": 15,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 7,
+  "title": "Schon mal? Noch nie!",
+  "learn": "Today you learn to say how often you do things, to ask 'Have you ever ...?', and to give tips for learning German.",
+  "points": [
+   "immer, meistens, oft, manchmal, selten, nie",
+   "Bist du schon mal ...? Ja, einmal. / Ja, schon öfter. / Nein, noch nie.",
+   "Learning tips: Vokabeln lernen, Zeitung lesen, im Bus Podcasts hören",
+   "Ich finde das (nicht so) wichtig. Das ist leicht / schwer."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 7",
+    "act": {
+     "t": "cards",
+     "lesson": 7
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 7: Schon mal? Noch nie!",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 7,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: How often: immer, oft, nie, schon mal, Modal verbs",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "frequency",
+      "modal"
+     ],
+     "lesson": 7,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: Vowel length: ü, ö, ä",
+    "act": {
+     "t": "pron",
+     "section": "vowel-length-umlauts"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Write an email to a language school in Geneva. You want to take a German evening course. Ask when the next course starts and how much it costs, and say which days you can come.",
+    "act": {
+     "t": "speak",
+     "lesson": 7,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Schreiben Teil 2",
+    "note": "The workbook's exam task is Schreiben Teil 2: a short formal email with three content points, the right greeting (Sehr geehrte Damen und Herren) and closing (Mit freundlichen Grüßen).",
+    "act": {
+     "t": "exam",
+     "sec": "schreiben"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 75-85",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 7 (Lernen - ein Leben lang). Let's have a short conversation in German at A1 level so I can practise: Say what you can and cannot do well (können); Say what you want to do or learn (wollen) and make suggestions with Wollen wir ...?; Talk about what you did yesterday or in the past with the Perfekt and haben. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 16,
+  "min": 60
+ },
+ {
+  "kind": "review",
+  "lesson": null,
+  "title": "Wiederholung: A1.1 komplett",
+  "learn": "Today you close the first book: review everything from Lektion 1 to 7 and take your first full listening test.",
+  "points": [
+   "Separable verbs, modal verbs and the Perfekt side by side",
+   "The time: halb drei, Viertel nach",
+   "Your first Hören mock: Modellsatz 1"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Flashcards: every card that is due",
+    "act": {
+     "t": "cards"
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: your weakest drills",
+    "act": {
+     "t": "gmix"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Ear training: long and short vowels",
+    "act": {
+     "t": "ear"
+    }
+   },
+   {
+    "src": "exam",
+    "min": 20,
+    "label": "Exam: Hören, Modellsatz 1",
+    "act": {
+     "t": "exam",
+     "sec": "hoeren",
+     "set": 0
+    }
+   }
+  ],
+  "i": 17,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 8,
+  "title": "Berufe",
+  "learn": "Today you learn to name jobs in the masculine and feminine form and to say what you do and where you work.",
+  "points": [
+   "Was sind Sie von Beruf? Was machst du beruflich?",
+   "Ich bin Informatiker. (no article!)",
+   "Ich arbeite als ... bei ...",
+   "der Arzt / die Ärztin, der Koch / die Köchin, der Lehrer / die Lehrerin",
+   "selbstständig, angestellt, arbeitslos, berufstätig"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 8",
+    "act": {
+     "t": "cards",
+     "lesson": 8
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 8: Berufe",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 8,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Jobs: masculine and feminine (-in), Dative: mit, bei, nach, zu, von, aus, seit",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "feminine-in",
+      "dativ"
+     ],
+     "lesson": 8,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Vocalized r and the -er ending",
+    "act": {
+     "t": "pron",
+     "section": "vocalized-r"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Exam style (Sprechen Teil 2, topic 'Arbeit'): answer the question 'Was machen Sie beruflich?' in three sentences: job, company, since when.",
+    "act": {
+     "t": "speak",
+     "lesson": 8
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 2, course book p. 94-105",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 18,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 8,
+  "title": "Vor, seit, für",
+  "learn": "Today you learn to tell your life story with dates: when something happened, since when it has been true, and for how long you plan it.",
+  "points": [
+   "vor + Dativ: vor zwei Jahren (il y a)",
+   "seit + Dativ + present: Ich wohne seit April in Genf.",
+   "für + Akkusativ: für drei Monate",
+   "Wo bist du geboren? Ich bin in Marokko geboren.",
+   "Questions: Wann? Seit wann? Wie lange?"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 8",
+    "act": {
+     "t": "cards",
+     "lesson": 8
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 8: Vor, seit, für",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 8,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Time prepositions: vor, seit, für, The Perfekt (spoken past)",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "prepositions-time",
+      "perfekt"
+     ],
+     "lesson": 8,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Word stress",
+    "act": {
+     "t": "pron",
+     "section": "word-stress"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Tell your short life story with vor and seit: where you were born, when you studied, when you came to Geneva, and how long you have been learning German.",
+    "act": {
+     "t": "speak",
+     "lesson": 8
+    }
+   }
+  ],
+  "i": 19,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 8,
+  "title": "Früher war alles anders",
+  "learn": "Today you learn to talk about past jobs with war and hatte, and to call a company about an internship.",
+  "points": [
+   "ich war, du warst, wir waren; ich hatte, du hattest, wir hatten",
+   "Ich hatte viel / wenig Arbeit. Die Kollegen waren nett.",
+   "Ist die Stelle noch frei? Wie lange dauert das Praktikum?",
+   "Wie ist die Arbeitszeit? Bekomme ich Geld?",
+   "Sehr geehrte Damen und Herren ... Mit freundlichen Grüßen"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 8",
+    "act": {
+     "t": "cards",
+     "lesson": 8
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 8: Früher war alles anders",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 8,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Past of sein and haben: war, hatte",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "praeteritum-sein-haben"
+     ],
+     "lesson": 8,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: Vocalized r and the -er ending",
+    "act": {
+     "t": "pron",
+     "section": "vocalized-r"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Write a short email to a company. You saw their ad for a summer job. Say who you are, ask if the job is still free and ask about the working hours.",
+    "act": {
+     "t": "speak",
+     "lesson": 8,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Sprechen Teil 2",
+    "note": "The workbook's exam task is Sprechen Teil 2: asking and answering questions on a topic card (here Arbeit / Beruf), e.g. Was sind Sie von Beruf? Seit wann arbeiten Sie dort?",
+    "act": {
+     "t": "exam",
+     "sec": "sprechen"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 86-97",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 8 (Beruf und Arbeit). Let's have a short conversation in German at A1 level so I can practise: Name jobs and ask someone about their job (Was sind Sie von Beruf? Was machen Sie beruflich?); Say where and as what you work: Ich arbeite als ... bei ...; Talk about your life with dates and time spans: vor zwei Jahren, seit April, für drei Monate. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 20,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 9,
+  "title": "Rules and procedures",
+  "learn": "Today you learn to explain how things work at an office or a gym: what you must do, what you may do and in which order.",
+  "points": [
+   "müssen and dürfen: ich muss, du musst; ich darf, du darfst",
+   "man + er/sie/es form: Man muss ein Ticket haben. Hier darf man nicht rauchen.",
+   "erlaubt / verboten, and words like der Antrag, der Ausweis, die Gebühr, die Anmeldung",
+   "Steps in order: zuerst, dann, danach, zum Schluss"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 9",
+    "act": {
+     "t": "cards",
+     "lesson": 9
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 9: Rules and procedures",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 9,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Modal verbs, The pronoun man (one, people, you), Word order: verb in position 2",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "modal",
+      "man",
+      "word-order"
+     ],
+     "lesson": 9,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Word stress",
+    "act": {
+     "t": "pron",
+     "section": "word-stress"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: A German-speaking colleague wants to join your gym. Explain two or three rules with man muss and man darf.",
+    "act": {
+     "t": "speak",
+     "lesson": 9
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 2, course book p. 106-117",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 21,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 9,
+  "title": "Giving instructions",
+  "learn": "Today you learn to tell people what to do, politely with Sie and in a friendly way with du and ihr.",
+  "points": [
+   "Sie imperative: Warten Sie bitte! Füllen Sie das Formular aus.",
+   "du imperative: Komm! Nimm! Hilf! Fahr! Warte!",
+   "ihr imperative: Macht die Handys aus! Seid leise!",
+   "sein: Sei / Seid / Seien Sie; softeners bitte, doch, mal"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 9",
+    "act": {
+     "t": "cards",
+     "lesson": 9
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 9: Giving instructions",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 9,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: The imperative (Sie, du, ihr), Irregular verbs in the present",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "imperative",
+      "present-irregular"
+     ],
+     "lesson": 9,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Aspirated p, t, k",
+    "act": {
+     "t": "pron",
+     "section": "aspiration"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: A friend visits your flat. Give three friendly instructions with du (use doch, bitte, mal).",
+    "act": {
+     "t": "speak",
+     "lesson": 9
+    }
+   }
+  ],
+  "i": 22,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 9,
+  "title": "Sightseeing and hotels",
+  "learn": "Today you learn to understand a city brochure, book a room and handle a hotel check-in.",
+  "points": [
+   "Sightseeing words: die Sehenswürdigkeit, die Führung, der Eintritt, die Ermäßigung, kostenlos",
+   "Hotel words: das Einzelzimmer, das Doppelzimmer, das Frühstück ist inklusive, die Rezeption, der Schlüssel",
+   "Useful questions: Können Sie das bitte wiederholen? Kann man hier parken?",
+   "Booking forms: Ankunft, Name, Wünsche (Nichtraucher, Halbpension)"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 9",
+    "act": {
+     "t": "cards",
+     "lesson": 9
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 9: Sightseeing and hotels",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 9,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: The pronoun man (one, people, you), The imperative (Sie, du, ihr)",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "man",
+      "imperative"
+     ],
+     "lesson": 9,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: Shadowing: everything together",
+    "act": {
+     "t": "pron",
+     "section": "shadowing"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: A friend from Basel visits you in Geneva this weekend. Write a short message: what to do when they arrive at the station (imperatives with du) and one rule with man.",
+    "act": {
+     "t": "speak",
+     "lesson": 9,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Schreiben Teil 1",
+    "note": "The lesson's Prüfungsaufgabe is Schreiben Teil 1: completing a form with someone's details, exactly like the registration and hotel booking forms of this lesson.",
+    "act": {
+     "t": "exam",
+     "sec": "schreiben"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 98-107",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 9 (Unterwegs). Let's have a short conversation in German at A1 level so I can practise: Explain everyday procedures at an office or a desk with müssen and man (fill in a form, bring your ID, pay a fee).; Understand instructions and requests and give your own with the imperative (Sie, du, ihr).; Say what is allowed and what is forbidden with dürfen, erlaubt and verboten.. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 23,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 10,
+  "title": "What hurts?",
+  "learn": "Today you learn the parts of the body and how to say what hurts, for you and for other people.",
+  "points": [
+   "Body parts with articles: der Kopf, der Bauch, der Rücken, die Hand, das Bein, das Auge...",
+   "Mein Kopf tut weh (one thing) / Meine Füße tun weh (plural)",
+   "Symptoms: Ich habe Fieber, Husten, Schnupfen, Schmerzen.",
+   "Possessives for others: sein Arm, ihre Nase, unser Sohn, eure Tochter"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 10",
+    "act": {
+     "t": "cards",
+     "lesson": 10
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 10: What hurts?",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 10,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Possessives: mein, dein, sein, ihr...",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "possessives"
+     ],
+     "lesson": 10,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: The German h",
+    "act": {
+     "t": "pron",
+     "section": "h-sound"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: You are at the doctor's. Say what hurts and since when.",
+    "act": {
+     "t": "speak",
+     "lesson": 10
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 2, course book p. 118-129",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 24,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 10,
+  "title": "Advice and appointments",
+  "learn": "Today you learn to understand and pass on a doctor's advice with sollen, and to make, move or cancel an appointment on the phone.",
+  "points": [
+   "sollen: ich soll, du sollst, er soll, ihr sollt; Der Arzt sagt, ich soll ...",
+   "Soll ich ...? to ask for advice",
+   "Phone phrases: einen Termin vereinbaren, ändern, absagen; Geht es am Montag? Das passt.",
+   "Ist es dringend? In Ordnung. Kann ich vorbeikommen?"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 10",
+    "act": {
+     "t": "cards",
+     "lesson": 10
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 10: Advice and appointments",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 10,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Modal verbs, Possessives: mein, dein, sein, ihr...",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "modal",
+      "possessives"
+     ],
+     "lesson": 10,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: ich-Laut vs ach-Laut",
+    "act": {
+     "t": "pron",
+     "section": "ich-vs-ach"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: You are ill and cannot go to your tennis lesson on Thursday. Write an email to your coach: say sorry, say what is wrong, what the doctor said (sollen), and ask for a new date.",
+    "act": {
+     "t": "speak",
+     "lesson": 10,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Hören Teil 1",
+    "note": "The lesson's Prüfungsaufgabe is Hören Teil 1: short everyday conversations (at the doctor's, on the phone) with a multiple-choice question; you must catch days, times and what someone should do.",
+    "act": {
+     "t": "exam",
+     "sec": "hoeren"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 108-119",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 10 (Gesundheit und Krankheit). Let's have a short conversation in German at A1 level so I can practise: Name the parts of the body and say what hurts (Mein Kopf tut weh, meine Füße tun weh).; Say how you feel and describe simple symptoms: Fieber, Husten, Schnupfen, Schmerzen.; Talk about how other people feel with sein, ihr, unser and euer.. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 25,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 11,
+  "title": "Nach dem Weg fragen",
+  "learn": "Today you learn to ask for the way in town, understand the answer and give simple directions yourself.",
+  "points": [
+   "Entschuldigung, wie komme ich zum Bahnhof / zur Post? Gibt es hier eine Apotheke in der Nähe?",
+   "geradeaus, nach links, nach rechts, an der Ampel, bis zur Brücke",
+   "Gehen Sie geradeaus! Fahren Sie nach links! (Sie imperative)",
+   "Tut mir leid, ich bin auch fremd hier.",
+   "Places: die Post, die Bank, die Bäckerei, die Metzgerei, die Tankstelle, die Buchhandlung"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 11",
+    "act": {
+     "t": "cards",
+     "lesson": 11
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 11: Nach dem Weg fragen",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 11,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: The imperative (Sie, du, ihr), Where to? zu, nach, in",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "imperative",
+      "prepositions-direction"
+     ],
+     "lesson": 11,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: ich-Laut vs ach-Laut",
+    "act": {
+     "t": "pron",
+     "section": "ich-vs-ach"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: A tourist asks you: Wie komme ich zum Bahnhof? Give directions in three steps with the Sie imperative (geradeaus, an der Ampel, nach links / rechts).",
+    "act": {
+     "t": "speak",
+     "lesson": 11
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 2, course book p. 130-141",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 26,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 11,
+  "title": "Wo ist das? Wohin gehst du?",
+  "learn": "Today you learn to say exactly where something is and where you are going, and how you travel there.",
+  "points": [
+   "Wo? + dative: auf dem Parkplatz, an der Haltestelle, neben der Bank, zwischen dem Café und der Post",
+   "im (in dem), am (an dem)",
+   "Wohin? zum Arzt, zur Post, nach Bern, ins Kino, nach Hause",
+   "mit dem Bus, mit der S-Bahn, mit dem Tram, mit dem Flugzeug, but zu Fuß",
+   "da vorne, da hinten, da drüben, an der Ecke"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 11",
+    "act": {
+     "t": "cards",
+     "lesson": 11
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 11: Wo ist das? Wohin gehst du?",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 11,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Where? an, auf, in, neben ... + dative, Where to? zu, nach, in, Dative: mit, bei, nach, zu, von, aus, seit",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "prepositions-place",
+      "prepositions-direction",
+      "dativ"
+     ],
+     "lesson": 11,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Word stress",
+    "act": {
+     "t": "pron",
+     "section": "word-stress"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Describe your street or your neighbourhood: say where three places are with neben, gegenüber, zwischen, hinter or vor.",
+    "act": {
+     "t": "speak",
+     "lesson": 11
+    }
+   }
+  ],
+  "i": 27,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 11,
+  "title": "Am Bahnhof",
+  "learn": "Today you learn to buy a train ticket at the counter and to understand the key words of station announcements.",
+  "points": [
+   "Gibt es einen direkten Zug? Muss ich umsteigen? Von welchem Gleis fährt der Zug ab?",
+   "abfahren, ankommen, einsteigen, umsteigen, aussteigen (prefix at the end)",
+   "Einfach oder hin und zurück? erste / zweite Klasse",
+   "die Verspätung, der Anschluss, der Bahnsteig, die Durchsage",
+   "Swiss words: das Billett (ticket), der Perron (platform), das Tram"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 11",
+    "act": {
+     "t": "cards",
+     "lesson": 11
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 11: Am Bahnhof",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 11,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Separable verbs, Dative: mit, bei, nach, zu, von, aus, seit",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "separable",
+      "dativ"
+     ],
+     "lesson": 11,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: ich-Laut vs ach-Laut",
+    "act": {
+     "t": "pron",
+     "section": "ich-vs-ach"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: A colleague from Zürich visits you at home for the first time. Write a short message: how to get from the station to your flat (on foot or by tram, directions, where your building is).",
+    "act": {
+     "t": "speak",
+     "lesson": 11,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Hören Teil 2",
+    "note": "The workbook's exam task is Hören Teil 2: short public announcements (station and train announcements) with one detail to catch, such as the platform, the delay or the connection.",
+    "act": {
+     "t": "exam",
+     "sec": "hoeren"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 120-130",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 11 (In der Stadt unterwegs). Let's have a short conversation in German at A1 level so I can practise: Ask for the way politely and understand simple directions (Wie komme ich zum Bahnhof? Gehen Sie geradeaus und dann links.); Give directions yourself with the imperative and with nach rechts, nach links, geradeaus, an der Ampel, nach der Brücke; Name means of transport and say how you travel with mit + dative (mit dem Tram, mit der S-Bahn) or zu Fuß. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 28,
+  "min": 60
+ },
+ {
+  "kind": "review",
+  "lesson": null,
+  "title": "Wiederholung: Lektion 8 bis 11",
+  "learn": "Today you consolidate work, travel, health and the city, and take a full reading test.",
+  "points": [
+   "Imperative and the dative after prepositions",
+   "War and hatte",
+   "Your first Lesen mock: Modellsatz 1"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Flashcards: every card that is due",
+    "act": {
+     "t": "cards"
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: your weakest drills",
+    "act": {
+     "t": "gmix"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Ear training: long and short vowels",
+    "act": {
+     "t": "ear"
+    }
+   },
+   {
+    "src": "exam",
+    "min": 25,
+    "label": "Exam: Lesen, Modellsatz 1",
+    "act": {
+     "t": "exam",
+     "sec": "lesen",
+     "set": 0
+    }
+   }
+  ],
+  "i": 29,
+  "min": 65
+ },
+ {
+  "kind": "lesson",
+  "lesson": 12,
+  "title": "Vor, nach, bei, in, bis, ab",
+  "learn": "Today you learn to say exactly when something happens, before or after something, from or until a time, and describe your day with it.",
+  "points": [
+   "vor dem Frühstück, nach der Arbeit, beim Mittagessen (bei + dem)",
+   "in einer Stunde, in zwei Wochen (in = from now; vor = ago)",
+   "bis Freitag, bis achtzehn Uhr; ab Montag, ab neun Uhr",
+   "Questions: Wann? Bis wann? Ab wann?",
+   "After the time phrase, the verb comes next: Nach dem Training gehe ich ins Büro."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 12",
+    "act": {
+     "t": "cards",
+     "lesson": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 12: Vor, nach, bei, in, bis, ab",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 12,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: More time prepositions: vor, nach, bei, in, bis, ab, Time prepositions: vor, seit, für",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "prepositions-time-more",
+      "prepositions-time"
+     ],
+     "lesson": 12,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Word stress",
+    "act": {
+     "t": "pron",
+     "section": "word-stress"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Describe your Monday with time prepositions: say what you do vor der Arbeit, bei der Arbeit, nach der Arbeit and bis wann you work.",
+    "act": {
+     "t": "speak",
+     "lesson": 12
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 2, course book p. 142-153",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 30,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 12,
+  "title": "Reparatur und Service",
+  "learn": "Today you learn to call a customer service about a broken device, ask about warranty and repair time, and leave a voicemail.",
+  "points": [
+   "Mein Handy ist kaputt. Die Kaffeemaschine funktioniert nicht mehr.",
+   "Welches Modell? Habe ich noch Garantie? Wie lange dauert die Reparatur?",
+   "vorbeibringen, zurückgeben, zurückrufen, Bescheid sagen",
+   "Mailbox message: Hier ist ... Könnten Sie mich bitte zurückrufen? Meine Nummer ist ...",
+   "Services: die Reinigung, die Übersetzung, putzen, reinigen, bestellen"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 12",
+    "act": {
+     "t": "cards",
+     "lesson": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 12: Reparatur und Service",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 12,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Polite requests: könnten, würden, Separable verbs",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "konjunktiv-hoeflich",
+      "separable"
+     ],
+     "lesson": 12,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Shadowing: everything together",
+    "act": {
+     "t": "pron",
+     "section": "shadowing"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Leave a voicemail for a repair service: your name, the device, the problem, and ask for a callback.",
+    "act": {
+     "t": "speak",
+     "lesson": 12
+    }
+   }
+  ],
+  "i": 31,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 12,
+  "title": "Höfliche Bitten",
+  "learn": "Today you learn to ask for things politely with könnten and würden, and to say yes or no to a request in a friendly way.",
+  "points": [
+   "Könnten Sie bitte ...? Würden Sie bitte ...? Könntest du / Würdest du ...?",
+   "The infinitive goes to the end: Könnten Sie bitte das Fenster aufmachen?",
+   "anmachen / ausmachen (Licht, Computer), aufmachen / zumachen (Tür, Fenster)",
+   "Answers: Ja, gern. Natürlich. Kein Problem. Tut mir leid, das geht leider nicht.",
+   "Ich hätte gern einen Termin."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 12",
+    "act": {
+     "t": "cards",
+     "lesson": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 12: Höfliche Bitten",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 12,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Polite requests: könnten, würden, The imperative (Sie, du, ihr), Separable verbs",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "konjunktiv-hoeflich",
+      "imperative",
+      "separable"
+     ],
+     "lesson": 12,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: Word stress",
+    "act": {
+     "t": "pron",
+     "section": "word-stress"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Your laptop is broken. Write a short email to the shop: say what the problem is, when you bought it, and ask politely when you can bring it in.",
+    "act": {
+     "t": "speak",
+     "lesson": 12,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Hören Teil 3",
+    "note": "The workbook's first exam task is Hören Teil 3: short phone and voicemail messages, where you catch a time, a day or a number, like the service calls and Mailbox messages of this lesson.",
+    "act": {
+     "t": "exam",
+     "sec": "hoeren"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 131-141",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 12 (Kundenservice). Let's have a short conversation in German at A1 level so I can practise: Understand and give time information with vor, nach, bei, in, bis and ab (vor dem Frühstück, in einer Woche, ab Montag); Describe a daily routine with time references (Nach dem Training gehe ich ins Büro.); Ask about a repair or a service on the phone: model, warranty, price and how long it takes. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 32,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 13,
+  "title": "Kleidung und Meinungen",
+  "learn": "Today you learn the names of everyday clothes and how to say whether something pleases you, fits you or suits you.",
+  "points": [
+   "der Mantel, die Jacke, das Hemd, die Hose, die Schuhe, die Jeans, der Gürtel",
+   "Wie findest du den Pullover? Den finde ich toll / langweilig / hässlich.",
+   "gefallen, passen, stehen + dative: Das gefällt mir. Die Hose passt dir. Blau steht dir gut.",
+   "Dative pronouns: mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen",
+   "One thing: gefällt; two things: gefallen"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 13",
+    "act": {
+     "t": "cards",
+     "lesson": 13
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 13: Kleidung und Meinungen",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 13,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Verbs with the dative: gefallen, passen, stehen, gehören, Personal pronouns in the dative: mir, dir, ihm, ihr ...",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "verbs-with-dative",
+      "dative-pronouns"
+     ],
+     "lesson": 13,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: ü and ö vs i, u, o, e",
+    "act": {
+     "t": "pron",
+     "section": "ue-ui-oe"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Look at what a friend is wearing (or imagine it) and give three opinions with gefallen, passen and stehen.",
+    "act": {
+     "t": "speak",
+     "lesson": 13
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 2, course book p. 154-165",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 33,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 13,
+  "title": "Besser und am liebsten",
+  "learn": "Today you learn to compare things and to talk about what you prefer and like most.",
+  "points": [
+   "gut, besser, am besten: Der Anzug ist am besten.",
+   "gern, lieber, am liebsten: Ich laufe lieber. Am liebsten spiele ich Tennis.",
+   "viel, mehr, am meisten",
+   "Compare with als: lieber Tee als Kaffee",
+   "gehören + dative: Wem gehört der Koffer? Er gehört mir."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 13",
+    "act": {
+     "t": "cards",
+     "lesson": 13
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 13: Besser und am liebsten",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 13,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Comparison: gut, besser, am besten, Verbs with the dative: gefallen, passen, stehen, gehören",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "comparison",
+      "verbs-with-dative"
+     ],
+     "lesson": 13,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Shadowing: everything together",
+    "act": {
+     "t": "pron",
+     "section": "shadowing"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Talk about your preferences with gern, lieber and am liebsten: sport, drinks and clothes.",
+    "act": {
+     "t": "speak",
+     "lesson": 13
+    }
+   }
+  ],
+  "i": 34,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 13,
+  "title": "Im Kaufhaus",
+  "learn": "Today you learn to choose between items with welcher? and dieser, and to find what you need in a department store.",
+  "points": [
+   "Welcher Mantel? Welche Jacke? Welches Hemd? Welche Schuhe?",
+   "Diesen hier. Die ist super! Der ist zu teuer.",
+   "das Erdgeschoss, das Obergeschoss, das Untergeschoss, der Eingang, der Ausgang",
+   "Kann ich Ihnen helfen? Haben Sie das in Größe ...? Kann ich das anprobieren?",
+   "mögen: Ich mag Jeans. Welchen Tag magst du am liebsten?"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 13",
+    "act": {
+     "t": "cards",
+     "lesson": 13
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 13: Im Kaufhaus",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 13,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Demonstratives and welch-: welcher? dieser! der da!, Modal verbs",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "demonstrative",
+      "modal"
+     ],
+     "lesson": 13,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: ü and ö vs i, u, o, e",
+    "act": {
+     "t": "pron",
+     "section": "ue-ui-oe"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Write a short message to a friend. You bought new clothes for a wedding. Say what you bought, how you like it and ask for your friend's opinion.",
+    "act": {
+     "t": "speak",
+     "lesson": 13,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Lesen Teil 3",
+    "note": "The workbook's exam task is Lesen Teil 3: reading short signs and notices (here department store signs and sale notices) and deciding richtig or falsch.",
+    "act": {
+     "t": "exam",
+     "sec": "lesen"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 142-153",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 13 (Neue Kleider). Let's have a short conversation in German at A1 level so I can practise: Name clothes and accessories with their articles (der Mantel, die Hose, das Hemd ...); Ask for and give an opinion on clothes: Wie findest du ...? Die ist toll!; Say what you like and what fits or suits someone: Das gefällt mir. Die Jacke passt dir perfekt.. Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 35,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 14,
+  "title": "Monate und Daten",
+  "learn": "Today you learn to say the date, your birthday and when events happen, with ordinal numbers.",
+  "points": [
+   "der Januar ... der Dezember; im Mai, im Dezember",
+   "erste, zweite, dritte, vierte ... siebte, achte; from 20: zwanzigste",
+   "Der Wievielte ist heute? Heute ist der erste Oktober.",
+   "Wann? Am ersten Oktober. Ich habe am zwölften Mai Geburtstag.",
+   "werden: Am Samstag werde ich dreißig."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 14",
+    "act": {
+     "t": "cards",
+     "lesson": 14
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 14: Monate und Daten",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 14,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Ordinal numbers and dates: am ersten Mai, Irregular verbs in the present",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "ordinals-dates",
+      "present-irregular"
+     ],
+     "lesson": 14,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: Vocalized r and the -er ending",
+    "act": {
+     "t": "pron",
+     "section": "vocalized-r"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: Exam style (Sprechen Teil 2, topic card 'Geburtstag'): ask your partner a question about birthdays and answer the same question yourself.",
+    "act": {
+     "t": "speak",
+     "lesson": 14
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: Schritte international Neu 2, course book p. 166-177",
+    "note": "Read the lesson pages alongside; the app covers the same goals with its own texts."
+   }
+  ],
+  "i": 36,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 14,
+  "title": "Einladungen und denn",
+  "learn": "Today you learn to invite someone, to accept or decline, and to give a reason with denn.",
+  "points": [
+   "Ich lade dich zu meiner Party ein. Vielen Dank für die Einladung!",
+   "Accusative pronouns: mich, dich, ihn, sie, uns, euch",
+   "denn, aber, und, oder: verb stays in position 2",
+   "Leider kann ich nicht kommen, denn ...",
+   "Bitte gib mir bis Freitag Bescheid."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 14",
+    "act": {
+     "t": "cards",
+     "lesson": 14
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Lektion 14: Einladungen und denn",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 14,
+     "dialogue": 0
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Grammar: Connectors: und, aber, oder, denn, Nominative and accusative",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "connectors",
+      "nom-akk"
+     ],
+     "lesson": 14,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: The ich-Laut [ç]",
+    "act": {
+     "t": "pron",
+     "section": "ich-laut"
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Speak: React with the right wish: a colleague has a birthday, a friend gets married, a friend has an exam tomorrow, it is the 24th of December.",
+    "act": {
+     "t": "speak",
+     "lesson": 14
+    }
+   }
+  ],
+  "i": 37,
+  "min": 60
+ },
+ {
+  "kind": "lesson",
+  "lesson": 14,
+  "title": "Feste und Glückwünsche",
+  "learn": "Today you learn to talk about festivals in Switzerland and to give the right wish for every occasion.",
+  "points": [
+   "Weihnachten, Ostern, Silvester, Neujahr, die Hochzeit, der Geburtstag",
+   "an Weihnachten, an Silvester (an + festival)",
+   "Herzlichen Glückwunsch! Alles Gute zum Geburtstag! Frohe Weihnachten! Ein gutes neues Jahr!",
+   "schenken, feiern, auspacken, die Kerze anzünden",
+   "Am liebsten feiere ich ..., denn ..."
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Flashcards: review, then the new words of Lektion 14",
+    "act": {
+     "t": "cards",
+     "lesson": 14
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Lektion 14: Feste und Glückwünsche",
+    "note": "Play the dialogue twice, read along with the French, then say every line aloud after the voice.",
+    "act": {
+     "t": "lesson",
+     "lesson": 14,
+     "dialogue": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: Connectors: und, aber, oder, denn, Ordinal numbers and dates: am ersten Mai",
+    "act": {
+     "t": "grammar",
+     "topics": [
+      "connectors",
+      "ordinals-dates"
+     ],
+     "lesson": 14,
+     "n": 12
+    }
+   },
+   {
+    "src": "app",
+    "min": 5,
+    "label": "Pronunciation: Vocalized r and the -er ending",
+    "act": {
+     "t": "pron",
+     "section": "vocalized-r"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Write: Exam style (Schreiben Teil 2): your friend Sara invites you to her birthday party on Saturday. Answer her: thank her, say you cannot come and why (with denn), and wish her a happy birthday.",
+    "act": {
+     "t": "speak",
+     "lesson": 14,
+     "writing": true
+    }
+   },
+   {
+    "src": "exam",
+    "min": 10,
+    "label": "Exam task: Lesen Teil 2",
+    "note": "The workbook's exam task is Lesen Teil 2: finding information on event pages and notices (here festivals and events) by choosing between two short texts.",
+    "act": {
+     "t": "exam",
+     "sec": "lesen"
+    }
+   },
+   {
+    "src": "book",
+    "min": 0,
+    "label": "Optional: workbook AB 154-162",
+    "note": "The workbook exercises are good extra practice for this lesson."
+   },
+   {
+    "src": "claude",
+    "min": 0,
+    "label": "Optional: a short conversation with Claude",
+    "note": "Copy a ready-made prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Lektion 14 (Feste). Let's have a short conversation in German at A1 level so I can practise: Ask for and give the date: Der Wievielte ist heute? Heute ist der erste Oktober.; Say when something happens with am + ordinal and im + month: am vierzehnten Juli, im Dezember; Talk about festivals and public holidays (Weihnachten, Ostern, Silvester, Geburtstag). Ask me one question at a time and wait for my answer. Correct every mistake I make, with a short explanation in English and a French comparison when it helps."
+    }
+   }
+  ],
+  "i": 38,
+  "min": 60
+ },
+ {
+  "kind": "exam",
+  "lesson": null,
+  "title": "Prüfungstraining 1: Hören und Lesen",
+  "learn": "Today you sit the listening and reading papers under exam conditions, then study every mistake.",
+  "points": [
+   "Hören Modellsatz 2 (about 20 minutes)",
+   "Lesen Modellsatz 2 (25 minutes)",
+   "Read every transcript and explanation for the items you missed"
+  ],
+  "blocks": [
+   {
+    "src": "exam",
+    "min": 20,
+    "label": "Hören, Modellsatz 2",
+    "act": {
+     "t": "exam",
+     "sec": "hoeren",
+     "set": 1
+    }
+   },
+   {
+    "src": "exam",
+    "min": 25,
+    "label": "Lesen, Modellsatz 2",
+    "act": {
+     "t": "exam",
+     "sec": "lesen",
+     "set": 1
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Flashcards: every card that is due",
+    "act": {
+     "t": "cards"
+    }
+   }
+  ],
+  "i": 39,
+  "min": 60
+ },
+ {
+  "kind": "exam",
+  "lesson": null,
+  "title": "Prüfungstraining 2: Schreiben und Sprechen",
+  "learn": "Today you practise the form, the short message and the three speaking tasks.",
+  "points": [
+   "Fill in a form with five gaps",
+   "Write a 30-word message that covers three points",
+   "Draw question and request cards and answer aloud"
+  ],
+  "blocks": [
+   {
+    "src": "exam",
+    "min": 20,
+    "label": "Schreiben: form and message",
+    "act": {
+     "t": "exam",
+     "sec": "schreiben"
+    }
+   },
+   {
+    "src": "exam",
+    "min": 25,
+    "label": "Sprechen: Teil 1, 2 and 3",
+    "act": {
+     "t": "exam",
+     "sec": "sprechen"
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Flashcards: every card that is due",
+    "act": {
+     "t": "cards"
+    }
+   }
+  ],
+  "i": 40,
+  "min": 60
+ },
+ {
+  "kind": "exam",
+  "lesson": null,
+  "title": "Schwächen trainieren",
+  "learn": "Today you work only on what the mocks showed: your weakest grammar, words and sounds.",
+  "points": [
+   "Weakest grammar drills",
+   "All due cards in both directions",
+   "Vowel length and the ich-Laut"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Grammar: your weakest drills",
+    "act": {
+     "t": "gmix"
+    }
+   },
+   {
+    "src": "app",
+    "min": 20,
+    "label": "Flashcards: every card that is due",
+    "act": {
+     "t": "cards"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Ear training: long and short vowels",
+    "act": {
+     "t": "ear"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Pronunciation: the ich-Laut",
+    "act": {
+     "t": "pron",
+     "section": "ich-laut"
+    }
+   }
+  ],
+  "i": 41,
+  "min": 60
+ },
+ {
+  "kind": "exam",
+  "lesson": null,
+  "title": "Prüfungstraining 3: Hören und Lesen",
+  "learn": "Today you take the last listening and reading sets and compare your score with the first ones.",
+  "points": [
+   "Hören Modellsatz 3",
+   "Lesen Modellsatz 3",
+   "Compare your points: aim for 15 of 25 or more per section"
+  ],
+  "blocks": [
+   {
+    "src": "exam",
+    "min": 20,
+    "label": "Hören, Modellsatz 3",
+    "act": {
+     "t": "exam",
+     "sec": "hoeren",
+     "set": 2
+    }
+   },
+   {
+    "src": "exam",
+    "min": 25,
+    "label": "Lesen, Modellsatz 3",
+    "act": {
+     "t": "exam",
+     "sec": "lesen",
+     "set": 2
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Flashcards: every card that is due",
+    "act": {
+     "t": "cards"
+    }
+   }
+  ],
+  "i": 42,
+  "min": 60
+ },
+ {
+  "kind": "exam",
+  "lesson": null,
+  "title": "Prüfungstraining 4: Sprechen mit Claude",
+  "learn": "Today you rehearse the oral exam with Claude as your examiner and polish your writing.",
+  "points": [
+   "A full Sprechen simulation, Teil 1 to 3",
+   "One more message, corrected",
+   "The model introduction, shadowed twice"
+  ],
+  "blocks": [
+   {
+    "src": "claude",
+    "min": 25,
+    "label": "Oral exam simulation with Claude",
+    "note": "Copy the prompt and paste it into your German learning chat.",
+    "act": {
+     "t": "claude",
+     "prompt": "Please simulate the Goethe-Zertifikat A1 Start Deutsch 1 speaking test with me. Be the examiner. Teil 1: ask me to introduce myself, then to spell my name and say my phone number. Teil 2: give me topic cards (theme plus one word) one at a time; I ask a question, then you ask me one. Teil 3: describe a picture card in words and I make a polite request. One step at a time, wait for my answers, and at the end give me points per Teil and correct every mistake with a short English explanation."
+    }
+   },
+   {
+    "src": "exam",
+    "min": 20,
+    "label": "Schreiben: another message",
+    "act": {
+     "t": "exam",
+     "sec": "schreiben"
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Flashcards: every card that is due",
+    "act": {
+     "t": "cards"
+    }
+   }
+  ],
+  "i": 43,
+  "min": 60
+ },
+ {
+  "kind": "exam",
+  "lesson": null,
+  "title": "Generalprobe",
+  "learn": "Today is your dress rehearsal: a light review, your introduction, and confidence before the exam.",
+  "points": [
+   "Shadow your self-introduction",
+   "Review due cards",
+   "Re-read the exam-day tips"
+  ],
+  "blocks": [
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Flashcards: every card that is due",
+    "act": {
+     "t": "cards"
+    }
+   },
+   {
+    "src": "exam",
+    "min": 20,
+    "label": "Sprechen: Teil 1 model and tips",
+    "act": {
+     "t": "exam",
+     "sec": "sprechen"
+    }
+   },
+   {
+    "src": "app",
+    "min": 15,
+    "label": "Shadowing sentences",
+    "act": {
+     "t": "pron",
+     "section": "shadowing"
+    }
+   },
+   {
+    "src": "app",
+    "min": 10,
+    "label": "Grammar: one last mixed round",
+    "act": {
+     "t": "gmix"
+    }
+   }
+  ],
+  "i": 44,
+  "min": 60
+ }
+]

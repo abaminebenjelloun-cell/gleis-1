@@ -1,0 +1,3909 @@
+[
+ {
+  "n": 1,
+  "title": "Guten Tag. Mein Name ist ...",
+  "titleEn": "Hello. My name is ...",
+  "book": {
+   "vol": 1,
+   "kb": "10-21",
+   "ab": "AB 10-18",
+   "lws": "LWS 2-4"
+  },
+  "level": 1,
+  "levelWhy": "First contact with German: fixed greeting phrases, sein and heißen in the singular, and simple W-questions, with no case grammar yet.",
+  "goals": [
+   "Greet people and say goodbye, formally and informally, at different times of day.",
+   "Ask someone's name and introduce yourself and other people.",
+   "Choose between du and Sie.",
+   "Ask where someone comes from and say which country you come from.",
+   "Say which languages you speak and how well.",
+   "Spell your name with the German alphabet and ask someone to repeat or spell.",
+   "Ask for someone on the phone and react when the person is not there.",
+   "Read a business card and fill in a simple form with your personal details."
+  ],
+  "wortfelder": [
+   "greetings and farewells",
+   "personal details (name, address, phone)",
+   "countries",
+   "languages",
+   "the alphabet"
+  ],
+  "grammar": [
+   {
+    "id": "personal-pronouns",
+    "note": "ich, du, er, sie, es, wir, ihr, sie, Sie: German has three words for you (du, ihr, Sie)."
+   },
+   {
+    "id": "countries-aus-in",
+    "note": "aus = from, in = in; most countries have no article, but die Schweiz gives aus der Schweiz, in der Schweiz."
+   },
+   {
+    "id": "sein-haben",
+    "note": "sein in the singular and with Sie (ich bin, du bist, Sie sind) to say your name: Ich bin Alexandre."
+   },
+   {
+    "id": "present-regular",
+    "note": "ich, du and Sie forms of heißen and kommen, with du heißt (only -t after ß)."
+   },
+   {
+    "id": "questions",
+    "note": "W-questions with wie, wer, woher and was: Wie heißen Sie? Woher kommst du? Was sprechen Sie?"
+   },
+   {
+    "id": "word-order",
+    "note": "Simple statements with the verb in position 2: Ich komme aus Kanada."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Erster Termin beim Kunden",
+    "setting": "Alexandre meets a client's IT manager at an office in Geneva (formal Sie).",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Guten Morgen! Mein Name ist Keller, Sabine Keller.",
+      "fr": "Bonjour ! Je m'appelle Keller, Sabine Keller.",
+      "k": "ce45964d468e71"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Guten Morgen, Frau Keller. Ich heiße Alexandre Benjelloun.",
+      "fr": "Bonjour, Madame Keller. Je m'appelle Alexandre Benjelloun.",
+      "k": "55aca94f0ffb73"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Entschuldigung, wie bitte? Wie heißen Sie?",
+      "fr": "Excusez-moi, pardon ? Comment vous appelez-vous ?",
+      "k": "b2615d3ccb8b56"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Benjelloun. Ich buchstabiere: B, E, N, J, E, L, L, O, U, N.",
+      "fr": "Benjelloun. J'épelle : B, E, N, J, E, L, L, O, U, N.",
+      "k": "2f8e46deb331d5"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Vielen Dank. Woher kommen Sie, Herr Benjelloun?",
+      "fr": "Merci beaucoup. D'où venez-vous, Monsieur Benjelloun ?",
+      "k": "e07382f1c2be5c"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ich komme aus Kanada, aus Montreal. Und Sie?",
+      "fr": "Je viens du Canada, de Montréal. Et vous ?",
+      "k": "8fd87e89ae13cd"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ich komme aus Österreich, aus Wien.",
+      "fr": "Je viens d'Autriche, de Vienne.",
+      "k": "8fc10b7ccc1f0b"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Aha! Sprechen Sie Französisch?",
+      "fr": "Ah ! Vous parlez français ?",
+      "k": "decfee2ee38a08"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Nur ein bisschen. Ich spreche Deutsch und Englisch.",
+      "fr": "Seulement un peu. Je parle allemand et anglais.",
+      "k": "b02e9933f0154a"
+     }
+    ]
+   },
+   {
+    "title": "Neu im Tennisclub",
+    "setting": "Two players meet after a match at a tennis club in Geneva (informal du).",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Hallo! Ich bin Luca. Wie heißt du?",
+      "fr": "Salut ! Je suis Luca. Comment tu t'appelles ?",
+      "k": "febc09e982aa79"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Hallo Luca, ich heiße Alexandre.",
+      "fr": "Salut Luca, je m'appelle Alexandre.",
+      "k": "c8c0d69d3b0eb3"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Woher kommst du, Alexandre?",
+      "fr": "D'où viens-tu, Alexandre ?",
+      "k": "ef04c51e579681"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ich komme aus Kanada. Und du?",
+      "fr": "Je viens du Canada. Et toi ?",
+      "k": "97936389b88383"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Ich komme aus Italien, aus Mailand. Sprichst du Italienisch?",
+      "fr": "Je viens d'Italie, de Milan. Tu parles italien ?",
+      "k": "fe6c3a5b73de89"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Nein, leider nicht. Ich spreche Französisch, Englisch und ein bisschen Spanisch.",
+      "fr": "Non, malheureusement pas. Je parle français, anglais et un peu espagnol.",
+      "k": "bbe25a3e4bf664"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Super! Ich spreche auch ein bisschen Französisch.",
+      "fr": "Super ! Je parle aussi un peu français.",
+      "k": "0bab19e7142d6f"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Tschüss, Luca! Bis Samstag!",
+      "fr": "Salut, Luca ! À samedi !",
+      "k": "5c0152f024e7a7"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Tschüss, Alexandre!",
+      "fr": "Salut, Alexandre !",
+      "k": "e5fca4339d1778"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "word-stress",
+   "h-sound",
+   "ich-laut"
+  ],
+  "speaking": [
+   {
+    "task": "Introduce yourself formally to a new client: greet, give your name, say where you come from and which languages you speak. Say it out loud before you type it.",
+    "model": "Guten Tag! Mein Name ist Alexandre Benjelloun. Ich komme aus Kanada. Ich spreche Französisch, Arabisch, Englisch und ein bisschen Deutsch.",
+    "modelFr": "Bonjour ! Je m'appelle Alexandre Benjelloun. Je viens du Canada. Je parle français, arabe, anglais et un peu allemand.",
+    "k": "7034c0119a8722"
+   },
+   {
+    "task": "Someone did not understand your family name. React and spell it letter by letter.",
+    "model": "Wie bitte? Mein Familienname ist Benjelloun. Ich buchstabiere: B, E, N, J, E, L, L, O, U, N.",
+    "modelFr": "Pardon ? Mon nom de famille est Benjelloun. J'épelle : B, E, N, J, E, L, L, O, U, N.",
+    "k": "d532697c22fcba"
+   },
+   {
+    "task": "You phone a company and ask for Herr Brunner. He is not there. Ask, thank the person and say goodbye.",
+    "model": "Guten Tag, hier ist Alexandre Benjelloun. Ist Herr Brunner da, bitte? Ah, er ist nicht da. Kein Problem, vielen Dank. Auf Wiederhören!",
+    "modelFr": "Bonjour, ici Alexandre Benjelloun. Est-ce que M. Brunner est là, s'il vous plaît ? Ah, il n'est pas là. Pas de problème, merci beaucoup. Au revoir !",
+    "k": "fe80742d930aa7"
+   }
+  ],
+  "writing": {
+   "task": "Write a short message to introduce yourself to your new German course group: name, origin, city, languages.",
+   "model": "Hallo zusammen! Ich heiße Alexandre und komme aus Kanada. Ich wohne jetzt in Genf. Ich spreche Französisch, Arabisch und Englisch. Ich lerne Deutsch. Viele Grüße, Alexandre",
+   "modelFr": "Bonjour à tous ! Je m'appelle Alexandre et je viens du Canada. J'habite maintenant à Genève. Je parle français, arabe et anglais. J'apprends l'allemand. Amicalement, Alexandre",
+   "k": "a1b99bd0a698da"
+  },
+  "exam": [
+   {
+    "section": "sprechen",
+    "teil": 1,
+    "why": "Introducing yourself (name, country, languages) and spelling your name are the core of Sprechen Teil 1."
+   },
+   {
+    "section": "schreiben",
+    "teil": 1,
+    "why": "Lesson E practises reading personal data and filling in a form (Vorname, Familienname, Straße, Postleitzahl, Stadt), the task of Schreiben Teil 1."
+   }
+  ],
+  "days": [
+   {
+    "title": "Hello and your name",
+    "learn": "Today you learn to greet people at any time of day, say goodbye, and introduce yourself formally (Sie) and informally (du).",
+    "points": [
+     "Guten Morgen, Guten Tag, Guten Abend, Gute Nacht; Hallo and Tschüss vs Auf Wiedersehen",
+     "Ich heiße ... / Ich bin ... / Mein Name ist ...",
+     "Wie heißen Sie? (formal) vs Wie heißt du? (informal)",
+     "sein: ich bin, du bist, Sie sind; heißen: ich heiße, du heißt",
+     "Introduce others: Das ist Frau Keller. Wer ist das?"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "personal-pronouns",
+     "sein-haben",
+     "present-regular"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Countries, languages, spelling",
+    "learn": "Today you learn to say where you come from and which languages you speak, spell your name, and make a short phone call.",
+    "points": [
+     "Woher kommen Sie? Ich komme aus Kanada / aus der Schweiz.",
+     "Countries and languages: Italien and Italienisch, Spanien and Spanisch, but Deutschland and Deutsch",
+     "Ich spreche Französisch und ein bisschen Deutsch. Nur ein bisschen.",
+     "The alphabet with ä, ö, ü, ß; Wie bitte? Buchstabieren Sie, bitte.",
+     "On the phone: Ist Herr ... da? Einen Moment, bitte. Tut mir leid. Auf Wiederhören."
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "countries-aus-in",
+     "questions",
+     "word-order"
+    ],
+    "speaking": 1
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "title": "Meine Familie",
+  "titleEn": "My family",
+  "book": {
+   "vol": 1,
+   "kb": "22-33",
+   "ab": "AB 19-29",
+   "lws": "LWS 5-7"
+  },
+  "level": 2,
+  "levelWhy": "Basic sentences about other people: the full conjugation of sein, haben and regular verbs, possessives mein/dein/Ihr, a first vowel-change verb and numbers to twenty.",
+  "goals": [
+   "Ask how someone is and say how you are, from super to nicht so gut.",
+   "Introduce your family members and ask who someone is.",
+   "Use mein, dein and Ihr with family words.",
+   "Talk about other people: where they come from and where they live.",
+   "Count from zero to twenty and give a phone number.",
+   "Answer personal questions about age, place of birth and marital status.",
+   "Fill in a form with personal data.",
+   "Understand short, simple information about the German-speaking countries and their people."
+  ],
+  "wortfelder": [
+   "family",
+   "personal details (age, birthplace, marital status)",
+   "numbers 0 to 20",
+   "how are you"
+  ],
+  "grammar": [
+   {
+    "id": "possessives",
+    "note": "mein/meine, dein/deine and Ihr/Ihre in the nominative with family words: mein Vater, meine Mutter, meine Eltern, Ihr Sohn."
+   },
+   {
+    "id": "name-s",
+    "note": "Add -s to a name to show family links (Pauls Bruder), or use von (der Bruder von Paul)."
+   },
+   {
+    "id": "personal-pronouns",
+    "note": "er, sie, wir, ihr and plural sie to talk about other people: Das ist Tom. Er wohnt in Basel. Das sind meine Eltern. Sie leben in Lyon."
+   },
+   {
+    "id": "sein-haben",
+    "note": "All forms of sein and haben: Hast du Geschwister? Wir haben zwei Kinder. Wie alt bist du?"
+   },
+   {
+    "id": "present-regular",
+    "note": "All persons of wohnen, leben and heißen: wir wohnen, ihr lebt, sie heißen."
+   },
+   {
+    "id": "present-irregular",
+    "note": "First vowel change: sprechen (du sprichst, er spricht)."
+   },
+   {
+    "id": "countries-aus-in",
+    "note": "in + city or country for where you live: Ich wohne in Genf. Das liegt in der Schweiz."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Fotos in der Mittagspause",
+    "setting": "Two colleagues look at family photos on a phone during the lunch break in a Geneva office (informal du).",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Wer ist das? Ist das deine Schwester?",
+      "fr": "Qui est-ce ? C'est ta sœur ?",
+      "k": "9310fd1348527d"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Nein, das ist meine Frau, Lea. Und das sind meine Kinder.",
+      "fr": "Non, c'est ma femme, Lea. Et ce sont mes enfants.",
+      "k": "4a5af145f52051"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Oh, wie alt sind sie?",
+      "fr": "Oh, quel âge ont-ils ?",
+      "k": "7665734383632d"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Mia ist sieben und Noah ist vier Jahre alt.",
+      "fr": "Mia a sept ans et Noah a quatre ans.",
+      "k": "4d06f173e5c032"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Und wer ist das? Dein Vater?",
+      "fr": "Et qui est-ce ? Ton père ?",
+      "k": "3a368b4f9b05dd"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, genau. Meine Eltern leben in Basel.",
+      "fr": "Oui, exactement. Mes parents vivent à Bâle.",
+      "k": "b587bdbc299b60"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Hast du auch Geschwister?",
+      "fr": "Tu as aussi des frères et sœurs ?",
+      "k": "d567085916edd8"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, ich habe eine Schwester. Sie wohnt jetzt in Zürich.",
+      "fr": "Oui, j'ai une sœur. Elle habite maintenant à Zurich.",
+      "k": "73659713cb38e7"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Schön! Meine Familie lebt in Lyon.",
+      "fr": "Chouette ! Ma famille vit à Lyon.",
+      "k": "7d22d2af844fde"
+     }
+    ]
+   },
+   {
+    "title": "Anmeldung im Fitnessstudio",
+    "setting": "A new member registers at the reception of a fitness studio in Geneva (formal Sie).",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Guten Tag! Wie ist Ihr Name, bitte?",
+      "fr": "Bonjour ! Quel est votre nom, s'il vous plaît ?",
+      "k": "b0e0388ea7b9f0"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Fischer, Thomas Fischer.",
+      "fr": "Fischer, Thomas Fischer.",
+      "k": "b535107adb3aa4"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Wo sind Sie geboren, Herr Fischer?",
+      "fr": "Où êtes-vous né, Monsieur Fischer ?",
+      "k": "cc874be4dcb444"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "In Luzern. Aber ich wohne schon lange hier in Genf.",
+      "fr": "À Lucerne. Mais j'habite ici à Genève depuis longtemps.",
+      "k": "69cb57e9a222f0"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Und wie ist Ihre Telefonnummer?",
+      "fr": "Et quel est votre numéro de téléphone ?",
+      "k": "7a330b432e9122"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Null sieben neun, eins zwei drei, vier fünf, sechs acht.",
+      "fr": "Zéro sept neuf, un deux trois, quatre cinq, six huit.",
+      "k": "9414d59ddfaba2"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Wie alt sind Sie?",
+      "fr": "Quel âge avez-vous ?",
+      "k": "0c1fabdad3032e"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ich bin dreißig Jahre alt.",
+      "fr": "J'ai trente ans.",
+      "k": "a7f9e0c2987850"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Sind Sie verheiratet?",
+      "fr": "Vous êtes marié ?",
+      "k": "9d258013a07b08"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Nein, ich bin ledig.",
+      "fr": "Non, je suis célibataire.",
+      "k": "a25aaeadeee172"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "vocalized-r",
+   "vowel-length-a",
+   "final-devoicing"
+  ],
+  "speaking": [
+   {
+    "task": "Exam practice (Sprechen Teil 1): introduce yourself using these keywords: Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby. Say it out loud first.",
+    "model": "Ich heiße Alexandre. Ich bin einunddreißig Jahre alt. Ich komme aus Kanada und Marokko. Ich wohne jetzt in Genf. Ich spreche Französisch, Arabisch und Englisch. Ich arbeite in der IT. Mein Hobby ist Tennis.",
+    "modelFr": "Je m'appelle Alexandre. J'ai trente et un ans. Je viens du Canada et du Maroc. J'habite maintenant à Genève. Je parle français, arabe et anglais. Je travaille dans l'informatique. Mon hobby, c'est le tennis.",
+    "k": "edaef4cd5f4866"
+   },
+   {
+    "task": "Show a photo (real or invented) and present one family member: name, age, where he or she lives, marital status.",
+    "model": "Das ist mein Bruder. Er heißt Samir. Er ist fünfundzwanzig Jahre alt und wohnt in Montreal. Er ist verheiratet und hat zwei Kinder.",
+    "modelFr": "C'est mon frère. Il s'appelle Samir. Il a vingt-cinq ans et habite à Montréal. Il est marié et a deux enfants.",
+    "k": "fd76057c02bff1"
+   },
+   {
+    "task": "You interview a new course partner. Ask five polite questions (Sie) about name, origin, place of residence, marital status and children.",
+    "model": "Wie heißen Sie? Woher kommen Sie? Wo wohnen Sie? Sind Sie verheiratet? Haben Sie Kinder?",
+    "modelFr": "Comment vous appelez-vous ? D'où venez-vous ? Où habitez-vous ? Êtes-vous marié ? Avez-vous des enfants ?",
+    "k": "7d887c35487275"
+   }
+  ],
+  "writing": {
+   "task": "Write a short text (4 to 6 sentences) about a friend or family member: name, age, origin, place of residence, marital status, languages.",
+   "model": "Das ist meine Freundin Inès. Sie ist neunundzwanzig Jahre alt und kommt aus Frankreich. Sie wohnt jetzt in Lausanne. Sie ist verheiratet und hat ein Kind. Sie spricht Französisch, Englisch und ein bisschen Deutsch.",
+   "modelFr": "Voici mon amie Inès. Elle a vingt-neuf ans et vient de France. Elle habite maintenant à Lausanne. Elle est mariée et a un enfant. Elle parle français, anglais et un peu allemand.",
+   "k": "9bcb93e0a2ae86"
+  },
+  "exam": [
+   {
+    "section": "sprechen",
+    "teil": 1,
+    "why": "The lesson's Prüfungsaufgabe is Sprechen Teil 1: introducing yourself with the keyword card (Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby) and spelling or giving numbers."
+   },
+   {
+    "section": "schreiben",
+    "teil": 1,
+    "why": "Lesson D practises personal data (Geburtsort, Wohnort, Familienstand, Alter) as in the form of Schreiben Teil 1."
+   }
+  ],
+  "days": [
+   {
+    "title": "How are you? My family",
+    "learn": "Today you learn to ask how someone is, answer honestly, and present your family with mein, meine and dein, deine.",
+    "points": [
+     "Wie geht's? Super / Sehr gut / Gut, danke / Na ja, es geht / Nicht so gut",
+     "Family words: der Vater, die Mutter, die Eltern, der Bruder, die Schwester, die Geschwister, der Sohn, die Tochter",
+     "mein Vater, meine Mutter, meine Eltern; Ist das dein Bruder? Ist das Ihre Tochter?",
+     "Wer ist das? Ja, genau. / Nein, falsch, das ist ...",
+     "Pauls Schwester = die Schwester von Paul"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "possessives",
+     "name-s",
+     "sein-haben"
+    ],
+    "speaking": 1
+   },
+   {
+    "title": "Numbers and personal data",
+    "learn": "Today you learn to count to twenty, talk about other people with er, sie, wir and ihr, and give your personal details for a form or the exam's self-introduction.",
+    "points": [
+     "Numbers 0 to 20 and phone numbers digit by digit",
+     "er/sie wohnt, wir wohnen, ihr wohnt, sie wohnen; du sprichst, er spricht",
+     "Wo sind Sie geboren? Ich bin in ... geboren. Wie alt sind Sie?",
+     "Familienstand: ledig, verheiratet, geschieden, verwitwet",
+     "Sprechen Teil 1: Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby"
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "personal-pronouns",
+     "present-regular",
+     "present-irregular",
+     "countries-aus-in"
+    ],
+    "speaking": 0
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "title": "Essen und Trinken",
+  "titleEn": "Food and drink",
+  "book": {
+   "vol": 1,
+   "kb": "34-45",
+   "ab": "AB 30-40",
+   "lws": "LWS 8-11"
+  },
+  "level": 2,
+  "levelWhy": "Still only the nominative: you add ein/kein, plural forms and yes/no questions to the basic sentences of Lektion 1 and 2, plus another vowel-change verb (essen).",
+  "goals": [
+   "Name common foods and drinks and ask what something is (Was ist das?)",
+   "Make a guess and correct it: Das ist doch kein Ei, das ist ein Apfel.",
+   "Use plural forms and amounts when you shop (zwei Zwiebeln, drei Joghurts)",
+   "Ask what is at home and write a shopping list (Haben wir Zucker?)",
+   "Understand and say prices and quantities: Kilo, Gramm, Liter, Flasche, Dose",
+   "Read a supermarket leaflet with special offers",
+   "Talk about what you like to eat and drink and name your favourite dish",
+   "Follow a very simple recipe"
+  ],
+  "wortfelder": [
+   "Food and groceries",
+   "Quantities and packaging",
+   "Prices",
+   "Meals and drinks in a restaurant"
+  ],
+  "grammar": [
+   {
+    "id": "articles",
+    "note": "Indefinite article ein/eine (Das ist ein Apfel, eine Birne) and the zero article for uncountable things: Haben wir Zucker? Ich trinke Kaffee."
+   },
+   {
+    "id": "negation",
+    "note": "kein/keine in the nominative: Das ist kein Saft, das ist keine Tomate. Plural: keine Eier. (keinen comes with the accusative in Lektion 6.)"
+   },
+   {
+    "id": "plural",
+    "note": "German has five plural patterns; the article is always die, so learn each noun with its plural."
+   },
+   {
+    "id": "questions",
+    "note": "Yes/no questions with the verb first: Haben Sie Eier? Brauchen wir Brot? And wie viel: Wie viel kostet das?"
+   },
+   {
+    "id": "present-irregular",
+    "note": "essen: ich esse, du isst, er/sie isst. Also nehmen for ordering: ich nehme, du nimmst, er nimmt."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Wir kochen am Samstag",
+    "setting": "Alexandre and his friend Sophie plan a dinner in his Geneva flat and check what they still need.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Sophie, am Samstag kochen wir zusammen. Was brauchen wir?",
+      "fr": "Sophie, samedi on cuisine ensemble. De quoi avons-nous besoin ?",
+      "k": "db5518f3d66fc8"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ich mache eine Gemüsesuppe. Haben wir Kartoffeln?",
+      "fr": "Je fais une soupe aux légumes. On a des pommes de terre ?",
+      "k": "98964f8ee02478"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Ja, Kartoffeln haben wir. Aber wir haben keine Zwiebeln.",
+      "fr": "Oui, des pommes de terre, on en a. Mais on n'a pas d'oignons.",
+      "k": "a0cd02b393aa9b"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Kein Problem, dann kaufen wir zwei Zwiebeln. Und Tomaten?",
+      "fr": "Pas de problème, alors on achète deux oignons. Et des tomates ?",
+      "k": "9771231624e7ae"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Tomaten sind im Kühlschrank. Brauchen wir auch Brot?",
+      "fr": "Les tomates sont dans le frigo. Il nous faut aussi du pain ?",
+      "k": "0dc603533044c1"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ja, bitte ein Brot und Käse. Isst du gern Käse?",
+      "fr": "Oui, s'il te plaît, un pain et du fromage. Tu aimes le fromage ?",
+      "k": "68e98af608a13d"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Sehr gern! Und was trinken wir? Wein oder Bier?",
+      "fr": "Beaucoup ! Et qu'est-ce qu'on boit ? Du vin ou de la bière ?",
+      "k": "00e25cebb40f6e"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Kein Bier, bitte. Eine Flasche Rotwein und Mineralwasser.",
+      "fr": "Pas de bière, s'il te plaît. Une bouteille de vin rouge et de l'eau minérale.",
+      "k": "1b7a8205704595"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Super. Das ist unsere Liste: Zwiebeln, Brot, Käse, Wein und Wasser.",
+      "fr": "Super. Voilà notre liste : oignons, pain, fromage, vin et eau.",
+      "k": "0e3f3a1bb49bb1"
+     }
+    ]
+   },
+   {
+    "title": "Auf dem Markt",
+    "setting": "Saturday morning at a market stall on the Plaine de Plainpalais in Geneva.",
+    "lines": [
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Guten Morgen! Was möchten Sie?",
+      "fr": "Bonjour ! Qu'est-ce que vous désirez ?",
+      "k": "c30f2cda47d743"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Guten Morgen. Was kostet ein Kilo Tomaten?",
+      "fr": "Bonjour. Combien coûte un kilo de tomates ?",
+      "k": "da99a6daf0e885"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ein Kilo kostet vier Franken fünfzig. Sie sind heute sehr gut.",
+      "fr": "Le kilo coûte quatre francs cinquante. Elles sont très bonnes aujourd'hui.",
+      "k": "1aba1cc7c9b583"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Gut, ein Kilo, bitte. Und sind das Birnen?",
+      "fr": "Bien, un kilo, s'il vous plaît. Et ce sont des poires ?",
+      "k": "5da04e56b28e9e"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Nein, das sind keine Birnen. Das sind Äpfel aus dem Wallis.",
+      "fr": "Non, ce ne sont pas des poires. Ce sont des pommes du Valais.",
+      "k": "0f231a21078a73"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Ah, Äpfel! Dann bitte sechs Äpfel. Haben Sie auch Eier?",
+      "fr": "Ah, des pommes ! Alors six pommes, s'il vous plaît. Vous avez aussi des œufs ?",
+      "k": "1bc7e4c1fc06ca"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ja, natürlich. Sechs Eier kosten drei Franken.",
+      "fr": "Oui, bien sûr. Six œufs coûtent trois francs.",
+      "k": "69c5626ce546ad"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Super, sechs Eier, bitte. Was macht das zusammen?",
+      "fr": "Super, six œufs, s'il vous plaît. Ça fait combien en tout ?",
+      "k": "5826de75fb74b4"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Das macht zwölf Franken zwanzig, bitte.",
+      "fr": "Ça fait douze francs vingt, s'il vous plaît.",
+      "k": "4c3c363be63bc5"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "word-stress",
+   "vowel-length-a",
+   "vowel-length-u"
+  ],
+  "speaking": [
+   {
+    "task": "You are checking the fridge with a flatmate. Ask four yes/no questions with Haben wir ...? or Brauchen wir ...? and answer two of them with kein/keine.",
+    "model": "Haben wir Milch? Ja, wir haben Milch. Haben wir Eier? Nein, wir haben keine Eier. Brauchen wir Käse? Ja, bitte. Haben wir Butter? Nein, wir haben keine Butter.",
+    "modelFr": "On a du lait ? Oui, on a du lait. On a des œufs ? Non, on n'a pas d'œufs. Il nous faut du fromage ? Oui, s'il te plaît. On a du beurre ? Non, on n'a pas de beurre.",
+    "k": "864fcd1beaceff"
+   },
+   {
+    "task": "At a market stall, ask the price of three things (one by kilo, one by piece, one bottle), then ask for the total.",
+    "model": "Was kostet ein Kilo Kartoffeln? Und was kosten vier Orangen? Wie viel kostet eine Flasche Apfelsaft? Gut, das nehme ich. Was macht das zusammen?",
+    "modelFr": "Combien coûte un kilo de pommes de terre ? Et combien coûtent quatre oranges ? Combien coûte une bouteille de jus de pomme ? Bien, je prends ça. Ça fait combien en tout ?",
+    "k": "6fd5638a6d4eb7"
+   },
+   {
+    "task": "Say what you like to eat and drink, what you do not like, and name your favourite dish and drink.",
+    "model": "Ich esse gern Fisch, Reis und Gemüse. Nach dem Training esse ich gern ein Steak. Ich trinke gern Kaffee, aber ich trinke nicht gern Milch. Mein Lieblingsessen ist Fondue und mein Lieblingsgetränk ist Tee.",
+    "modelFr": "J'aime manger du poisson, du riz et des légumes. Après l'entraînement, j'aime manger un steak. J'aime le café, mais je n'aime pas le lait. Mon plat préféré est la fondue et ma boisson préférée est le thé.",
+    "k": "58dc58430ddd4a"
+   }
+  ],
+  "writing": {
+   "task": "Write a short message to a friend: you are cooking on Saturday. Say what you cook, what you have at home and what your friend can buy.",
+   "model": "Hallo Marc, am Samstag koche ich Pasta mit Tomatensoße. Ich habe Nudeln und Tomaten, aber ich habe keine Zwiebeln. Kaufst du bitte zwei Zwiebeln, Käse und eine Flasche Wein? Danke! Alexandre",
+   "modelFr": "Salut Marc, samedi je cuisine des pâtes à la sauce tomate. J'ai des pâtes et des tomates, mais je n'ai pas d'oignons. Tu peux acheter deux oignons, du fromage et une bouteille de vin ? Merci ! Alexandre",
+   "k": "c43460754db99f"
+  },
+  "exam": [
+   {
+    "section": "lesen",
+    "teil": 3,
+    "why": "The workbook exam task trains Lesen Teil 3: short signs and notices (special offers, prices in a cafeteria or shop) with richtig/falsch statements."
+   }
+  ],
+  "days": [
+   {
+    "title": "Foods, ein and kein, plurals",
+    "learn": "Today you learn about forty food words, how to say what something is (or is not) with ein and kein, and how to build plurals for your shopping list.",
+    "points": [
+     "Food words with their article: der Apfel, die Birne, das Brötchen, die Milch",
+     "Das ist ein Apfel. / Das ist doch kein Ei, das ist eine Kartoffel.",
+     "Five plural patterns: Fische, Tomaten, Eier, Joghurts, Brötchen, Äpfel",
+     "No article for uncountable things: Haben wir Zucker? Ich trinke Kaffee.",
+     "Yes/no questions with the verb first: Haben wir Kartoffeln? Brauchen wir Brot?"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "articles",
+     "negation",
+     "plural",
+     "questions"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Prices, amounts, favourite food",
+    "learn": "Today you learn to buy food by the kilo, bottle or piece, to ask and understand prices, and to talk about what you like to eat.",
+    "points": [
+     "Was kostet ein Kilo Tomaten? Was kosten sechs Eier? Was macht das zusammen?",
+     "Amounts: hundert Gramm Käse, ein Liter Milch, eine Flasche Wein, eine Dose Tomaten",
+     "Prices: vier Franken fünfzig, zwei Euro neunundneunzig",
+     "essen: ich esse, du isst, er isst; Ich esse gern Fisch. Ich trinke nicht gern Milch.",
+     "Mein Lieblingsessen ist ... / Das schmeckt gut!"
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "present-irregular",
+     "plural"
+    ],
+    "speaking": 1
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "title": "Meine Wohnung",
+  "titleEn": "My flat",
+  "book": {
+   "vol": 1,
+   "kb": "46-57",
+   "ab": "AB 41-51",
+   "lws": "LWS 12-15"
+  },
+  "level": 2,
+  "levelWhy": "Still nominative only: definite articles, er/es/sie for things, adjectives after sein, nicht and compound nouns are simple patterns, but there are many new nouns to learn with their gender.",
+  "goals": [
+   "Name the rooms of a flat and say where they are (hier, dort)",
+   "Describe a house or flat with adjectives: hell, klein, teuer, modern",
+   "Refer back to things with er, es, sie: Der Tisch? Er ist neu.",
+   "Name furniture, appliances and colours and say what you like or dislike",
+   "Count up to a million to understand rents, sizes and phone numbers",
+   "Understand the key information in flat ads (rooms, m², rent, floor, ab sofort)",
+   "Read and give a short description of a piece of furniture, like your desk"
+  ],
+  "wortfelder": [
+   "House and flat (rooms)",
+   "Furniture and electrical appliances",
+   "Colours",
+   "Flat ads and measurements"
+  ],
+  "grammar": [
+   {
+    "id": "articles",
+    "note": "Definite article der/das/die for things you both know: Hier ist der Flur. Das Bad ist dort."
+   },
+   {
+    "id": "pronouns-things",
+    "note": "A pronoun for a thing follows the noun's grammatical gender: der Tisch is er, die Lampe is sie, das Sofa is es, plural is sie."
+   },
+   {
+    "id": "compound-nouns",
+    "note": "German glues words together; the LAST word gives the article and the basic meaning, the FIRST word gets the stress."
+   },
+   {
+    "id": "negation",
+    "note": "nicht before an adjective: Die Wohnung ist nicht teuer. Der Balkon ist nicht groß."
+   },
+   {
+    "id": "plural",
+    "note": "Plurals of rooms and furniture: Zimmer, Küchen, Bäder, Stühle, Betten, Sofas, Schränke."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Eine Wohnung in Eaux-Vives",
+    "setting": "Alexandre visits a flat for rent in Geneva; the owner shows him the rooms.",
+    "lines": [
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Guten Tag! Das ist die Wohnung. Hier ist der Flur.",
+      "fr": "Bonjour ! Voici l'appartement. Ici, c'est l'entrée.",
+      "k": "dced117b358aa6"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Guten Tag. Oh, der Flur ist schön hell.",
+      "fr": "Bonjour. Oh, l'entrée est bien claire.",
+      "k": "ab28fef634ba40"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ja, und dort ist das Wohnzimmer. Es ist groß, circa dreißig Quadratmeter.",
+      "fr": "Oui, et là-bas, c'est le salon. Il est grand, environ trente mètres carrés.",
+      "k": "13dbb1caf72e4c"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Super. Und die Küche? Ist sie neu?",
+      "fr": "Super. Et la cuisine ? Elle est neuve ?",
+      "k": "136d4827345d0f"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ja, sie ist ganz neu. Der Kühlschrank und der Herd sind sehr modern.",
+      "fr": "Oui, elle est toute neuve. Le frigo et la cuisinière sont très modernes.",
+      "k": "2d656471c2ed34"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Und wo ist das Bad?",
+      "fr": "Et où est la salle de bains ?",
+      "k": "7753ba75d82b79"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Das Bad ist hier. Es ist klein, aber es hat eine Dusche und eine Badewanne.",
+      "fr": "La salle de bains est ici. Elle est petite, mais il y a une douche et une baignoire.",
+      "k": "e251dc4dfbb5a3"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Und der Balkon? Wo ist er?",
+      "fr": "Et le balcon ? Où est-il ?",
+      "k": "e9381e9173f007"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Er ist dort. Er ist groß und sonnig. Die Miete ist zweitausend Franken im Monat.",
+      "fr": "Il est là-bas. Il est grand et ensoleillé. Le loyer est de deux mille francs par mois.",
+      "k": "5d0f92a42957c4"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Hm, die Wohnung ist sehr schön, aber sie ist nicht billig.",
+      "fr": "Hum, l'appartement est très beau, mais il n'est pas bon marché.",
+      "k": "12e54da78bfb28"
+     }
+    ]
+   },
+   {
+    "title": "Ein Sofa für das Wohnzimmer",
+    "setting": "In a lunch break, Alexandre shows his colleague Lena sofas on a furniture website.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Lena, ich brauche ein Sofa. Wie findest du das Sofa hier?",
+      "fr": "Lena, j'ai besoin d'un canapé. Comment tu trouves ce canapé ?",
+      "k": "49be70a41307e8"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Hm, es ist grau. Die Farbe finde ich nicht so schön.",
+      "fr": "Hum, il est gris. La couleur, je ne la trouve pas très belle.",
+      "k": "1175e4e0153489"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Und das Sofa dort? Es ist dunkelblau.",
+      "fr": "Et le canapé là-bas ? Il est bleu foncé.",
+      "k": "c1be5c8840059b"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Oh ja, das ist schön! Wie viel kostet es?",
+      "fr": "Oh oui, il est beau ! Il coûte combien ?",
+      "k": "d29834b9d29cd1"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Es kostet achthundert Franken. Und es ist zwei Meter vierzig lang.",
+      "fr": "Il coûte huit cents francs. Et il fait deux mètres quarante de long.",
+      "k": "1ca4291a646b52"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Das ist ziemlich lang. Ist dein Wohnzimmer groß?",
+      "fr": "C'est assez long. Ton salon est grand ?",
+      "k": "428376f21ed7ce"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Nein, es ist nicht groß, nur ungefähr zwanzig Quadratmeter.",
+      "fr": "Non, il n'est pas grand, seulement environ vingt mètres carrés.",
+      "k": "1769684c43d305"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Dann ist das Sofa zu groß. Und der Sessel hier? Er ist klein und modern.",
+      "fr": "Alors le canapé est trop grand. Et ce fauteuil ? Il est petit et moderne.",
+      "k": "1512ce1dcb2f0a"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Stimmt, der Sessel gefällt mir. Und er ist nicht teuer!",
+      "fr": "C'est vrai, le fauteuil me plaît. Et il n'est pas cher !",
+      "k": "458724a1763168"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "word-stress",
+   "vowel-length-e",
+   "vowel-length-i"
+  ],
+  "speaking": [
+   {
+    "task": "Describe your flat in five or six sentences: rooms, size, and what each room is like. Use er, es, sie at least twice.",
+    "model": "Meine Wohnung ist in Genf. Sie hat zwei Zimmer, eine Küche und ein Bad. Das Wohnzimmer ist hell und ziemlich groß. Die Küche ist klein, aber sie ist modern. Das Bad hat eine Dusche. Der Balkon ist schön, er ist sehr sonnig.",
+    "modelFr": "Mon appartement est à Genève. Il a deux pièces, une cuisine et une salle de bains. Le salon est clair et assez grand. La cuisine est petite, mais elle est moderne. La salle de bains a une douche. Le balcon est beau, il est très ensoleillé.",
+    "k": "525e60f15539ff"
+   },
+   {
+    "task": "Look around your room. Give your opinion on four objects (colour, size, price, style) with finden and with nicht.",
+    "model": "Mein Schreibtisch ist super, er ist groß und hell. Die Lampe finde ich schön, sie ist schwarz und modern. Der Teppich ist nicht schön, er ist alt. Das Sofa finde ich nicht bequem.",
+    "modelFr": "Mon bureau est super, il est grand et clair. La lampe, je la trouve belle, elle est noire et moderne. Le tapis n'est pas beau, il est vieux. Le canapé, je ne le trouve pas confortable.",
+    "k": "60fc600c76a21c"
+   }
+  ],
+  "writing": {
+   "task": "You found a flat ad online. Write a short email to the owner: say who you are, what kind of flat you are looking for, and ask two questions (rent, balcony, furniture, floor).",
+   "model": "Guten Tag, ich heiße Alexandre und ich arbeite in Genf. Ich suche ab sofort eine Zwei-Zimmer-Wohnung. Wie hoch ist die Miete? Ist die Wohnung möbliert? Ist auch ein Balkon da? Viele Grüße, Alexandre",
+   "modelFr": "Bonjour, je m'appelle Alexandre et je travaille à Genève. Je cherche dès maintenant un deux-pièces. Quel est le montant du loyer ? L'appartement est-il meublé ? Y a-t-il aussi un balcon ? Meilleures salutations, Alexandre",
+   "k": "9798f37a6e914a"
+  },
+  "exam": [
+   {
+    "section": "hoeren",
+    "teil": 1,
+    "why": "The workbook exam task trains Hören Teil 1: short everyday conversations (here about furniture, prices and where things come from) with three picture or text options, heard twice."
+   }
+  ],
+  "days": [
+   {
+    "title": "Rooms, adjectives, er/es/sie",
+    "learn": "Today you learn to show and describe a flat room by room, and to talk about things with er, es and sie instead of repeating the noun.",
+    "points": [
+     "Rooms: der Flur, das Wohnzimmer, das Schlafzimmer, die Küche, das Bad, der Balkon",
+     "Hier ist die Küche. Das Bad ist dort.",
+     "Adjectives after sein, never with an ending: hell/dunkel, groß/klein, neu/alt, billig/teuer, schön/hässlich",
+     "der Tisch = er, die Lampe = sie, das Bad = es, die Stühle = sie",
+     "Big numbers for rent and size: zweitausend Franken, dreißig Quadratmeter"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "articles",
+     "pronouns-things"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Furniture, colours, flat ads",
+    "learn": "Today you learn furniture and colours, how to say what you like or dislike, and how to decode a flat ad.",
+    "points": [
+     "Furniture: der Schrank, der Tisch, der Stuhl, das Bett, das Sofa, der Sessel, der Herd",
+     "Colours: schwarz, weiß, grau, rot, blau, grün, gelb, braun; hellblau, dunkelrot",
+     "Opinions: Wie findest du das Sofa? Ich finde es schön. Der Sessel gefällt mir. Die Lampe ist nicht modern.",
+     "Compound nouns: the last word gives the article (der Kühlschrank, die Badewanne), the first word gets the stress",
+     "Flat ads: 3-Zi.-Wohnung, ca. 60 m², ab sofort, möbliert, im 2. Stock, Miete"
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "compound-nouns",
+     "negation",
+     "plural"
+    ],
+    "speaking": 1
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "title": "Mein Tag",
+  "titleEn": "My day",
+  "book": {
+   "vol": 1,
+   "kb": "58-69",
+   "ab": "AB 52-62",
+   "lws": "LWS 16-19"
+  },
+  "level": 3,
+  "levelWhy": "Separable verbs in real sentences, telling the time (with the tricky halb) and the time words am, um, von ... bis are everyday building blocks, not first-contact material.",
+  "goals": [
+   "Describe your daily activities (aufstehen, frühstücken, einkaufen, fernsehen ...) with separable verbs",
+   "Ask for and tell the time, the everyday way and the official way",
+   "Name the days of the week and say what you do on which day",
+   "Say when something happens with am, um, von ... bis and in der Nacht",
+   "Talk about your daily routine through the parts of the day (am Morgen, am Abend ...)",
+   "Arrange a time with someone: Hast du Zeit? Das passt gut.",
+   "Understand opening times on signs and phone announcements, and plan a day in a city"
+  ],
+  "wortfelder": [
+   "daily activities",
+   "clock time",
+   "days of the week",
+   "parts of the day",
+   "opening times",
+   "appointments"
+  ],
+  "grammar": [
+   {
+    "id": "separable",
+    "note": "Daily routine verbs in the sentence: aufstehen, einkaufen, aufräumen, anrufen, fernsehen, anfangen; prefix at the end, also in questions (Stehst du früh auf?)."
+   },
+   {
+    "id": "present-irregular",
+    "note": "schlafen (er schläft), fernsehen (er sieht fern), anfangen (er fängt an)."
+   },
+   {
+    "id": "present-regular",
+    "note": "arbeiten with the extra e: du arbeitest, er arbeitet."
+   },
+   {
+    "id": "word-order",
+    "note": "A time expression in position 1 (Am Nachmittag, Um acht Uhr) pushes the subject after the verb."
+   },
+   {
+    "id": "clock-time",
+    "note": "Two ways to tell the time: informal (Viertel nach acht, halb neun) and official (acht Uhr dreißig)."
+   },
+   {
+    "id": "time-am-um",
+    "note": "am + day or part of the day, um + clock time, von ... bis for a time span, in der Nacht, jeden Tag."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Tennis am Samstag?",
+    "setting": "Alexandre asks a colleague in Geneva when she has time for a tennis match.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Hallo Claudia, hast du am Donnerstag Zeit? Ich spiele um sechs Uhr Tennis.",
+      "fr": "Salut Claudia, tu as le temps jeudi ? Je joue au tennis à six heures.",
+      "k": "024ad4defa8628"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Am Donnerstag arbeite ich von neun bis halb sieben. Das passt leider nicht.",
+      "fr": "Jeudi, je travaille de neuf heures à six heures et demie. Ça ne va pas, malheureusement.",
+      "k": "2906f018d96286"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Schade. Und am Freitag?",
+      "fr": "Dommage. Et vendredi ?",
+      "k": "76b5ecb14039fe"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Am Freitag gehe ich am Abend ins Kino. Aber am Samstag habe ich Zeit.",
+      "fr": "Vendredi soir, je vais au cinéma. Mais samedi, j'ai le temps.",
+      "k": "8c7dc6dfcbb35e"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Super! Am Samstag um zehn Uhr?",
+      "fr": "Super ! Samedi à dix heures ?",
+      "k": "6a04cde495890d"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Um zehn? Das ist früh. Am Samstag schlafe ich lange.",
+      "fr": "À dix heures ? C'est tôt. Le samedi, je fais la grasse matinée.",
+      "k": "0745d9a7fe3a9a"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Na gut, dann um halb zwölf.",
+      "fr": "Bon, alors à onze heures et demie.",
+      "k": "1271e33b525df0"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Halb zwölf passt gut. Wo spielen wir?",
+      "fr": "Onze heures et demie, ça me va bien. On joue où ?",
+      "k": "ad2c9d2ac9a91a"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Auf dem Tennisplatz am See. Bis Samstag!",
+      "fr": "Sur le court de tennis au bord du lac. À samedi !",
+      "k": "5fb7732933ad0d"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Bis Samstag, Alexandre!",
+      "fr": "À samedi, Alexandre !",
+      "k": "cbdbc472bb5390"
+     }
+    ]
+   },
+   {
+    "title": "Wie spät ist es?",
+    "setting": "Two flatmates talk in the kitchen early on a weekday morning.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Jonas, wie spät ist es?",
+      "fr": "Jonas, quelle heure est-il ?",
+      "k": "4689e7621b49af"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Es ist kurz nach sieben. Warum?",
+      "fr": "Il est un peu plus de sept heures. Pourquoi ?",
+      "k": "d7363e54e0d3b3"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Oh nein! Mein Zug fährt um Viertel vor acht.",
+      "fr": "Oh non ! Mon train part à huit heures moins le quart.",
+      "k": "bb76179b7831d7"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Kein Problem, du hast noch Zeit. Frühstückst du nicht?",
+      "fr": "Pas de problème, tu as encore le temps. Tu ne prends pas de petit-déjeuner ?",
+      "k": "527c72479c8de2"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Heute nicht, ich frühstücke im Büro. Und du? Stehst du nicht auf?",
+      "fr": "Pas aujourd'hui, je prends mon petit-déjeuner au bureau. Et toi ? Tu ne te lèves pas ?",
+      "k": "13aea071d313f6"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Gleich. Ich fange heute erst um zehn an.",
+      "fr": "Tout de suite. Aujourd'hui, je ne commence qu'à dix heures.",
+      "k": "9d015148c3cc2a"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Du hast es gut! Am Nachmittag kaufe ich ein. Kochst du heute Abend?",
+      "fr": "Tu en as de la chance ! Cet après-midi, je fais les courses. Tu cuisines ce soir ?",
+      "k": "3745f0e5cc95c6"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, ich koche. Wir essen um halb acht, okay?",
+      "fr": "Oui, je cuisine. On mange à sept heures et demie, d'accord ?",
+      "k": "f95c06e4bbaeed"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Perfekt. Tschüss, bis heute Abend!",
+      "fr": "Parfait. Salut, à ce soir !",
+      "k": "e24284f1870b3d"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "word-stress",
+   "vowel-length-a",
+   "ich-laut"
+  ],
+  "speaking": [
+   {
+    "task": "Describe a normal weekday: when you get up, have breakfast, work, and what you do in the evening. Say it out loud before you type it.",
+    "model": "Ich stehe um halb sieben auf. Dann frühstücke ich. Ich arbeite von acht bis fünf. Am Abend trainiere ich oder ich sehe fern. Um elf Uhr gehe ich ins Bett.",
+    "modelFr": "Je me lève à six heures et demie. Ensuite, je prends mon petit-déjeuner. Je travaille de huit heures à cinq heures. Le soir, je m'entraîne ou je regarde la télé. À onze heures, je vais au lit.",
+    "k": "0c70430b345021"
+   },
+   {
+    "task": "A colleague asks: 'Hast du am Mittwoch Zeit?' Say you cannot, explain why, and suggest another day and time.",
+    "model": "Am Mittwoch habe ich leider keine Zeit. Am Abend spiele ich Tennis. Aber am Donnerstag um zwölf Uhr passt es gut. Passt es dir?",
+    "modelFr": "Mercredi, je n'ai malheureusement pas le temps. Le soir, je joue au tennis. Mais jeudi à midi, ça me va bien. Ça te va ?",
+    "k": "bb02b8fe769889"
+   },
+   {
+    "task": "Say what time it is now, once the informal way and once the official way, and when your next appointment is.",
+    "model": "Es ist Viertel nach drei, offiziell fünfzehn Uhr fünfzehn. Mein nächster Termin ist um halb fünf.",
+    "modelFr": "Il est trois heures et quart, officiellement quinze heures quinze. Mon prochain rendez-vous est à quatre heures et demie.",
+    "k": "813017719db630"
+   }
+  ],
+  "writing": {
+   "task": "Write a short message to a friend. Invite him for dinner at your place on Friday, say at what time you eat and what you do before, and ask if he has time.",
+   "model": "Hallo Marco, am Freitag koche ich zu Hause. Kommst du auch? Wir essen um halb acht. Am Nachmittag kaufe ich im Supermarkt ein. Hast du Zeit? Bis bald, Alexandre",
+   "modelFr": "Salut Marco, vendredi, je cuisine à la maison. Tu viens aussi ? On mange à sept heures et demie. L'après-midi, je fais les courses au supermarché. Tu as le temps ? À bientôt, Alexandre",
+   "k": "a177d720ff36f0"
+  },
+  "exam": [
+   {
+    "section": "hoeren",
+    "teil": 3,
+    "why": "The workbook's exam task is Hören Teil 3: short phone messages and announcements where you catch one detail, very often a time or a day (um Viertel nach zehn, am Dienstag)."
+   },
+   {
+    "section": "lesen",
+    "teil": 3,
+    "why": "Lesson E practises opening times on signs (täglich, geöffnet, geschlossen, von ... bis), the kind of notices you read in Lesen Teil 3."
+   }
+  ],
+  "days": [
+   {
+    "title": "Mein Tag",
+    "learn": "Today you learn to describe your day from getting up to going to bed, with separable verbs like aufstehen, einkaufen and fernsehen.",
+    "points": [
+     "Daily verbs: aufstehen, frühstücken, einkaufen, aufräumen, anrufen, fernsehen, spazieren gehen, ins Bett gehen",
+     "Separable verbs: Ich stehe früh auf. Er sieht am Abend fern. Stehst du gern früh auf?",
+     "Irregular forms: er schläft, er sieht fern; extra e in du arbeitest, er arbeitet",
+     "Parts of the day: am Morgen, am Vormittag, am Mittag, am Nachmittag, am Abend, but in der Nacht",
+     "Verb in position 2 after a time: Am Abend sehe ich fern."
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "separable",
+     "present-irregular",
+     "present-regular",
+     "word-order"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Uhrzeit und Termine",
+    "learn": "Today you learn to ask and tell the time, the everyday way and the official way, and to fix an appointment on a day of the week.",
+    "points": [
+     "Wie spät ist es? Es ist Viertel nach acht. Es ist halb neun (= 8:30!).",
+     "kurz vor, kurz nach, gleich, schon, erst: Es ist erst sieben.",
+     "Official time: Der Zug fährt um vierzehn Uhr dreißig.",
+     "am Montag, um zehn Uhr, von neun bis fünf, jeden Tag, nächste Woche",
+     "Hast du Zeit? Das passt gut. Opening times: täglich, geöffnet, geschlossen"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "clock-time",
+     "time-am-um"
+    ],
+    "speaking": 1
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "title": "Freizeit",
+  "titleEn": "Free time",
+  "book": {
+   "vol": 1,
+   "kb": "70-81",
+   "ab": "AB 63-74",
+   "lws": "LWS 20-24"
+  },
+  "level": 3,
+  "levelWhy": "The accusative with all three article types, ja/nein/doch and a group of irregular verbs come together here, on top of new weather and leisure vocabulary.",
+  "goals": [
+   "Understand a simple weather report and talk about the weather (Es regnet. Es sind zwanzig Grad.)",
+   "Ask about the weather in a region with im Norden, im Süden, im Osten, im Westen",
+   "Order food and drinks at a snack bar using the accusative (einen Hamburger, den Salat, keinen Saft)",
+   "Answer yes/no questions correctly with ja, nein and doch",
+   "Talk about your hobbies and what you do in your free time, and say what you find interesting or great",
+   "Name the seasons and say what you do in each one",
+   "Understand a simple travel brochure about leisure activities in Germany, Austria and Switzerland"
+  ],
+  "wortfelder": [
+   "weather and climate",
+   "points of the compass",
+   "snack bar food",
+   "leisure activities and hobbies",
+   "seasons",
+   "holidays and travel"
+  ],
+  "grammar": [
+   {
+    "id": "es-gibt",
+    "note": "Weather verbs and adjectives always use es (es regnet, es ist kalt); es gibt + accusative means there is / there are."
+   },
+   {
+    "id": "nom-akk",
+    "note": "Ordering food: definite, indefinite and negative article in the accusative (den Salat, einen Hamburger, keinen Saft) after nehmen, haben, möchten."
+   },
+   {
+    "id": "negation",
+    "note": "Answering ja, nein or doch to positive and negative yes/no questions."
+   },
+   {
+    "id": "present-irregular",
+    "note": "nehmen (du nimmst), lesen (du liest), treffen (du triffst), fahren (du fährst)."
+   },
+   {
+    "id": "modal",
+    "note": "möchte as a polite wish when ordering, and möchte lieber for a preference."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Ein Ausflug am Wochenende",
+    "setting": "Alexandre and a friend plan a Sunday outing near Geneva and check the weather.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Alexandre, machen wir am Wochenende einen Ausflug?",
+      "fr": "Alexandre, on fait une excursion ce week-end ?",
+      "k": "9787691120f83b"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Gern! Aber wie ist das Wetter? Am Samstag regnet es, glaube ich.",
+      "fr": "Volontiers ! Mais quel temps fait-il ? Samedi, il pleut, je crois.",
+      "k": "767b258e553165"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ja, am Samstag ist es kalt und windig. Aber am Sonntag scheint die Sonne.",
+      "fr": "Oui, samedi il fait froid et il y a du vent. Mais dimanche, le soleil brille.",
+      "k": "dd994dba04da68"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Wie viel Grad sind es am Sonntag?",
+      "fr": "Il fait combien de degrés dimanche ?",
+      "k": "6d602f4c285f77"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Achtzehn Grad. Wandern wir auf den Salève?",
+      "fr": "Dix-huit degrés. On fait une randonnée au Salève ?",
+      "k": "a236c99886f33f"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Super Idee! Oben gibt es einen schönen Platz für ein Picknick.",
+      "fr": "Super idée ! En haut, il y a un bel endroit pour un pique-nique.",
+      "k": "32e7fc80648649"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Toll. Ich bringe Brot und Käse mit.",
+      "fr": "Génial. J'apporte du pain et du fromage.",
+      "k": "344779993d2b47"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Und ich bringe Obst und Wasser. Wann gehen wir los?",
+      "fr": "Et moi, j'apporte des fruits et de l'eau. On part quand ?",
+      "k": "96f7e59ca8299c"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Um neun Uhr. Vergiss die Sonnencreme nicht!",
+      "fr": "À neuf heures. N'oublie pas la crème solaire !",
+      "k": "b064e8b2aee48f"
+     }
+    ]
+   },
+   {
+    "title": "Am Imbiss nach dem Tennis",
+    "setting": "After a tennis match, two friends order at a snack bar in Geneva.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Ich habe Hunger! Was nimmst du?",
+      "fr": "J'ai faim ! Tu prends quoi ?",
+      "k": "f67152193e1f27"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ich nehme einen Hamburger mit Pommes. Und du? Nimmst du keinen Hamburger?",
+      "fr": "Je prends un hamburger avec des frites. Et toi ? Tu ne prends pas de hamburger ?",
+      "k": "e750551fb333c2"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Nein, ich möchte lieber den Salat mit Schinken und Ei.",
+      "fr": "Non, je préfère la salade au jambon et à l'œuf.",
+      "k": "6dfd546834a5d0"
+     },
+     {
+      "sp": "C",
+      "g": "f",
+      "t": "Guten Tag, was möchten Sie?",
+      "fr": "Bonjour, que désirez-vous ?",
+      "k": "a7def7159abd50"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Einen Hamburger mit Pommes und einen Salat mit Schinken, bitte.",
+      "fr": "Un hamburger avec des frites et une salade au jambon, s'il vous plaît.",
+      "k": "f875c05603bf00"
+     },
+     {
+      "sp": "C",
+      "g": "f",
+      "t": "Gern. Und was möchten Sie trinken?",
+      "fr": "Volontiers. Et que voulez-vous boire ?",
+      "k": "971ad42855ff84"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Zwei Wasser, bitte. Haben Sie kein Dessert?",
+      "fr": "Deux eaux, s'il vous plaît. Vous n'avez pas de dessert ?",
+      "k": "31cad7f830f6d7"
+     },
+     {
+      "sp": "C",
+      "g": "f",
+      "t": "Doch, wir haben Schokoladenkuchen und Eis.",
+      "fr": "Si, nous avons du gâteau au chocolat et de la glace.",
+      "k": "20c1068d5ab622"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Dann nehme ich später ein Eis. Danke!",
+      "fr": "Alors je prendrai une glace plus tard. Merci !",
+      "k": "ea5619263f84ab"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "final-devoicing",
+   "vocalized-r",
+   "ich-laut"
+  ],
+  "speaking": [
+   {
+    "task": "Describe today's weather where you are and say what you do when the weather is like that. Say it out loud first.",
+    "model": "Heute ist es in Genf bewölkt und windig. Es sind nur zwölf Grad. Vielleicht regnet es am Nachmittag. Dann gehe ich ins Fitnessstudio.",
+    "modelFr": "Aujourd'hui à Genève, c'est nuageux et il y a du vent. Il ne fait que douze degrés. Il va peut-être pleuvoir cet après-midi. Alors je vais à la salle de sport.",
+    "k": "e6eab591bfda69"
+   },
+   {
+    "task": "You are at a snack bar. Order a meal and a drink, then answer the question 'Möchten Sie kein Dessert?' with doch or nein.",
+    "model": "Ich nehme einen Hamburger und einen Salat, bitte. Und ein Wasser. Doch, ich möchte gern ein Eis.",
+    "modelFr": "Je prends un hamburger et une salade, s'il vous plaît. Et une eau. Si, je voudrais bien une glace.",
+    "k": "808aa4686a32df"
+   },
+   {
+    "task": "Talk about your free time: two hobbies you like, one you do not like, and what you do in winter and in summer.",
+    "model": "In meiner Freizeit spiele ich Tennis und ich trainiere gern. Joggen finde ich nicht so toll. Im Winter fahre ich Ski. Im Sommer schwimme ich im See.",
+    "modelFr": "Pendant mon temps libre, je joue au tennis et j'aime m'entraîner. Je ne trouve pas le jogging super. En hiver, je fais du ski. En été, je nage dans le lac.",
+    "k": "ca38ce56d97d99"
+   }
+  ],
+  "writing": {
+   "task": "Write a short message to a friend. Invite her to a barbecue at the lake on Saturday, mention the weather, the time and ask her to bring something.",
+   "model": "Hallo Sophie, am Samstag scheint die Sonne und es sind achtundzwanzig Grad. Wir grillen am See. Kommst du auch? Wir treffen uns um sechs Uhr. Bringst du Brot mit? Liebe Grüße, Alexandre",
+   "modelFr": "Salut Sophie, samedi le soleil brille et il fait vingt-huit degrés. On fait des grillades au bord du lac. Tu viens aussi ? On se retrouve à six heures. Tu apportes du pain ? Bises, Alexandre",
+   "k": "1a2077af6eb01a"
+  },
+  "exam": [
+   {
+    "section": "lesen",
+    "teil": 1,
+    "why": "The workbook's exam task is Lesen Teil 1: two short private messages (an invitation and an answer) with five richtig/falsch statements about day, time and who brings what."
+   },
+   {
+    "section": "sprechen",
+    "teil": 2,
+    "why": "Talking about free time, hobbies and the weekend gives you material for Sprechen Teil 2, asking and answering questions on a theme card such as Freizeit or Wochenende."
+   }
+  ],
+  "days": [
+   {
+    "title": "Das Wetter",
+    "learn": "Today you learn to talk about the weather, understand a short weather report and say where in a country it is sunny or rainy.",
+    "points": [
+     "Es regnet. Es schneit. Die Sonne scheint. Es gibt viele Wolken.",
+     "Es ist kalt, warm, heiß, sonnig, windig, bewölkt; es sind zwanzig Grad, es ist minus ein Grad",
+     "im Norden, im Süden, im Osten, im Westen; Wie ist das Wetter in Zürich?",
+     "Weather report words: der Wetterbericht, die Temperatur, steigen, überall, bleiben"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "es-gibt"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Am Imbiss",
+    "learn": "Today you learn to order at a snack bar with the accusative and to answer yes/no questions with ja, nein and doch.",
+    "points": [
+     "Ich nehme den Salat / einen Hamburger / eine Cola. Wir haben keinen Saft.",
+     "Only masculine changes: der to den, ein to einen, kein to keinen",
+     "Möchtest du ein Eis? Ja. / Nein. Möchtest du kein Eis? Doch! / Nein.",
+     "Irregular verbs: du nimmst, du liest, du triffst, du fährst; ich möchte lieber ..."
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "nom-akk",
+     "negation",
+     "present-irregular",
+     "modal"
+    ],
+    "speaking": 1
+   },
+   {
+    "title": "Hobbys und Jahreszeiten",
+    "learn": "Today you learn to talk about your hobbies and your free time through the year, and to give a short opinion with finden.",
+    "points": [
+     "Hobbies: wandern, klettern, schwimmen, joggen, tanzen, lesen, Ski fahren, grillen, im Internet surfen",
+     "Ich finde Krimis toll / interessant / nicht so gut. Das macht Spaß.",
+     "Seasons: im Frühling, im Sommer, im Herbst, im Winter",
+     "Travel words: der Urlaub, die Reise, die Natur, die Insel, das Angebot"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "es-gibt",
+     "present-irregular"
+    ],
+    "speaking": 2
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "title": "Lernen - ein Leben lang",
+  "titleEn": "Learning, a whole life long",
+  "book": {
+   "vol": 1,
+   "kb": "82-93",
+   "ab": "AB 75-85",
+   "lws": "LWS 24-26"
+  },
+  "level": 4,
+  "levelWhy": "Two big new structures at once: modal verbs with the sentence bracket and the Perfekt with both haben and sein.",
+  "goals": [
+   "Say what you can and cannot do well (können)",
+   "Say what you want to do or learn (wollen) and make suggestions with Wollen wir ...?",
+   "Talk about what you did yesterday or in the past with the Perfekt and haben",
+   "Say where you went with the Perfekt and sein (gehen, fahren, kommen)",
+   "Ask and answer 'Have you ever ...?' with schon mal, schon öfter, noch nie",
+   "Give and understand simple tips for learning a language",
+   "Say what you find important or not important"
+  ],
+  "wortfelder": [
+   "hobbies and leisure activities",
+   "courses and further training",
+   "learning a language",
+   "how often (frequency)"
+  ],
+  "grammar": [
+   {
+    "id": "modal",
+    "note": "können (ability) and wollen (strong wish, suggestions with Wollen wir ...?), with the infinitive at the end."
+   },
+   {
+    "id": "perfekt",
+    "note": "First contact: Perfekt with haben (geübt, gekauft, gefunden, geschrieben) and with sein for gehen, fahren, kommen."
+   },
+   {
+    "id": "frequency",
+    "note": "Frequency words (immer, meistens, oft, manchmal, selten, nie) and the question schon mal? with its answers."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Was kannst du gut?",
+    "setting": "Lunch break in the office canteen in Vernier: Alexandre and his colleague Nadia talk about sport and hobbies.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Nadia, kannst du eigentlich Tennis spielen?",
+      "fr": "Nadia, tu sais jouer au tennis, au fait ?",
+      "k": "62c5f8d9a13f62"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ja, ein bisschen. Aber ich spiele nicht oft.",
+      "fr": "Oui, un peu. Mais je ne joue pas souvent.",
+      "k": "c63469a54bc475"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Ich spiele jeden Samstag. Wollen wir mal zusammen spielen?",
+      "fr": "Je joue tous les samedis. On joue ensemble une fois ?",
+      "k": "6a5fcb15a2bea2"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Gern! Und was willst du sonst noch lernen?",
+      "fr": "Volontiers ! Et qu'est-ce que tu veux apprendre d'autre ?",
+      "k": "fcdfc70d1b709a"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Ich will gut Deutsch sprechen. Ich mache einen Kurs in Genf.",
+      "fr": "Je veux bien parler allemand. Je suis un cours à Genève.",
+      "k": "8365924196502a"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Toll! Ich will wieder Klavier spielen. Früher habe ich oft geübt.",
+      "fr": "Super ! Moi, je veux rejouer du piano. Avant, je m'exerçais souvent.",
+      "k": "e70e4ca9bb607d"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Und kannst du noch spielen?",
+      "fr": "Et tu sais encore jouer ?",
+      "k": "b4e68ddd41d781"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Nein, nicht mehr so gut. Aber ich übe jetzt wieder.",
+      "fr": "Non, plus aussi bien. Mais je m'exerce de nouveau maintenant.",
+      "k": "323f1cc379372d"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Mein Tipp: jeden Tag zehn Minuten. Das ist nicht so schwer.",
+      "fr": "Mon conseil : dix minutes chaque jour. Ce n'est pas si difficile.",
+      "k": "bbde433b8a4248"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Stimmt. Also: am Samstag Tennis und am Sonntag Klavier!",
+      "fr": "C'est vrai. Alors : samedi tennis et dimanche piano !",
+      "k": "7adadfd01011d3"
+     }
+    ]
+   },
+   {
+    "title": "Was hast du am Wochenende gemacht?",
+    "setting": "Monday morning at the coffee machine: Sophie asks Alexandre about his weekend.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Guten Morgen, Alexandre! Was hast du am Wochenende gemacht?",
+      "fr": "Bonjour Alexandre ! Qu'est-ce que tu as fait ce week-end ?",
+      "k": "641351d3232a3a"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Am Samstag bin ich nach Verbier gefahren und habe einen Skikurs gemacht.",
+      "fr": "Samedi, je suis allé à Verbier et j'ai pris un cours de ski.",
+      "k": "225f80c8673dd6"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Super! Und, hat es Spaß gemacht?",
+      "fr": "Super ! Et alors, ça t'a plu ?",
+      "k": "4bea5da1f2d3b8"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, sehr! Aber Skifahren ist nicht leicht. Am Sonntag habe ich lange geschlafen.",
+      "fr": "Oui, beaucoup ! Mais le ski, ce n'est pas facile. Dimanche, j'ai dormi longtemps.",
+      "k": "9cc9547c3ff0a9"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Das glaube ich! Ich bin noch nie Ski gefahren.",
+      "fr": "Je te crois ! Je n'ai encore jamais fait de ski.",
+      "k": "e04dd6807957ab"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Wirklich? Und was hast du gemacht?",
+      "fr": "Vraiment ? Et toi, qu'est-ce que tu as fait ?",
+      "k": "8566338fe7839e"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ich habe Freunde getroffen, und wir haben am See gegrillt.",
+      "fr": "J'ai retrouvé des amis et on a fait des grillades au bord du lac.",
+      "k": "0d1633da11ab0d"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Schön! Wann bist du nach Hause gekommen?",
+      "fr": "Sympa ! Tu es rentrée à quelle heure ?",
+      "k": "75e3ecdfb77d12"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Um elf Uhr. Heute bin ich ein bisschen müde.",
+      "fr": "À onze heures. Aujourd'hui, je suis un peu fatiguée.",
+      "k": "23896900274567"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ich auch. Zuerst brauchen wir einen Kaffee!",
+      "fr": "Moi aussi. D'abord, il nous faut un café !",
+      "k": "6f1012436b6559"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "vowel-length-umlauts",
+   "ich-laut"
+  ],
+  "speaking": [
+   {
+    "task": "Say three things you can do well and one thing you cannot do at all. Say it out loud first.",
+    "model": "Ich kann gut Tennis spielen. Ich kann auch gut kochen. Ich kann ein bisschen Gitarre spielen. Aber ich kann gar nicht singen.",
+    "modelFr": "Je sais bien jouer au tennis. Je sais aussi bien cuisiner. Je sais un peu jouer de la guitare. Mais je ne sais pas du tout chanter.",
+    "k": "58ed0c5ea22e79"
+   },
+   {
+    "task": "Say what you want to learn or do this year (use wollen twice) and make one suggestion with Wollen wir ...?",
+    "model": "Dieses Jahr will ich die A1-Prüfung machen. Ich will auch Ski fahren lernen. Wollen wir im Winter zusammen nach Verbier fahren?",
+    "modelFr": "Cette année, je veux passer l'examen A1. Je veux aussi apprendre à skier. On va ensemble à Verbier cet hiver ?",
+    "k": "20b7f1f1a470d0"
+   },
+   {
+    "task": "Tell what you did last weekend: two sentences with haben, one with sein, and answer the question 'Bist du schon mal in Bern gewesen?'",
+    "model": "Am Samstag habe ich trainiert. Danach habe ich Freunde getroffen. Am Sonntag bin ich an den See gefahren. Nein, ich bin noch nie in Bern gewesen.",
+    "modelFr": "Samedi, je me suis entraîné. Ensuite, j'ai retrouvé des amis. Dimanche, je suis allé au lac. Non, je ne suis encore jamais allé à Berne.",
+    "k": "19f10ca06a660d"
+   }
+  ],
+  "writing": {
+   "task": "Write an email to a language school in Geneva. You want to take a German evening course. Ask when the next course starts and how much it costs, and say which days you can come.",
+   "model": "Sehr geehrte Damen und Herren, ich möchte Deutsch lernen und suche einen Abendkurs. Wann beginnt der nächste Kurs? Wie viel kostet er? Ich kann nur am Dienstag und am Donnerstag kommen. Mit freundlichen Grüßen, Alexandre Benjelloun",
+   "modelFr": "Madame, Monsieur, je voudrais apprendre l'allemand et je cherche un cours du soir. Quand commence le prochain cours ? Combien coûte-t-il ? Je ne peux venir que le mardi et le jeudi. Meilleures salutations, Alexandre Benjelloun",
+   "k": "00962d49c30fe8"
+  },
+  "exam": [
+   {
+    "section": "schreiben",
+    "teil": 2,
+    "why": "The workbook's exam task is Schreiben Teil 2: a short formal email with three content points, the right greeting (Sehr geehrte Damen und Herren) and closing (Mit freundlichen Grüßen)."
+   }
+  ],
+  "days": [
+   {
+    "title": "Ich kann, ich will",
+    "learn": "Today you learn to say what you can and cannot do, what you want to learn, and to suggest an activity with Wollen wir ...?",
+    "points": [
+     "können: ich kann, du kannst, er kann, wir können",
+     "wollen: ich will, du willst, er will, wir wollen",
+     "Modal in position 2, infinitive at the end: Ich kann gut Tennis spielen.",
+     "gut / ein bisschen / nicht so gut / gar nicht",
+     "Hobby verbs: malen, backen, reiten, grillen, Klavier spielen"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "modal"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Was hast du gemacht?",
+    "learn": "Today you learn to tell what you did yesterday or last weekend with the Perfekt, using haben for most verbs and sein for going and coming.",
+    "points": [
+     "haben + ge...t: Ich habe geübt, gekauft, gespielt.",
+     "haben + ge...en: Ich habe gefunden, geschrieben, getroffen.",
+     "sein for movement: Ich bin gefahren, gegangen, nach Hause gekommen.",
+     "Time words: gestern, früher, am Abend, am Wochenende"
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "perfekt"
+    ],
+    "speaking": 2
+   },
+   {
+    "title": "Schon mal? Noch nie!",
+    "learn": "Today you learn to say how often you do things, to ask 'Have you ever ...?', and to give tips for learning German.",
+    "points": [
+     "immer, meistens, oft, manchmal, selten, nie",
+     "Bist du schon mal ...? Ja, einmal. / Ja, schon öfter. / Nein, noch nie.",
+     "Learning tips: Vokabeln lernen, Zeitung lesen, im Bus Podcasts hören",
+     "Ich finde das (nicht so) wichtig. Das ist leicht / schwer."
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "frequency",
+     "modal"
+    ],
+    "speaking": 1
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "title": "Beruf und Arbeit",
+  "titleEn": "Jobs and work",
+  "book": {
+   "vol": 2,
+   "kb": "94-105",
+   "ab": "AB 86-97",
+   "lws": "LWS 27-31"
+  },
+  "level": 4,
+  "levelWhy": "Time prepositions with the dative (vor, seit) plus the first Präteritum forms (war, hatte), combined with the Perfekt from the previous lesson.",
+  "goals": [
+   "Name jobs and ask someone about their job (Was sind Sie von Beruf? Was machen Sie beruflich?)",
+   "Say where and as what you work: Ich arbeite als ... bei ...",
+   "Talk about your life with dates and time spans: vor zwei Jahren, seit April, für drei Monate",
+   "Talk about the past with war and hatte: Ich war Student, ich hatte viel Arbeit.",
+   "Understand short job and internship ads",
+   "Ask about a job on the phone: Ist die Stelle noch frei? Wie ist die Arbeitszeit?",
+   "Make feminine job titles with -in"
+  ],
+  "wortfelder": [
+   "jobs and professions",
+   "work and working conditions",
+   "internships and job applications",
+   "times of day and weekdays as habits (montags, abends)"
+  ],
+  "grammar": [
+   {
+    "id": "feminine-in",
+    "note": "Most job nouns make a feminine form with -in, sometimes with an umlaut: der Arzt, die Ärztin."
+   },
+   {
+    "id": "prepositions-time",
+    "note": "vor + dative (ago), seit + dative (since, for until now), für + accusative (planned length)."
+   },
+   {
+    "id": "praeteritum-sein-haben",
+    "note": "For sein and haben, spoken German prefers the Präteritum: ich war, ich hatte."
+   },
+   {
+    "id": "dativ",
+    "note": "bei + company or person for the workplace (bei einer Bank, beim Arzt), and seit + dative for time."
+   },
+   {
+    "id": "perfekt",
+    "note": "Life story in the Perfekt: Ich habe in Ottawa studiert, ich bin nach Genf gekommen, wir haben geheiratet."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Was machst du beruflich?",
+    "setting": "After a tennis match at a club in Geneva, Alexandre chats with his new doubles partner Julia.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Gutes Spiel! Sag mal, was machst du beruflich?",
+      "fr": "Bon match ! Dis-moi, qu'est-ce que tu fais dans la vie ?",
+      "k": "99d7120b00da19"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ich bin Informatiker. Ich arbeite als Teamleiter bei einer IT-Firma in Vernier.",
+      "fr": "Je suis informaticien. Je travaille comme chef d'équipe dans une entreprise informatique à Vernier.",
+      "k": "669766937b11cb"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Interessant! Seit wann arbeitest du dort?",
+      "fr": "Intéressant ! Depuis quand tu travailles là-bas ?",
+      "k": "455507efd059e1"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Seit April. Vorher war ich in Kanada. Und du?",
+      "fr": "Depuis avril. Avant, j'étais au Canada. Et toi ?",
+      "k": "a2e265f3781ca9"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ich bin Ärztin im Krankenhaus. Aber zurzeit mache ich eine Weiterbildung.",
+      "fr": "Je suis médecin à l'hôpital. Mais en ce moment, je fais une formation continue.",
+      "k": "ce1b54efa7637c"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Wie lange dauert die Weiterbildung?",
+      "fr": "Combien de temps dure la formation ?",
+      "k": "65fda59fc23654"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ein Jahr. Ich habe vor drei Monaten angefangen.",
+      "fr": "Un an. J'ai commencé il y a trois mois.",
+      "k": "521bc2a2e82ff9"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Und hast du noch Zeit für Tennis?",
+      "fr": "Et tu as encore du temps pour le tennis ?",
+      "k": "9dc07d60644ecc"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ja, meistens am Wochenende. Früher hatte ich mehr Zeit.",
+      "fr": "Oui, surtout le week-end. Avant, j'avais plus de temps.",
+      "k": "6205e838d50279"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Dann spielen wir nächsten Samstag wieder!",
+      "fr": "Alors on rejoue samedi prochain !",
+      "k": "3966b67a3b678e"
+     }
+    ]
+   },
+   {
+    "title": "Ist die Stelle noch frei?",
+    "setting": "A student calls a company in Zürich about an internship ad.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Firma Weber, Sie sprechen mit Markus Huber. Guten Tag.",
+      "fr": "Entreprise Weber, Markus Huber à l'appareil. Bonjour.",
+      "k": "fa08f5aab30ccd"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Guten Tag, mein Name ist Léa Dubois. Ich habe Ihre Anzeige gelesen. Ist die Praktikumsstelle im Marketing noch frei?",
+      "fr": "Bonjour, je m'appelle Léa Dubois. J'ai lu votre annonce. Le stage en marketing est-il encore libre ?",
+      "k": "91ade882676474"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Ja, die Stelle ist noch frei. Haben Sie schon Berufserfahrung?",
+      "fr": "Oui, le poste est encore libre. Vous avez déjà de l'expérience professionnelle ?",
+      "k": "4e5d9628314625"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ein bisschen. Ich hatte letztes Jahr einen Job in einem Hotel. Wie lange dauert das Praktikum?",
+      "fr": "Un peu. L'année dernière, j'ai eu un job dans un hôtel. Combien de temps dure le stage ?",
+      "k": "889d3825c47016"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Sechs Monate. Normalerweise arbeiten Praktikanten von acht bis siebzehn Uhr.",
+      "fr": "Six mois. Normalement, les stagiaires travaillent de huit heures à dix-sept heures.",
+      "k": "fc0eb097422749"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Und bekomme ich für das Praktikum auch Geld?",
+      "fr": "Et est-ce que je suis payée pour le stage ?",
+      "k": "7344da972e4e97"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Ja, wir zahlen zweitausend Franken pro Monat.",
+      "fr": "Oui, nous payons deux mille francs par mois.",
+      "k": "2bdf0699cc83e7"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Super! Kann ich schon im Februar anfangen?",
+      "fr": "Super ! Je peux commencer dès février ?",
+      "k": "96f300826641b7"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Das geht. Schicken Sie bitte Ihre Bewerbung per E-Mail.",
+      "fr": "C'est possible. Envoyez votre candidature par e-mail, s'il vous plaît.",
+      "k": "57ae62f131ccc6"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Gern, vielen Dank! Auf Wiederhören!",
+      "fr": "Volontiers, merci beaucoup ! Au revoir !",
+      "k": "3dfbc9b121c954"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "vocalized-r",
+   "word-stress"
+  ],
+  "speaking": [
+   {
+    "task": "Exam style (Sprechen Teil 2, topic 'Arbeit'): answer the question 'Was machen Sie beruflich?' in three sentences: job, company, since when.",
+    "model": "Ich bin Informatiker. Ich arbeite als Teamleiter bei einer IT-Firma in Vernier. Ich arbeite dort seit April.",
+    "modelFr": "Je suis informaticien. Je travaille comme chef d'équipe dans une entreprise informatique à Vernier. J'y travaille depuis avril.",
+    "k": "6429856bd225b6"
+   },
+   {
+    "task": "Tell your short life story with vor and seit: where you were born, when you studied, when you came to Geneva, and how long you have been learning German.",
+    "model": "Ich bin in Marokko geboren. Vor zehn Jahren habe ich in Ottawa studiert. Vor sechs Monaten bin ich nach Genf gekommen. Ich lerne seit drei Monaten Deutsch.",
+    "modelFr": "Je suis né au Maroc. Il y a dix ans, j'ai fait mes études à Ottawa. Il y a six mois, je suis venu à Genève. J'apprends l'allemand depuis trois mois.",
+    "k": "442fb22172d5fd"
+   },
+   {
+    "task": "Compare a past job with now: two sentences with war or hatte, two with the present.",
+    "model": "Früher war ich Business Analyst. Ich hatte viele Meetings. Heute bin ich Teamleiter. Ich habe mehr Verantwortung und ein tolles Team.",
+    "modelFr": "Avant, j'étais business analyst. J'avais beaucoup de réunions. Aujourd'hui, je suis chef d'équipe. J'ai plus de responsabilités et une super équipe.",
+    "k": "73c36ef657be15"
+   }
+  ],
+  "writing": {
+   "task": "Write a short email to a company. You saw their ad for a summer job. Say who you are, ask if the job is still free and ask about the working hours.",
+   "model": "Sehr geehrte Damen und Herren, ich habe Ihre Anzeige gelesen. Ich bin Studentin und suche einen Job für zwei Monate. Ist die Stelle noch frei? Wie ist die Arbeitszeit? Mit freundlichen Grüßen, Léa Dubois",
+   "modelFr": "Madame, Monsieur, j'ai lu votre annonce. Je suis étudiante et je cherche un job pour deux mois. Le poste est-il encore libre ? Quels sont les horaires de travail ? Meilleures salutations, Léa Dubois",
+   "k": "cd85fbd8def495"
+  },
+  "exam": [
+   {
+    "section": "sprechen",
+    "teil": 2,
+    "why": "The workbook's exam task is Sprechen Teil 2: asking and answering questions on a topic card (here Arbeit / Beruf), e.g. Was sind Sie von Beruf? Seit wann arbeiten Sie dort?"
+   }
+  ],
+  "days": [
+   {
+    "title": "Berufe",
+    "learn": "Today you learn to name jobs in the masculine and feminine form and to say what you do and where you work.",
+    "points": [
+     "Was sind Sie von Beruf? Was machst du beruflich?",
+     "Ich bin Informatiker. (no article!)",
+     "Ich arbeite als ... bei ...",
+     "der Arzt / die Ärztin, der Koch / die Köchin, der Lehrer / die Lehrerin",
+     "selbstständig, angestellt, arbeitslos, berufstätig"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "feminine-in",
+     "dativ"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Vor, seit, für",
+    "learn": "Today you learn to tell your life story with dates: when something happened, since when it has been true, and for how long you plan it.",
+    "points": [
+     "vor + Dativ: vor zwei Jahren (il y a)",
+     "seit + Dativ + present: Ich wohne seit April in Genf.",
+     "für + Akkusativ: für drei Monate",
+     "Wo bist du geboren? Ich bin in Marokko geboren.",
+     "Questions: Wann? Seit wann? Wie lange?"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "prepositions-time",
+     "perfekt"
+    ],
+    "speaking": 1
+   },
+   {
+    "title": "Früher war alles anders",
+    "learn": "Today you learn to talk about past jobs with war and hatte, and to call a company about an internship.",
+    "points": [
+     "ich war, du warst, wir waren; ich hatte, du hattest, wir hatten",
+     "Ich hatte viel / wenig Arbeit. Die Kollegen waren nett.",
+     "Ist die Stelle noch frei? Wie lange dauert das Praktikum?",
+     "Wie ist die Arbeitszeit? Bekomme ich Geld?",
+     "Sehr geehrte Damen und Herren ... Mit freundlichen Grüßen"
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "praeteritum-sein-haben"
+    ],
+    "speaking": 2
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "title": "Unterwegs",
+  "titleEn": "On the move",
+  "book": {
+   "vol": 2,
+   "kb": "106-117",
+   "ab": "AB 98-107",
+   "lws": "LWS 31-37"
+  },
+  "level": 4,
+  "levelWhy": "Two new structures at once (the imperative in three forms and man) plus müssen and dürfen in the sentence bracket, with a large vocabulary for offices, travel and hotels.",
+  "goals": [
+   "Explain everyday procedures at an office or a desk with müssen and man (fill in a form, bring your ID, pay a fee).",
+   "Understand instructions and requests and give your own with the imperative (Sie, du, ihr).",
+   "Say what is allowed and what is forbidden with dürfen, erlaubt and verboten.",
+   "Put steps in order with zuerst, dann, danach and zum Schluss.",
+   "Understand a short tourist brochure: sights, guided tours, opening times, admission and discounts.",
+   "Understand hotel offers, book a room and fill in a booking form.",
+   "Manage a hotel check-in: ask about breakfast and parking, and ask someone to repeat."
+  ],
+  "wortfelder": [
+   "rules in traffic and public places",
+   "offices and documents",
+   "tickets and transport",
+   "sightseeing",
+   "hotel and booking form"
+  ],
+  "grammar": [
+   {
+    "id": "modal",
+    "note": "müssen and dürfen in detail: rules, obligations and prohibitions (Man darf hier nicht rauchen), the Satzklammer with separable verbs (Sie müssen einen Antrag ausfüllen)."
+   },
+   {
+    "id": "imperative",
+    "note": "Give instructions and requests: Warten Sie bitte! Komm mit! Macht das Licht aus!"
+   },
+   {
+    "id": "man",
+    "note": "man = people in general; it always takes the er/sie/es verb form: man muss, man darf."
+   },
+   {
+    "id": "present-irregular",
+    "note": "helfen (du hilfst, er hilft) and the e to i verbs nehmen, geben, needed for the du imperative: Hilf! Nimm! Gib!"
+   },
+   {
+    "id": "word-order",
+    "note": "zuerst, dann, danach, zum Schluss in position 1 push the subject after the verb: Zuerst müssen Sie bezahlen."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Die Regeln im Fitnessstudio",
+    "setting": "Alexandre signs up at a gym during a work week in Zürich and asks about the rules.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Willkommen im Fitnessstudio! Ist heute Ihr erster Tag?",
+      "fr": "Bienvenue à la salle de sport ! C'est votre premier jour aujourd'hui ?",
+      "k": "d89f154d59aa6e"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja. Was muss ich hier wissen?",
+      "fr": "Oui. Qu'est-ce que je dois savoir ici ?",
+      "k": "1d7680f754ba3b"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Zuerst füllen Sie bitte die Anmeldung aus. Und bringen Sie morgen Ihren Ausweis mit.",
+      "fr": "D'abord, remplissez le formulaire d'inscription, s'il vous plaît. Et apportez votre pièce d'identité demain.",
+      "k": "28e17f984e273f"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Kein Problem. Darf man hier Musik hören?",
+      "fr": "Pas de problème. On a le droit d'écouter de la musique ici ?",
+      "k": "c306e7a7b669cb"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ja, aber nur mit Kopfhörern. Laute Musik ist verboten.",
+      "fr": "Oui, mais seulement avec des écouteurs. La musique forte est interdite.",
+      "k": "2291017e4b8cba"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Und darf ich meine Wasserflasche mitnehmen?",
+      "fr": "Et je peux prendre ma bouteille d'eau ?",
+      "k": "772e100974b53c"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Natürlich. Aber Essen ist hier nicht erlaubt. Und man muss immer ein Handtuch benutzen.",
+      "fr": "Bien sûr. Mais manger n'est pas permis ici. Et on doit toujours utiliser une serviette.",
+      "k": "7168891485df4c"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Gut. Wann muss ich die Gebühr bezahlen?",
+      "fr": "Bien. Quand est-ce que je dois payer les frais ?",
+      "k": "e82da59233773e"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Jeden Monat, mit der Kreditkarte. Ihre Tasche können Sie da vorne lassen.",
+      "fr": "Chaque mois, par carte de crédit. Vous pouvez laisser votre sac là-devant.",
+      "k": "c4084face99822"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Perfekt, danke! Dann fange ich gleich an.",
+      "fr": "Parfait, merci ! Alors je commence tout de suite.",
+      "k": "2cc73f7bea6e28"
+     }
+    ]
+   },
+   {
+    "title": "Check-in in Luzern",
+    "setting": "A guest from Geneva checks in at a small hotel in Lucerne in the evening.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Guten Abend! Herzlich willkommen im Hotel Seeblick.",
+      "fr": "Bonsoir ! Bienvenue à l'hôtel Seeblick.",
+      "k": "2abdc67eb57c4c"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Guten Abend. Ich habe ein Einzelzimmer reserviert. Mein Name ist Morel.",
+      "fr": "Bonsoir. J'ai réservé une chambre simple. Je m'appelle Morel.",
+      "k": "e804d40d0520b4"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Moment, bitte. Ja, Frau Morel, zwei Nächte. Füllen Sie bitte noch dieses Formular aus.",
+      "fr": "Un instant, s'il vous plaît. Oui, Madame Morel, deux nuits. Remplissez encore ce formulaire, s'il vous plaît.",
+      "k": "74c6e0cbe93108"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Natürlich. Ist das Frühstück inklusive?",
+      "fr": "Bien sûr. Le petit-déjeuner est compris ?",
+      "k": "711922be677369"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Ja, das Frühstück gibt es von sieben bis zehn Uhr im Restaurant.",
+      "fr": "Oui, le petit-déjeuner est servi de sept à dix heures au restaurant.",
+      "k": "00a4a649c1aa8d"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Entschuldigung, können Sie das bitte wiederholen?",
+      "fr": "Pardon, vous pouvez répéter, s'il vous plaît ?",
+      "k": "3927a07ec1deb3"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Gern. Von sieben bis zehn Uhr, im Restaurant neben der Rezeption.",
+      "fr": "Volontiers. De sept à dix heures, au restaurant à côté de la réception.",
+      "k": "f0ddaf01bfa55d"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Danke. Und kann man hier kostenlos parken?",
+      "fr": "Merci. Et on peut se garer gratuitement ici ?",
+      "k": "af99fe8626b16f"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Leider nicht. Der Parkplatz kostet fünfzehn Franken pro Nacht. Hier ist Ihr Schlüssel, Zimmer zweihundertzwölf. Der Lift ist dort vorne.",
+      "fr": "Malheureusement non. Le parking coûte quinze francs par nuit. Voici votre clé, chambre deux cent douze. L'ascenseur est là-bas.",
+      "k": "1bb73de926016f"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Vielen Dank. Gute Nacht!",
+      "fr": "Merci beaucoup. Bonne nuit !",
+      "k": "11efca9a65ecba"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "word-stress",
+   "aspiration",
+   "shadowing"
+  ],
+  "speaking": [
+   {
+    "task": "A German-speaking colleague wants to join your gym. Explain two or three rules with man muss and man darf.",
+    "model": "Im Fitnessstudio muss man ein Handtuch mitbringen. Man darf dort nicht essen, aber man darf Wasser trinken.",
+    "modelFr": "À la salle de sport, on doit apporter une serviette. On n'a pas le droit d'y manger, mais on peut boire de l'eau.",
+    "k": "86a37b00e3df01"
+   },
+   {
+    "task": "A friend visits your flat. Give three friendly instructions with du (use doch, bitte, mal).",
+    "model": "Komm doch rein! Gib mir deine Jacke. Trink einen Kaffee, und mach bitte die Tür zu.",
+    "modelFr": "Entre donc ! Donne-moi ta veste. Bois un café, et ferme la porte, s'il te plaît.",
+    "k": "3510f1a4cdcf1e"
+   },
+   {
+    "task": "At a hotel reception you did not understand. Ask the receptionist to repeat and to speak slowly, then ask if breakfast is included.",
+    "model": "Entschuldigung, können Sie das bitte wiederholen? Sprechen Sie bitte langsam. Ist das Frühstück inklusive?",
+    "modelFr": "Pardon, pouvez-vous répéter, s'il vous plaît ? Parlez lentement, s'il vous plaît. Le petit-déjeuner est-il compris ?",
+    "k": "6d8c75e06ce392"
+   }
+  ],
+  "writing": {
+   "task": "A friend from Basel visits you in Geneva this weekend. Write a short message: what to do when they arrive at the station (imperatives with du) and one rule with man.",
+   "model": "Hallo Jonas, nimm am Bahnhof den Bus und steig an der Haltestelle Plainpalais aus. Ruf mich bitte an, dann hole ich dich ab. In Genf muss man im Bus ein Ticket haben. Bis Samstag! Alexandre",
+   "modelFr": "Salut Jonas, à la gare, prends le bus et descends à l'arrêt Plainpalais. Appelle-moi, s'il te plaît, et je viens te chercher. À Genève, il faut avoir un billet dans le bus. À samedi ! Alexandre",
+   "k": "f1baa7ab6da28c"
+  },
+  "exam": [
+   {
+    "section": "schreiben",
+    "teil": 1,
+    "why": "The lesson's Prüfungsaufgabe is Schreiben Teil 1: completing a form with someone's details, exactly like the registration and hotel booking forms of this lesson."
+   },
+   {
+    "section": "sprechen",
+    "teil": 3,
+    "why": "Imperatives and Kann man ...? / Darf man ...? questions are what you need to make and answer requests in Sprechen Teil 3."
+   }
+  ],
+  "days": [
+   {
+    "title": "Rules and procedures",
+    "learn": "Today you learn to explain how things work at an office or a gym: what you must do, what you may do and in which order.",
+    "points": [
+     "müssen and dürfen: ich muss, du musst; ich darf, du darfst",
+     "man + er/sie/es form: Man muss ein Ticket haben. Hier darf man nicht rauchen.",
+     "erlaubt / verboten, and words like der Antrag, der Ausweis, die Gebühr, die Anmeldung",
+     "Steps in order: zuerst, dann, danach, zum Schluss"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "modal",
+     "man",
+     "word-order"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Giving instructions",
+    "learn": "Today you learn to tell people what to do, politely with Sie and in a friendly way with du and ihr.",
+    "points": [
+     "Sie imperative: Warten Sie bitte! Füllen Sie das Formular aus.",
+     "du imperative: Komm! Nimm! Hilf! Fahr! Warte!",
+     "ihr imperative: Macht die Handys aus! Seid leise!",
+     "sein: Sei / Seid / Seien Sie; softeners bitte, doch, mal"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "imperative",
+     "present-irregular"
+    ],
+    "speaking": 1
+   },
+   {
+    "title": "Sightseeing and hotels",
+    "learn": "Today you learn to understand a city brochure, book a room and handle a hotel check-in.",
+    "points": [
+     "Sightseeing words: die Sehenswürdigkeit, die Führung, der Eintritt, die Ermäßigung, kostenlos",
+     "Hotel words: das Einzelzimmer, das Doppelzimmer, das Frühstück ist inklusive, die Rezeption, der Schlüssel",
+     "Useful questions: Können Sie das bitte wiederholen? Kann man hier parken?",
+     "Booking forms: Ankunft, Name, Wünsche (Nichtraucher, Halbpension)"
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "man",
+     "imperative"
+    ],
+    "speaking": 2
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "title": "Gesundheit und Krankheit",
+  "titleEn": "Health and illness",
+  "book": {
+   "vol": 2,
+   "kb": "118-129",
+   "ab": "AB 108-119",
+   "lws": "LWS 37-40"
+  },
+  "level": 3,
+  "levelWhy": "The grammar is light (one more modal, sollen, and the rest of the possessives you already know); the real work is the body and illness vocabulary and the phone language for appointments.",
+  "goals": [
+   "Name the parts of the body and say what hurts (Mein Kopf tut weh, meine Füße tun weh).",
+   "Say how you feel and describe simple symptoms: Fieber, Husten, Schnupfen, Schmerzen.",
+   "Talk about how other people feel with sein, ihr, unser and euer.",
+   "Understand and pass on instructions and advice from a doctor with sollen.",
+   "Understand short ads (sports groups, courses) and write a short inquiry email.",
+   "Arrange, change and cancel an appointment on the phone."
+  ],
+  "wortfelder": [
+   "body parts",
+   "illnesses and symptoms",
+   "at the doctor's",
+   "email and letter parts"
+  ],
+  "grammar": [
+   {
+    "id": "possessives",
+    "note": "The full set for talking about others: sein (his), ihr (her, their), unser, euer (eure!), Ihr. Used with body parts: Sein Bein tut weh, ihre Ohren tun weh."
+   },
+   {
+    "id": "modal",
+    "note": "New modal sollen (ich soll, du sollst, er soll, wir sollen, ihr sollt, sie sollen) for instructions from someone else: Der Arzt sagt, ich soll zu Hause bleiben. Soll ich ...? asks for advice."
+   },
+   {
+    "id": "present-irregular",
+    "note": "geben (du gibst), laufen (du läufst) and ausfallen (der Kurs fällt aus) appear in this lesson."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Beim Arzt nach dem Tennis",
+    "setting": "Alexandre fell during a tennis match and sees a doctor.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Guten Tag. Was fehlt Ihnen denn?",
+      "fr": "Bonjour. Qu'est-ce qui ne va pas ?",
+      "k": "1cd6e6e241867c"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Mein Arm tut weh, und meine Hand auch.",
+      "fr": "J'ai mal au bras, et à la main aussi.",
+      "k": "c80dce35ba2f9e"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Seit wann haben Sie die Schmerzen?",
+      "fr": "Depuis quand avez-vous ces douleurs ?",
+      "k": "ec4612cf25b92c"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Seit Samstag. Ich habe Tennis gespielt und bin hingefallen.",
+      "fr": "Depuis samedi. J'ai joué au tennis et je suis tombé.",
+      "k": "f5d35bfcdfe7ea"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Zeigen Sie mal. Tut das weh?",
+      "fr": "Montrez-moi. Ça fait mal ?",
+      "k": "c248c1e40f0474"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, ein bisschen. Ist es schlimm?",
+      "fr": "Oui, un peu. C'est grave ?",
+      "k": "931fd14ffe316d"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Nein, aber Sie sollen zwei Wochen kein Tennis spielen. Verwenden Sie diese Salbe zweimal am Tag.",
+      "fr": "Non, mais vous ne devez pas jouer au tennis pendant deux semaines. Utilisez cette pommade deux fois par jour.",
+      "k": "617d8f18b611a1"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Zwei Wochen! Darf ich ins Fitnessstudio gehen?",
+      "fr": "Deux semaines ! Est-ce que j'ai le droit d'aller à la salle de sport ?",
+      "k": "4760fb55773a9e"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ja, aber trainieren Sie nur die Beine. Und kommen Sie am Freitag noch einmal vorbei.",
+      "fr": "Oui, mais entraînez seulement les jambes. Et repassez vendredi.",
+      "k": "dbdcefcae46128"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "In Ordnung. Vielen Dank, Frau Doktor.",
+      "fr": "D'accord. Merci beaucoup, docteure.",
+      "k": "a275d46549d9d0"
+     }
+    ]
+   },
+   {
+    "title": "Ein neuer Termin",
+    "setting": "Alexandre phones a doctor's practice to move his appointment and to ask about a sick colleague.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Praxis Doktor Huber, guten Morgen.",
+      "fr": "Cabinet du docteur Huber, bonjour.",
+      "k": "b0bfd0a361c6ad"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Guten Morgen, hier spricht Alexandre Benjelloun. Ich habe am Donnerstag um neun Uhr einen Termin, aber leider kann ich nicht kommen.",
+      "fr": "Bonjour, ici Alexandre Benjelloun. J'ai rendez-vous jeudi à neuf heures, mais malheureusement je ne peux pas venir.",
+      "k": "14892e20dea1b1"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Kein Problem. Möchten Sie einen neuen Termin?",
+      "fr": "Pas de problème. Vous voulez un nouveau rendez-vous ?",
+      "k": "9308017abf466e"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, gern. Geht es nächste Woche am Montag?",
+      "fr": "Oui, volontiers. Est-ce que c'est possible lundi prochain ?",
+      "k": "ca17ac9e403971"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Am Montag um halb fünf ist noch etwas frei.",
+      "fr": "Lundi à seize heures trente, il y a encore une place.",
+      "k": "e092ca8af2c410"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Das passt. Und noch eine Frage: Meine Kollegin hat seit gestern Fieber und Husten. Kann sie heute vorbeikommen?",
+      "fr": "Ça me va. Et encore une question : ma collègue a de la fièvre et de la toux depuis hier. Est-ce qu'elle peut passer aujourd'hui ?",
+      "k": "2c858d9e23f465"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ist es dringend?",
+      "fr": "C'est urgent ?",
+      "k": "c086d2f5310dc9"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ich glaube schon. Ihr Kopf tut auch sehr weh.",
+      "fr": "Je crois que oui. Elle a aussi très mal à la tête.",
+      "k": "aaf15e85db89d9"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Dann soll sie um elf Uhr kommen. Sie soll ihre Versichertenkarte mitbringen.",
+      "fr": "Alors elle doit venir à onze heures. Elle doit apporter sa carte d'assurance.",
+      "k": "0141cc61224262"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Super, vielen Dank! Auf Wiederhören!",
+      "fr": "Super, merci beaucoup ! Au revoir !",
+      "k": "b1b0afda87bac6"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "h-sound",
+   "ich-vs-ach",
+   "final-devoicing"
+  ],
+  "speaking": [
+   {
+    "task": "You are at the doctor's. Say what hurts and since when.",
+    "model": "Mein Rücken tut weh, und mein Kopf auch. Ich habe seit Montag Schmerzen.",
+    "modelFr": "J'ai mal au dos, et à la tête aussi. J'ai des douleurs depuis lundi.",
+    "k": "b980aa3c59e26e"
+   },
+   {
+    "task": "Your friend Marc was at the doctor. Tell someone what is wrong with him and two things the doctor said (sollen, sein).",
+    "model": "Marc ist krank. Sein Hals tut weh. Er soll viel Tee trinken und zwei Tage zu Hause bleiben.",
+    "modelFr": "Marc est malade. Il a mal à la gorge. Il doit boire beaucoup de thé et rester deux jours à la maison.",
+    "k": "4bc7763c5790c1"
+   },
+   {
+    "task": "Phone a practice: you cannot come to tomorrow's appointment. Cancel it and ask for a new one.",
+    "model": "Guten Tag, hier spricht Alexandre Benjelloun. Ich habe morgen um zehn Uhr einen Termin, aber ich kann leider nicht kommen. Geht es am Freitag?",
+    "modelFr": "Bonjour, ici Alexandre Benjelloun. J'ai rendez-vous demain à dix heures, mais malheureusement je ne peux pas venir. Est-ce possible vendredi ?",
+    "k": "3b17b6f50155de"
+   }
+  ],
+  "writing": {
+   "task": "You are ill and cannot go to your tennis lesson on Thursday. Write an email to your coach: say sorry, say what is wrong, what the doctor said (sollen), and ask for a new date.",
+   "model": "Liebe Frau Weber, leider kann ich am Donnerstag nicht zum Tennistraining kommen. Ich habe Fieber und mein Hals tut weh. Der Arzt sagt, ich soll eine Woche nicht trainieren. Geht es nächsten Donnerstag? Viele Grüße Alexandre",
+   "modelFr": "Chère Madame Weber, malheureusement je ne peux pas venir à l'entraînement de tennis jeudi. J'ai de la fièvre et j'ai mal à la gorge. Le médecin dit que je ne dois pas m'entraîner pendant une semaine. Est-ce possible jeudi prochain ? Meilleures salutations, Alexandre",
+   "k": "fb0a94d2470829"
+  },
+  "exam": [
+   {
+    "section": "hoeren",
+    "teil": 1,
+    "why": "The lesson's Prüfungsaufgabe is Hören Teil 1: short everyday conversations (at the doctor's, on the phone) with a multiple-choice question; you must catch days, times and what someone should do."
+   },
+   {
+    "section": "schreiben",
+    "teil": 2,
+    "why": "An email to cancel or move an appointment, giving a reason and asking for a new date, is a typical Schreiben Teil 2 task."
+   }
+  ],
+  "days": [
+   {
+    "title": "What hurts?",
+    "learn": "Today you learn the parts of the body and how to say what hurts, for you and for other people.",
+    "points": [
+     "Body parts with articles: der Kopf, der Bauch, der Rücken, die Hand, das Bein, das Auge...",
+     "Mein Kopf tut weh (one thing) / Meine Füße tun weh (plural)",
+     "Symptoms: Ich habe Fieber, Husten, Schnupfen, Schmerzen.",
+     "Possessives for others: sein Arm, ihre Nase, unser Sohn, eure Tochter"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "possessives"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Advice and appointments",
+    "learn": "Today you learn to understand and pass on a doctor's advice with sollen, and to make, move or cancel an appointment on the phone.",
+    "points": [
+     "sollen: ich soll, du sollst, er soll, ihr sollt; Der Arzt sagt, ich soll ...",
+     "Soll ich ...? to ask for advice",
+     "Phone phrases: einen Termin vereinbaren, ändern, absagen; Geht es am Montag? Das passt.",
+     "Ist es dringend? In Ordnung. Kann ich vorbeikommen?"
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "modal",
+     "possessives"
+    ],
+    "speaking": 2
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "title": "In der Stadt unterwegs",
+  "titleEn": "Getting around town",
+  "book": {
+   "vol": 2,
+   "kb": "130-141",
+   "ab": "AB 120-130",
+   "lws": "LWS 41-43"
+  },
+  "level": 4,
+  "levelWhy": "Many dative prepositions at once (mit, zu, the nine place prepositions with Wo?) plus the contrast Wo? / Wohin? and separable train verbs.",
+  "goals": [
+   "Ask for the way politely and understand simple directions (Wie komme ich zum Bahnhof? Gehen Sie geradeaus und dann links.)",
+   "Give directions yourself with the imperative and with nach rechts, nach links, geradeaus, an der Ampel, nach der Brücke",
+   "Name means of transport and say how you travel with mit + dative (mit dem Tram, mit der S-Bahn) or zu Fuß",
+   "Say where something is with an, auf, hinter, in, neben, über, unter, vor, zwischen + dative (Wo? Auf dem Parkplatz.)",
+   "Say where you are going with zu, nach and in (Wohin? Zum Arzt, nach Bern, ins Kino)",
+   "Name places and shops in town: die Apotheke, die Post, die Bäckerei, die Buchhandlung, die Tankstelle",
+   "Understand station announcements and ask at the ticket counter about trains, platforms, connections and delays"
+  ],
+  "wortfelder": [
+   "places and shops in town",
+   "means of transport",
+   "directions",
+   "at the train station"
+  ],
+  "grammar": [
+   {
+    "id": "prepositions-place",
+    "note": "Nine place prepositions answer the question Wo? and take the dative: auf dem Tisch, neben der Post, zwischen den Häusern."
+   },
+   {
+    "id": "prepositions-direction",
+    "note": "Wohin? zu + dative for people and places (zum Arzt, zur Post), nach for cities, countries and nach Hause, in + accusative for places you go into (ins Kino)."
+   },
+   {
+    "id": "dativ",
+    "note": "mit + dative for transport (mit dem Bus, mit der S-Bahn, mit dem Flugzeug, but zu Fuß) and the short forms zum / zur for directions."
+   },
+   {
+    "id": "imperative",
+    "note": "Giving directions with the Sie and du imperative: Gehen Sie geradeaus. Fahr an der Ampel nach links."
+   },
+   {
+    "id": "separable",
+    "note": "Train verbs: abfahren, ankommen, einsteigen, umsteigen, aussteigen (Der Zug fährt um acht Uhr ab. Sie müssen in Bern umsteigen.)."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Wie komme ich zur Post?",
+    "setting": "In Geneva near Plainpalais, a tourist from Germany stops Alexandre on his way to the gym.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Entschuldigung, wie komme ich zur Post? Ich bin fremd hier.",
+      "fr": "Excusez-moi, comment est-ce que je vais à la poste ? Je ne suis pas d'ici.",
+      "k": "a847e49032140e"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Zur Post? Das ist nicht weit. Gehen Sie hier geradeaus bis zur Ampel.",
+      "fr": "À la poste ? Ce n'est pas loin. Allez tout droit jusqu'au feu.",
+      "k": "643a5cd2f2b6db"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Bis zur Ampel, okay. Und dann?",
+      "fr": "Jusqu'au feu, d'accord. Et ensuite ?",
+      "k": "622b63764da22d"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "An der Ampel gehen Sie nach links. Die Post ist neben der Bank, gegenüber vom Supermarkt.",
+      "fr": "Au feu, vous allez à gauche. La poste est à côté de la banque, en face du supermarché.",
+      "k": "6c455b415ff417"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Vielen Dank! Und gibt es hier auch eine Apotheke in der Nähe?",
+      "fr": "Merci beaucoup ! Et il y a aussi une pharmacie près d'ici ?",
+      "k": "471ac378b0aa5a"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, da drüben an der Ecke, zwischen dem Café und der Bäckerei.",
+      "fr": "Oui, là-bas au coin, entre le café et la boulangerie.",
+      "k": "0cf545fccfa165"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Super. Kann ich danach mit dem Tram zum Bahnhof fahren?",
+      "fr": "Super. Est-ce que je peux ensuite aller à la gare en tram ?",
+      "k": "cdeea9aacd0bdd"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, die Haltestelle ist direkt vor der Post. Nehmen Sie das Tram Nummer fünfzehn.",
+      "fr": "Oui, l'arrêt est juste devant la poste. Prenez le tram numéro quinze.",
+      "k": "7945874fb46a1d"
+     }
+    ]
+   },
+   {
+    "title": "Am Schalter in Genf",
+    "setting": "At Geneva main station, Alexandre buys a ticket to Zürich for a client meeting.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Guten Tag. Ich möchte morgen früh nach Zürich fahren. Gibt es einen direkten Zug?",
+      "fr": "Bonjour. Je voudrais aller à Zurich demain matin. Y a-t-il un train direct ?",
+      "k": "7effc70486f56c"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ja, der Zug fährt um sieben Uhr zwölf ab und kommt um zehn Uhr in Zürich an.",
+      "fr": "Oui, le train part à sept heures douze et arrive à Zurich à dix heures.",
+      "k": "f98f0b357ac96b"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Perfekt. Muss ich umsteigen?",
+      "fr": "Parfait. Est-ce que je dois changer ?",
+      "k": "7612ddad2adb37"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Nein, Sie fahren direkt. Einfach oder hin und zurück?",
+      "fr": "Non, c'est direct. Aller simple ou aller-retour ?",
+      "k": "1cc1620fa337ee"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Hin und zurück, bitte. Zweite Klasse. Von welchem Gleis fährt der Zug ab?",
+      "fr": "Aller-retour, s'il vous plaît. Deuxième classe. De quelle voie part le train ?",
+      "k": "4d9de396034d4c"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Von Gleis vier. Aber achten Sie bitte auf die Durchsagen, morgen gibt es Bauarbeiten.",
+      "fr": "De la voie quatre. Mais faites attention aux annonces, demain il y a des travaux.",
+      "k": "7336d207630a2d"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Hat der Zug dann Verspätung?",
+      "fr": "Le train aura du retard, alors ?",
+      "k": "b3361fc1993c69"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Vielleicht zehn Minuten. Hier ist Ihr Billett. Gute Reise!",
+      "fr": "Peut-être dix minutes. Voici votre billet. Bon voyage !",
+      "k": "2d617d5eb9f68f"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "ich-vs-ach",
+   "word-stress"
+  ],
+  "speaking": [
+   {
+    "task": "A tourist asks you: Wie komme ich zum Bahnhof? Give directions in three steps with the Sie imperative (geradeaus, an der Ampel, nach links / rechts).",
+    "model": "Gehen Sie hier geradeaus bis zur Brücke. Nach der Brücke gehen Sie an der Ampel nach rechts. Dann sehen Sie den Bahnhof links.",
+    "modelFr": "Allez tout droit jusqu'au pont. Après le pont, au feu, allez à droite. Ensuite, vous voyez la gare à gauche.",
+    "k": "e744d2298c6494"
+   },
+   {
+    "task": "Describe your street or your neighbourhood: say where three places are with neben, gegenüber, zwischen, hinter or vor.",
+    "model": "Ich wohne in der Nähe vom Bahnhof. Neben meinem Haus ist eine Bäckerei. Die Haltestelle ist direkt vor dem Haus, und hinter dem Haus ist ein Park.",
+    "modelFr": "J'habite près de la gare. À côté de ma maison, il y a une boulangerie. L'arrêt est juste devant la maison, et derrière la maison, il y a un parc.",
+    "k": "95874ec60ae6d7"
+   },
+   {
+    "task": "Say how you get to work, to the gym and to the tennis court (mit dem ..., mit der ..., zu Fuß) and where you go on Saturday.",
+    "model": "Ich fahre mit dem Tram zur Arbeit. Ins Fitnessstudio gehe ich zu Fuß. Zum Tennisplatz fahre ich mit dem Velo. Am Samstag fahre ich mit dem Zug nach Lausanne.",
+    "modelFr": "Je vais au travail en tram. À la salle de sport, j'y vais à pied. Au court de tennis, j'y vais à vélo. Samedi, je vais à Lausanne en train.",
+    "k": "feab68a7b3bedd"
+   }
+  ],
+  "writing": {
+   "task": "A colleague from Zürich visits you at home for the first time. Write a short message: how to get from the station to your flat (on foot or by tram, directions, where your building is).",
+   "model": "Hallo Reto, vom Bahnhof sind es nur zehn Minuten zu Fuß. Geh geradeaus bis zur Brücke und dann an der Ampel nach rechts. Ich wohne neben der Apotheke, Nummer zwölf. Ruf mich bitte vom Bahnhof an! Alexandre",
+   "modelFr": "Salut Reto, de la gare, c'est seulement dix minutes à pied. Va tout droit jusqu'au pont, puis au feu à droite. J'habite à côté de la pharmacie, numéro douze. Appelle-moi depuis la gare, s'il te plaît ! Alexandre",
+   "k": "9902feb58ed171"
+  },
+  "exam": [
+   {
+    "section": "hoeren",
+    "teil": 2,
+    "why": "The workbook's exam task is Hören Teil 2: short public announcements (station and train announcements) with one detail to catch, such as the platform, the delay or the connection."
+   }
+  ],
+  "days": [
+   {
+    "title": "Nach dem Weg fragen",
+    "learn": "Today you learn to ask for the way in town, understand the answer and give simple directions yourself.",
+    "points": [
+     "Entschuldigung, wie komme ich zum Bahnhof / zur Post? Gibt es hier eine Apotheke in der Nähe?",
+     "geradeaus, nach links, nach rechts, an der Ampel, bis zur Brücke",
+     "Gehen Sie geradeaus! Fahren Sie nach links! (Sie imperative)",
+     "Tut mir leid, ich bin auch fremd hier.",
+     "Places: die Post, die Bank, die Bäckerei, die Metzgerei, die Tankstelle, die Buchhandlung"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "imperative",
+     "prepositions-direction"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Wo ist das? Wohin gehst du?",
+    "learn": "Today you learn to say exactly where something is and where you are going, and how you travel there.",
+    "points": [
+     "Wo? + dative: auf dem Parkplatz, an der Haltestelle, neben der Bank, zwischen dem Café und der Post",
+     "im (in dem), am (an dem)",
+     "Wohin? zum Arzt, zur Post, nach Bern, ins Kino, nach Hause",
+     "mit dem Bus, mit der S-Bahn, mit dem Tram, mit dem Flugzeug, but zu Fuß",
+     "da vorne, da hinten, da drüben, an der Ecke"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "prepositions-place",
+     "prepositions-direction",
+     "dativ"
+    ],
+    "speaking": 1
+   },
+   {
+    "title": "Am Bahnhof",
+    "learn": "Today you learn to buy a train ticket at the counter and to understand the key words of station announcements.",
+    "points": [
+     "Gibt es einen direkten Zug? Muss ich umsteigen? Von welchem Gleis fährt der Zug ab?",
+     "abfahren, ankommen, einsteigen, umsteigen, aussteigen (prefix at the end)",
+     "Einfach oder hin und zurück? erste / zweite Klasse",
+     "die Verspätung, der Anschluss, der Bahnsteig, die Durchsage",
+     "Swiss words: das Billett (ticket), der Perron (platform), das Tram"
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "separable",
+     "dativ"
+    ],
+    "speaking": 2
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "title": "Kundenservice",
+  "titleEn": "Customer service",
+  "book": {
+   "vol": 2,
+   "kb": "142-153",
+   "ab": "AB 131-141",
+   "lws": "LWS 44-46"
+  },
+  "level": 5,
+  "levelWhy": "Polite requests with the Konjunktiv II forms könnten and würden, plus six time prepositions with the dative (vor, nach, bei, in, bis, ab), on top of separable verbs.",
+  "goals": [
+   "Understand and give time information with vor, nach, bei, in, bis and ab (vor dem Frühstück, in einer Woche, ab Montag)",
+   "Describe a daily routine with time references (Nach dem Training gehe ich ins Büro.)",
+   "Ask about a repair or a service on the phone: model, warranty, price and how long it takes",
+   "Make polite requests with könnten and würden (Könnten Sie mir bitte helfen? Würden Sie das Fenster aufmachen?)",
+   "React politely to a request: Ja, gern. Natürlich. Tut mir leid, das geht leider nicht.",
+   "Understand and leave a short voicemail message with your name, your problem and a callback number",
+   "Understand short service ads (cleaning, repairs, translations, delivery) and choose the right offer",
+   "Use verbs with different prefixes: anmachen, ausmachen, aufmachen, zumachen"
+  ],
+  "wortfelder": [
+   "repair service",
+   "services (cleaning, translation, delivery)",
+   "devices and office things",
+   "complaints and customer service"
+  ],
+  "grammar": [
+   {
+    "id": "prepositions-time-more",
+    "note": "Wann? vor / nach / bei / in + dative (vor dem Essen, in einer Woche); bis and ab mostly without article (bis Freitag, ab Montag)."
+   },
+   {
+    "id": "konjunktiv-hoeflich",
+    "note": "Könnten Sie ...? and Würden Sie ...? + infinitive at the end make requests polite; ich hätte gern for wishes."
+   },
+   {
+    "id": "separable",
+    "note": "One verb, different prefixes: anmachen / ausmachen (switch on / off), aufmachen / zumachen (open / close), plus vorbeibringen, zurückgeben, zurückrufen."
+   },
+   {
+    "id": "prepositions-time",
+    "note": "Contrast vor + time span (vor einer Woche = ago) with in + time span (in einer Woche = from now)."
+   },
+   {
+    "id": "imperative",
+    "note": "From the direct imperative (Machen Sie die Tür zu!) to the polite request (Könnten Sie die Tür zumachen?)."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Die Kaffeemaschine ist kaputt",
+    "setting": "Alexandre calls the repair service because the coffee machine in his flat does not work any more.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Kundenservice, guten Tag. Was kann ich für Sie tun?",
+      "fr": "Service client, bonjour. Que puis-je faire pour vous ?",
+      "k": "283c6d8f1b44e4"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Guten Tag. Meine Kaffeemaschine funktioniert seit gestern nicht mehr.",
+      "fr": "Bonjour. Ma machine à café ne fonctionne plus depuis hier.",
+      "k": "b11e52e0205261"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Das tut mir leid. Welches Modell haben Sie, und haben Sie noch Garantie?",
+      "fr": "Je suis désolée. Quel modèle avez-vous, et avez-vous encore la garantie ?",
+      "k": "f835cb8cae53d6"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ich habe sie vor acht Monaten gekauft. Die Rechnung habe ich noch.",
+      "fr": "Je l'ai achetée il y a huit mois. J'ai encore la facture.",
+      "k": "40d4c89827a840"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Sehr gut, dann ist die Reparatur kostenlos. Könnten Sie die Maschine bei uns vorbeibringen?",
+      "fr": "Très bien, alors la réparation est gratuite. Pourriez-vous déposer la machine chez nous ?",
+      "k": "ef2c790d9486ff"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, gern. Morgen nach der Arbeit, geht das?",
+      "fr": "Oui, volontiers. Demain après le travail, c'est possible ?",
+      "k": "7b02d1fe0a61a7"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Wir haben bis achtzehn Uhr offen. Die Reparatur dauert ungefähr eine Woche.",
+      "fr": "Nous sommes ouverts jusqu'à dix-huit heures. La réparation dure environ une semaine.",
+      "k": "632fd8f7e18940"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Gut. Würden Sie mir bitte Bescheid sagen, wenn sie fertig ist?",
+      "fr": "D'accord. Pourriez-vous me prévenir quand elle sera prête ?",
+      "k": "ca7682fdf44170"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Natürlich. Wir rufen Sie an.",
+      "fr": "Bien sûr. Nous vous appellerons.",
+      "k": "a6d0f4db921e58"
+     }
+    ]
+   },
+   {
+    "title": "Im Büro",
+    "setting": "Monday morning at the office in Vernier: Alexandre and his colleague Sandra prepare a client meeting.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Alexandre, könntest du bitte kurz das Fenster aufmachen? Es ist so warm hier.",
+      "fr": "Alexandre, tu pourrais ouvrir la fenêtre un instant, s'il te plaît ? Il fait si chaud ici.",
+      "k": "f31867fb06203f"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Klar. Und würdest du die Präsentation für den Kunden drucken? Mein Laptop ist kaputt.",
+      "fr": "Bien sûr. Et tu pourrais imprimer la présentation pour le client ? Mon ordinateur portable est en panne.",
+      "k": "d1216b6f6a0529"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Leider nicht, der Drucker hat kein Papier mehr.",
+      "fr": "Malheureusement non, l'imprimante n'a plus de papier.",
+      "k": "c5424f70b57aa9"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Schon wieder? Ich rufe nach dem Meeting die IT-Firma an.",
+      "fr": "Encore ? J'appellerai l'entreprise informatique après la réunion.",
+      "k": "88c3cb29b21e4c"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Wann kommt der Kunde?",
+      "fr": "Quand est-ce que le client arrive ?",
+      "k": "5c1cde97a071aa"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "In einer Stunde. Wir sprechen bis zum Mittagessen über das Projekt.",
+      "fr": "Dans une heure. Nous parlons du projet jusqu'au déjeuner.",
+      "k": "84df2615bee73f"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Okay, dann kaufe ich schnell Papier. Ab zehn Uhr bin ich wieder da.",
+      "fr": "D'accord, alors j'achète vite du papier. À partir de dix heures, je suis de retour.",
+      "k": "4648c336d0cb78"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Super, vielen Dank! Und mach bitte die Tür zu, das Telefon klingelt.",
+      "fr": "Super, merci beaucoup ! Et ferme la porte, s'il te plaît, le téléphone sonne.",
+      "k": "4d3a2c74d30a5c"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "word-stress",
+   "shadowing"
+  ],
+  "speaking": [
+   {
+    "task": "Exam style (Sprechen Teil 3): you get a card with a picture of a window, a light or a printer. Make a polite request with Könnten Sie ...? or Würden Sie ...? and answer your partner's request.",
+    "model": "Könnten Sie bitte das Fenster aufmachen? Ja, gern. Würden Sie bitte das Licht anmachen? Tut mir leid, das geht leider nicht, die Lampe ist kaputt.",
+    "modelFr": "Pourriez-vous ouvrir la fenêtre, s'il vous plaît ? Oui, volontiers. Pourriez-vous allumer la lumière, s'il vous plaît ? Désolé, ce n'est malheureusement pas possible, la lampe est en panne.",
+    "k": "ca882f8af0f188"
+   },
+   {
+    "task": "Describe your Monday with time prepositions: say what you do vor der Arbeit, bei der Arbeit, nach der Arbeit and bis wann you work.",
+    "model": "Vor der Arbeit gehe ich ins Fitnessstudio. Beim Frühstück lese ich meine E-Mails. Ich arbeite bis achtzehn Uhr. Nach der Arbeit spiele ich Tennis.",
+    "modelFr": "Avant le travail, je vais à la salle de sport. Pendant le petit-déjeuner, je lis mes e-mails. Je travaille jusqu'à dix-huit heures. Après le travail, je joue au tennis.",
+    "k": "3ffd31febc96f9"
+   },
+   {
+    "task": "Leave a voicemail for a repair service: your name, the device, the problem, and ask for a callback.",
+    "model": "Guten Tag, hier ist Alexandre Benjelloun. Mein Drucker funktioniert seit Montag nicht mehr. Er hat noch Garantie. Könnten Sie mich bitte zurückrufen? Meine Nummer ist null sieben neun, eins zwei drei, vier fünf, sechs sieben. Danke!",
+    "modelFr": "Bonjour, ici Alexandre Benjelloun. Mon imprimante ne fonctionne plus depuis lundi. Elle est encore sous garantie. Pourriez-vous me rappeler, s'il vous plaît ? Mon numéro est le zéro sept neuf, un deux trois, quatre cinq, six sept. Merci !",
+    "k": "c29da85eb7e43a"
+   }
+  ],
+  "writing": {
+   "task": "Your laptop is broken. Write a short email to the shop: say what the problem is, when you bought it, and ask politely when you can bring it in.",
+   "model": "Sehr geehrte Damen und Herren, ich habe vor drei Monaten bei Ihnen einen Laptop gekauft. Seit gestern funktioniert er nicht mehr. Ich habe noch Garantie. Könnte ich ihn am Samstag vorbeibringen? Mit freundlichen Grüßen, Alexandre Benjelloun",
+   "modelFr": "Madame, Monsieur, il y a trois mois, j'ai acheté chez vous un ordinateur portable. Depuis hier, il ne fonctionne plus. J'ai encore la garantie. Pourrais-je le déposer samedi ? Meilleures salutations, Alexandre Benjelloun",
+   "k": "5573df8ce8683a"
+  },
+  "exam": [
+   {
+    "section": "hoeren",
+    "teil": 3,
+    "why": "The workbook's first exam task is Hören Teil 3: short phone and voicemail messages, where you catch a time, a day or a number, like the service calls and Mailbox messages of this lesson."
+   },
+   {
+    "section": "sprechen",
+    "teil": 3,
+    "why": "The second exam task is Sprechen Teil 3: making a polite request from a picture card and reacting to one, exactly what Könnten Sie ...? and Würden Sie ...? are for."
+   }
+  ],
+  "days": [
+   {
+    "title": "Vor, nach, bei, in, bis, ab",
+    "learn": "Today you learn to say exactly when something happens, before or after something, from or until a time, and describe your day with it.",
+    "points": [
+     "vor dem Frühstück, nach der Arbeit, beim Mittagessen (bei + dem)",
+     "in einer Stunde, in zwei Wochen (in = from now; vor = ago)",
+     "bis Freitag, bis achtzehn Uhr; ab Montag, ab neun Uhr",
+     "Questions: Wann? Bis wann? Ab wann?",
+     "After the time phrase, the verb comes next: Nach dem Training gehe ich ins Büro."
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "prepositions-time-more",
+     "prepositions-time"
+    ],
+    "speaking": 1
+   },
+   {
+    "title": "Reparatur und Service",
+    "learn": "Today you learn to call a customer service about a broken device, ask about warranty and repair time, and leave a voicemail.",
+    "points": [
+     "Mein Handy ist kaputt. Die Kaffeemaschine funktioniert nicht mehr.",
+     "Welches Modell? Habe ich noch Garantie? Wie lange dauert die Reparatur?",
+     "vorbeibringen, zurückgeben, zurückrufen, Bescheid sagen",
+     "Mailbox message: Hier ist ... Könnten Sie mich bitte zurückrufen? Meine Nummer ist ...",
+     "Services: die Reinigung, die Übersetzung, putzen, reinigen, bestellen"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "konjunktiv-hoeflich",
+     "separable"
+    ],
+    "speaking": 2
+   },
+   {
+    "title": "Höfliche Bitten",
+    "learn": "Today you learn to ask for things politely with könnten and würden, and to say yes or no to a request in a friendly way.",
+    "points": [
+     "Könnten Sie bitte ...? Würden Sie bitte ...? Könntest du / Würdest du ...?",
+     "The infinitive goes to the end: Könnten Sie bitte das Fenster aufmachen?",
+     "anmachen / ausmachen (Licht, Computer), aufmachen / zumachen (Tür, Fenster)",
+     "Answers: Ja, gern. Natürlich. Kein Problem. Tut mir leid, das geht leider nicht.",
+     "Ich hätte gern einen Termin."
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "konjunktiv-hoeflich",
+     "imperative",
+     "separable"
+    ],
+    "speaking": 0
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "title": "Neue Kleider",
+  "titleEn": "New clothes",
+  "book": {
+   "vol": 2,
+   "kb": "154-165",
+   "ab": "AB 142-153",
+   "lws": "LWS 47-50"
+  },
+  "level": 5,
+  "levelWhy": "Four new grammar points at once (dative pronouns, dative verbs with the person in the dative, irregular comparison and welch-/dies- endings) that must be combined with nominative and accusative in the same sentence.",
+  "goals": [
+   "Name clothes and accessories with their articles (der Mantel, die Hose, das Hemd ...)",
+   "Ask for and give an opinion on clothes: Wie findest du ...? Die ist toll!",
+   "Say what you like and what fits or suits someone: Das gefällt mir. Die Jacke passt dir perfekt.",
+   "Say who something belongs to: Der Schirm gehört mir.",
+   "Express preferences and ratings with gut, besser, am besten and gern, lieber, am liebsten",
+   "Ask which one someone means and make a choice: Welche meinst du? Diese.",
+   "Find your way in a department store and ask for help: Wo finde ich ...? Haben Sie das in Größe ...?"
+  ],
+  "wortfelder": [
+   "clothes and accessories",
+   "colours and opinions (toll, langweilig, hässlich)",
+   "landscapes (der Berg, der Strand, das Meer)",
+   "department store: floors, departments, goods"
+  ],
+  "grammar": [
+   {
+    "id": "verbs-with-dative",
+    "note": "With gefallen, passen, stehen, gehören, schmecken and helfen, the person is in the dative: Die Jacke gefällt mir."
+   },
+   {
+    "id": "dative-pronouns",
+    "note": "Dative pronouns mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen answer 'to whom?' after verbs like gefallen and helfen."
+   },
+   {
+    "id": "comparison",
+    "note": "gut - besser - am besten, gern - lieber - am liebsten, viel - mehr - am meisten; compare with als."
+   },
+   {
+    "id": "demonstrative",
+    "note": "Ask with welcher/welche/welches and answer with dieser/diese/dieses or with der/die/das used as a pronoun."
+   },
+   {
+    "id": "modal",
+    "note": "mögen: ich mag, du magst, er mag, used with a noun to say what you like: Ich mag Jeans. Welchen Wochentag magst du am liebsten?"
+   },
+   {
+    "id": "dativ",
+    "note": "Recycled with nouns after dative verbs: Der Schirm gehört meinem Chef. Die Farbe steht meiner Schwester gut."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Ein Anzug für das Meeting",
+    "setting": "Before a client meeting, Alexandre shops for a suit in a department store in Zürich with his friend Nadia.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Nadia, wie findest du diesen Anzug hier?",
+      "fr": "Nadia, comment tu trouves ce costume ?",
+      "k": "70bf3b14bed67f"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Der graue? Der ist ein bisschen langweilig. Probier mal den blauen an!",
+      "fr": "Le gris ? Il est un peu ennuyeux. Essaie donc le bleu !",
+      "k": "ed9f33b787aa0e"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Okay. Und, passt er mir?",
+      "fr": "D'accord. Alors, il me va ?",
+      "k": "c2823def708b1c"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ja, perfekt! Und die Farbe steht dir sehr gut.",
+      "fr": "Oui, parfaitement ! Et la couleur te va très bien.",
+      "k": "f889e98f784c83"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Gut. Brauche ich auch ein neues Hemd?",
+      "fr": "Bien. Il me faut aussi une nouvelle chemise ?",
+      "k": "cf8ae85edbff5b"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ja. Welches gefällt dir besser, das weiße oder das hellblaue?",
+      "fr": "Oui. Laquelle te plaît le plus, la blanche ou la bleu clair ?",
+      "k": "6afa8d27990078"
+     },
+     {
+      "sp": "A",
+      "g": "m",
+      "t": "Das weiße. Aber am liebsten trage ich eigentlich Jeans und T-Shirt.",
+      "fr": "La blanche. Mais en fait, ce que je préfère porter, c'est un jean et un t-shirt.",
+      "k": "85b7eb51bb5917"
+     },
+     {
+      "sp": "B",
+      "g": "f",
+      "t": "Ich weiß! Aber für das Meeting ist der Anzug besser.",
+      "fr": "Je sais ! Mais pour la réunion, le costume est mieux.",
+      "k": "787dd7577e0181"
+     }
+    ]
+   },
+   {
+    "title": "Im Kaufhaus",
+    "setting": "Alexandre asks a sales assistant in a department store where to find things.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Guten Tag, kann ich Ihnen helfen?",
+      "fr": "Bonjour, je peux vous aider ?",
+      "k": "82f0d0f3629be3"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Ja, bitte. Ich suche einen Gürtel. Wo finde ich Herrenmode?",
+      "fr": "Oui, s'il vous plaît. Je cherche une ceinture. Où se trouve la mode homme ?",
+      "k": "6925bfdbaf78a2"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Herrenmode ist im ersten Obergeschoss, gleich neben der Rolltreppe.",
+      "fr": "La mode homme est au premier étage, juste à côté de l'escalator.",
+      "k": "eee51e245edd85"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Danke. Und gibt es hier auch eine Drogerie? Ich brauche eine Zahnbürste.",
+      "fr": "Merci. Et il y a aussi une droguerie ici ? J'ai besoin d'une brosse à dents.",
+      "k": "877b98efe1909b"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ja, die Drogerie ist im Erdgeschoss, beim Ausgang.",
+      "fr": "Oui, la droguerie est au rez-de-chaussée, près de la sortie.",
+      "k": "a0ed1f3c8df909"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Super. Ach, und diese Jacke hier, haben Sie die auch in Größe zweiundfünfzig?",
+      "fr": "Super. Ah, et cette veste, vous l'avez aussi en taille cinquante-deux ?",
+      "k": "35c33edf1cf6e1"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Moment, ja, hier. Möchten Sie sie anprobieren?",
+      "fr": "Un instant, oui, la voici. Vous voulez l'essayer ?",
+      "k": "de944bd549aff2"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Gern. Wo ist die Kabine?",
+      "fr": "Volontiers. Où est la cabine ?",
+      "k": "e83cb9fb617d22"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "ue-ui-oe",
+   "shadowing"
+  ],
+  "speaking": [
+   {
+    "task": "Look at what a friend is wearing (or imagine it) and give three opinions with gefallen, passen and stehen.",
+    "model": "Die Jacke gefällt mir sehr gut. Die Hose passt dir perfekt. Aber die Farbe vom Pullover steht dir nicht so gut.",
+    "modelFr": "La veste me plaît beaucoup. Le pantalon te va parfaitement. Mais la couleur du pull ne te va pas très bien.",
+    "k": "08f3c14c328c80"
+   },
+   {
+    "task": "Talk about your preferences with gern, lieber and am liebsten: sport, drinks and clothes.",
+    "model": "Ich spiele gern Tennis, aber ich trainiere lieber im Fitnessstudio. Ich trinke lieber Tee als Kaffee. Am liebsten trage ich Jeans und Pullover.",
+    "modelFr": "J'aime bien jouer au tennis, mais je préfère m'entraîner à la salle de sport. Je préfère le thé au café. Ce que je préfère porter, c'est un jean et un pull.",
+    "k": "06c89b56633d6d"
+   },
+   {
+    "task": "Exam style (Sprechen Teil 3, making a request): you are in a department store. Ask for help: where you find something, and whether they have it in your size.",
+    "model": "Entschuldigung, können Sie mir helfen? Wo finde ich Schuhe? Und haben Sie diese Jacke auch in Größe zweiundfünfzig?",
+    "modelFr": "Excusez-moi, pouvez-vous m'aider ? Où est-ce que je trouve des chaussures ? Et vous avez aussi cette veste en taille cinquante-deux ?",
+    "k": "ee62dd91291c98"
+   }
+  ],
+  "writing": {
+   "task": "Write a short message to a friend. You bought new clothes for a wedding. Say what you bought, how you like it and ask for your friend's opinion.",
+   "model": "Hallo Marc, ich habe heute einen Anzug für die Hochzeit von Paul gekauft. Er ist dunkelblau und passt mir perfekt. Ein weißes Hemd habe ich auch gekauft. Ich schicke dir ein Foto. Wie findest du den Anzug? Liebe Grüße, Alexandre",
+   "modelFr": "Salut Marc, j'ai acheté aujourd'hui un costume pour le mariage de Paul. Il est bleu foncé et me va parfaitement. J'ai aussi acheté une chemise blanche. Je t'envoie une photo. Comment tu trouves le costume ? Amitiés, Alexandre",
+   "k": "500f25695b5046"
+  },
+  "exam": [
+   {
+    "section": "lesen",
+    "teil": 3,
+    "why": "The workbook's exam task is Lesen Teil 3: reading short signs and notices (here department store signs and sale notices) and deciding richtig or falsch."
+   },
+   {
+    "section": "sprechen",
+    "teil": 3,
+    "why": "Asking for help in a shop (Können Sie mir helfen? Haben Sie das in Größe ...?) is a typical Sprechen Teil 3 request."
+   }
+  ],
+  "days": [
+   {
+    "title": "Kleidung und Meinungen",
+    "learn": "Today you learn the names of everyday clothes and how to say whether something pleases you, fits you or suits you.",
+    "points": [
+     "der Mantel, die Jacke, das Hemd, die Hose, die Schuhe, die Jeans, der Gürtel",
+     "Wie findest du den Pullover? Den finde ich toll / langweilig / hässlich.",
+     "gefallen, passen, stehen + dative: Das gefällt mir. Die Hose passt dir. Blau steht dir gut.",
+     "Dative pronouns: mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen",
+     "One thing: gefällt; two things: gefallen"
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "verbs-with-dative",
+     "dative-pronouns"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Besser und am liebsten",
+    "learn": "Today you learn to compare things and to talk about what you prefer and like most.",
+    "points": [
+     "gut, besser, am besten: Der Anzug ist am besten.",
+     "gern, lieber, am liebsten: Ich laufe lieber. Am liebsten spiele ich Tennis.",
+     "viel, mehr, am meisten",
+     "Compare with als: lieber Tee als Kaffee",
+     "gehören + dative: Wem gehört der Koffer? Er gehört mir."
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "comparison",
+     "verbs-with-dative"
+    ],
+    "speaking": 1
+   },
+   {
+    "title": "Im Kaufhaus",
+    "learn": "Today you learn to choose between items with welcher? and dieser, and to find what you need in a department store.",
+    "points": [
+     "Welcher Mantel? Welche Jacke? Welches Hemd? Welche Schuhe?",
+     "Diesen hier. Die ist super! Der ist zu teuer.",
+     "das Erdgeschoss, das Obergeschoss, das Untergeschoss, der Eingang, der Ausgang",
+     "Kann ich Ihnen helfen? Haben Sie das in Größe ...? Kann ich das anprobieren?",
+     "mögen: Ich mag Jeans. Welchen Tag magst du am liebsten?"
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "demonstrative",
+     "modal"
+    ],
+    "speaking": 2
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "title": "Feste",
+  "titleEn": "Celebrations",
+  "book": {
+   "vol": 2,
+   "kb": "166-177",
+   "ab": "AB 154-162",
+   "lws": "LWS 50-54"
+  },
+  "level": 4,
+  "levelWhy": "The new structures (ordinal endings in dates, the connector denn) are light and recycle the accusative and werden, but dates need two endings (der erste / am ersten) and invitations combine several tenses and cases.",
+  "goals": [
+   "Ask for and give the date: Der Wievielte ist heute? Heute ist der erste Oktober.",
+   "Say when something happens with am + ordinal and im + month: am vierzehnten Juli, im Dezember",
+   "Talk about festivals and public holidays (Weihnachten, Ostern, Silvester, Geburtstag)",
+   "Talk about people and things with accusative pronouns: Ich lade dich ein. Wir besuchen euch.",
+   "Give reasons with denn: Wir feiern, denn Sara hat Geburtstag.",
+   "Understand and write invitations, and accept or decline them",
+   "Congratulate and give good wishes: Herzlichen Glückwunsch! Alles Gute! Frohe Weihnachten!"
+  ],
+  "wortfelder": [
+   "months and dates",
+   "festivals and public holidays",
+   "congratulations and good wishes",
+   "invitations and parties"
+  ],
+  "grammar": [
+   {
+    "id": "ordinals-dates",
+    "note": "Ordinals add -te (1 to 19) or -ste (from 20); dates: Heute ist der erste Mai, but am ersten Mai."
+   },
+   {
+    "id": "connectors",
+    "note": "und, aber, oder and denn join two main clauses without changing the word order: the verb stays in position 2."
+   },
+   {
+    "id": "nom-akk",
+    "note": "Accusative personal pronouns after verbs like einladen, lieb haben, besuchen, kennen: mich, dich, ihn, sie, es, uns, euch, sie, Sie. Ich lade dich ein. Wir besuchen euch."
+   },
+   {
+    "id": "present-irregular",
+    "note": "werden (du wirst, er wird) for age and change: Am Samstag werde ich dreißig. Also einladen (du lädst ein) and waschen (du wäschst)."
+   }
+  ],
+  "dialogues": [
+   {
+    "title": "Die Einladung",
+    "setting": "At the tennis club in Geneva, Alexandre's doubles partner Sara invites him to her birthday party.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Hallo Alexandre! Nächste Woche werde ich dreißig. Ich mache eine Party, und ich lade dich ein!",
+      "fr": "Salut Alexandre ! La semaine prochaine, j'aurai trente ans. Je fais une fête et je t'invite !",
+      "k": "87974db67c48de"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Toll, danke! Wann ist die Party denn?",
+      "fr": "Super, merci ! Elle est quand, la fête ?",
+      "k": "db37d4a0c2b538"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Am Samstag, am siebzehnten Oktober, um acht Uhr bei mir zu Hause.",
+      "fr": "Samedi, le dix-sept octobre, à huit heures chez moi.",
+      "k": "24f30daaec94fd"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Am siebzehnten spiele ich nachmittags ein Turnier, aber am Abend komme ich gern.",
+      "fr": "Le dix-sept, je joue un tournoi l'après-midi, mais le soir je viens volontiers.",
+      "k": "f66fe11a83aa13"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Super! Kannst du einen Nachtisch mitbringen? Ich koche das Essen.",
+      "fr": "Super ! Tu peux apporter un dessert ? Je fais la cuisine.",
+      "k": "1e468b09d09e02"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Klar, ich bringe einen Kuchen mit. Was wünschst du dir zum Geburtstag?",
+      "fr": "Bien sûr, j'apporte un gâteau. Qu'est-ce que tu veux pour ton anniversaire ?",
+      "k": "6ecde7a9d1985f"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Nichts! Ich freue mich, denn alle meine Freunde kommen.",
+      "fr": "Rien ! Je suis contente, car tous mes amis viennent.",
+      "k": "8bb89a9dea3dc5"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Schön! Vielen Dank für die Einladung. Bis Samstag!",
+      "fr": "Chouette ! Merci beaucoup pour l'invitation. À samedi !",
+      "k": "e034e53ab61161"
+     }
+    ]
+   },
+   {
+    "title": "Feste in Genf",
+    "setting": "In the office in Vernier, Alexandre's colleague Martina tells him about a Geneva festival and the end-of-year holidays.",
+    "lines": [
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Alexandre, kennst du schon die Escalade? Die feiert man in Genf im Dezember.",
+      "fr": "Alexandre, tu connais déjà l'Escalade ? On la fête à Genève en décembre.",
+      "k": "04ef42f2aeee19"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Nein, noch nicht. Was macht man da?",
+      "fr": "Non, pas encore. Qu'est-ce qu'on fait ?",
+      "k": "cd6154c09f0986"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Die Kinder tragen Kostüme, und man macht einen Topf aus Schokolade kaputt.",
+      "fr": "Les enfants portent des costumes, et on casse une marmite en chocolat.",
+      "k": "78f8e46c09b672"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Lustig! Und was machst du an Weihnachten?",
+      "fr": "Rigolo ! Et toi, qu'est-ce que tu fais à Noël ?",
+      "k": "54287acd9ca92a"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Ich fahre zu meinen Eltern nach Bern. Wir essen zusammen und packen die Geschenke aus.",
+      "fr": "Je vais chez mes parents à Berne. Nous mangeons ensemble et nous déballons les cadeaux.",
+      "k": "11d41c3e008ba8"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Schön. Ich bleibe hier, denn ich möchte Silvester mit Freunden am See feiern.",
+      "fr": "Chouette. Moi, je reste ici, car je veux fêter la Saint-Sylvestre avec des amis au bord du lac.",
+      "k": "4800f675a35905"
+     },
+     {
+      "sp": "A",
+      "g": "f",
+      "t": "Gute Idee! Dann wünsche ich dir schon jetzt ein gutes neues Jahr.",
+      "fr": "Bonne idée ! Alors je te souhaite déjà une bonne année.",
+      "k": "bf40a86bb9a52e"
+     },
+     {
+      "sp": "B",
+      "g": "m",
+      "t": "Danke, und dir frohe Weihnachten!",
+      "fr": "Merci, et à toi joyeux Noël !",
+      "k": "798a083c0d0af7"
+     }
+    ]
+   }
+  ],
+  "pron": [
+   "vocalized-r",
+   "ich-laut"
+  ],
+  "speaking": [
+   {
+    "task": "Exam style (Sprechen Teil 2, topic card 'Geburtstag'): ask your partner a question about birthdays and answer the same question yourself.",
+    "model": "Wann hast du Geburtstag? Ich habe am vierzehnten Juli Geburtstag. Ich feiere meistens mit Freunden in einem Restaurant.",
+    "modelFr": "Quand est ton anniversaire ? Mon anniversaire est le quatorze juillet. Je le fête généralement avec des amis au restaurant.",
+    "k": "ed4ece375c0fa3"
+   },
+   {
+    "task": "React with the right wish: a colleague has a birthday, a friend gets married, a friend has an exam tomorrow, it is the 24th of December.",
+    "model": "Alles Gute zum Geburtstag! Herzlichen Glückwunsch zur Hochzeit! Viel Glück bei der Prüfung! Frohe Weihnachten!",
+    "modelFr": "Joyeux anniversaire ! Toutes mes félicitations pour le mariage ! Bonne chance pour l'examen ! Joyeux Noël !",
+    "k": "b04bb6f130a9c1"
+   },
+   {
+    "task": "Say which festival you like best, when it is and what you do, with one reason using denn.",
+    "model": "Am liebsten feiere ich Silvester, am einunddreißigsten Dezember. Ich treffe meine Freunde, denn wir essen und tanzen gern zusammen. Um Mitternacht sehen wir das Feuerwerk.",
+    "modelFr": "Ma fête préférée, c'est la Saint-Sylvestre, le trente et un décembre. Je retrouve mes amis, car nous aimons manger et danser ensemble. À minuit, nous regardons le feu d'artifice.",
+    "k": "4a0ae37d3ed472"
+   }
+  ],
+  "writing": {
+   "task": "Exam style (Schreiben Teil 2): your friend Sara invites you to her birthday party on Saturday. Answer her: thank her, say you cannot come and why (with denn), and wish her a happy birthday.",
+   "model": "Liebe Sara, vielen Dank für die Einladung! Leider kann ich am Samstag nicht kommen, denn ich habe ein Tennisturnier in Lausanne. Ich wünsche dir alles Gute zum Geburtstag und viel Spaß bei der Party! Liebe Grüße, Alexandre",
+   "modelFr": "Chère Sara, merci beaucoup pour l'invitation ! Malheureusement, je ne peux pas venir samedi, car j'ai un tournoi de tennis à Lausanne. Je te souhaite un joyeux anniversaire et beaucoup de plaisir à la fête ! Amitiés, Alexandre",
+   "k": "422c9df113530c"
+  },
+  "exam": [
+   {
+    "section": "lesen",
+    "teil": 2,
+    "why": "The workbook's exam task is Lesen Teil 2: finding information on event pages and notices (here festivals and events) by choosing between two short texts."
+   },
+   {
+    "section": "schreiben",
+    "teil": 2,
+    "why": "Answering an invitation (thank, accept or decline with a reason, ask a question) is the classic Schreiben Teil 2 task."
+   },
+   {
+    "section": "sprechen",
+    "teil": 2,
+    "why": "Geburtstag and Feste are frequent topic cards in Sprechen Teil 2."
+   }
+  ],
+  "days": [
+   {
+    "title": "Monate und Daten",
+    "learn": "Today you learn to say the date, your birthday and when events happen, with ordinal numbers.",
+    "points": [
+     "der Januar ... der Dezember; im Mai, im Dezember",
+     "erste, zweite, dritte, vierte ... siebte, achte; from 20: zwanzigste",
+     "Der Wievielte ist heute? Heute ist der erste Oktober.",
+     "Wann? Am ersten Oktober. Ich habe am zwölften Mai Geburtstag.",
+     "werden: Am Samstag werde ich dreißig."
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "ordinals-dates",
+     "present-irregular"
+    ],
+    "speaking": 0
+   },
+   {
+    "title": "Einladungen und denn",
+    "learn": "Today you learn to invite someone, to accept or decline, and to give a reason with denn.",
+    "points": [
+     "Ich lade dich zu meiner Party ein. Vielen Dank für die Einladung!",
+     "Accusative pronouns: mich, dich, ihn, sie, uns, euch",
+     "denn, aber, und, oder: verb stays in position 2",
+     "Leider kann ich nicht kommen, denn ...",
+     "Bitte gib mir bis Freitag Bescheid."
+    ],
+    "dialogue": 0,
+    "grammar": [
+     "connectors",
+     "nom-akk"
+    ],
+    "speaking": 1
+   },
+   {
+    "title": "Feste und Glückwünsche",
+    "learn": "Today you learn to talk about festivals in Switzerland and to give the right wish for every occasion.",
+    "points": [
+     "Weihnachten, Ostern, Silvester, Neujahr, die Hochzeit, der Geburtstag",
+     "an Weihnachten, an Silvester (an + festival)",
+     "Herzlichen Glückwunsch! Alles Gute zum Geburtstag! Frohe Weihnachten! Ein gutes neues Jahr!",
+     "schenken, feiern, auspacken, die Kerze anzünden",
+     "Am liebsten feiere ich ..., denn ..."
+    ],
+    "dialogue": 1,
+    "grammar": [
+     "connectors",
+     "ordinals-dates"
+    ],
+    "speaking": 2
+   }
+  ]
+ }
+]

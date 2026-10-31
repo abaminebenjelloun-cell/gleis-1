@@ -1,0 +1,3441 @@
+{
+ "hoeren": {
+  "sets": [
+   {
+    "id": "H1",
+    "title": "Modellsatz 1",
+    "teil1": [
+     {
+      "id": "H1-1-1",
+      "script": [
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Entschuldigung, wann fährt der nächste Zug nach Hamburg?",
+        "k": "01577cd7aa498c"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Der Zug um neun Uhr zehn ist leider schon weg. Der nächste fährt um neun Uhr dreißig.",
+        "k": "48877e82cf5297"
+       },
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Und um zehn Uhr zehn fährt auch noch einer?",
+        "k": "7f8d5fa1aed3f2"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Ja, aber der Zug um neun Uhr dreißig ist schneller.",
+        "k": "b42599dfbeac75"
+       }
+      ],
+      "q": "Wann fährt der nächste Zug nach Hamburg?",
+      "options": [
+       "um 9.10 Uhr",
+       "um 9.30 Uhr",
+       "um 10.10 Uhr"
+      ],
+      "answer": 1,
+      "explain": "The 9.10 train has already left, so the next one is at 9.30. Key line: \"Der nächste fährt um neun Uhr dreißig.\"",
+      "plays": 2,
+      "transcriptFr": "A : Excusez-moi, quand part le prochain train pour Hambourg ? B : Le train de neuf heures dix est malheureusement déjà parti. Le prochain part à neuf heures trente. A : Et il y en a encore un à dix heures dix ? B : Oui, mais le train de neuf heures trente est plus rapide."
+     },
+     {
+      "id": "H1-1-2",
+      "script": [
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Guten Tag, ich möchte sechs Brötchen, bitte.",
+        "k": "364e929f364272"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Gern. Sonst noch etwas? Wir haben heute auch Apfelkuchen.",
+        "k": "458097eef6250f"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Nein, danke, keinen Kuchen. Aber ich nehme noch ein Brot.",
+        "k": "6c81128e513135"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Gut. Das macht vier Euro zwanzig.",
+        "k": "6054ef39e0a1f2"
+       }
+      ],
+      "q": "Was kauft der Mann?",
+      "options": [
+       "Brötchen und Kuchen",
+       "Brötchen und Brot",
+       "nur Brot"
+      ],
+      "answer": 1,
+      "explain": "He orders six rolls, refuses the cake and adds a loaf of bread. Key line: \"Nein, danke, keinen Kuchen. Aber ich nehme noch ein Brot.\"",
+      "plays": 2,
+      "transcriptFr": "A : Bonjour, je voudrais six petits pains, s'il vous plaît. B : Volontiers. Autre chose ? Nous avons aussi de la tarte aux pommes aujourd'hui. A : Non merci, pas de gâteau. Mais je prends encore un pain. B : Bien. Ça fait quatre euros vingt."
+     },
+     {
+      "id": "H1-1-3",
+      "script": [
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Entschuldigung, wo ist das Büro von Frau Klein? In Zimmer zwölf?",
+        "k": "707515e645d68e"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Nein, Frau Klein ist jetzt in Zimmer einundzwanzig, im zweiten Stock.",
+        "k": "897dc6162637c5"
+       },
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Danke. Gibt es hier einen Aufzug?",
+        "k": "0035a8cc1e01e6"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Ja, da vorne links.",
+        "k": "a386d4308baa97"
+       }
+      ],
+      "q": "In welchem Zimmer ist Frau Klein?",
+      "options": [
+       "Zimmer 12",
+       "Zimmer 2",
+       "Zimmer 21"
+      ],
+      "answer": 2,
+      "explain": "Room 12 is wrong; she is now in room 21 on the second floor. Key line: \"Frau Klein ist jetzt in Zimmer einundzwanzig.\"",
+      "plays": 2,
+      "transcriptFr": "A : Excusez-moi, où est le bureau de Madame Klein ? Dans la salle douze ? B : Non, Madame Klein est maintenant dans la salle vingt et un, au deuxième étage. A : Merci. Il y a un ascenseur ici ? B : Oui, là-devant à gauche."
+     },
+     {
+      "id": "H1-1-4",
+      "script": [
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Entschuldigung, was kosten die Jacken hier?",
+        "k": "d595ba90b1c174"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Die schwarze Jacke kostet neunundsiebzig Euro, die blaue kostet neunundfünfzig Euro.",
+        "k": "4f2442e5d3418e"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Die blaue gefällt mir. Die nehme ich.",
+        "k": "5d9ae9c47d428e"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Sehr gern. Die Kasse ist da hinten.",
+        "k": "e6e4a34b1f4abc"
+       }
+      ],
+      "q": "Wie viel kostet die Jacke, die der Mann kauft?",
+      "options": [
+       "59 €",
+       "79 €",
+       "95 €"
+      ],
+      "answer": 0,
+      "explain": "He takes the blue jacket, which costs 59 euros. Key line: \"Die blaue kostet neunundfünfzig Euro.\"",
+      "plays": 2,
+      "transcriptFr": "A : Excusez-moi, combien coûtent les vestes ici ? B : La veste noire coûte soixante-dix-neuf euros, la bleue coûte cinquante-neuf euros. A : La bleue me plaît. Je la prends. B : Avec plaisir. La caisse est là-bas au fond."
+     },
+     {
+      "id": "H1-1-5",
+      "script": [
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Praxis Doktor Becker, guten Tag.",
+        "k": "e3e090f2ba4e56"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Guten Tag, mein Name ist Schulz. Ich brauche einen Termin. Geht es am Montag?",
+        "k": "ea977494330291"
+       },
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Am Montag ist leider alles voll. Am Mittwoch um zehn Uhr ist noch frei.",
+        "k": "82801214ac2b13"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Mittwoch ist gut. Vielen Dank.",
+        "k": "7a9e377817245a"
+       }
+      ],
+      "q": "Wann hat der Mann einen Termin?",
+      "options": [
+       "am Mittwoch",
+       "am Montag",
+       "am Freitag"
+      ],
+      "answer": 0,
+      "explain": "Monday is full, so he takes Wednesday at 10. Key line: \"Am Mittwoch um zehn Uhr ist noch frei.\"",
+      "plays": 2,
+      "transcriptFr": "A : Cabinet du docteur Becker, bonjour. B : Bonjour, je m'appelle Schulz. J'ai besoin d'un rendez-vous. Lundi, c'est possible ? A : Lundi, malheureusement, tout est complet. Mercredi à dix heures, c'est encore libre. B : Mercredi, c'est bien. Merci beaucoup."
+     },
+     {
+      "id": "H1-1-6",
+      "script": [
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Fährst du heute mit dem Auto zur Arbeit?",
+        "k": "1c4ba23973ba08"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Nein, mein Auto ist kaputt.",
+        "k": "635c001857f435"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Nimmst du dann den Bus?",
+        "k": "52bf97e6839778"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Nein, heute gehe ich zu Fuß. Das Wetter ist so schön!",
+        "k": "fe7f2c3be4b464"
+       }
+      ],
+      "q": "Wie kommt die Frau heute zur Arbeit?",
+      "options": [
+       "mit dem Auto",
+       "mit dem Bus",
+       "zu Fuß"
+      ],
+      "answer": 2,
+      "explain": "Her car is broken and she does not take the bus; she walks. Key line: \"Heute gehe ich zu Fuß.\"",
+      "plays": 2,
+      "transcriptFr": "A : Tu vas au travail en voiture aujourd'hui ? B : Non, ma voiture est en panne. A : Tu prends le bus, alors ? B : Non, aujourd'hui j'y vais à pied. Il fait tellement beau !"
+     }
+    ],
+    "teil2": [
+     {
+      "id": "H1-2-1",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Achtung an Gleis drei. Der Intercity nach München fährt heute nicht von Gleis drei, sondern von Gleis sieben. Bitte beachten Sie die Gleisänderung.",
+        "k": "9f28b186dfbd16"
+       }
+      ],
+      "statement": "Der Zug nach München fährt heute von Gleis 7.",
+      "answer": true,
+      "explain": "The train leaves from platform 7 instead of 3. Key line: \"Der Intercity nach München fährt heute nicht von Gleis drei, sondern von Gleis sieben.\"",
+      "plays": 1,
+      "transcriptFr": "Attention, voie trois. L'Intercity pour Munich ne part pas aujourd'hui de la voie trois, mais de la voie sept. Veuillez noter le changement de voie."
+     },
+     {
+      "id": "H1-2-2",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Liebe Kundinnen und Kunden, heute im Angebot: ein Kilo Äpfel für nur einen Euro neunundneunzig. Sie finden die Äpfel gleich am Eingang.",
+        "k": "fe26490dcc8ac0"
+       }
+      ],
+      "statement": "Ein Kilo Äpfel kostet heute 2,99 €.",
+      "answer": false,
+      "explain": "The apples cost 1.99 euros per kilo, not 2.99. Key line: \"ein Kilo Äpfel für nur einen Euro neunundneunzig.\"",
+      "plays": 1,
+      "transcriptFr": "Chers clients, aujourd'hui en promotion : un kilo de pommes pour seulement un euro quatre-vingt-dix-neuf. Vous trouverez les pommes juste à l'entrée."
+     },
+     {
+      "id": "H1-2-3",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Letzter Aufruf für den Lufthansa-Flug dreihundertsiebenundfünfzig nach Wien. Bitte gehen Sie sofort zum Ausgang B zwölf. Vielen Dank.",
+        "k": "9ddb09f5edcc8b"
+       }
+      ],
+      "statement": "Der Flug nach Wien geht vom Ausgang B 12.",
+      "answer": true,
+      "explain": "Passengers for Vienna must go to gate B12. Key line: \"Bitte gehen Sie sofort zum Ausgang B zwölf.\"",
+      "plays": 1,
+      "transcriptFr": "Dernier appel pour le vol Lufthansa trois cent cinquante-sept à destination de Vienne. Veuillez vous rendre immédiatement à la porte B douze. Merci beaucoup."
+     },
+     {
+      "id": "H1-2-4",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Liebe Kundinnen und Kunden, unser Restaurant im vierten Stock ist heute bis neunzehn Uhr für Sie geöffnet. Probieren Sie unseren Kuchen des Tages!",
+        "k": "576388b744761b"
+       }
+      ],
+      "statement": "Das Restaurant ist im 4. Stock.",
+      "answer": true,
+      "explain": "The restaurant is on the fourth floor. Key line: \"unser Restaurant im vierten Stock\".",
+      "plays": 1,
+      "transcriptFr": "Chers clients, notre restaurant au quatrième étage est ouvert pour vous aujourd'hui jusqu'à dix-neuf heures. Goûtez notre gâteau du jour !"
+     }
+    ],
+    "teil3": [
+     {
+      "id": "H1-3-1",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Hallo Julia, hier ist Markus. Wir wollten uns ja am Samstag um acht Uhr treffen. Ich kann leider erst um halb neun. Treffen wir uns dann vor dem Kino? Bis Samstag!",
+        "k": "e04ccde4ccbfd5"
+       }
+      ],
+      "q": "Wann treffen sich Julia und Markus?",
+      "options": [
+       "um 8.00 Uhr",
+       "um 8.30 Uhr",
+       "um 9.30 Uhr"
+      ],
+      "answer": 1,
+      "explain": "Markus cannot come at 8; he can only come at half past eight. Key line: \"Ich kann leider erst um halb neun.\"",
+      "plays": 2,
+      "transcriptFr": "Salut Julia, c'est Markus. On voulait se retrouver samedi à huit heures. Malheureusement, je ne peux pas avant huit heures et demie. On se retrouve devant le cinéma, alors ? À samedi !"
+     },
+     {
+      "id": "H1-3-2",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Guten Tag, Frau Schneider, hier ist die Autowerkstatt Müller. Ihr Auto ist fertig. Sie können es heute bis achtzehn Uhr abholen. Morgen haben wir geschlossen. Auf Wiederhören.",
+        "k": "9db16be31ff2cb"
+       }
+      ],
+      "q": "Wann kann Frau Schneider ihr Auto abholen?",
+      "options": [
+       "heute bis 18 Uhr",
+       "morgen ab 8 Uhr",
+       "heute bis 20 Uhr"
+      ],
+      "answer": 0,
+      "explain": "The garage is open today until 18.00 and closed tomorrow. Key line: \"Sie können es heute bis achtzehn Uhr abholen.\"",
+      "plays": 2,
+      "transcriptFr": "Bonjour Madame Schneider, ici le garage Müller. Votre voiture est prête. Vous pouvez venir la chercher aujourd'hui jusqu'à dix-huit heures. Demain, nous sommes fermés. Au revoir."
+     },
+     {
+      "id": "H1-3-3",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Hallo Tom, hier ist Anna. Ich habe eine neue Handynummer. Die alte Nummer funktioniert nicht mehr. Meine neue Nummer ist: null eins sieben sechs, zwei acht drei, vier vier null. Ruf mich bitte an! Tschüss.",
+        "k": "dbef4113790816"
+       }
+      ],
+      "q": "Wie ist Annas neue Handynummer?",
+      "options": [
+       "0176 238 440",
+       "0167 283 440",
+       "0176 283 440"
+      ],
+      "answer": 2,
+      "explain": "Anna dictates 0176, 283, 440. Key line: \"null eins sieben sechs, zwei acht drei, vier vier null.\"",
+      "plays": 2,
+      "transcriptFr": "Salut Tom, c'est Anna. J'ai un nouveau numéro de portable. L'ancien numéro ne fonctionne plus. Mon nouveau numéro est : zéro un sept six, deux huit trois, quatre quatre zéro. Appelle-moi, s'il te plaît ! Salut."
+     },
+     {
+      "id": "H1-3-4",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Guten Tag, hier ist die Praxis Doktor Wolf. Sie haben morgen um zehn Uhr einen Termin. Leider ist Doktor Wolf morgen nicht da. Er ist erst am Freitag wieder in der Praxis. Bitte rufen Sie uns bis heute Abend zurück. Dann machen wir einen neuen Termin.",
+        "k": "4e657518935c35"
+       }
+      ],
+      "q": "Was soll der Patient tun?",
+      "options": [
+       "morgen um 10 Uhr kommen",
+       "die Praxis anrufen",
+       "am Freitag um 10 Uhr kommen"
+      ],
+      "answer": 1,
+      "explain": "The doctor is away tomorrow, and back only on Friday, but the patient is not told to come on Friday; he should call back to make a new appointment. Key line: \"Bitte rufen Sie uns bis heute Abend zurück.\"",
+      "plays": 2,
+      "transcriptFr": "Bonjour, ici le cabinet du docteur Wolf. Vous avez rendez-vous demain à dix heures. Malheureusement, le docteur Wolf n'est pas là demain. Il ne sera de retour au cabinet que vendredi. Veuillez nous rappeler d'ici ce soir. Nous fixerons alors un nouveau rendez-vous."
+     },
+     {
+      "id": "H1-3-5",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Hallo Peter, hier ist Mama. Du kommst ja am Sonntag zum Mittagessen. Kannst du bitte eine Flasche Wein mitbringen? Bier und Wasser haben wir schon. Bis Sonntag!",
+        "k": "69eb092d690b52"
+       }
+      ],
+      "q": "Was soll Peter mitbringen?",
+      "options": [
+       "Wein",
+       "Bier",
+       "Wasser"
+      ],
+      "answer": 0,
+      "explain": "Beer and water are already there; Peter should bring wine. Key line: \"Kannst du bitte eine Flasche Wein mitbringen?\"",
+      "plays": 2,
+      "transcriptFr": "Salut Peter, c'est maman. Tu viens dimanche pour le déjeuner. Tu peux apporter une bouteille de vin, s'il te plaît ? On a déjà de la bière et de l'eau. À dimanche !"
+     }
+    ]
+   },
+   {
+    "id": "H2",
+    "title": "Modellsatz 2",
+    "teil1": [
+     {
+      "id": "H2-1-1",
+      "script": [
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Entschuldigung, von welchem Gleis fährt der Zug nach Genf?",
+        "k": "621dded202870c"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Der Zug nach Genf fährt von Gleis vierzehn.",
+        "k": "5e5ceb9c97a638"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Vierzehn? Nicht vier?",
+        "k": "ea7f780667004c"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Nein, von Gleis vier fährt der Zug nach Basel. Sie müssen zu Gleis vierzehn.",
+        "k": "68c176b5da9b79"
+       }
+      ],
+      "q": "Von welchem Gleis fährt der Zug nach Genf?",
+      "options": [
+       "Gleis 4",
+       "Gleis 14",
+       "Gleis 40"
+      ],
+      "answer": 1,
+      "explain": "Platform 4 is for Basel; the train to Geneva leaves from platform 14. Key line: \"Der Zug nach Genf fährt von Gleis vierzehn.\"",
+      "plays": 2,
+      "transcriptFr": "A : Excusez-moi, de quelle voie part le train pour Genève ? B : Le train pour Genève part de la voie quatorze. A : Quatorze ? Pas quatre ? B : Non, de la voie quatre part le train pour Bâle. Vous devez aller à la voie quatorze."
+     },
+     {
+      "id": "H2-1-2",
+      "script": [
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Entschuldigung, wie spät ist es?",
+        "k": "738606fdb1b09e"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Es ist Viertel nach drei.",
+        "k": "4fa40899b8c6fb"
+       },
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Oh, schon? Mein Deutschkurs beginnt um halb vier.",
+        "k": "76361ac3e24508"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Dann müssen Sie aber schnell gehen!",
+        "k": "b3e7e568720325"
+       }
+      ],
+      "q": "Wann beginnt der Deutschkurs?",
+      "options": [
+       "um halb vier",
+       "um Viertel nach drei",
+       "um Viertel vor vier"
+      ],
+      "answer": 0,
+      "explain": "It is now quarter past three; the course starts at half past three. Key line: \"Mein Deutschkurs beginnt um halb vier.\"",
+      "plays": 2,
+      "transcriptFr": "A : Excusez-moi, quelle heure est-il ? B : Il est trois heures et quart. A : Oh, déjà ? Mon cours d'allemand commence à trois heures et demie. B : Alors vous devez vous dépêcher !"
+     },
+     {
+      "id": "H2-1-3",
+      "script": [
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Guten Abend. Was möchten Sie trinken?",
+        "k": "611ec4e167defc"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Einen Kaffee, bitte. Ach nein, es ist schon spät. Ich nehme lieber einen Tee.",
+        "k": "230c348a1dad5e"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Mit Milch?",
+        "k": "bb407968710ab7"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Nein, mit Zitrone, bitte.",
+        "k": "5b02b9d8a5b326"
+       }
+      ],
+      "q": "Was trinkt die Frau?",
+      "options": [
+       "Kaffee",
+       "Tee mit Milch",
+       "Tee mit Zitrone"
+      ],
+      "answer": 2,
+      "explain": "She changes from coffee to tea and wants it with lemon, not milk. Key line: \"Nein, mit Zitrone, bitte.\"",
+      "plays": 2,
+      "transcriptFr": "A : Bonsoir. Que désirez-vous boire ? B : Un café, s'il vous plaît. Ah non, il est déjà tard. Je prends plutôt un thé. A : Avec du lait ? B : Non, avec du citron, s'il vous plaît."
+     },
+     {
+      "id": "H2-1-4",
+      "script": [
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Entschuldigung, wo finde ich Schuhe?",
+        "k": "0fbb632f8bc204"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Damenschuhe sind im ersten Stock. Herrenschuhe finden Sie hier im Erdgeschoss.",
+        "k": "dbc4d1ba5fa9b5"
+       },
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Ich suche Schuhe für meinen Mann.",
+        "k": "9059812d641647"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Dann bleiben Sie hier im Erdgeschoss. Gleich da rechts.",
+        "k": "bfb1ee573956e9"
+       }
+      ],
+      "q": "Wo findet die Frau Schuhe für ihren Mann?",
+      "options": [
+       "im Erdgeschoss",
+       "im 1. Stock",
+       "im 2. Stock"
+      ],
+      "answer": 0,
+      "explain": "Men's shoes are on the ground floor. Key line: \"Herrenschuhe finden Sie hier im Erdgeschoss.\"",
+      "plays": 2,
+      "transcriptFr": "A : Excusez-moi, où est-ce que je trouve des chaussures ? B : Les chaussures pour femmes sont au premier étage. Les chaussures pour hommes, vous les trouvez ici au rez-de-chaussée. A : Je cherche des chaussures pour mon mari. B : Alors restez ici au rez-de-chaussée. Juste là, à droite."
+     },
+     {
+      "id": "H2-1-5",
+      "script": [
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Eine Fahrkarte nach Bern, bitte. Was kostet das?",
+        "k": "047212fd5ed650"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Hin und zurück oder nur einfach?",
+        "k": "fe4e3ac2612662"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Nur einfach, bitte.",
+        "k": "74041c80486eac"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Das macht zweiundfünfzig Franken. Hin und zurück kostet hundertvier Franken.",
+        "k": "a4c87a39065a60"
+       }
+      ],
+      "q": "Wie viel bezahlt der Mann?",
+      "options": [
+       "104 Franken",
+       "25 Franken",
+       "52 Franken"
+      ],
+      "answer": 2,
+      "explain": "He buys a single ticket, which costs 52 francs. Key line: \"Das macht zweiundfünfzig Franken.\"",
+      "plays": 2,
+      "transcriptFr": "A : Un billet pour Berne, s'il vous plaît. Combien ça coûte ? B : Aller-retour ou aller simple ? A : Aller simple, s'il vous plaît. B : Ça fait cinquante-deux francs. L'aller-retour coûte cent quatre francs."
+     },
+     {
+      "id": "H2-1-6",
+      "script": [
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Was machst du am Wochenende? Gehen wir zusammen schwimmen?",
+        "k": "448ea4100b8d78"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Am Samstag kann ich nicht, da spiele ich Tennis. Aber am Sonntag habe ich Zeit.",
+        "k": "a3dae11a01c0e3"
+       },
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Gut, dann gehen wir am Sonntag schwimmen.",
+        "k": "28e259fe6bfd31"
+       }
+      ],
+      "q": "Was macht der Mann am Samstag?",
+      "options": [
+       "Er geht schwimmen.",
+       "Er spielt Tennis.",
+       "Er arbeitet."
+      ],
+      "answer": 1,
+      "explain": "On Saturday he plays tennis; swimming is on Sunday. Key line: \"Am Samstag kann ich nicht, da spiele ich Tennis.\"",
+      "plays": 2,
+      "transcriptFr": "A : Qu'est-ce que tu fais ce week-end ? On va nager ensemble ? B : Samedi je ne peux pas, je joue au tennis. Mais dimanche j'ai le temps. A : Bien, alors on va nager dimanche."
+     }
+    ],
+    "teil2": [
+     {
+      "id": "H2-2-1",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Meine Damen und Herren, der Intercity nach Genf Flughafen hat heute etwa zwanzig Minuten Verspätung. Wir bitten um Entschuldigung.",
+        "k": "65f472e0e047f6"
+       }
+      ],
+      "statement": "Der Zug nach Genf kommt pünktlich.",
+      "answer": false,
+      "explain": "The train to Geneva Airport is about 20 minutes late. Key line: \"hat heute etwa zwanzig Minuten Verspätung.\"",
+      "plays": 1,
+      "transcriptFr": "Mesdames et Messieurs, l'Intercity pour Genève Aéroport a aujourd'hui environ vingt minutes de retard. Nous vous prions de nous excuser."
+     },
+     {
+      "id": "H2-2-2",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Information für die Passagiere nach Paris. Bitte gehen Sie jetzt zum Ausgang C fünfzehn. Das Boarding beginnt in wenigen Minuten.",
+        "k": "fae5002bd677cf"
+       }
+      ],
+      "statement": "Die Passagiere nach Paris sollen zum Ausgang C 15 gehen.",
+      "answer": true,
+      "explain": "Passengers to Paris must go to gate C15 now. Key line: \"Bitte gehen Sie jetzt zum Ausgang C fünfzehn.\"",
+      "plays": 1,
+      "transcriptFr": "Information pour les passagers à destination de Paris. Veuillez vous rendre maintenant à la porte C quinze. L'embarquement commence dans quelques minutes."
+     },
+     {
+      "id": "H2-2-3",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Liebe Kundinnen und Kunden, unser Supermarkt schließt in fünfzehn Minuten. Bitte gehen Sie jetzt zur Kasse. Vielen Dank für Ihren Einkauf.",
+        "k": "4c1748762bb386"
+       }
+      ],
+      "statement": "Der Supermarkt schließt in 50 Minuten.",
+      "answer": false,
+      "explain": "The supermarket closes in fifteen (fünfzehn), not fifty (fünfzig), minutes. Key line: \"unser Supermarkt schließt in fünfzehn Minuten.\"",
+      "plays": 1,
+      "transcriptFr": "Chers clients, notre supermarché ferme dans quinze minutes. Veuillez vous rendre maintenant à la caisse. Merci beaucoup pour vos achats."
+     },
+     {
+      "id": "H2-2-4",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Liebe Kundinnen und Kunden, heute sind in unserer Kinderabteilung im dritten Stock alle Spiele fünfzig Prozent billiger. Nur heute!",
+        "k": "1131db21958bf9"
+       }
+      ],
+      "statement": "Spiele sind heute billiger.",
+      "answer": true,
+      "explain": "All games in the children's department are 50 percent cheaper today. Key line: \"alle Spiele fünfzig Prozent billiger.\"",
+      "plays": 1,
+      "transcriptFr": "Chers clients, aujourd'hui, dans notre rayon enfants au troisième étage, tous les jeux sont cinquante pour cent moins chers. Aujourd'hui seulement !"
+     }
+    ],
+    "teil3": [
+     {
+      "id": "H2-3-1",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Hallo Sophie, hier ist Lukas. Ich bin jetzt in Genf am Bahnhof. Mein Zug nach Lausanne fährt aber erst um siebzehn Uhr zwölf. Ich bin also nicht um siebzehn Uhr bei dir, sondern um achtzehn Uhr. Bis später!",
+        "k": "1e9f4ec7258e1c"
+       }
+      ],
+      "q": "Wann kommt Lukas zu Sophie?",
+      "options": [
+       "um 17 Uhr",
+       "um 17.12 Uhr",
+       "um 18 Uhr"
+      ],
+      "answer": 2,
+      "explain": "17.12 is when his train leaves; he arrives at Sophie's at 18.00. Key line: \"Ich bin also nicht um siebzehn Uhr bei dir, sondern um achtzehn Uhr.\"",
+      "plays": 2,
+      "transcriptFr": "Salut Sophie, c'est Lukas. Je suis maintenant à la gare de Genève. Mais mon train pour Lausanne ne part qu'à dix-sept heures douze. Je ne serai donc pas chez toi à dix-sept heures, mais à dix-huit heures. À plus tard !"
+     },
+     {
+      "id": "H2-3-2",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Guten Tag, Herr Meier, hier spricht Frau Roth vom Reisebüro Sonne. Ihre Tickets für Rom sind da. Sie können sie ab Dienstag bei uns abholen. Wir sind von neun bis achtzehn Uhr da. Auf Wiederhören.",
+        "k": "66d0eee34b92c9"
+       }
+      ],
+      "q": "Ab wann kann Herr Meier die Tickets abholen?",
+      "options": [
+       "ab Montag",
+       "ab Dienstag",
+       "ab Donnerstag"
+      ],
+      "answer": 1,
+      "explain": "The tickets can be picked up from Tuesday. Key line: \"Sie können sie ab Dienstag bei uns abholen.\"",
+      "plays": 2,
+      "transcriptFr": "Bonjour Monsieur Meier, ici Madame Roth de l'agence de voyages Sonne. Vos billets pour Rome sont arrivés. Vous pouvez venir les chercher chez nous à partir de mardi. Nous sommes là de neuf heures à dix-huit heures. Au revoir."
+     },
+     {
+      "id": "H2-3-3",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Hallo Lena, hier ist Clara. Wir gehen heute Abend essen, ins Restaurant Adler. Wir treffen uns aber nicht im Restaurant, sondern um sieben Uhr am Marktplatz. Kommst du mit? Ruf mich bitte an!",
+        "k": "e3e69bd963789c"
+       }
+      ],
+      "q": "Wo treffen sich die Freundinnen?",
+      "options": [
+       "im Restaurant",
+       "am Bahnhof",
+       "am Marktplatz"
+      ],
+      "answer": 2,
+      "explain": "They eat at the restaurant but meet first at the market square. Key line: \"Wir treffen uns aber nicht im Restaurant, sondern um sieben Uhr am Marktplatz.\"",
+      "plays": 2,
+      "transcriptFr": "Salut Lena, c'est Clara. Nous allons manger au restaurant ce soir, au restaurant Adler. Mais nous ne nous retrouvons pas au restaurant, mais à sept heures sur la place du marché. Tu viens avec nous ? Appelle-moi, s'il te plaît !"
+     },
+     {
+      "id": "H2-3-4",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Guten Tag, hier ist die Stadtbibliothek. Am Montag haben wir geschlossen. Von Dienstag bis Freitag sind wir von zehn bis neunzehn Uhr für Sie da. Am Samstag haben wir von zehn bis vierzehn Uhr geöffnet. Vielen Dank für Ihren Anruf.",
+        "k": "0456b56e10c04a"
+       }
+      ],
+      "q": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "options": [
+       "von 10 bis 14 Uhr",
+       "von 10 bis 19 Uhr",
+       "gar nicht"
+      ],
+      "answer": 0,
+      "explain": "On Saturday the library is open from 10 to 14. Key line: \"Am Samstag haben wir von zehn bis vierzehn Uhr geöffnet.\"",
+      "plays": 2,
+      "transcriptFr": "Bonjour, ici la bibliothèque municipale. Le lundi, nous sommes fermés. Du mardi au vendredi, nous sommes là pour vous de dix heures à dix-neuf heures. Le samedi, nous sommes ouverts de dix heures à quatorze heures. Merci beaucoup pour votre appel."
+     },
+     {
+      "id": "H2-3-5",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Hallo Herr Fischer, hier ist Brigitte Lang von der Firma Data Plus. Unser Meeting ist nicht in Raum zweihundertdrei, sondern in Raum dreihundertzwei. Die Zeit bleibt gleich: Donnerstag um neun Uhr. Danke und bis Donnerstag!",
+        "k": "e46793230fea67"
+       }
+      ],
+      "q": "In welchem Raum ist das Meeting?",
+      "options": [
+       "Raum 203",
+       "Raum 302",
+       "Raum 320"
+      ],
+      "answer": 1,
+      "explain": "The meeting moves from room 203 to room 302. Key line: \"nicht in Raum zweihundertdrei, sondern in Raum dreihundertzwei.\"",
+      "plays": 2,
+      "transcriptFr": "Bonjour Monsieur Fischer, ici Brigitte Lang de l'entreprise Data Plus. Notre réunion n'a pas lieu dans la salle deux cent trois, mais dans la salle trois cent deux. L'heure reste la même : jeudi à neuf heures. Merci et à jeudi !"
+     }
+    ]
+   },
+   {
+    "id": "H3",
+    "title": "Modellsatz 3",
+    "teil1": [
+     {
+      "id": "H3-1-1",
+      "script": [
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Entschuldigung, wann öffnet das Museum?",
+        "k": "daec6f9963f0f5"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Von Dienstag bis Sonntag um zehn Uhr. Am Montag ist es geschlossen.",
+        "k": "5c5ad7a492f2b6"
+       },
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Heute ist ja Montag. Schade! Dann komme ich morgen wieder.",
+        "k": "d85a571ef38440"
+       }
+      ],
+      "q": "Wann kann die Frau ins Museum gehen?",
+      "options": [
+       "heute um 10 Uhr",
+       "morgen um 10 Uhr",
+       "morgen um 9 Uhr"
+      ],
+      "answer": 1,
+      "explain": "It is Monday and the museum is closed; tomorrow it opens at 10. Key line: \"Heute ist ja Montag. Schade! Dann komme ich morgen wieder.\"",
+      "plays": 2,
+      "transcriptFr": "A : Excusez-moi, à quelle heure ouvre le musée ? B : Du mardi au dimanche à dix heures. Le lundi, il est fermé. A : Mais aujourd'hui, c'est lundi. Dommage ! Alors je reviens demain."
+     },
+     {
+      "id": "H3-1-2",
+      "script": [
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Guten Tag. Ich hätte gern ein Kilo Tomaten.",
+        "k": "b2238951f3604b"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Die Tomaten sind heute leider nicht so gut. Aber ich habe schöne Kartoffeln und Orangen.",
+        "k": "7e82320a8a8a6d"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Dann nehme ich zwei Kilo Orangen, bitte.",
+        "k": "a46f9e380bb22c"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Gern. Das macht fünf Euro.",
+        "k": "b10d41613bea62"
+       }
+      ],
+      "q": "Was kauft der Mann?",
+      "options": [
+       "Tomaten",
+       "Kartoffeln",
+       "Orangen"
+      ],
+      "answer": 2,
+      "explain": "The tomatoes are not good, so he buys two kilos of oranges. Key line: \"Dann nehme ich zwei Kilo Orangen, bitte.\"",
+      "plays": 2,
+      "transcriptFr": "A : Bonjour. Je voudrais un kilo de tomates. B : Les tomates ne sont malheureusement pas très bonnes aujourd'hui. Mais j'ai de belles pommes de terre et des oranges. A : Alors je prends deux kilos d'oranges, s'il vous plaît. B : Volontiers. Ça fait cinq euros."
+     },
+     {
+      "id": "H3-1-3",
+      "script": [
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Wann hast du Geburtstag?",
+        "k": "752473034c2ed5"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Am dritten Mai. Und du?",
+        "k": "82627023e689a8"
+       },
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Ich habe am dreizehnten Mai Geburtstag, genau zehn Tage nach dir!",
+        "k": "9ec852cad953d0"
+       }
+      ],
+      "q": "Wann hat die Frau Geburtstag?",
+      "options": [
+       "am 13. Mai",
+       "am 3. Mai",
+       "am 30. Mai"
+      ],
+      "answer": 0,
+      "explain": "The man's birthday is on 3 May; hers is on 13 May. Key line: \"Ich habe am dreizehnten Mai Geburtstag.\"",
+      "plays": 2,
+      "transcriptFr": "A : C'est quand ton anniversaire ? B : Le trois mai. Et toi ? A : Mon anniversaire est le treize mai, exactement dix jours après toi !"
+     },
+     {
+      "id": "H3-1-4",
+      "script": [
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Guten Abend. Ihr Zimmer ist im fünften Stock, Zimmer fünfhundertsieben.",
+        "k": "cd321893953e50"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Fünfhundertsiebzehn?",
+        "k": "87d2aeb3bd6a66"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Nein, fünfhundertsieben. Hier ist Ihr Schlüssel. Frühstück gibt es von sieben bis zehn Uhr.",
+        "k": "9274afe0032c8f"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Vielen Dank.",
+        "k": "2bf27f366bd0b8"
+       }
+      ],
+      "q": "Welches Zimmer hat die Frau?",
+      "options": [
+       "Zimmer 517",
+       "Zimmer 507",
+       "Zimmer 570"
+      ],
+      "answer": 1,
+      "explain": "The receptionist corrects her: room 507, not 517. Key line: \"Nein, fünfhundertsieben.\"",
+      "plays": 2,
+      "transcriptFr": "A : Bonsoir. Votre chambre est au cinquième étage, chambre cinq cent sept. B : Cinq cent dix-sept ? A : Non, cinq cent sept. Voici votre clé. Le petit-déjeuner est servi de sept heures à dix heures. B : Merci beaucoup."
+     },
+     {
+      "id": "H3-1-5",
+      "script": [
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Entschuldigung, wie komme ich zum Bahnhof? Fährt hier ein Bus?",
+        "k": "b96bb42551ae21"
+       },
+       {
+        "sp": "B",
+        "g": "m",
+        "t": "Ja, aber der Bus fährt nur einmal in der Stunde. Nehmen Sie lieber die Straßenbahn, die Linie acht. Die fährt alle zehn Minuten.",
+        "k": "d4c403d4ddf649"
+       },
+       {
+        "sp": "A",
+        "g": "f",
+        "t": "Gut, dann nehme ich die Linie acht. Vielen Dank!",
+        "k": "9d9fd967ab1021"
+       }
+      ],
+      "q": "Womit fährt die Frau zum Bahnhof?",
+      "options": [
+       "mit dem Bus",
+       "mit dem Taxi",
+       "mit der Straßenbahn"
+      ],
+      "answer": 2,
+      "explain": "The bus runs only once an hour, so she takes tram line 8. Key line: \"Gut, dann nehme ich die Linie acht.\"",
+      "plays": 2,
+      "transcriptFr": "A : Excusez-moi, comment est-ce que je vais à la gare ? Il y a un bus ici ? B : Oui, mais le bus ne passe qu'une fois par heure. Prenez plutôt le tram, la ligne huit. Il passe toutes les dix minutes. A : Bien, alors je prends la ligne huit. Merci beaucoup !"
+     },
+     {
+      "id": "H3-1-6",
+      "script": [
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Wir möchten zahlen, bitte.",
+        "k": "4c31c353152d93"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Zusammen oder getrennt?",
+        "k": "b904b5139a5ce2"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Zusammen, bitte.",
+        "k": "202c5a78cc5d95"
+       },
+       {
+        "sp": "B",
+        "g": "f",
+        "t": "Ein Salat, eine Pizza und zwei Wasser. Das macht vierundzwanzig Euro achtzig.",
+        "k": "e4346cd914fe72"
+       },
+       {
+        "sp": "A",
+        "g": "m",
+        "t": "Hier sind siebenundzwanzig Euro. Stimmt so.",
+        "k": "b0ea592a0d4943"
+       }
+      ],
+      "q": "Wie viel kostet das Essen?",
+      "options": [
+       "24,80 €",
+       "27,00 €",
+       "42,80 €"
+      ],
+      "answer": 0,
+      "explain": "The bill is 24.80 euros; 27 euros is what he pays with the tip. Key line: \"Das macht vierundzwanzig Euro achtzig.\"",
+      "plays": 2,
+      "transcriptFr": "A : Nous voudrions payer, s'il vous plaît. B : Ensemble ou séparément ? A : Ensemble, s'il vous plaît. B : Une salade, une pizza et deux eaux. Ça fait vingt-quatre euros quatre-vingts. A : Voici vingt-sept euros. Gardez la monnaie."
+     }
+    ],
+    "teil2": [
+     {
+      "id": "H3-2-1",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Achtung an Gleis neun. Die S-Bahn zum Flughafen fährt heute nicht. Bitte nehmen Sie den Bus vor dem Bahnhof. Wir danken für Ihr Verständnis.",
+        "k": "279a6dd22894fe"
+       }
+      ],
+      "statement": "Heute fährt ein Bus zum Flughafen.",
+      "answer": true,
+      "explain": "The S-Bahn is not running; travellers take the bus in front of the station. Key line: \"Bitte nehmen Sie den Bus vor dem Bahnhof.\"",
+      "plays": 1,
+      "transcriptFr": "Attention, voie neuf. Le RER pour l'aéroport ne circule pas aujourd'hui. Veuillez prendre le bus devant la gare. Merci de votre compréhension."
+     },
+     {
+      "id": "H3-2-2",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Herr Thomas Weber, Passagier nach Berlin, bitte kommen Sie zur Information in Halle zwei. Herr Thomas Weber, bitte zur Information in Halle zwei.",
+        "k": "90d390f5132381"
+       }
+      ],
+      "statement": "Herr Weber fliegt nach Hamburg.",
+      "answer": false,
+      "explain": "Herr Weber is a passenger to Berlin, not Hamburg. Key line: \"Herr Thomas Weber, Passagier nach Berlin\".",
+      "plays": 1,
+      "transcriptFr": "Monsieur Thomas Weber, passager à destination de Berlin, veuillez vous présenter à l'information dans le hall deux. Monsieur Thomas Weber, veuillez vous présenter à l'information dans le hall deux."
+     },
+     {
+      "id": "H3-2-3",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Liebe Kundinnen und Kunden, an Kasse vier können Sie heute nur mit Karte bezahlen. Bar bezahlen können Sie an Kasse eins oder zwei.",
+        "k": "9fd7ab120cbf10"
+       }
+      ],
+      "statement": "An Kasse 4 kann man heute bar bezahlen.",
+      "answer": false,
+      "explain": "At checkout 4 you can only pay by card; cash is at checkouts 1 and 2. Key line: \"an Kasse vier können Sie heute nur mit Karte bezahlen.\"",
+      "plays": 1,
+      "transcriptFr": "Chers clients, à la caisse quatre, vous pouvez payer aujourd'hui uniquement par carte. Vous pouvez payer en espèces à la caisse un ou deux."
+     },
+     {
+      "id": "H3-2-4",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Liebe Kundinnen und Kunden, ab heute finden Sie unsere Sportabteilung nicht mehr im zweiten Stock, sondern im Untergeschoss. Besuchen Sie uns!",
+        "k": "10ae7085ceb015"
+       }
+      ],
+      "statement": "Die Sportabteilung ist jetzt im Untergeschoss.",
+      "answer": true,
+      "explain": "The sports department has moved from the second floor to the basement. Key line: \"nicht mehr im zweiten Stock, sondern im Untergeschoss.\"",
+      "plays": 1,
+      "transcriptFr": "Chers clients, à partir d'aujourd'hui, vous ne trouverez plus notre rayon sport au deuxième étage, mais au sous-sol. Venez nous voir !"
+     }
+    ],
+    "teil3": [
+     {
+      "id": "H3-3-1",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Hallo Mehmet, hier ist Sandra. Ich fahre morgen in die Stadt und kaufe einen neuen Computer. Mein Handy und mein Fernseher sind ja noch gut. Kannst du mitkommen? Du weißt viel über Computer. Ruf mich bitte bis heute Abend an!",
+        "k": "a84d719be482cc"
+       }
+      ],
+      "q": "Was möchte Sandra kaufen?",
+      "options": [
+       "ein Handy",
+       "einen Computer",
+       "einen Fernseher"
+      ],
+      "answer": 1,
+      "explain": "Her phone and TV are still fine; she wants to buy a new computer. Key line: \"Ich fahre morgen in die Stadt und kaufe einen neuen Computer.\"",
+      "plays": 2,
+      "transcriptFr": "Salut Mehmet, c'est Sandra. Demain je vais en ville et j'achète un nouvel ordinateur. Mon portable et ma télé sont encore bons. Tu peux venir avec moi ? Tu t'y connais bien en ordinateurs. Appelle-moi d'ici ce soir, s'il te plaît !"
+     },
+     {
+      "id": "H3-3-2",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Guten Tag, hier ist die Zahnarztpraxis Doktor Hoffmann. Ihr Termin am Donnerstag um halb elf geht leider nicht. Sie können aber am Donnerstag um vierzehn Uhr kommen. Bitte rufen Sie uns an: null zwei eins, vier fünf sechs, sieben acht. Auf Wiederhören.",
+        "k": "230b0c1167afa6"
+       }
+      ],
+      "q": "Wann ist der neue Termin?",
+      "options": [
+       "Donnerstag, 10.30 Uhr",
+       "Donnerstag, 14 Uhr",
+       "Dienstag, 14 Uhr"
+      ],
+      "answer": 1,
+      "explain": "The 10.30 appointment is cancelled; the new time is Thursday at 14.00. Key line: \"Sie können aber am Donnerstag um vierzehn Uhr kommen.\"",
+      "plays": 2,
+      "transcriptFr": "Bonjour, ici le cabinet dentaire du docteur Hoffmann. Votre rendez-vous de jeudi à dix heures et demie n'est malheureusement pas possible. Mais vous pouvez venir jeudi à quatorze heures. Veuillez nous appeler : zéro deux un, quatre cinq six, sept huit. Au revoir."
+     },
+     {
+      "id": "H3-3-3",
+      "script": [
+       {
+        "sp": "N",
+        "g": "f",
+        "t": "Hallo Papa, hier ist Nina. Ich bin noch im Büro. Normalerweise bin ich um sechs zu Hause, aber heute komme ich erst um acht. Esst bitte nicht ohne mich, ich habe Hunger! Bis später!",
+        "k": "d6eade4056fe98"
+       }
+      ],
+      "q": "Wann kommt Nina heute nach Hause?",
+      "options": [
+       "um 8 Uhr",
+       "um 6 Uhr",
+       "um 7 Uhr"
+      ],
+      "answer": 0,
+      "explain": "She is usually home at six, but today only at eight. Key line: \"aber heute komme ich erst um acht.\"",
+      "plays": 2,
+      "transcriptFr": "Salut papa, c'est Nina. Je suis encore au bureau. D'habitude je suis à la maison à six heures, mais aujourd'hui je ne rentre qu'à huit heures. Ne mangez pas sans moi, s'il vous plaît, j'ai faim ! À plus tard !"
+     },
+     {
+      "id": "H3-3-4",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Guten Tag, Frau Dubois, hier ist Herr Keller von der Hausverwaltung. Sie möchten die Wohnung in Genf sehen. Das geht am Mittwoch um siebzehn Uhr. Die Wohnung hat drei Zimmer und kostet zweitausend Franken im Monat. Bitte rufen Sie mich zurück.",
+        "k": "879ee791ed27ad"
+       }
+      ],
+      "q": "Wie viel kostet die Wohnung im Monat?",
+      "options": [
+       "3000 Franken",
+       "1700 Franken",
+       "2000 Franken"
+      ],
+      "answer": 2,
+      "explain": "Three is the number of rooms and 17 is the time; the rent is 2000 francs. Key line: \"kostet zweitausend Franken im Monat.\"",
+      "plays": 2,
+      "transcriptFr": "Bonjour Madame Dubois, ici Monsieur Keller de la régie immobilière. Vous souhaitez voir l'appartement à Genève. C'est possible mercredi à dix-sept heures. L'appartement a trois pièces et coûte deux mille francs par mois. Veuillez me rappeler."
+     },
+     {
+      "id": "H3-3-5",
+      "script": [
+       {
+        "sp": "N",
+        "g": "m",
+        "t": "Hallo Ben, hier ist Kai. Das Fußballspiel ist heute nicht um sechzehn Uhr, sondern schon um fünfzehn Uhr. Wir treffen uns deshalb um halb drei am Stadion. Bis dann!",
+        "k": "5110e9e5512c1f"
+       }
+      ],
+      "q": "Wann treffen sich Ben und Kai?",
+      "options": [
+       "um 14.30 Uhr",
+       "um 15 Uhr",
+       "um 16 Uhr"
+      ],
+      "answer": 0,
+      "explain": "The match is at 15.00, but they meet at half past two at the stadium. Key line: \"Wir treffen uns deshalb um halb drei am Stadion.\"",
+      "plays": 2,
+      "transcriptFr": "Salut Ben, c'est Kai. Le match de foot n'est pas à seize heures aujourd'hui, mais déjà à quinze heures. C'est pourquoi on se retrouve à deux heures et demie au stade. À tout à l'heure !"
+     }
+    ]
+   }
+  ]
+ },
+ "lesen": {
+  "sets": [
+   {
+    "id": "L1",
+    "title": "Modellsatz 1",
+    "teil1": {
+     "texts": [
+      {
+       "id": "L1-T1a",
+       "kind": "email",
+       "from": "Lisa Wagner",
+       "to": "Tom Berger",
+       "subject": "Deine Party",
+       "body": "Hallo Tom,\nvielen Dank für die Einladung! Ich komme gern zu deiner Party am Samstag. Aber ich komme erst um 21 Uhr, denn ich arbeite am Samstag bis 20 Uhr. Soll ich etwas mitbringen? Ich kann einen Kuchen backen. Meine Schwester Julia ist am Wochenende auch hier. Darf sie mitkommen? Sie kennt dich noch nicht, aber sie möchte dich gern kennenlernen.\nBis Samstag!\nLisa",
+       "fr": "Salut Tom,\nmerci beaucoup pour l'invitation ! Je viens volontiers à ta fête samedi. Mais je n'arrive qu'à 21 heures, car je travaille samedi jusqu'à 20 heures. Est-ce que je dois apporter quelque chose ? Je peux faire un gâteau. Ma sœur Julia est aussi ici ce week-end. Est-ce qu'elle peut venir ? Elle ne te connaît pas encore, mais elle aimerait bien faire ta connaissance.\nÀ samedi !\nLisa"
+      },
+      {
+       "id": "L1-T1b",
+       "kind": "email",
+       "from": "Markus Frei",
+       "to": "Sabine Roth",
+       "subject": "Termin mit Herrn Brunner",
+       "body": "Liebe Sabine,\nich bin heute krank und komme nicht ins Büro. Ich habe um 10 Uhr einen Termin mit Herrn Brunner. Kannst du ihn bitte anrufen? Seine Telefonnummer ist 044 213 56 78. Bitte sag ihm: Der Termin ist nicht heute, sondern am Donnerstag um 14 Uhr. Morgen bin ich wieder im Büro.\nVielen Dank!\nMarkus",
+       "fr": "Chère Sabine,\nje suis malade aujourd'hui et je ne viens pas au bureau. J'ai un rendez-vous à 10 heures avec M. Brunner. Est-ce que tu peux l'appeler, s'il te plaît ? Son numéro de téléphone est le 044 213 56 78. Dis-lui, s'il te plaît : le rendez-vous n'est pas aujourd'hui, mais jeudi à 14 heures. Demain, je suis de retour au bureau.\nMerci beaucoup !\nMarkus"
+      }
+     ],
+     "items": [
+      {
+       "id": "L1-1-1",
+       "text": "L1-T1a",
+       "statement": "Lisa arbeitet am Samstag.",
+       "answer": true,
+       "explain": "Lisa writes \"ich arbeite am Samstag bis 20 Uhr\"."
+      },
+      {
+       "id": "L1-1-2",
+       "text": "L1-T1a",
+       "statement": "Lisas Schwester kennt Tom schon.",
+       "answer": false,
+       "explain": "About Julia she writes \"Sie kennt dich noch nicht\", so she does not know Tom yet."
+      },
+      {
+       "id": "L1-1-3",
+       "text": "L1-T1b",
+       "statement": "Markus ist heute im Büro.",
+       "answer": false,
+       "explain": "Markus writes \"ich bin heute krank und komme nicht ins Büro\"."
+      },
+      {
+       "id": "L1-1-4",
+       "text": "L1-T1b",
+       "statement": "Sabine soll Herrn Brunner anrufen.",
+       "answer": true,
+       "explain": "Markus asks \"Kannst du ihn bitte anrufen?\", meaning Herr Brunner."
+      },
+      {
+       "id": "L1-1-5",
+       "text": "L1-T1b",
+       "statement": "Der neue Termin ist am Donnerstag um 10 Uhr.",
+       "answer": false,
+       "explain": "10 Uhr was the old time; the new appointment is \"am Donnerstag um 14 Uhr\"."
+      }
+     ]
+    },
+    "teil2": [
+     {
+      "id": "L1-2-1",
+      "situation": "Sie möchten am Wochenende einen Deutschkurs machen.",
+      "a": {
+       "title": "Sprachschule Lingua",
+       "body": "Deutsch für Anfänger: neue Kurse ab 5. September. Montag bis Freitag, 18 bis 20 Uhr. Kleine Gruppen, nur 8 Personen. Preis: 390 Euro.",
+       "fr": "École de langues Lingua : allemand pour débutants, nouveaux cours dès le 5 septembre. Du lundi au vendredi, de 18 h à 20 h. Petits groupes, seulement 8 personnes. Prix : 390 euros."
+      },
+      "b": {
+       "title": "Volkshochschule",
+       "body": "Deutsch A1 intensiv: am Samstag und Sonntag, 9 bis 13 Uhr. Der Kurs beginnt am 10. September. Anmeldung im Büro oder online.",
+       "fr": "Université populaire : allemand A1 intensif, le samedi et le dimanche, de 9 h à 13 h. Le cours commence le 10 septembre. Inscription au bureau ou en ligne."
+      },
+      "answer": "b",
+      "explain": "Only b has classes \"am Samstag und Sonntag\"; Lingua is \"Montag bis Freitag\"."
+     },
+     {
+      "id": "L1-2-2",
+      "situation": "Sie sind in Genf und möchten am Sonntag mit dem Zug nach Zürich fahren. Sie möchten vor 10 Uhr in Zürich sein.",
+      "a": {
+       "title": "SBB Fahrplan: Genf - Zürich HB",
+       "body": "Sonntag\nGenf ab 6.42 Uhr\nZürich HB an 9.28 Uhr\nDirekt, kein Umsteigen.",
+       "fr": "CFF horaire : Genève - Zurich gare centrale. Dimanche. Départ de Genève 6 h 42, arrivée à Zurich 9 h 28. Direct, sans changement."
+      },
+      "b": {
+       "title": "SBB Fahrplan: Genf - Zürich HB",
+       "body": "Sonntag\nGenf ab 8.42 Uhr\nZürich HB an 11.28 Uhr\nDirekt, kein Umsteigen.",
+       "fr": "CFF horaire : Genève - Zurich gare centrale. Dimanche. Départ de Genève 8 h 42, arrivée à Zurich 11 h 28. Direct, sans changement."
+      },
+      "answer": "a",
+      "explain": "Train a arrives \"Zürich HB an 9.28 Uhr\", before 10; train b arrives at 11.28 Uhr."
+     },
+     {
+      "id": "L1-2-3",
+      "situation": "Ihr Kind ist krank. Es ist Samstagabend. Sie brauchen einen Arzt.",
+      "a": {
+       "title": "Praxis Dr. Meier, Kinderarzt",
+       "body": "Sprechstunden: Montag bis Freitag 8 bis 12 Uhr und 14 bis 18 Uhr, Samstag 9 bis 12 Uhr. Bitte rufen Sie vorher an.",
+       "fr": "Cabinet du Dr Meier, pédiatre. Consultations : du lundi au vendredi de 8 h à 12 h et de 14 h à 18 h, le samedi de 9 h à 12 h. Veuillez appeler avant."
+      },
+      "b": {
+       "title": "Ärztlicher Notdienst",
+       "body": "Am Abend, in der Nacht und am Wochenende: Rufen Sie uns an! Ein Arzt kommt zu Ihnen nach Hause. Telefon 0800 33 66 55.",
+       "fr": "Service médical d'urgence. Le soir, la nuit et le week-end : appelez-nous ! Un médecin vient chez vous. Téléphone 0800 33 66 55."
+      },
+      "answer": "b",
+      "explain": "Dr. Meier is open on Saturday only \"9 bis 12 Uhr\"; the Notdienst helps \"am Abend ... und am Wochenende\"."
+     },
+     {
+      "id": "L1-2-4",
+      "situation": "Sie suchen eine Wohnung mit Balkon. Sie haben einen Hund.",
+      "a": {
+       "title": "2-Zimmer-Wohnung in Bern",
+       "body": "Schöne Wohnung, 60 m², 3. Stock, großer Balkon. Haustiere sind kein Problem. Miete: 1450 Franken. Ab 1. Oktober frei.",
+       "fr": "Appartement de 2 pièces à Berne. Bel appartement, 60 m², 3e étage, grand balcon. Les animaux ne posent pas de problème. Loyer : 1450 francs. Libre dès le 1er octobre."
+      },
+      "b": {
+       "title": "3-Zimmer-Wohnung in Bern",
+       "body": "Helle Wohnung, 75 m², mit Balkon und Küche. Leider keine Haustiere! Miete: 1700 Franken. Ab sofort frei.",
+       "fr": "Appartement de 3 pièces à Berne. Appartement lumineux, 75 m², avec balcon et cuisine. Malheureusement pas d'animaux ! Loyer : 1700 francs. Libre tout de suite."
+      },
+      "answer": "a",
+      "explain": "Both have a balcony, but b says \"Leider keine Haustiere!\"; a says \"Haustiere sind kein Problem\"."
+     },
+     {
+      "id": "L1-2-5",
+      "situation": "Sie möchten am Montag ein Museum besuchen.",
+      "a": {
+       "title": "Kunstmuseum",
+       "body": "Öffnungszeiten: Dienstag bis Sonntag 10 bis 18 Uhr, Donnerstag bis 20 Uhr. Montag geschlossen. Eintritt: 15 Euro.",
+       "fr": "Musée des beaux-arts. Horaires : du mardi au dimanche de 10 h à 18 h, le jeudi jusqu'à 20 h. Fermé le lundi. Entrée : 15 euros."
+      },
+      "b": {
+       "title": "Stadtmuseum",
+       "body": "Die Geschichte unserer Stadt. Wir sind jeden Tag für Sie da: 9 bis 17 Uhr. Eintritt: 8 Euro, Kinder frei.",
+       "fr": "Musée de la ville. L'histoire de notre ville. Nous sommes là pour vous tous les jours : de 9 h à 17 h. Entrée : 8 euros, gratuit pour les enfants."
+      },
+      "answer": "b",
+      "explain": "The Kunstmuseum says \"Montag geschlossen\"; the Stadtmuseum is open \"jeden Tag\"."
+     }
+    ],
+    "teil3": [
+     {
+      "id": "L1-3-1",
+      "sign": {
+       "title": "Bäckerei Schneider",
+       "body": "Liebe Kunden,\nwir machen Urlaub! Vom 3. bis 17. August ist die Bäckerei geschlossen. Ab 18. August sind wir wieder für Sie da.",
+       "fr": "Boulangerie Schneider. Chers clients, nous partons en vacances ! Du 3 au 17 août, la boulangerie est fermée. Dès le 18 août, nous sommes de nouveau là pour vous."
+      },
+      "statement": "Die Bäckerei ist am 10. August geöffnet.",
+      "answer": false,
+      "explain": "The bakery is closed \"vom 3. bis 17. August\", and 10 August is in that period."
+     },
+     {
+      "id": "L1-3-2",
+      "sign": {
+       "title": "Achtung, Kurs A1!",
+       "body": "Der Deutschkurs A1 ist heute nicht im Raum 12. Bitte gehen Sie in den Raum 21 im zweiten Stock. Ihre Lehrerin, Frau Klein",
+       "fr": "Attention, cours A1 ! Aujourd'hui, le cours d'allemand A1 n'a pas lieu dans la salle 12. Veuillez aller dans la salle 21 au deuxième étage. Votre enseignante, Mme Klein"
+      },
+      "statement": "Der Kurs ist heute in einem anderen Raum.",
+      "answer": true,
+      "explain": "The sign says \"nicht im Raum 12\" but \"in den Raum 21\"."
+     },
+     {
+      "id": "L1-3-3",
+      "sign": {
+       "title": "Praxis Dr. Lehmann",
+       "body": "Bitte gehen Sie zuerst zur Anmeldung und zeigen Sie Ihre Versichertenkarte. Dann warten Sie bitte im Wartezimmer. Danke!",
+       "fr": "Cabinet du Dr Lehmann. Veuillez d'abord passer à la réception et montrer votre carte d'assurance. Ensuite, veuillez attendre dans la salle d'attente. Merci !"
+      },
+      "statement": "Sie gehen zuerst ins Wartezimmer.",
+      "answer": false,
+      "explain": "First you go \"zuerst zur Anmeldung\", and only \"dann\" to the Wartezimmer."
+     },
+     {
+      "id": "L1-3-4",
+      "sign": {
+       "title": "Supermarkt Frisch",
+       "body": "Nur am Freitag: alle Getränke 20 % billiger! Wasser, Saft, Cola, Bier und Wein. Kommen Sie vorbei!",
+       "fr": "Supermarché Frisch. Seulement vendredi : toutes les boissons 20 % moins chères ! Eau, jus, cola, bière et vin. Passez nous voir !"
+      },
+      "statement": "Am Freitag kostet Wasser weniger.",
+      "answer": true,
+      "explain": "\"Nur am Freitag: alle Getränke 20 % billiger\", and Wasser is one of the drinks."
+     },
+     {
+      "id": "L1-3-5",
+      "sign": {
+       "title": "Billettautomat kaputt",
+       "body": "Dieser Automat funktioniert heute nicht. Bitte kaufen Sie Ihr Billett am Schalter in der Bahnhofshalle oder mit der SBB-App.",
+       "fr": "Distributeur de billets en panne. Cet automate ne fonctionne pas aujourd'hui. Veuillez acheter votre billet au guichet dans le hall de la gare ou avec l'application CFF."
+      },
+      "statement": "Sie können Ihre Fahrkarte am Schalter kaufen.",
+      "answer": true,
+      "explain": "The sign says \"kaufen Sie Ihr Billett am Schalter\"; Billett is the Swiss word for Fahrkarte."
+     }
+    ]
+   },
+   {
+    "id": "L2",
+    "title": "Modellsatz 2",
+    "teil1": {
+     "texts": [
+      {
+       "id": "L2-T1a",
+       "kind": "email",
+       "from": "Sophie Krüger",
+       "to": "Karin Lang",
+       "subject": "Grüße aus Hamburg",
+       "body": "Liebe Karin,\nwie geht es dir? Ich bin jetzt in Hamburg und wohne bei meinem Bruder. Die Stadt ist toll, aber das Wetter ist schlecht. Am Sonntag fahre ich nach Berlin zurück. Kommst du am Montag zu mir zum Essen? Ich koche Spaghetti. Mein Bruder kommt auch mit nach Berlin und bleibt drei Tage bei mir. Bitte ruf mich an oder schreib mir eine SMS.\nViele Grüße\nSophie",
+       "fr": "Chère Karin,\ncomment vas-tu ? Je suis maintenant à Hambourg et j'habite chez mon frère. La ville est géniale, mais le temps est mauvais. Dimanche, je rentre à Berlin. Est-ce que tu viens manger chez moi lundi ? Je cuisine des spaghettis. Mon frère vient aussi à Berlin et reste trois jours chez moi. Appelle-moi ou écris-moi un SMS, s'il te plaît.\nBien à toi\nSophie"
+      },
+      {
+       "id": "L2-T1b",
+       "kind": "note",
+       "from": "Jonas",
+       "to": "Paul",
+       "subject": "",
+       "body": "Hallo Paul,\nich bin bis Mittwoch bei meinen Eltern in Basel. Kannst du bitte am Montag meine Blumen gießen? Einmal ist genug. Im Kühlschrank sind noch Milch und Käse von mir. Du kannst sie gern nehmen. Am Mittwochabend bin ich wieder zu Hause. Dann gehen wir zusammen ins Kino, okay? Ich bezahle die Karten!\nJonas",
+       "fr": "Salut Paul,\nje suis chez mes parents à Bâle jusqu'à mercredi. Est-ce que tu peux arroser mes fleurs lundi, s'il te plaît ? Une fois suffit. Dans le frigo, il y a encore du lait et du fromage à moi. Tu peux les prendre, sans problème. Mercredi soir, je suis de retour à la maison. Ensuite, on va ensemble au cinéma, d'accord ? Je paie les billets !\nJonas"
+      }
+     ],
+     "items": [
+      {
+       "id": "L2-1-1",
+       "text": "L2-T1a",
+       "statement": "Sophie wohnt in Hamburg in einem Hotel.",
+       "answer": false,
+       "explain": "Sophie writes \"ich wohne bei meinem Bruder\", not in a hotel."
+      },
+      {
+       "id": "L2-1-2",
+       "text": "L2-T1a",
+       "statement": "Sophie möchte am Montag für Karin kochen.",
+       "answer": true,
+       "explain": "She asks \"Kommst du am Montag zu mir zum Essen? Ich koche Spaghetti.\""
+      },
+      {
+       "id": "L2-1-3",
+       "text": "L2-T1b",
+       "statement": "Jonas ist bis Mittwoch nicht zu Hause.",
+       "answer": true,
+       "explain": "Jonas writes \"ich bin bis Mittwoch bei meinen Eltern in Basel\"."
+      },
+      {
+       "id": "L2-1-4",
+       "text": "L2-T1b",
+       "statement": "Paul soll jeden Tag die Blumen gießen.",
+       "answer": false,
+       "explain": "Only \"am Montag\": Jonas writes \"Einmal ist genug\"."
+      },
+      {
+       "id": "L2-1-5",
+       "text": "L2-T1b",
+       "statement": "Paul bezahlt das Kino.",
+       "answer": false,
+       "explain": "Jonas writes \"Ich bezahle die Karten!\", so Jonas pays."
+      }
+     ]
+    },
+    "teil2": [
+     {
+      "id": "L2-2-1",
+      "situation": "Sie möchten schwimmen gehen. Sie haben am Dienstag um 20 Uhr Zeit.",
+      "a": {
+       "title": "Hallenbad Mitte",
+       "body": "Montag bis Freitag 7 bis 21 Uhr, Samstag und Sonntag 9 bis 18 Uhr. Eintritt: Erwachsene 7 Franken, Kinder 4 Franken.",
+       "fr": "Piscine couverte Mitte. Du lundi au vendredi de 7 h à 21 h, samedi et dimanche de 9 h à 18 h. Entrée : adultes 7 francs, enfants 4 francs."
+      },
+      "b": {
+       "title": "Freibad am See",
+       "body": "Von Mai bis September jeden Tag geöffnet, 9 bis 19 Uhr. Bei Regen geschlossen. Eintritt: 6 Franken.",
+       "fr": "Piscine en plein air au bord du lac. Ouverte tous les jours de mai à septembre, de 9 h à 19 h. Fermée en cas de pluie. Entrée : 6 francs."
+      },
+      "answer": "a",
+      "explain": "The Freibad closes at 19 Uhr; the Hallenbad is open \"Montag bis Freitag 7 bis 21 Uhr\"."
+     },
+     {
+      "id": "L2-2-2",
+      "situation": "Sie suchen ein Fahrrad. Es soll nicht viel kosten.",
+      "a": {
+       "title": "Velo-Shop Zürich",
+       "body": "Neue Fahrräder von Top-Marken! Stadträder ab 890 Franken, E-Bikes ab 2500 Franken. Montag bis Samstag geöffnet.",
+       "fr": "Magasin de vélos Zurich. Vélos neufs de grandes marques ! Vélos de ville dès 890 francs, vélos électriques dès 2500 francs. Ouvert du lundi au samedi."
+      },
+      "b": {
+       "title": "Kleinanzeigen: Fahrräder",
+       "body": "Verkaufe mein Fahrrad, 3 Jahre alt, sehr gut, Farbe blau. Nur 120 Franken. Telefon: 079 456 12 34 (am Abend).",
+       "fr": "Petites annonces : vélos. Je vends mon vélo, 3 ans, très bon état, couleur bleue. Seulement 120 francs. Téléphone : 079 456 12 34 (le soir)."
+      },
+      "answer": "b",
+      "explain": "b costs \"Nur 120 Franken\"; in a the cheapest bike costs \"ab 890 Franken\"."
+     },
+     {
+      "id": "L2-2-3",
+      "situation": "Sie möchten am Samstag mit Ihren Kindern (5 und 8 Jahre) einen Film sehen.",
+      "a": {
+       "title": "Kino Rex",
+       "body": "Samstag, 15 Uhr: \"Die kleine Katze\". Ein lustiger Film für die ganze Familie, ab 4 Jahren. Kinder zahlen nur 8 Euro.",
+       "fr": "Cinéma Rex. Samedi, 15 h : « Le petit chat ». Un film drôle pour toute la famille, dès 4 ans. Les enfants ne paient que 8 euros."
+      },
+      "b": {
+       "title": "Kino Capitol",
+       "body": "Samstag, 20.30 Uhr: \"Die Nacht in Paris\". Ein spannender Krimi, ab 16 Jahren. Karten an der Kasse oder online.",
+       "fr": "Cinéma Capitol. Samedi, 20 h 30 : « La nuit à Paris ». Un polar captivant, dès 16 ans. Billets à la caisse ou en ligne."
+      },
+      "answer": "a",
+      "explain": "Film b is \"ab 16 Jahren\"; film a is for families, \"ab 4 Jahren\"."
+     },
+     {
+      "id": "L2-2-4",
+      "situation": "Sie suchen eine Arbeit. Sie können nur am Wochenende arbeiten.",
+      "a": {
+       "title": "Café Sonne sucht Kellner/in",
+       "body": "Arbeitszeit: Montag bis Freitag, 7 bis 14 Uhr. Sie sind freundlich und sprechen gut Deutsch? Rufen Sie uns an!",
+       "fr": "Le Café Sonne cherche serveur/serveuse. Horaires : du lundi au vendredi, de 7 h à 14 h. Vous êtes aimable et parlez bien allemand ? Appelez-nous !"
+      },
+      "b": {
+       "title": "Supermarkt Preiswert",
+       "body": "Wir suchen Verkäufer/innen für Samstag und Sonntag. Sie arbeiten 8 Stunden pro Tag. Schreiben Sie eine E-Mail an job@preiswert.de.",
+       "fr": "Supermarché Preiswert. Nous cherchons des vendeurs/vendeuses pour le samedi et le dimanche. Vous travaillez 8 heures par jour. Écrivez un e-mail à job@preiswert.de."
+      },
+      "answer": "b",
+      "explain": "The café job is \"Montag bis Freitag\"; the supermarket job is \"für Samstag und Sonntag\"."
+     },
+     {
+      "id": "L2-2-5",
+      "situation": "Sie haben Geburtstag und möchten mit 20 Freunden in einem Restaurant feiern.",
+      "a": {
+       "title": "Restaurant Seeblick",
+       "body": "Feiern Sie bei uns! Wir haben einen großen Raum für Feste bis 40 Personen. Gutes Essen und schöne Aussicht auf den See.",
+       "fr": "Restaurant Seeblick. Faites la fête chez nous ! Nous avons une grande salle pour des fêtes jusqu'à 40 personnes. Bonne cuisine et belle vue sur le lac."
+      },
+      "b": {
+       "title": "Pizzeria Mario",
+       "body": "Kleines Restaurant mit nur 6 Tischen. Pizza und Pasta wie in Italien. Pizza auch zum Mitnehmen.",
+       "fr": "Pizzeria Mario. Petit restaurant avec seulement 6 tables. Pizza et pâtes comme en Italie. Pizza aussi à emporter."
+      },
+      "answer": "a",
+      "explain": "Seeblick has a room \"für Feste bis 40 Personen\"; Mario has \"nur 6 Tischen\"."
+     }
+    ],
+    "teil3": [
+     {
+      "id": "L2-3-1",
+      "sign": {
+       "title": "Wir sind umgezogen!",
+       "body": "Liebe Kunden,\nunser Geschäft ist jetzt in der Bahnhofstraße 14, nur 200 Meter von hier. Wir freuen uns auf Ihren Besuch!",
+       "fr": "Nous avons déménagé ! Chers clients, notre magasin se trouve maintenant à la Bahnhofstrasse 14, à seulement 200 mètres d'ici. Nous nous réjouissons de votre visite !"
+      },
+      "statement": "Das Geschäft ist nicht mehr hier.",
+      "answer": true,
+      "explain": "\"Wir sind umgezogen\": the shop is now \"in der Bahnhofstraße 14\"."
+     },
+     {
+      "id": "L2-3-2",
+      "sign": {
+       "title": "Praxis Dr. Huber",
+       "body": "Sprechstunden:\nMontag bis Freitag 8 bis 12 Uhr\nMontag, Dienstag, Donnerstag 14 bis 18 Uhr\nMittwochnachmittag und Freitagnachmittag geschlossen",
+       "fr": "Cabinet du Dr Huber. Consultations : du lundi au vendredi de 8 h à 12 h. Lundi, mardi, jeudi de 14 h à 18 h. Fermé le mercredi après-midi et le vendredi après-midi."
+      },
+      "statement": "Sie können am Mittwoch um 15 Uhr zum Arzt gehen.",
+      "answer": false,
+      "explain": "The practice is \"Mittwochnachmittag ... geschlossen\"."
+     },
+     {
+      "id": "L2-3-3",
+      "sign": {
+       "title": "Liebe Eltern!",
+       "body": "Am Freitag, 12. Mai, haben die Lehrer eine Konferenz. Dann ist kein Unterricht. Die Schule beginnt wieder am Montag um 8 Uhr.",
+       "fr": "Chers parents ! Le vendredi 12 mai, les enseignants ont une conférence. Il n'y a donc pas de cours. L'école reprend lundi à 8 heures."
+      },
+      "statement": "Die Kinder haben am Freitag Schule.",
+      "answer": false,
+      "explain": "The notice says that on Friday \"ist kein Unterricht\"."
+     },
+     {
+      "id": "L2-3-4",
+      "sign": {
+       "title": "Aufzug kaputt!",
+       "body": "Der Aufzug funktioniert leider nicht. Bitte nehmen Sie die Treppe. Ab Donnerstag ist der Aufzug wieder in Ordnung. Ihre Hausverwaltung",
+       "fr": "Ascenseur en panne ! L'ascenseur ne fonctionne malheureusement pas. Veuillez prendre l'escalier. À partir de jeudi, l'ascenseur fonctionne de nouveau. Votre gérance"
+      },
+      "statement": "Der Aufzug funktioniert heute nicht.",
+      "answer": true,
+      "explain": "\"Der Aufzug funktioniert leider nicht\", you must take the stairs."
+     },
+     {
+      "id": "L2-3-5",
+      "sign": {
+       "title": "Café Morgenstern",
+       "body": "Frühstücksangebot: Kaffee und Croissant für nur 4,50 Franken! Jeden Tag von 7 bis 10 Uhr, auch am Sonntag.",
+       "fr": "Café Morgenstern. Offre petit-déjeuner : café et croissant pour seulement 4,50 francs ! Tous les jours de 7 h à 10 h, aussi le dimanche."
+      },
+      "statement": "Das Angebot gibt es auch am Wochenende.",
+      "answer": true,
+      "explain": "The offer is \"Jeden Tag ... auch am Sonntag\"."
+     }
+    ]
+   },
+   {
+    "id": "L3",
+    "title": "Modellsatz 3",
+    "teil1": {
+     "texts": [
+      {
+       "id": "L3-T1a",
+       "kind": "email",
+       "from": "Maria Costa",
+       "to": "Elena Weiß",
+       "subject": "Mein neues Leben in Zürich",
+       "body": "Liebe Elena,\nseit zwei Wochen wohne ich jetzt in Zürich. Meine Wohnung ist klein, aber sehr schön und nicht teuer. Ich arbeite in einem Hotel am See. Die Arbeit ist interessant, aber ich muss oft am Wochenende arbeiten. Meine Kollegen sind sehr nett. Im Oktober habe ich eine Woche Urlaub. Besuchst du mich dann? Du kannst bei mir schlafen.\nLiebe Grüße\nMaria",
+       "fr": "Chère Elena,\nj'habite maintenant à Zurich depuis deux semaines. Mon appartement est petit, mais très beau et pas cher. Je travaille dans un hôtel au bord du lac. Le travail est intéressant, mais je dois souvent travailler le week-end. Mes collègues sont très gentils. En octobre, j'ai une semaine de vacances. Tu viens me voir à ce moment-là ? Tu peux dormir chez moi.\nAffectueusement\nMaria"
+      },
+      {
+       "id": "L3-T1b",
+       "kind": "note",
+       "from": "Mama",
+       "to": "Tim",
+       "subject": "",
+       "body": "Lieber Tim,\nich bin beim Zahnarzt und komme um 17 Uhr nach Hause. Papa kommt heute spät, er hat ein Meeting. Im Kühlschrank ist ein Joghurt für dich. Bitte mach zuerst deine Hausaufgaben, dann kannst du Fußball spielen. Um 18 Uhr kommt Oma, dann essen wir zusammen.\nBis später!\nMama",
+       "fr": "Cher Tim,\nje suis chez le dentiste et je rentre à la maison à 17 heures. Papa rentre tard aujourd'hui, il a une réunion. Dans le frigo, il y a un yaourt pour toi. S'il te plaît, fais d'abord tes devoirs, ensuite tu peux jouer au foot. À 18 heures, Mamie vient, et on mange ensemble.\nÀ plus tard !\nMaman"
+      }
+     ],
+     "items": [
+      {
+       "id": "L3-1-1",
+       "text": "L3-T1a",
+       "statement": "Maria hat eine große Wohnung.",
+       "answer": false,
+       "explain": "Maria writes \"Meine Wohnung ist klein\"."
+      },
+      {
+       "id": "L3-1-2",
+       "text": "L3-T1a",
+       "statement": "Maria hat im Oktober frei.",
+       "answer": true,
+       "explain": "She writes \"Im Oktober habe ich eine Woche Urlaub\"."
+      },
+      {
+       "id": "L3-1-3",
+       "text": "L3-T1b",
+       "statement": "Tims Mutter ist um 17 Uhr wieder zu Hause.",
+       "answer": true,
+       "explain": "Mama writes \"komme um 17 Uhr nach Hause\"."
+      },
+      {
+       "id": "L3-1-4",
+       "text": "L3-T1b",
+       "statement": "Tim soll zuerst Fußball spielen.",
+       "answer": false,
+       "explain": "\"Bitte mach zuerst deine Hausaufgaben, dann kannst du Fußball spielen\"."
+      },
+      {
+       "id": "L3-1-5",
+       "text": "L3-T1b",
+       "statement": "Tims Großmutter isst heute Abend mit der Familie.",
+       "answer": true,
+       "explain": "\"Um 18 Uhr kommt Oma, dann essen wir zusammen\"; Oma means Großmutter."
+      }
+     ]
+    },
+    "teil2": [
+     {
+      "id": "L3-2-1",
+      "situation": "Sie sind Tourist in Genf und möchten eine Stadtführung auf Deutsch machen.",
+      "a": {
+       "title": "Genf Tourismus",
+       "body": "Stadtführungen durch die Altstadt: jeden Tag um 10 Uhr, auf Französisch und Englisch. Dauer: 2 Stunden. Preis: 25 Franken.",
+       "fr": "Genève Tourisme. Visites guidées de la vieille ville : tous les jours à 10 h, en français et en anglais. Durée : 2 heures. Prix : 25 francs."
+      },
+      "b": {
+       "title": "Altstadt-Spaziergang",
+       "body": "Jeden Samstag um 14 Uhr: Führung auf Deutsch. Wir treffen uns vor der Kathedrale Saint-Pierre. Preis: 20 Franken.",
+       "fr": "Promenade dans la vieille ville. Chaque samedi à 14 h : visite guidée en allemand. Rendez-vous devant la cathédrale Saint-Pierre. Prix : 20 francs."
+      },
+      "answer": "b",
+      "explain": "a is only \"auf Französisch und Englisch\"; b is a \"Führung auf Deutsch\"."
+     },
+     {
+      "id": "L3-2-2",
+      "situation": "Ihr Computer ist kaputt. Sie brauchen schnell Hilfe.",
+      "a": {
+       "title": "PC-Service Schmid",
+       "body": "Ihr Computer funktioniert nicht? Wir kommen zu Ihnen nach Hause, noch am gleichen Tag! Rufen Sie an: 022 731 44 50.",
+       "fr": "PC-Service Schmid. Votre ordinateur ne fonctionne pas ? Nous venons chez vous, le jour même ! Appelez le 022 731 44 50."
+      },
+      "b": {
+       "title": "Computerkurs für Anfänger",
+       "body": "Sie möchten E-Mails schreiben und im Internet suchen? Unser Kurs beginnt am 3. November, immer dienstags 18 Uhr.",
+       "fr": "Cours d'informatique pour débutants. Vous voulez écrire des e-mails et faire des recherches sur Internet ? Notre cours commence le 3 novembre, toujours le mardi à 18 h."
+      },
+      "answer": "a",
+      "explain": "a repairs computers \"noch am gleichen Tag\"; b is only a course that begins in November."
+     },
+     {
+      "id": "L3-2-3",
+      "situation": "Sie möchten am Freitagabend tanzen gehen.",
+      "a": {
+       "title": "Tanzschule Bachmann",
+       "body": "Tanzkurse für Paare: Salsa und Tango. Immer dienstags und donnerstags um 19 Uhr. Anmeldung im Internet.",
+       "fr": "École de danse Bachmann. Cours de danse pour couples : salsa et tango. Toujours le mardi et le jeudi à 19 h. Inscription sur Internet."
+      },
+      "b": {
+       "title": "Club Nachtwerk",
+       "body": "Freitag und Samstag ab 22 Uhr: Party mit DJ, Musik und Tanz bis 4 Uhr. Eintritt: 15 Franken.",
+       "fr": "Club Nachtwerk. Vendredi et samedi dès 22 h : fête avec DJ, musique et danse jusqu'à 4 h. Entrée : 15 francs."
+      },
+      "answer": "b",
+      "explain": "The dance school is \"dienstags und donnerstags\"; the club has dancing \"Freitag und Samstag ab 22 Uhr\"."
+     },
+     {
+      "id": "L3-2-4",
+      "situation": "Sie möchten am Samstag auf einem Markt Obst und Gemüse kaufen.",
+      "a": {
+       "title": "Bauernmarkt am Rathausplatz",
+       "body": "Jeden Samstag von 8 bis 13 Uhr: frisches Obst, Gemüse, Käse und Brot von Bauern aus der Region.",
+       "fr": "Marché paysan sur la place de l'Hôtel de Ville. Chaque samedi de 8 h à 13 h : fruits frais, légumes, fromage et pain de paysans de la région."
+      },
+      "b": {
+       "title": "Wochenmarkt Plainpalais",
+       "body": "Dienstag und Freitag, 7 bis 12 Uhr: Obst und Gemüse, Blumen und Fisch. Am Samstag ist hier Flohmarkt.",
+       "fr": "Marché hebdomadaire de Plainpalais. Mardi et vendredi, de 7 h à 12 h : fruits et légumes, fleurs et poisson. Le samedi, il y a ici un marché aux puces."
+      },
+      "answer": "a",
+      "explain": "b sells fruit only \"Dienstag und Freitag\" (on Saturday it is a Flohmarkt); a is \"Jeden Samstag\"."
+     },
+     {
+      "id": "L3-2-5",
+      "situation": "Sie sind am Flughafen. Es ist 23.30 Uhr. Sie möchten mit dem Bus ins Zentrum fahren.",
+      "a": {
+       "title": "Bus Linie 10: Flughafen - Zentrum",
+       "body": "Alle 15 Minuten, von 5.30 Uhr bis 23 Uhr. Fahrzeit: 20 Minuten. Fahrkarten am Automaten.",
+       "fr": "Bus ligne 10 : aéroport - centre. Toutes les 15 minutes, de 5 h 30 à 23 h. Durée du trajet : 20 minutes. Billets au distributeur."
+      },
+      "b": {
+       "title": "Nachtbus N1: Flughafen - Zentrum",
+       "body": "Jede Stunde von 23.45 Uhr bis 4.45 Uhr. Fahrzeit: 25 Minuten. Fahrkarten beim Fahrer.",
+       "fr": "Bus de nuit N1 : aéroport - centre. Toutes les heures de 23 h 45 à 4 h 45. Durée du trajet : 25 minutes. Billets auprès du chauffeur."
+      },
+      "answer": "b",
+      "explain": "Line 10 runs only \"bis 23 Uhr\"; the Nachtbus starts at 23.45 Uhr."
+     }
+    ],
+    "teil3": [
+     {
+      "id": "L3-3-1",
+      "sign": {
+       "title": "Fitnessstudio Power",
+       "body": "Bitte bringen Sie immer ein Handtuch mit! Ohne Handtuch kein Training. Handtücher können Sie auch an der Kasse kaufen.",
+       "fr": "Salle de sport Power. Veuillez toujours apporter une serviette ! Pas d'entraînement sans serviette. Vous pouvez aussi acheter des serviettes à la caisse."
+      },
+      "statement": "Sie brauchen ein Handtuch für das Training.",
+      "answer": true,
+      "explain": "The sign says \"Ohne Handtuch kein Training\"."
+     },
+     {
+      "id": "L3-3-2",
+      "sign": {
+       "title": "Stadtbibliothek",
+       "body": "Liebe Besucher, bitte nicht essen und nicht trinken! Telefonieren nur im Flur. Vielen Dank.",
+       "fr": "Bibliothèque municipale. Chers visiteurs, veuillez ne pas manger et ne pas boire ! Téléphoner seulement dans le couloir. Merci beaucoup."
+      },
+      "statement": "In der Bibliothek dürfen Sie Kaffee trinken.",
+      "answer": false,
+      "explain": "The sign says \"bitte nicht essen und nicht trinken\"."
+     },
+     {
+      "id": "L3-3-3",
+      "sign": {
+       "title": "Zahnarztpraxis Dr. Weber",
+       "body": "Wir sind vom 22. Dezember bis 5. Januar im Urlaub. Bei Schmerzen rufen Sie bitte Dr. Frey an: 022 345 67 89.",
+       "fr": "Cabinet dentaire Dr Weber. Nous sommes en vacances du 22 décembre au 5 janvier. En cas de douleurs, veuillez appeler le Dr Frey : 022 345 67 89."
+      },
+      "statement": "Dr. Weber arbeitet am 2. Januar.",
+      "answer": false,
+      "explain": "Dr. Weber is \"vom 22. Dezember bis 5. Januar im Urlaub\"."
+     },
+     {
+      "id": "L3-3-4",
+      "sign": {
+       "title": "Sprachschule Europa",
+       "body": "Neue Deutschkurse ab 1. März! Anmeldung im Büro, Zimmer 3, Montag bis Donnerstag von 9 bis 17 Uhr.",
+       "fr": "École de langues Europa. Nouveaux cours d'allemand dès le 1er mars ! Inscription au bureau, salle 3, du lundi au jeudi de 9 h à 17 h."
+      },
+      "statement": "Sie können sich im Büro für einen Kurs anmelden.",
+      "answer": true,
+      "explain": "The sign says \"Anmeldung im Büro, Zimmer 3\"."
+     },
+     {
+      "id": "L3-3-5",
+      "sign": {
+       "title": "Parkplatz",
+       "body": "Nur für Kunden vom Möbelhaus Keller. Parken maximal 2 Stunden. Andere Autos dürfen hier nicht parken.",
+       "fr": "Parking. Seulement pour les clients du magasin de meubles Keller. Stationnement 2 heures maximum. Les autres voitures n'ont pas le droit de stationner ici."
+      },
+      "statement": "Kunden können hier den ganzen Tag parken.",
+      "answer": false,
+      "explain": "The sign says \"Parken maximal 2 Stunden\"."
+     }
+    ]
+   }
+  ]
+ },
+ "schreiben": {
+  "teil1": [
+   {
+    "id": "S1-1",
+    "title": "Anmeldung im Fitnessstudio",
+    "text": "Laura Weber möchte im Fitnessstudio FitPlus in Basel trainieren. Sie ist am 12. März 1995 in Köln geboren und wohnt jetzt in der Gartenstraße 14 in 4051 Basel. Laura arbeitet als Krankenschwester im Krankenhaus. Sie arbeitet am Morgen, darum möchte sie am Abend trainieren. Ihre Telefonnummer ist 061 234 56 78. Laura hat keine Kreditkarte, sie bezahlt jeden Monat bar.",
+    "textFr": "Laura Weber veut s'entraîner au centre de fitness FitPlus à Bâle. Elle est née le 12 mars 1995 à Cologne et habite maintenant Gartenstraße 14, 4051 Bâle. Laura travaille comme infirmière à l'hôpital. Elle travaille le matin, c'est pourquoi elle veut s'entraîner le soir. Son numéro de téléphone est le 061 234 56 78. Laura n'a pas de carte de crédit, elle paie chaque mois en espèces.",
+    "fields": [
+     {
+      "label": "Familienname",
+      "answer": [
+       "Weber"
+      ],
+      "given": true
+     },
+     {
+      "label": "Vorname",
+      "answer": [
+       "Laura"
+      ],
+      "given": true
+     },
+     {
+      "label": "Adresse",
+      "answer": [
+       "Gartenstraße 14, 4051 Basel"
+      ],
+      "given": true
+     },
+     {
+      "label": "Geburtsdatum",
+      "answer": [
+       "12.03.1995",
+       "12.3.1995",
+       "12. März 1995",
+       "12.03.95",
+       "12.3.95"
+      ]
+     },
+     {
+      "label": "Geburtsort",
+      "answer": [
+       "Köln"
+      ]
+     },
+     {
+      "label": "Beruf",
+      "answer": [
+       "Krankenschwester"
+      ]
+     },
+     {
+      "label": "Trainingszeit",
+      "answer": [
+       "Abend",
+       "am Abend"
+      ],
+      "options": [
+       "Morgen",
+       "Mittag",
+       "Abend"
+      ]
+     },
+     {
+      "label": "Zahlungsweise",
+      "answer": [
+       "bar",
+       "bar bezahlen",
+       "Bargeld"
+      ],
+      "options": [
+       "bar",
+       "Kreditkarte",
+       "Überweisung"
+      ]
+     }
+    ],
+    "explain": "Date of birth and birthplace are in sentence 2 (am 12. März 1995 in Köln geboren). Job: 'arbeitet als Krankenschwester'. Training time: she works in the morning, so she trains 'am Abend'. Payment: no credit card, she pays 'bar'. The phone number is extra information that the form does not ask for."
+   },
+   {
+    "id": "S1-2",
+    "title": "Anmeldung zum Deutschkurs",
+    "text": "Pedro Alves kommt aus Portugal. Er ist 28 Jahre alt und wohnt seit Mai in Zürich. Pedro ist Koch von Beruf und arbeitet in einem Hotel. Er spricht Portugiesisch, Spanisch und ein bisschen Englisch. Jetzt möchte er Deutsch lernen. Pedro arbeitet am Abend, darum möchte er einen Kurs am Vormittag machen. Er bezahlt den Kurs mit Kreditkarte.",
+    "textFr": "Pedro Alves vient du Portugal. Il a 28 ans et habite à Zurich depuis mai. Pedro est cuisinier de métier et travaille dans un hôtel. Il parle portugais, espagnol et un peu anglais. Maintenant, il veut apprendre l'allemand. Pedro travaille le soir, c'est pourquoi il veut suivre un cours le matin. Il paie le cours par carte de crédit.",
+    "fields": [
+     {
+      "label": "Familienname",
+      "answer": [
+       "Alves"
+      ],
+      "given": true
+     },
+     {
+      "label": "Vorname",
+      "answer": [
+       "Pedro"
+      ],
+      "given": true
+     },
+     {
+      "label": "Herkunftsland",
+      "answer": [
+       "Portugal"
+      ]
+     },
+     {
+      "label": "Alter",
+      "answer": [
+       "28",
+       "28 Jahre",
+       "achtundzwanzig",
+       "28 Jahre alt",
+       "achtundzwanzig Jahre"
+      ]
+     },
+     {
+      "label": "Beruf",
+      "answer": [
+       "Koch"
+      ]
+     },
+     {
+      "label": "Kurszeit",
+      "answer": [
+       "Vormittag",
+       "am Vormittag"
+      ],
+      "options": [
+       "Vormittag",
+       "Nachmittag",
+       "Abend"
+      ]
+     },
+     {
+      "label": "Zahlungsweise",
+      "answer": [
+       "Kreditkarte",
+       "mit Kreditkarte"
+      ],
+      "options": [
+       "bar",
+       "Kreditkarte",
+       "Überweisung"
+      ]
+     }
+    ],
+    "explain": "Country: first sentence (aus Portugal). Age: 'Er ist 28 Jahre alt'. Job: 'Koch von Beruf'. Course time: he works in the evening, so he wants the 'Vormittag' (careful: 'Abend' is a trap). Payment: last sentence, 'mit Kreditkarte'."
+   },
+   {
+    "id": "S1-3",
+    "title": "Hotelreservierung",
+    "text": "Familie Schneider aus Hamburg macht im Sommer Urlaub in Luzern. Thomas Schneider reserviert ein Zimmer im Hotel Seeblick. Die Familie kommt am 3. August an und bleibt vier Nächte. Thomas, seine Frau und die zwei Kinder brauchen ein Familienzimmer. Sie möchten im Hotel frühstücken. Sie kommen mit dem Auto. Die E-Mail-Adresse von Thomas ist t.schneider@web.de.",
+    "textFr": "La famille Schneider de Hambourg passe ses vacances d'été à Lucerne. Thomas Schneider réserve une chambre à l'hôtel Seeblick. La famille arrive le 3 août et reste quatre nuits. Thomas, sa femme et les deux enfants ont besoin d'une chambre familiale. Ils veulent prendre le petit-déjeuner à l'hôtel. Ils viennent en voiture. L'adresse e-mail de Thomas est t.schneider@web.de.",
+    "fields": [
+     {
+      "label": "Familienname",
+      "answer": [
+       "Schneider"
+      ],
+      "given": true
+     },
+     {
+      "label": "Vorname",
+      "answer": [
+       "Thomas"
+      ],
+      "given": true
+     },
+     {
+      "label": "E-Mail",
+      "answer": [
+       "t.schneider@web.de"
+      ],
+      "given": true
+     },
+     {
+      "label": "Wohnort",
+      "answer": [
+       "Hamburg"
+      ]
+     },
+     {
+      "label": "Anreise",
+      "answer": [
+       "3. August",
+       "03.08.",
+       "3.8.",
+       "03.08",
+       "3.8",
+       "3. 8.",
+       "am 3. August"
+      ]
+     },
+     {
+      "label": "Anzahl Nächte",
+      "answer": [
+       "4",
+       "vier",
+       "4 Nächte",
+       "vier Nächte"
+      ]
+     },
+     {
+      "label": "Anzahl Personen",
+      "answer": [
+       "4",
+       "vier",
+       "2 Erwachsene, 2 Kinder",
+       "4 Personen",
+       "vier Personen"
+      ]
+     },
+     {
+      "label": "Frühstück",
+      "answer": [
+       "ja"
+      ],
+      "options": [
+       "ja",
+       "nein"
+      ]
+     }
+    ],
+    "explain": "Home town: 'aus Hamburg' (Luzern is the holiday place, a classic trap). Arrival: 'am 3. August'. Nights: 'vier Nächte'. Persons: Thomas + wife + two children = 4. Breakfast: 'Sie möchten im Hotel frühstücken' = ja."
+   },
+   {
+    "id": "S1-4",
+    "title": "Anmeldung im Tennisclub",
+    "text": "Marco Rossi ist 35 Jahre alt und kommt aus Italien. Er wohnt in Lausanne und ist Lehrer von Beruf. Marco spielt seit zehn Jahren Tennis. Jetzt möchte er im Tennisclub Lausanne spielen. Er hat am Mittwoch und am Samstag Zeit. Seine Frau Anna möchte auch Mitglied werden. Für zwei Personen kostet der Club 600 Franken im Jahr. Marcos Handynummer ist 079 456 12 34.",
+    "textFr": "Marco Rossi a 35 ans et vient d'Italie. Il habite à Lausanne et il est enseignant de métier. Marco joue au tennis depuis dix ans. Maintenant, il veut jouer au club de tennis de Lausanne. Il a le temps le mercredi et le samedi. Sa femme Anna veut aussi devenir membre. Pour deux personnes, le club coûte 600 francs par an. Le numéro de portable de Marco est le 079 456 12 34.",
+    "fields": [
+     {
+      "label": "Familienname",
+      "answer": [
+       "Rossi"
+      ],
+      "given": true
+     },
+     {
+      "label": "Vorname",
+      "answer": [
+       "Marco"
+      ],
+      "given": true
+     },
+     {
+      "label": "Handynummer",
+      "answer": [
+       "079 456 12 34"
+      ],
+      "given": true
+     },
+     {
+      "label": "Alter",
+      "answer": [
+       "35",
+       "35 Jahre",
+       "fünfunddreißig",
+       "35 Jahre alt",
+       "fünfunddreißig Jahre"
+      ]
+     },
+     {
+      "label": "Herkunftsland",
+      "answer": [
+       "Italien"
+      ]
+     },
+     {
+      "label": "Beruf",
+      "answer": [
+       "Lehrer"
+      ]
+     },
+     {
+      "label": "Spieltage",
+      "answer": [
+       "Mittwoch und Samstag",
+       "Mittwoch, Samstag",
+       "Samstag und Mittwoch",
+       "Mi und Sa",
+       "am Mittwoch und am Samstag",
+       "Mittwoch und am Samstag",
+       "Mi, Sa"
+      ]
+     },
+     {
+      "label": "Anzahl Personen",
+      "answer": [
+       "2",
+       "zwei",
+       "2 Personen",
+       "zwei Personen"
+      ]
+     }
+    ],
+    "explain": "Age and country: sentence 1. Job: 'Lehrer von Beruf'. Days: 'am Mittwoch und am Samstag'. Persons: Marco and his wife Anna = 2. Do not confuse 'seit zehn Jahren' (how long he plays) with his age."
+   },
+   {
+    "id": "S1-5",
+    "title": "Bibliotheksausweis",
+    "text": "Sofia Martínez ist Studentin an der Universität Genf. Sie kommt aus Spanien und ist am 5. Juni 2002 in Valencia geboren. Sie wohnt in der Rue de Carouge 40 in Genf. Sie möchte Bücher auf Deutsch und auf Französisch lesen. Darum möchte sie einen Bibliotheksausweis für ein Jahr. Für Studenten kostet der Ausweis nur 20 Franken.",
+    "textFr": "Sofia Martínez est étudiante à l'Université de Genève. Elle vient d'Espagne et elle est née le 5 juin 2002 à Valence. Elle habite Rue de Carouge 40 à Genève. Elle veut lire des livres en allemand et en français. C'est pourquoi elle veut une carte de bibliothèque pour un an. Pour les étudiants, la carte coûte seulement 20 francs.",
+    "fields": [
+     {
+      "label": "Familienname",
+      "answer": [
+       "Martínez"
+      ],
+      "given": true
+     },
+     {
+      "label": "Vorname",
+      "answer": [
+       "Sofia"
+      ],
+      "given": true
+     },
+     {
+      "label": "Geburtsdatum",
+      "answer": [
+       "5.6.2002",
+       "05.06.2002",
+       "5.06.2002",
+       "5. Juni 2002",
+       "05.06.02",
+       "5.6.02"
+      ]
+     },
+     {
+      "label": "Geburtsort",
+      "answer": [
+       "Valencia"
+      ]
+     },
+     {
+      "label": "Beruf",
+      "answer": [
+       "Studentin",
+       "Student"
+      ],
+      "options": [
+       "Schülerin",
+       "Studentin",
+       "Angestellte",
+       "Rentnerin"
+      ]
+     },
+     {
+      "label": "Ausweis für",
+      "answer": [
+       "1 Jahr",
+       "ein Jahr"
+      ],
+      "options": [
+       "1 Monat",
+       "6 Monate",
+       "1 Jahr"
+      ]
+     },
+     {
+      "label": "Preis",
+      "answer": [
+       "20 Franken",
+       "20 CHF",
+       "20",
+       "zwanzig Franken",
+       "CHF 20",
+       "20 Fr.",
+       "20.-",
+       "20 Fr"
+      ]
+     }
+    ],
+    "explain": "Birthplace: 'in Valencia geboren' (Spanien is the country, Genf is where she lives now). Date of birth: sentence 2. Job: 'Studentin'. Card: 'für ein Jahr'. Price: last sentence, 20 Franken for students."
+   },
+   {
+    "id": "S1-6",
+    "title": "Neuer Patient beim Arzt",
+    "text": "Karim Haddad wohnt seit Juli in Bern. Heute geht er zum ersten Mal zu Dr. Keller. Karim ist am 20. November 1988 geboren. Er ist verheiratet und hat eine Tochter. Er arbeitet als Ingenieur bei der Bahn. Seine Krankenkasse ist die Helsana. Seine Telefonnummer ist 031 555 20 40. Karim raucht nicht und macht viel Sport.",
+    "textFr": "Karim Haddad habite à Berne depuis juillet. Aujourd'hui, il va pour la première fois chez le docteur Keller. Karim est né le 20 novembre 1988. Il est marié et a une fille. Il travaille comme ingénieur aux chemins de fer. Sa caisse maladie est Helsana. Son numéro de téléphone est le 031 555 20 40. Karim ne fume pas et fait beaucoup de sport.",
+    "fields": [
+     {
+      "label": "Familienname",
+      "answer": [
+       "Haddad"
+      ],
+      "given": true
+     },
+     {
+      "label": "Vorname",
+      "answer": [
+       "Karim"
+      ],
+      "given": true
+     },
+     {
+      "label": "Telefon",
+      "answer": [
+       "031 555 20 40"
+      ],
+      "given": true
+     },
+     {
+      "label": "Geburtsdatum",
+      "answer": [
+       "20.11.1988",
+       "20. November 1988",
+       "20.11.88"
+      ]
+     },
+     {
+      "label": "Familienstand",
+      "answer": [
+       "verheiratet"
+      ],
+      "options": [
+       "ledig",
+       "verheiratet",
+       "geschieden"
+      ]
+     },
+     {
+      "label": "Anzahl Kinder",
+      "answer": [
+       "1",
+       "eins",
+       "ein Kind",
+       "eine Tochter",
+       "ein",
+       "1 Kind",
+       "1 Tochter"
+      ]
+     },
+     {
+      "label": "Beruf",
+      "answer": [
+       "Ingenieur"
+      ]
+     },
+     {
+      "label": "Krankenkasse",
+      "answer": [
+       "Helsana",
+       "die Helsana"
+      ]
+     }
+    ],
+    "explain": "Date of birth: sentence 3. Marital status and children: 'verheiratet und hat eine Tochter' (1 child). Job: 'als Ingenieur'. Health insurance: 'Seine Krankenkasse ist die Helsana'. 'seit Juli' is when he moved, not a date the form needs."
+   },
+   {
+    "id": "S1-7",
+    "title": "Fahrradverleih",
+    "text": "Julia Hoffmann wohnt in Montreux, in der Rue du Lac 3. Sie ist am 8. Januar 1990 geboren. Am Wochenende möchte sie mit ihrem Mann einen Ausflug am Genfersee machen. Sie möchten zwei Fahrräder für Samstag und Sonntag mieten. Ihr Sohn Max kommt nicht mit, er besucht die Oma. Julia bezahlt mit Kreditkarte. Ihre Handynummer ist 078 321 45 67.",
+    "textFr": "Julia Hoffmann habite à Montreux, Rue du Lac 3. Elle est née le 8 janvier 1990. Le week-end, elle veut faire une excursion au bord du lac Léman avec son mari. Ils veulent louer deux vélos pour samedi et dimanche. Leur fils Max ne vient pas, il rend visite à sa grand-mère. Julia paie par carte de crédit. Son numéro de portable est le 078 321 45 67.",
+    "fields": [
+     {
+      "label": "Familienname",
+      "answer": [
+       "Hoffmann"
+      ],
+      "given": true
+     },
+     {
+      "label": "Vorname",
+      "answer": [
+       "Julia"
+      ],
+      "given": true
+     },
+     {
+      "label": "Handynummer",
+      "answer": [
+       "078 321 45 67"
+      ],
+      "given": true
+     },
+     {
+      "label": "Wohnort",
+      "answer": [
+       "Montreux"
+      ]
+     },
+     {
+      "label": "Geburtsdatum",
+      "answer": [
+       "8.1.1990",
+       "08.01.1990",
+       "8.01.1990",
+       "8. Januar 1990",
+       "08.01.90",
+       "8.1.90"
+      ]
+     },
+     {
+      "label": "Anzahl Fahrräder",
+      "answer": [
+       "2",
+       "zwei"
+      ]
+     },
+     {
+      "label": "Miettage",
+      "answer": [
+       "Samstag und Sonntag",
+       "Samstag, Sonntag",
+       "Sa und So",
+       "2 Tage",
+       "zwei Tage",
+       "Sa, So",
+       "Sonntag und Samstag",
+       "Samstag + Sonntag",
+       "Wochenende"
+      ]
+     },
+     {
+      "label": "Zahlungsweise",
+      "answer": [
+       "Kreditkarte",
+       "mit Kreditkarte"
+      ],
+      "options": [
+       "bar",
+       "Kreditkarte",
+       "Twint"
+      ]
+     }
+    ],
+    "explain": "Town: sentence 1 (Montreux; the Genfersee is only the trip). Date of birth: sentence 2. Bikes: 'zwei Fahrräder' (Max does not come, so not three). Days: 'für Samstag und Sonntag'. Payment: 'mit Kreditkarte'."
+   },
+   {
+    "id": "S1-8",
+    "title": "Anmeldung bei der Gemeinde",
+    "text": "Ahmed Benali kommt aus Marokko, aus Casablanca. Er ist 30 Jahre alt und ledig. Bis August hat er in Paris gewohnt. Am 1. September ist er nach Neuchâtel gezogen. Seine neue Adresse ist Rue des Parcs 12, 2000 Neuchâtel. Ahmed arbeitet als Programmierer bei einer IT-Firma. Er spricht Arabisch, Französisch und Englisch und lernt jetzt Deutsch.",
+    "textFr": "Ahmed Benali vient du Maroc, de Casablanca. Il a 30 ans et il est célibataire. Jusqu'en août, il a habité à Paris. Le 1er septembre, il a déménagé à Neuchâtel. Sa nouvelle adresse est Rue des Parcs 12, 2000 Neuchâtel. Ahmed travaille comme programmeur dans une entreprise informatique. Il parle arabe, français et anglais et apprend maintenant l'allemand.",
+    "fields": [
+     {
+      "label": "Familienname",
+      "answer": [
+       "Benali"
+      ],
+      "given": true
+     },
+     {
+      "label": "Vorname",
+      "answer": [
+       "Ahmed"
+      ],
+      "given": true
+     },
+     {
+      "label": "Neue Adresse",
+      "answer": [
+       "Rue des Parcs 12, 2000 Neuchâtel"
+      ],
+      "given": true
+     },
+     {
+      "label": "Staatsangehörigkeit",
+      "answer": [
+       "marokkanisch",
+       "Marokko",
+       "marokkanische",
+       "Marokkaner"
+      ]
+     },
+     {
+      "label": "Familienstand",
+      "answer": [
+       "ledig"
+      ],
+      "options": [
+       "ledig",
+       "verheiratet",
+       "geschieden"
+      ]
+     },
+     {
+      "label": "Einzugsdatum",
+      "answer": [
+       "1. September",
+       "01.09.",
+       "1.9.",
+       "01.09",
+       "1.9",
+       "am 1. September",
+       "1. 9."
+      ]
+     },
+     {
+      "label": "Früherer Wohnort",
+      "answer": [
+       "Paris"
+      ]
+     },
+     {
+      "label": "Beruf",
+      "answer": [
+       "Programmierer"
+      ]
+     }
+    ],
+    "explain": "Nationality: 'aus Marokko' (Casablanca is the city). Marital status: 'ledig' in sentence 2. Moving date: 'Am 1. September'. Previous town: 'Bis August hat er in Paris gewohnt'. Job: 'als Programmierer'."
+   }
+  ],
+  "teil2": [
+   {
+    "id": "S2-1",
+    "situation": "Sie können am Samstag nicht zum Tennistraining kommen. Schreiben Sie Ihrem Trainer, Herrn Meier, eine E-Mail.",
+    "situationFr": "Vous ne pouvez pas venir à l'entraînement de tennis samedi. Écrivez un e-mail à votre entraîneur, M. Meier.",
+    "points": [
+     "Warum können Sie nicht kommen?",
+     "Neuen Termin vorschlagen",
+     "Fragen: Kann ich einen Schläger leihen?"
+    ],
+    "pointsFr": [
+     "Pourquoi ne pouvez-vous pas venir ?",
+     "Proposer un nouveau rendez-vous",
+     "Demander : est-ce que je peux emprunter une raquette ?"
+    ],
+    "model": "Lieber Herr Meier,\nleider kann ich am Samstag nicht zum Training kommen. Ich muss arbeiten. Haben Sie am Dienstag um 18 Uhr Zeit? Und kann ich bei Ihnen einen Schläger leihen? Mein Schläger ist kaputt.\nViele Grüße\nAlexandre",
+    "modelFr": "Cher Monsieur Meier,\nmalheureusement, je ne peux pas venir à l'entraînement samedi. Je dois travailler. Avez-vous le temps mardi à 18 heures ? Et est-ce que je peux vous emprunter une raquette ? Ma raquette est cassée.\nMeilleures salutations\nAlexandre",
+    "keyPhrases": [
+     "Leider kann ich ... nicht kommen.",
+     "Haben Sie am ... um ... Uhr Zeit?",
+     "Kann ich ... leihen?"
+    ],
+    "a": "962f4cb23404aa"
+   },
+   {
+    "id": "S2-2",
+    "situation": "Sie machen am Samstag eine Geburtstagsparty. Schreiben Sie Ihrem Freund Paul eine E-Mail.",
+    "situationFr": "Vous faites une fête d'anniversaire samedi. Écrivez un e-mail à votre ami Paul.",
+    "points": [
+     "Wann und wo ist die Party?",
+     "Was soll Paul mitbringen?",
+     "Bis wann soll Paul antworten?"
+    ],
+    "pointsFr": [
+     "Quand et où a lieu la fête ?",
+     "Qu'est-ce que Paul doit apporter ?",
+     "Jusqu'à quand Paul doit-il répondre ?"
+    ],
+    "model": "Hallo Paul,\nich habe am Samstag Geburtstag und mache eine Party. Die Party beginnt um 19 Uhr bei mir zu Hause. Kannst du bitte Musik mitbringen? Kommst du? Bitte antworte mir bis Donnerstag.\nBis bald\nAlexandre",
+    "modelFr": "Salut Paul,\nc'est mon anniversaire samedi et je fais une fête. La fête commence à 19 heures chez moi. Est-ce que tu peux apporter de la musique, s'il te plaît ? Tu viens ? Réponds-moi d'ici jeudi, s'il te plaît.\nÀ bientôt\nAlexandre",
+    "keyPhrases": [
+     "Ich mache eine Party.",
+     "Kannst du bitte ... mitbringen?",
+     "Bitte antworte mir bis ..."
+    ],
+    "a": "b2f910714d0209"
+   },
+   {
+    "id": "S2-3",
+    "situation": "Sie möchten in einem Fitnessstudio trainieren. Schreiben Sie eine E-Mail an das Studio.",
+    "situationFr": "Vous voulez vous entraîner dans une salle de fitness. Écrivez un e-mail à la salle.",
+    "points": [
+     "Öffnungszeiten am Wochenende?",
+     "Preis pro Monat?",
+     "Probetraining?"
+    ],
+    "pointsFr": [
+     "Horaires d'ouverture le week-end ?",
+     "Prix par mois ?",
+     "Séance d'essai ?"
+    ],
+    "model": "Sehr geehrte Damen und Herren,\nich möchte in Ihrem Studio trainieren. Wann haben Sie am Wochenende geöffnet? Wie viel kostet das Training im Monat? Kann ich auch zuerst ein Probetraining machen?\nMit freundlichen Grüßen\nAlexandre",
+    "modelFr": "Madame, Monsieur,\nj'aimerais m'entraîner dans votre salle. Quels sont vos horaires d'ouverture le week-end ? Combien coûte l'entraînement par mois ? Est-ce que je peux aussi faire d'abord une séance d'essai ?\nMeilleures salutations\nAlexandre",
+    "keyPhrases": [
+     "Sehr geehrte Damen und Herren,",
+     "Wie viel kostet ...?",
+     "Mit freundlichen Grüßen"
+    ],
+    "a": "0712f91952e5c1"
+   },
+   {
+    "id": "S2-4",
+    "situation": "Sie waren gestern nicht beim Abendessen bei Ihrer Freundin Sara. Schreiben Sie Sara eine Nachricht.",
+    "situationFr": "Hier, vous n'étiez pas au dîner chez votre amie Sara. Écrivez un message à Sara.",
+    "points": [
+     "Entschuldigen Sie sich.",
+     "Warum waren Sie nicht da?",
+     "Neues Treffen vorschlagen"
+    ],
+    "pointsFr": [
+     "Excusez-vous.",
+     "Pourquoi n'étiez-vous pas là ?",
+     "Proposer une nouvelle rencontre"
+    ],
+    "model": "Liebe Sara,\nes tut mir sehr leid, ich war gestern nicht bei dir. Ich war krank und habe den ganzen Tag geschlafen. Möchtest du am Freitag mit mir essen gehen? Ich lade dich ein.\nLiebe Grüße\nAlexandre",
+    "modelFr": "Chère Sara,\nje suis vraiment désolé, je n'étais pas chez toi hier. J'étais malade et j'ai dormi toute la journée. Est-ce que tu veux aller manger avec moi vendredi ? Je t'invite.\nBises\nAlexandre",
+    "keyPhrases": [
+     "Es tut mir sehr leid.",
+     "Ich war krank.",
+     "Möchtest du am ... ?"
+    ],
+    "a": "879ab84c26c0cd"
+   },
+   {
+    "id": "S2-5",
+    "situation": "Sie haben einen neuen Schrank gekauft und brauchen Hilfe. Schreiben Sie Ihrem Freund Marc eine Nachricht.",
+    "situationFr": "Vous avez acheté une nouvelle armoire et vous avez besoin d'aide. Écrivez un message à votre ami Marc.",
+    "points": [
+     "Was ist das Problem?",
+     "Wann brauchen Sie Hilfe?",
+     "Danach: Was machen Sie zusammen?"
+    ],
+    "pointsFr": [
+     "Quel est le problème ?",
+     "Quand avez-vous besoin d'aide ?",
+     "Après : que faites-vous ensemble ?"
+    ],
+    "model": "Hallo Marc,\nich habe einen neuen Schrank gekauft, aber er ist sehr schwer. Kannst du mir am Samstag helfen? Hast du um 10 Uhr Zeit? Danach kochen wir zusammen. Ich mache Couscous.\nViele Grüße\nAlexandre",
+    "modelFr": "Salut Marc,\nj'ai acheté une nouvelle armoire, mais elle est très lourde. Est-ce que tu peux m'aider samedi ? Tu as le temps à 10 heures ? Après, on cuisine ensemble. Je fais un couscous.\nAmitiés\nAlexandre",
+    "keyPhrases": [
+     "Kannst du mir am ... helfen?",
+     "Hast du um ... Uhr Zeit?",
+     "Danach ... wir zusammen."
+    ],
+    "a": "a0f6c74c8bfe6a"
+   },
+   {
+    "id": "S2-6",
+    "situation": "Sie möchten im Hotel Alpenblick in Interlaken ein Zimmer reservieren. Schreiben Sie eine E-Mail an das Hotel.",
+    "situationFr": "Vous voulez réserver une chambre à l'hôtel Alpenblick à Interlaken. Écrivez un e-mail à l'hôtel.",
+    "points": [
+     "Wann? (Datum)",
+     "Wie viele Personen?",
+     "Frühstück und Preis?"
+    ],
+    "pointsFr": [
+     "Quand ? (date)",
+     "Combien de personnes ?",
+     "Petit-déjeuner et prix ?"
+    ],
+    "model": "Sehr geehrte Damen und Herren,\nich möchte vom 10. bis 12. Oktober ein Doppelzimmer reservieren. Wir sind zwei Personen. Ist das Frühstück inklusive? Und wie viel kostet das Zimmer pro Nacht?\nMit freundlichen Grüßen\nAlexandre",
+    "modelFr": "Madame, Monsieur,\nje voudrais réserver une chambre double du 10 au 12 octobre. Nous sommes deux personnes. Le petit-déjeuner est-il compris ? Et combien coûte la chambre par nuit ?\nMeilleures salutations\nAlexandre",
+    "keyPhrases": [
+     "Ich möchte ein Zimmer reservieren.",
+     "Wir sind ... Personen.",
+     "Ist das Frühstück inklusive?"
+    ],
+    "a": "556a77e427bee6"
+   },
+   {
+    "id": "S2-7",
+    "situation": "In Ihrer Wohnung ist die Heizung kaputt. Schreiben Sie Ihrer Vermieterin, Frau Brunner, eine E-Mail.",
+    "situationFr": "Dans votre appartement, le chauffage est en panne. Écrivez un e-mail à votre propriétaire, Mme Brunner.",
+    "points": [
+     "Was ist kaputt?",
+     "Seit wann?",
+     "Wann sind Sie zu Hause?"
+    ],
+    "pointsFr": [
+     "Qu'est-ce qui est en panne ?",
+     "Depuis quand ?",
+     "Quand êtes-vous à la maison ?"
+    ],
+    "model": "Sehr geehrte Frau Brunner,\nin meiner Wohnung ist die Heizung kaputt. Seit Montag ist es sehr kalt. Können Sie bitte einen Techniker schicken? Ich bin jeden Tag ab 17 Uhr zu Hause.\nMit freundlichen Grüßen\nAlexandre",
+    "modelFr": "Chère Madame Brunner,\ndans mon appartement, le chauffage est en panne. Depuis lundi, il fait très froid. Pouvez-vous envoyer un technicien, s'il vous plaît ? Je suis à la maison tous les jours à partir de 17 heures.\nMeilleures salutations\nAlexandre",
+    "keyPhrases": [
+     "... ist kaputt.",
+     "Seit Montag ...",
+     "Können Sie bitte ...?"
+    ],
+    "a": "a42d177f5cc57d"
+   },
+   {
+    "id": "S2-8",
+    "situation": "Sie haben am Freitag Geburtstag und möchten Ihre Kolleginnen und Kollegen einladen. Sie duzen Ihre Kollegen. Schreiben Sie eine E-Mail.",
+    "situationFr": "C'est votre anniversaire vendredi et vous voulez inviter vos collègues. Vous tutoyez vos collègues. Écrivez un e-mail.",
+    "points": [
+     "Warum laden Sie ein?",
+     "Wann und wo?",
+     "Antwort bis wann?"
+    ],
+    "pointsFr": [
+     "Pourquoi invitez-vous ?",
+     "Quand et où ?",
+     "Réponse jusqu'à quand ?"
+    ],
+    "model": "Liebe Kolleginnen und Kollegen,\nich habe am Freitag Geburtstag. Ich möchte euch zu Kaffee und Kuchen einladen. Wir treffen uns um 15 Uhr in der Küche im zweiten Stock. Wer kommt? Bitte antwortet mir bis Mittwoch.\nViele Grüße\nAlexandre",
+    "modelFr": "Chères et chers collègues,\nc'est mon anniversaire vendredi. J'aimerais vous inviter à un café avec du gâteau. On se retrouve à 15 heures dans la cuisine au deuxième étage. Qui vient ? Répondez-moi d'ici mercredi, s'il vous plaît.\nMeilleures salutations\nAlexandre",
+    "keyPhrases": [
+     "Ich möchte euch ... einladen.",
+     "Wir treffen uns um ...",
+     "Bitte antwortet mir bis ..."
+    ],
+    "a": "e133e23cac089f"
+   },
+   {
+    "id": "S2-9",
+    "situation": "Sie möchten an der Sprachschule Lingua in Genf einen Deutschkurs machen. Schreiben Sie eine E-Mail an die Schule.",
+    "situationFr": "Vous voulez suivre un cours d'allemand à l'école de langues Lingua à Genève. Écrivez un e-mail à l'école.",
+    "points": [
+     "Kurse am Abend?",
+     "Preis?",
+     "Wann beginnt der nächste Kurs?"
+    ],
+    "pointsFr": [
+     "Des cours le soir ?",
+     "Prix ?",
+     "Quand commence le prochain cours ?"
+    ],
+    "model": "Sehr geehrte Damen und Herren,\nich möchte bei Ihnen Deutsch lernen. Ich arbeite bis 17 Uhr. Haben Sie auch Kurse am Abend? Was kostet ein A1-Kurs? Und wann beginnt der nächste Kurs?\nMit freundlichen Grüßen\nAlexandre",
+    "modelFr": "Madame, Monsieur,\nj'aimerais apprendre l'allemand chez vous. Je travaille jusqu'à 17 heures. Avez-vous aussi des cours le soir ? Combien coûte un cours A1 ? Et quand commence le prochain cours ?\nMeilleures salutations\nAlexandre",
+    "keyPhrases": [
+     "Ich möchte bei Ihnen ... lernen.",
+     "Haben Sie auch ...?",
+     "Wann beginnt ...?"
+    ],
+    "a": "682a8ddf2817bb"
+   },
+   {
+    "id": "S2-10",
+    "situation": "Sie haben am Dienstag um 9 Uhr einen Termin bei Dr. Keller. Sie können nicht kommen. Schreiben Sie eine E-Mail an die Praxis.",
+    "situationFr": "Vous avez rendez-vous chez le docteur Keller mardi à 9 heures. Vous ne pouvez pas venir. Écrivez un e-mail au cabinet.",
+    "points": [
+     "Sie können nicht kommen.",
+     "Warum?",
+     "Neuen Termin erfragen"
+    ],
+    "pointsFr": [
+     "Vous ne pouvez pas venir.",
+     "Pourquoi ?",
+     "Demander un nouveau rendez-vous"
+    ],
+    "model": "Sehr geehrte Damen und Herren,\nich habe am Dienstag um 9 Uhr einen Termin bei Dr. Keller. Leider kann ich nicht kommen. Ich habe eine wichtige Besprechung. Haben Sie am Donnerstag einen Termin frei?\nMit freundlichen Grüßen\nAlexandre",
+    "modelFr": "Madame, Monsieur,\nj'ai rendez-vous chez le docteur Keller mardi à 9 heures. Malheureusement, je ne peux pas venir. J'ai une réunion importante. Avez-vous un rendez-vous libre jeudi ?\nMeilleures salutations\nAlexandre",
+    "keyPhrases": [
+     "Ich habe am ... einen Termin.",
+     "Leider kann ich nicht kommen.",
+     "Haben Sie am ... einen Termin frei?"
+    ],
+    "a": "935f07fcd1522e"
+   }
+  ],
+  "checklist": [
+   "Greeting (Anrede) on its own line, followed by a comma: 'Liebe Sara,' / 'Lieber Herr Meier,' / 'Sehr geehrte Damen und Herren,'.",
+   "After the comma the first word of the next line starts with a small letter (unless it is a noun or Sie): 'Liebe Sara,' and on the next line 'es tut mir leid ...'.",
+   "Cover ALL 3 points, ideally one or two sentences per point. A missing point costs you a lot of marks.",
+   "Write about 30 words (25 to 45 is fine). Too short loses points, too long only adds risk of mistakes.",
+   "Verb in position 2 in statements: 'Am Samstag kann ich nicht kommen.' (not 'Am Samstag ich kann ...').",
+   "Questions: W-question = W-word + verb ('Wann beginnt der Kurs?'); yes/no question = verb first ('Haben Sie am Montag Zeit?').",
+   "Modal verb + infinitive at the end: 'Ich kann am Samstag nicht kommen.' / 'Kannst du Musik mitbringen?'.",
+   "Stay consistent: formal letter = Sie everywhere, with capitals Sie / Ihr / Ihnen ('Haben Sie Zeit?', 'in Ihrem Studio'). Friend = du everywhere (du / dich / dir / dein, small letters are fine).",
+   "Capitalize every noun: 'die Heizung', 'das Training', 'am Samstag', 'einen Termin'.",
+   "Closing (Gruß) + your name on separate lines: formal 'Mit freundlichen Grüßen', informal 'Viele Grüße' / 'Liebe Grüße' / 'Bis bald'.",
+   "Match the register: 'Sehr geehrte ...' goes with 'Mit freundlichen Grüßen'; 'Hallo' or 'Liebe/Lieber' goes with 'Viele Grüße'.",
+   "Re-read for umlauts and ß (Grüße, möchte, Frühstück, schön) and check time and date format: 'um 18 Uhr', 'am 10. Oktober'."
+  ]
+ },
+ "sprechen": {
+  "teil1": {
+   "keywords": [
+    "Name?",
+    "Alter?",
+    "Land?",
+    "Wohnort?",
+    "Sprachen?",
+    "Beruf?",
+    "Hobby?"
+   ],
+   "model": "Ich heiße Alexandre. Ich bin einunddreißig Jahre alt. Ich komme aus Marokko und aus Kanada. Ich wohne seit April in Genf. Ich spreche Französisch, Arabisch, Englisch und ein bisschen Spanisch. Jetzt lerne ich Deutsch. Ich bin Informatiker von Beruf. Ich mache gern Krafttraining und spiele Tennis.",
+   "modelFr": "Je m'appelle Alexandre. J'ai trente et un ans. Je viens du Maroc et du Canada. J'habite à Genève depuis avril. Je parle français, arabe, anglais et un peu espagnol. Maintenant, j'apprends l'allemand. Je suis informaticien de métier. J'aime faire de la musculation et je joue au tennis.",
+   "alt": "Ich heiße Anna Rossi. Ich bin fünfundzwanzig Jahre alt. Ich komme aus Italien, aus Rom. Jetzt wohne ich in Zürich. Ich spreche Italienisch, Englisch und ein bisschen Deutsch. Ich bin Krankenschwester von Beruf. In meiner Freizeit lese ich gern und gehe schwimmen.",
+   "altFr": "Je m'appelle Anna Rossi. J'ai vingt-cinq ans. Je viens d'Italie, de Rome. Maintenant, j'habite à Zurich. Je parle italien, anglais et un peu allemand. Je suis infirmière de métier. Pendant mon temps libre, j'aime lire et je vais nager.",
+   "spelling": "A, L, E, X, A, N, D, R, E",
+   "spellingSay": "a, el, e, iks, a, en, de, er, e",
+   "phone": "null sieben neun, vier acht zwei, fünfzehn, sechsunddreißig",
+   "followUps": [
+    {
+     "q": "Wie schreibt man das?",
+     "a": "Alexandre schreibt man so: a, el, e, iks, a, en, de, er, e."
+    },
+    {
+     "q": "Wie ist Ihre Telefonnummer?",
+     "a": "Meine Nummer ist null sieben neun, vier acht zwei, fünfzehn, sechsunddreißig."
+    },
+    {
+     "q": "Wie alt sind Sie?",
+     "a": "Ich bin einunddreißig Jahre alt."
+    },
+    {
+     "q": "Seit wann wohnen Sie in Genf?",
+     "a": "Ich wohne seit April in Genf."
+    }
+   ],
+   "tips": [
+    "Use each keyword once, in order, one short sentence each: that alone gets you most of the points.",
+    "German letter names differ from French: E is 'e' (like French 'é'), I is 'i', U is 'u' (like 'ou'), J is 'jot', V is 'fau', W is 'we', Y is 'ypsilon' (sounds like 'üpsilon'), Z is 'zett' (sounds like 'tsett'). Practise your own name until it is automatic.",
+    "Numbers above 20 go units first: 31 = einunddreißig (one-and-thirty). Practise your age, house number, postcode and phone number.",
+    "Swiss mobile numbers are read in groups: null sieben neun, then three digits, then two pairs (fünfzehn, sechsunddreißig).",
+    "Long vowels in key words: 'Name' (NA:-me), 'wohne' (VO:-ne), 'Beruf' (be-ROU:F). Do not shorten them.",
+    "If you do not understand the follow-up question, say: 'Wie bitte? Können Sie das bitte wiederholen?'"
+   ],
+   "a": {
+    "model": "7669d70462e5e3",
+    "alt": "b643e667c43f20",
+    "spelling": "105ce33fa238e0",
+    "phone": "14b8e7a4d149cf",
+    "fu0q": "62501a4a0ac5d2",
+    "fu0a": "a99315dc5bade6",
+    "fu1q": "147264ecfb7ee9",
+    "fu1a": "37a4b301078520",
+    "fu2q": "0c1fabdad3032e",
+    "fu2a": "f431fad98f2a9b",
+    "fu3q": "e38db287949a48",
+    "fu3a": "47bf710042812a"
+   }
+  },
+  "teil2": [
+   {
+    "theme": "Essen und Trinken",
+    "cards": [
+     {
+      "word": "Frühstück",
+      "q": "Was essen Sie zum Frühstück?",
+      "q2": "Frühstücken Sie jeden Tag?",
+      "a": "Ich esse Müsli mit Joghurt und trinke einen Kaffee.",
+      "fr": "Que mangez-vous au petit-déjeuner ? / Je mange du muesli avec du yaourt et je bois un café.",
+      "aq": "88e4871f0a37cb",
+      "aq2": "5cb9161ea324d4",
+      "aa": "3e068519453a57"
+     },
+     {
+      "word": "Fleisch",
+      "q": "Essen Sie gern Fleisch?",
+      "q2": "Welches Fleisch essen Sie gern?",
+      "a": "Ja, ich esse sehr gern Hähnchen.",
+      "fr": "Aimez-vous manger de la viande ? / Oui, j'aime beaucoup le poulet.",
+      "aq": "8dea462f2da334",
+      "aq2": "9bc48ca368b3c9",
+      "aa": "2e1abf40a0c27e"
+     },
+     {
+      "word": "Kaffee",
+      "q": "Trinken Sie gern Kaffee?",
+      "q2": "Wie viel Kaffee trinken Sie am Tag?",
+      "a": "Ja, ich trinke jeden Morgen zwei Tassen Kaffee.",
+      "fr": "Aimez-vous boire du café ? / Oui, je bois deux tasses de café tous les matins.",
+      "aq": "b2120e8a5c9a3f",
+      "aq2": "c3b26c01f90d05",
+      "aa": "11df2ca25cc20a"
+     },
+     {
+      "word": "Restaurant",
+      "q": "Gehen Sie oft ins Restaurant?",
+      "q2": "Wie heißt Ihr Lieblingsrestaurant?",
+      "a": "Nein, nicht oft. Ich gehe einmal pro Woche ins Restaurant.",
+      "fr": "Allez-vous souvent au restaurant ? / Non, pas souvent. Je vais au restaurant une fois par semaine.",
+      "aq": "eae656d218b8fa",
+      "aq2": "ed645c8ab854f4",
+      "aa": "13205854dc6226"
+     },
+     {
+      "word": "Kochen",
+      "q": "Kochen Sie gern?",
+      "q2": "Was kochen Sie am Wochenende?",
+      "a": "Ja, ich koche gern. Am Wochenende koche ich marokkanisches Essen.",
+      "fr": "Aimez-vous cuisiner ? / Oui, j'aime cuisiner. Le week-end, je cuisine marocain.",
+      "aq": "811a8206333656",
+      "aq2": "7101fece1fa9a8",
+      "aa": "50830085db1c26"
+     },
+     {
+      "word": "Obst",
+      "q": "Welches Obst essen Sie gern?",
+      "q2": "Essen Sie jeden Tag Obst?",
+      "a": "Ich esse gern Bananen und Äpfel.",
+      "fr": "Quels fruits aimez-vous manger ? / J'aime manger des bananes et des pommes.",
+      "aq": "0fae6fc1319321",
+      "aq2": "a1d2054d25b56d",
+      "aa": "1bbb84817e1e42"
+     }
+    ]
+   },
+   {
+    "theme": "Freizeit",
+    "cards": [
+     {
+      "word": "Sport",
+      "q": "Welchen Sport machen Sie?",
+      "q2": "Wie oft machen Sie Sport?",
+      "a": "Ich mache Krafttraining und spiele Tennis. Ich trainiere viermal pro Woche.",
+      "fr": "Quel sport faites-vous ? / Je fais de la musculation et je joue au tennis. Je m'entraîne quatre fois par semaine.",
+      "aq": "d89eba2ec8831c",
+      "aq2": "1dc792e7784e00",
+      "aa": "23c7c5ee444eb9"
+     },
+     {
+      "word": "Wochenende",
+      "q": "Was machen Sie am Wochenende?",
+      "q2": "Was machen Sie gern am Sonntag?",
+      "a": "Am Samstag spiele ich Tennis. Am Sonntag schlafe ich lange.",
+      "fr": "Que faites-vous le week-end ? / Le samedi, je joue au tennis. Le dimanche, je dors longtemps.",
+      "aq": "436f70503f2fe1",
+      "aq2": "d5b0b09819aec6",
+      "aa": "c73d3b962668cd"
+     },
+     {
+      "word": "Kino",
+      "q": "Gehen Sie gern ins Kino?",
+      "q2": "Welche Filme sehen Sie gern?",
+      "a": "Ja, ich gehe gern ins Kino. Ich sehe gern Actionfilme.",
+      "fr": "Aimez-vous aller au cinéma ? / Oui, j'aime aller au cinéma. J'aime regarder des films d'action.",
+      "aq": "afbece30511f93",
+      "aq2": "87bf602be5bd17",
+      "aa": "ea9560fcc7f73b"
+     },
+     {
+      "word": "Musik",
+      "q": "Welche Musik hören Sie gern?",
+      "q2": "Spielen Sie ein Instrument?",
+      "a": "Ich höre gern Rap und arabische Musik.",
+      "fr": "Quelle musique aimez-vous écouter ? / J'aime écouter du rap et de la musique arabe.",
+      "aq": "30dc8eda7d9d7a",
+      "aq2": "982ded2d4c2e33",
+      "aa": "97d202fc66c699"
+     },
+     {
+      "word": "Buch",
+      "q": "Lesen Sie gern Bücher?",
+      "q2": "Was für Bücher lesen Sie gern?",
+      "a": "Ja, ich lese gern Bücher über Geschichte.",
+      "fr": "Aimez-vous lire des livres ? / Oui, j'aime lire des livres d'histoire.",
+      "aq": "1f9e533ec9fd0b",
+      "aq2": "cee9b24bd98a37",
+      "aa": "2e9e89549fe370"
+     },
+     {
+      "word": "Fernsehen",
+      "q": "Sehen Sie oft fern?",
+      "q2": "Was sehen Sie gern im Fernsehen?",
+      "a": "Nein, nicht oft. Ich sehe lieber Serien im Internet.",
+      "fr": "Regardez-vous souvent la télévision ? / Non, pas souvent. Je préfère regarder des séries sur Internet.",
+      "aq": "5764939eb72bbc",
+      "aq2": "eafd6b146c7b0d",
+      "aa": "04fc14577c780b"
+     }
+    ]
+   },
+   {
+    "theme": "Wohnen",
+    "cards": [
+     {
+      "word": "Wohnung",
+      "q": "Wie groß ist Ihre Wohnung?",
+      "q2": "Wie viele Zimmer hat Ihre Wohnung?",
+      "a": "Meine Wohnung ist klein. Sie hat zwei Zimmer, eine Küche und ein Bad.",
+      "fr": "Quelle est la taille de votre appartement ? / Mon appartement est petit. Il a deux pièces, une cuisine et une salle de bain.",
+      "aq": "564269236270a0",
+      "aq2": "0e69d16e9bce64",
+      "aa": "b4bfa179a089c9"
+     },
+     {
+      "word": "Stadt",
+      "q": "In welcher Stadt wohnen Sie?",
+      "q2": "Wie finden Sie Ihre Stadt?",
+      "a": "Ich wohne in Genf. Die Stadt ist schön und sehr international.",
+      "fr": "Dans quelle ville habitez-vous ? / J'habite à Genève. La ville est belle et très internationale.",
+      "aq": "4e57169efcd9cb",
+      "aq2": "6f62a2b7b45276",
+      "aa": "f07aa533dc1d2c"
+     },
+     {
+      "word": "Küche",
+      "q": "Ist Ihre Küche groß?",
+      "q2": "Wie ist Ihre Küche?",
+      "a": "Nein, meine Küche ist klein, aber sie ist modern.",
+      "fr": "Votre cuisine est-elle grande ? / Non, ma cuisine est petite, mais elle est moderne.",
+      "aq": "e286c3d26ea139",
+      "aq2": "77c00161752a48",
+      "aa": "96bf6db45b21f2"
+     },
+     {
+      "word": "Balkon",
+      "q": "Haben Sie einen Balkon?",
+      "q2": "Was machen Sie auf dem Balkon?",
+      "a": "Ja, ich habe einen kleinen Balkon. Dort trinke ich morgens Kaffee.",
+      "fr": "Avez-vous un balcon ? / Oui, j'ai un petit balcon. J'y bois mon café le matin.",
+      "aq": "1f0a8aaab05fa5",
+      "aq2": "15b9c640dd43fd",
+      "aa": "a0a42b21fa4821"
+     },
+     {
+      "word": "Miete",
+      "q": "Ist Ihre Miete teuer?",
+      "q2": "Wie finden Sie die Mieten in Ihrer Stadt?",
+      "a": "Ja, die Mieten in Genf sind sehr teuer.",
+      "fr": "Votre loyer est-il cher ? / Oui, les loyers à Genève sont très chers.",
+      "aq": "938d54d2fad53a",
+      "aq2": "5709a3ee81c342",
+      "aa": "bdbe343409ee7c"
+     },
+     {
+      "word": "Nachbarn",
+      "q": "Kennen Sie Ihre Nachbarn?",
+      "q2": "Sind Ihre Nachbarn nett?",
+      "a": "Ja, ein bisschen. Meine Nachbarn sind sehr nett.",
+      "fr": "Connaissez-vous vos voisins ? / Oui, un peu. Mes voisins sont très gentils.",
+      "aq": "115ef617245b3b",
+      "aq2": "7a7c68b702383b",
+      "aa": "80928f07718012"
+     }
+    ]
+   },
+   {
+    "theme": "Einkaufen",
+    "cards": [
+     {
+      "word": "Supermarkt",
+      "q": "Wann gehen Sie in den Supermarkt?",
+      "q2": "Wo kaufen Sie Lebensmittel?",
+      "a": "Ich gehe meistens am Samstagmorgen in den Supermarkt.",
+      "fr": "Quand allez-vous au supermarché ? / Je vais au supermarché le plus souvent le samedi matin.",
+      "aq": "6ec92a9ed76c07",
+      "aq2": "e9a2d73fa7173d",
+      "aa": "27c96ce24f140e"
+     },
+     {
+      "word": "Kleidung",
+      "q": "Kaufen Sie Kleidung im Internet?",
+      "q2": "Wo kaufen Sie Kleidung?",
+      "a": "Ja, oft. Ich kaufe Sportkleidung im Internet.",
+      "fr": "Achetez-vous des vêtements sur Internet ? / Oui, souvent. J'achète des vêtements de sport sur Internet.",
+      "aq": "97aa57fd7dff41",
+      "aq2": "073356b1f9d748",
+      "aa": "36f86c1c07a206"
+     },
+     {
+      "word": "Markt",
+      "q": "Gehen Sie gern auf den Markt?",
+      "q2": "Was kaufen Sie auf dem Markt?",
+      "a": "Ja, am Samstag gehe ich auf den Markt. Dort kaufe ich Obst und Gemüse.",
+      "fr": "Aimez-vous aller au marché ? / Oui, le samedi je vais au marché. Là, j'achète des fruits et des légumes.",
+      "aq": "6aa07811413b95",
+      "aq2": "41d69e4dca1db2",
+      "aa": "ffc154ba5f8185"
+     },
+     {
+      "word": "Karte",
+      "q": "Bezahlen Sie mit Karte oder bar?",
+      "q2": "Haben Sie immer Bargeld dabei?",
+      "a": "Ich bezahle fast immer mit Karte.",
+      "fr": "Payez-vous par carte ou en espèces ? / Je paie presque toujours par carte.",
+      "aq": "f0a9668e95b6b3",
+      "aq2": "b07f384c9b3ed7",
+      "aa": "bb1e3d21b9c995"
+     },
+     {
+      "word": "Geschenk",
+      "q": "Kaufen Sie gern Geschenke?",
+      "q2": "Was schenken Sie Ihren Freunden?",
+      "a": "Ja, sehr gern. Ich kaufe oft Bücher als Geschenk.",
+      "fr": "Aimez-vous acheter des cadeaux ? / Oui, beaucoup. J'achète souvent des livres comme cadeau.",
+      "aq": "d42305236174f8",
+      "aq2": "296df70312cd2e",
+      "aa": "2420a355e6bfc5"
+     },
+     {
+      "word": "Sonntag",
+      "q": "Kann man in Genf am Sonntag einkaufen?",
+      "q2": "Sind die Geschäfte am Sonntag offen?",
+      "a": "Nein, am Sonntag sind die Geschäfte meistens geschlossen.",
+      "fr": "Peut-on faire ses courses à Genève le dimanche ? / Non, le dimanche les magasins sont le plus souvent fermés.",
+      "aq": "738b6da8934ded",
+      "aq2": "ec7e86a8626f38",
+      "aa": "dd5a701de0a8f9"
+     }
+    ]
+   },
+   {
+    "theme": "Arbeit und Beruf",
+    "cards": [
+     {
+      "word": "Beruf",
+      "q": "Was sind Sie von Beruf?",
+      "q2": "Was machen Sie beruflich?",
+      "a": "Ich bin Informatiker. Ich arbeite bei einer IT-Firma in Genf.",
+      "fr": "Quel est votre métier ? / Je suis informaticien. Je travaille dans une entreprise informatique à Genève.",
+      "aq": "189fd3c625d019",
+      "aq2": "4cc65abadbf95e",
+      "aa": "0f616e24e9b89d"
+     },
+     {
+      "word": "Büro",
+      "q": "Arbeiten Sie im Büro?",
+      "q2": "Arbeiten Sie auch zu Hause?",
+      "a": "Ja, ich arbeite drei Tage im Büro und zwei Tage zu Hause.",
+      "fr": "Travaillez-vous au bureau ? / Oui, je travaille trois jours au bureau et deux jours à la maison.",
+      "aq": "4c3fa213b062d5",
+      "aq2": "418468330011ec",
+      "aa": "11c1ffaedda478"
+     },
+     {
+      "word": "Kollegen",
+      "q": "Wie sind Ihre Kollegen?",
+      "q2": "Essen Sie mit Ihren Kollegen zu Mittag?",
+      "a": "Meine Kollegen sind nett. Wir essen oft zusammen zu Mittag.",
+      "fr": "Comment sont vos collègues ? / Mes collègues sont sympas. Nous déjeunons souvent ensemble.",
+      "aq": "d3dc4886e3574f",
+      "aq2": "7fcebd241f5fea",
+      "aa": "a4d92ed6a116f6"
+     },
+     {
+      "word": "Arbeitszeit",
+      "q": "Wie ist Ihre Arbeitszeit?",
+      "q2": "Wann beginnt Ihre Arbeit?",
+      "a": "Ich beginne um acht Uhr und arbeite bis siebzehn Uhr.",
+      "fr": "Quels sont vos horaires de travail ? / Je commence à huit heures et je travaille jusqu'à dix-sept heures.",
+      "aq": "cf6abbe3d2a486",
+      "aq2": "18bf9494d0f441",
+      "aa": "cc2062976d3f58"
+     },
+     {
+      "word": "Computer",
+      "q": "Arbeiten Sie viel am Computer?",
+      "q2": "Haben Sie einen Computer zu Hause?",
+      "a": "Ja, ich arbeite den ganzen Tag am Computer.",
+      "fr": "Travaillez-vous beaucoup sur ordinateur ? / Oui, je travaille toute la journée sur ordinateur.",
+      "aq": "fa5296cb83e3f2",
+      "aq2": "3397ea20907aa0",
+      "aa": "e38ae6e71c36eb"
+     },
+     {
+      "word": "Mittagspause",
+      "q": "Was machen Sie in der Mittagspause?",
+      "q2": "Wann machen Sie Mittagspause?",
+      "a": "Ich esse mit Kollegen in der Kantine. Manchmal gehe ich spazieren.",
+      "fr": "Que faites-vous pendant la pause de midi ? / Je mange avec des collègues à la cantine. Parfois, je vais me promener.",
+      "aq": "c37ea1988d3115",
+      "aq2": "ff0ff943273fe8",
+      "aa": "583843bad69f59"
+     }
+    ]
+   },
+   {
+    "theme": "Reisen",
+    "cards": [
+     {
+      "word": "Urlaub",
+      "q": "Wohin fahren Sie im Urlaub?",
+      "q2": "Wo machen Sie gern Urlaub?",
+      "a": "Im Sommer fliege ich nach Marokko. Dort besuche ich meine Familie.",
+      "fr": "Où allez-vous en vacances ? / En été, je prends l'avion pour le Maroc. Là-bas, je rends visite à ma famille.",
+      "aq": "9c237066ea90af",
+      "aq2": "527e23a190387a",
+      "aa": "229783396598d2"
+     },
+     {
+      "word": "Zug",
+      "q": "Fahren Sie gern mit dem Zug?",
+      "q2": "Wie oft fahren Sie mit dem Zug?",
+      "a": "Ja, in der Schweiz fahre ich gern Zug. Die Züge sind pünktlich.",
+      "fr": "Aimez-vous prendre le train ? / Oui, en Suisse j'aime prendre le train. Les trains sont ponctuels.",
+      "aq": "aa80dfaf965447",
+      "aq2": "22da691e3de5a3",
+      "aa": "374ca86ae80099"
+     },
+     {
+      "word": "Flugzeug",
+      "q": "Reisen Sie oft mit dem Flugzeug?",
+      "q2": "Wohin fliegen Sie gern?",
+      "a": "Ja, zwei- oder dreimal im Jahr. Ich fliege oft nach Montreal.",
+      "fr": "Voyagez-vous souvent en avion ? / Oui, deux ou trois fois par an. Je vais souvent à Montréal en avion.",
+      "aq": "b13d996c8d8c6e",
+      "aq2": "91eb9069732ca1",
+      "aa": "d8f7e9ea28b3ac"
+     },
+     {
+      "word": "Hotel",
+      "q": "Schlafen Sie im Urlaub im Hotel?",
+      "q2": "Was ist für Sie in einem Hotel wichtig?",
+      "a": "Ja, meistens schlafe ich im Hotel. Manchmal miete ich eine Wohnung.",
+      "fr": "Dormez-vous à l'hôtel en vacances ? / Oui, le plus souvent je dors à l'hôtel. Parfois, je loue un appartement.",
+      "aq": "4fefcc69ce6c3b",
+      "aq2": "262c8521a0bdc2",
+      "aa": "4f848a59711729"
+     },
+     {
+      "word": "Koffer",
+      "q": "Was packen Sie in Ihren Koffer?",
+      "q2": "Haben Sie im Urlaub viel Gepäck?",
+      "a": "Ich packe Kleidung, Sportschuhe und meinen Tennisschläger ein.",
+      "fr": "Que mettez-vous dans votre valise ? / J'emporte des vêtements, des chaussures de sport et ma raquette de tennis.",
+      "aq": "6e02dc944c59d9",
+      "aq2": "a847ec6cdaf239",
+      "aa": "3f9dc918bebc80"
+     },
+     {
+      "word": "Meer",
+      "q": "Fahren Sie gern ans Meer?",
+      "q2": "Mögen Sie lieber das Meer oder die Berge?",
+      "a": "Ja, ich liebe das Meer. Aber in der Schweiz gehe ich gern in die Berge.",
+      "fr": "Aimez-vous aller à la mer ? / Oui, j'adore la mer. Mais en Suisse, j'aime aller à la montagne.",
+      "aq": "927dc3417eccc6",
+      "aq2": "98a8ee286b4e21",
+      "aa": "9bff8fbf499820"
+     }
+    ]
+   }
+  ],
+  "teil3": [
+   {
+    "id": "P3-1",
+    "picture": "🪟",
+    "pictureDesc": "ein Fenster",
+    "request": "Können Sie bitte das Fenster aufmachen?",
+    "alt": [
+     "Mach bitte das Fenster auf!",
+     "Öffnen Sie bitte das Fenster."
+    ],
+    "reply": "Ja, gern.",
+    "fr": "Pouvez-vous ouvrir la fenêtre, s'il vous plaît ? / Oui, volontiers.",
+    "a": {
+     "request": "260b8b71ef5fd5",
+     "reply": "b94e1bdac70d4d",
+     "alt0": "fbde927a9d6864",
+     "alt1": "d30d94659b740f"
+    }
+   },
+   {
+    "id": "P3-2",
+    "picture": "☕",
+    "pictureDesc": "ein Kaffee",
+    "request": "Ich möchte bitte einen Kaffee.",
+    "alt": [
+     "Einen Kaffee, bitte.",
+     "Kann ich bitte einen Kaffee haben?"
+    ],
+    "reply": "Gern. Mit Milch und Zucker?",
+    "fr": "Je voudrais un café, s'il vous plaît. / Volontiers. Avec du lait et du sucre ?",
+    "a": {
+     "request": "2e20ea42fb606f",
+     "reply": "db909f91b3461d",
+     "alt0": "6abb62b9c185e0",
+     "alt1": "10f523edcdc964"
+    }
+   },
+   {
+    "id": "P3-3",
+    "picture": "💧",
+    "pictureDesc": "ein Glas Wasser",
+    "request": "Kann ich bitte ein Glas Wasser haben?",
+    "alt": [
+     "Ein Wasser, bitte.",
+     "Gibst du mir bitte das Wasser?"
+    ],
+    "reply": "Natürlich, hier, bitte.",
+    "fr": "Est-ce que je peux avoir un verre d'eau, s'il vous plaît ? / Bien sûr, voilà.",
+    "a": {
+     "request": "4c0ea10efe904e",
+     "reply": "5a6020d90beaae",
+     "alt0": "ae3186de115e80",
+     "alt1": "0b92ed53b1ad03"
+    }
+   },
+   {
+    "id": "P3-4",
+    "picture": "🖊️",
+    "pictureDesc": "ein Stift",
+    "request": "Haben Sie bitte einen Stift für mich?",
+    "alt": [
+     "Kannst du mir bitte deinen Stift geben?",
+     "Darf ich bitte Ihren Stift benutzen?"
+    ],
+    "reply": "Ja, hier, bitte.",
+    "fr": "Avez-vous un stylo pour moi, s'il vous plaît ? / Oui, tenez.",
+    "a": {
+     "request": "9bebe432608de5",
+     "reply": "4fd0c3437406f5",
+     "alt0": "b48606e9adc0b9",
+     "alt1": "8f12d1e3029211"
+    }
+   },
+   {
+    "id": "P3-5",
+    "picture": "☎️",
+    "pictureDesc": "ein Telefon",
+    "request": "Darf ich bitte Ihr Telefon benutzen?",
+    "alt": [
+     "Kann ich bitte kurz dein Handy haben?",
+     "Kann ich hier bitte telefonieren?"
+    ],
+    "reply": "Ja, natürlich.",
+    "fr": "Est-ce que je peux utiliser votre téléphone, s'il vous plaît ? / Oui, bien sûr.",
+    "a": {
+     "request": "83353b2fafad93",
+     "reply": "6431dee76196c1",
+     "alt0": "456000c2a9cf4f",
+     "alt1": "836487ae71fdbd"
+    }
+   },
+   {
+    "id": "P3-6",
+    "picture": "🍞",
+    "pictureDesc": "ein Brot",
+    "request": "Können Sie mir bitte das Brot geben?",
+    "alt": [
+     "Gib mir bitte das Brot.",
+     "Ich hätte gern ein Brot, bitte."
+    ],
+    "reply": "Bitte schön.",
+    "fr": "Pouvez-vous me passer le pain, s'il vous plaît ? / Voilà.",
+    "a": {
+     "request": "0382750a99e095",
+     "reply": "c0421ea285a217",
+     "alt0": "b359e6e227dad5",
+     "alt1": "5f9f74b3a4f89c"
+    }
+   },
+   {
+    "id": "P3-7",
+    "picture": "⌚",
+    "pictureDesc": "eine Uhr",
+    "request": "Entschuldigung, wie spät ist es?",
+    "alt": [
+     "Wie viel Uhr ist es, bitte?",
+     "Haben Sie eine Uhr?"
+    ],
+    "reply": "Es ist halb drei.",
+    "fr": "Excusez-moi, quelle heure est-il ? / Il est deux heures et demie.",
+    "a": {
+     "request": "ca4b321df9d0a0",
+     "reply": "9868d3ca49166f",
+     "alt0": "67fa3ac2928bbd",
+     "alt1": "0ef2b7c6a07b71"
+    }
+   },
+   {
+    "id": "P3-8",
+    "picture": "🔑",
+    "pictureDesc": "ein Schlüssel",
+    "request": "Kannst du mir bitte den Schlüssel geben?",
+    "alt": [
+     "Geben Sie mir bitte den Schlüssel.",
+     "Hast du meinen Schlüssel?"
+    ],
+    "reply": "Ja, hier ist er.",
+    "fr": "Tu peux me donner la clé, s'il te plaît ? / Oui, la voici.",
+    "a": {
+     "request": "25b1ec7c80af6b",
+     "reply": "01b41ca9e3204c",
+     "alt0": "484a509e1e9312",
+     "alt1": "9f93c752d2d7f9"
+    }
+   },
+   {
+    "id": "P3-9",
+    "picture": "📖",
+    "pictureDesc": "ein Buch",
+    "request": "Darf ich bitte Ihr Buch lesen?",
+    "alt": [
+     "Kannst du mir bitte das Buch geben?",
+     "Leihst du mir bitte dein Buch?"
+    ],
+    "reply": "Ja, natürlich, gern.",
+    "fr": "Est-ce que je peux lire votre livre, s'il vous plaît ? / Oui, bien sûr, volontiers.",
+    "a": {
+     "request": "af3fe07aac6893",
+     "reply": "fab3bb7efaa805",
+     "alt0": "ed9297316f17d8",
+     "alt1": "fedab71c5d27ee"
+    }
+   },
+   {
+    "id": "P3-10",
+    "picture": "📰",
+    "pictureDesc": "eine Zeitung",
+    "request": "Kann ich bitte die Zeitung haben?",
+    "alt": [
+     "Gibst du mir bitte die Zeitung?",
+     "Liest du die Zeitung noch?"
+    ],
+    "reply": "Ja, bitte. Ich bin fertig.",
+    "fr": "Est-ce que je peux avoir le journal, s'il vous plaît ? / Oui, tenez. J'ai fini.",
+    "a": {
+     "request": "66c31d620f33f3",
+     "reply": "ac86a80655362c",
+     "alt0": "3e95299309327d",
+     "alt1": "dbded7b946c1d7"
+    }
+   },
+   {
+    "id": "P3-11",
+    "picture": "🧂",
+    "pictureDesc": "das Salz",
+    "request": "Können Sie mir bitte das Salz geben?",
+    "alt": [
+     "Gib mir bitte das Salz.",
+     "Das Salz, bitte."
+    ],
+    "reply": "Hier, bitte.",
+    "fr": "Pouvez-vous me passer le sel, s'il vous plaît ? / Voilà.",
+    "a": {
+     "request": "119bff01f71b6c",
+     "reply": "a3504943160f4a",
+     "alt0": "c5e893953f2764",
+     "alt1": "d93827700ea957"
+    }
+   },
+   {
+    "id": "P3-12",
+    "picture": "🚪",
+    "pictureDesc": "eine Tür",
+    "request": "Können Sie bitte die Tür zumachen?",
+    "alt": [
+     "Mach bitte die Tür zu!",
+     "Schließen Sie bitte die Tür."
+    ],
+    "reply": "Ja, sofort.",
+    "fr": "Pouvez-vous fermer la porte, s'il vous plaît ? / Oui, tout de suite.",
+    "a": {
+     "request": "b9b963862bf0f6",
+     "reply": "63404e6ce2315d",
+     "alt0": "2c405101e7659a",
+     "alt1": "ff70404980d7a2"
+    }
+   },
+   {
+    "id": "P3-13",
+    "picture": "🚕",
+    "pictureDesc": "ein Taxi",
+    "request": "Können Sie mir bitte ein Taxi rufen?",
+    "alt": [
+     "Rufen Sie mir bitte ein Taxi.",
+     "Ich brauche bitte ein Taxi."
+    ],
+    "reply": "Ja, gern. Wohin möchten Sie fahren?",
+    "fr": "Pouvez-vous m'appeler un taxi, s'il vous plaît ? / Oui, volontiers. Où voulez-vous aller ?",
+    "a": {
+     "request": "369d4e1d4c93ed",
+     "reply": "36cd017856f1ea",
+     "alt0": "b65282f6d01af8",
+     "alt1": "0a97abe64eaffe"
+    }
+   },
+   {
+    "id": "P3-14",
+    "picture": "👜",
+    "pictureDesc": "eine Tasche",
+    "request": "Können Sie bitte kurz meine Tasche halten?",
+    "alt": [
+     "Halt bitte kurz meine Tasche.",
+     "Kannst du bitte meine Tasche tragen?"
+    ],
+    "reply": "Ja, klar.",
+    "fr": "Pouvez-vous tenir mon sac un instant, s'il vous plaît ? / Oui, bien sûr.",
+    "a": {
+     "request": "0fbcc2b0f37db4",
+     "reply": "c6ff7afb828b09",
+     "alt0": "501c4e89ee31a9",
+     "alt1": "a8000e0b30d12c"
+    }
+   },
+   {
+    "id": "P3-15",
+    "picture": "💡",
+    "pictureDesc": "das Licht",
+    "request": "Können Sie bitte das Licht anmachen?",
+    "alt": [
+     "Mach bitte das Licht an!",
+     "Schalten Sie bitte das Licht ein."
+    ],
+    "reply": "Ja, natürlich.",
+    "fr": "Pouvez-vous allumer la lumière, s'il vous plaît ? / Oui, bien sûr.",
+    "a": {
+     "request": "d45db8619e64f5",
+     "reply": "6431dee76196c1",
+     "alt0": "5941294abddacc",
+     "alt1": "0a777f4459706b"
+    }
+   },
+   {
+    "id": "P3-16",
+    "picture": "🎫",
+    "pictureDesc": "eine Fahrkarte",
+    "request": "Eine Fahrkarte nach Bern, bitte.",
+    "alt": [
+     "Ich möchte bitte eine Fahrkarte nach Bern.",
+     "Können Sie mir bitte eine Fahrkarte nach Bern geben?"
+    ],
+    "reply": "Einfach oder hin und zurück?",
+    "fr": "Un billet pour Berne, s'il vous plaît. / Aller simple ou aller-retour ?",
+    "a": {
+     "request": "e68324e69c63af",
+     "reply": "11f900abd96348",
+     "alt0": "c428bd9845d9fa",
+     "alt1": "3a9eef9b60b634"
+    }
+   }
+  ],
+  "tips": [
+   "Teil 1: speak in short complete sentences, one per keyword. 'Ich wohne in Genf.' beats a long sentence with mistakes.",
+   "Teil 2: when you ask, build a real question with a verb from the card's word: card 'Kaffee' -> 'Trinken Sie gern Kaffee?'. Do not just say the word with rising intonation.",
+   "Teil 2: answer with a full sentence, then add one small extra detail ('Ja, jeden Morgen zwei Tassen.'). One sentence plus one detail is enough.",
+   "Teil 3: the picture shows the object, you build the request. Safe frames: 'Können Sie bitte ...?', 'Kannst du bitte ...?', 'Ich möchte bitte ...', 'Darf ich ...?'. Always add 'bitte'.",
+   "Teil 3: react naturally to your partner's request: 'Ja, gern.', 'Hier, bitte.', 'Natürlich.' or 'Tut mir leid, ich habe keinen Stift.'.",
+   "Match du/Sie to your partner: in the exam you are with another candidate, both 'Sie' and 'du' are accepted, but stay consistent within one exchange.",
+   "If you blank or do not understand: 'Wie bitte?', 'Noch einmal, bitte.', 'Können Sie das bitte wiederholen?'. Using these is not penalized.",
+   "Speak slowly and clearly rather than fast. Hold long vowels (Name, wohnen, Beruf) and breathe the h (Hobby, heißen): the examiner rewards clear pronunciation."
+  ]
+ }
+}

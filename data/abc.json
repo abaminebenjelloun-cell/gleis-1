@@ -1,0 +1,1693 @@
+{
+ "letters": [
+  {
+   "l": "A",
+   "name": "a",
+   "say": "A",
+   "ipa": "/aː/",
+   "approx": "A:",
+   "word": "Apfel",
+   "wordFr": "la pomme",
+   "tip": "Long and open, like 'pâte'.",
+   "tts": "A",
+   "k": "975e19f9fb9b67",
+   "kw": "d655f53d5ced59"
+  },
+  {
+   "l": "B",
+   "name": "be",
+   "say": "Be",
+   "ipa": "/beː/",
+   "approx": "BÉ:",
+   "word": "Bahnhof",
+   "wordFr": "la gare",
+   "tip": "Long closed é: never the short French 'bé'.",
+   "tts": "Be",
+   "k": "5e5ced78e97f2d",
+   "kw": "e07318e45b128a"
+  },
+  {
+   "l": "C",
+   "name": "ce",
+   "say": "Ce",
+   "ipa": "/tseː/",
+   "approx": "TSÉ:",
+   "word": "Computer",
+   "wordFr": "l'ordinateur",
+   "tip": "Said 'tsé', not 'cé'. A classic French slip when spelling.",
+   "tts": "Zeh",
+   "k": "d7b9f2d95a8e42",
+   "kw": "94390f352c510b"
+  },
+  {
+   "l": "D",
+   "name": "de",
+   "say": "De",
+   "ipa": "/deː/",
+   "approx": "DÉ:",
+   "word": "Deutsch",
+   "wordFr": "l'allemand",
+   "tip": "Long é.",
+   "tts": "De",
+   "k": "5ef3e2e7b480be",
+   "kw": "08551355ab48c0"
+  },
+  {
+   "l": "E",
+   "name": "e",
+   "say": "E",
+   "ipa": "/eː/",
+   "approx": "É:",
+   "word": "Essen",
+   "wordFr": "le repas",
+   "tip": "The letter E is 'é', never the French 'e' (euh). Very common spelling mistake.",
+   "tts": "E",
+   "k": "36c23b15f8759f",
+   "kw": "eee87800b60759"
+  },
+  {
+   "l": "F",
+   "name": "ef",
+   "say": "Ef",
+   "ipa": "/ɛf/",
+   "approx": "ÈF",
+   "word": "Fenster",
+   "wordFr": "la fenêtre",
+   "tip": "Short è, like in French.",
+   "tts": "Eff",
+   "k": "6693677d1166e8",
+   "kw": "45f027f6456058"
+  },
+  {
+   "l": "G",
+   "name": "ge",
+   "say": "Ge",
+   "ipa": "/ɡeː/",
+   "approx": "GUÉ:",
+   "word": "Geld",
+   "wordFr": "l'argent",
+   "tip": "Hard g: 'gué'. The French 'jé' is wrong.",
+   "tts": "Ge",
+   "k": "30e9a9f0102d37",
+   "kw": "5c585fae56f623"
+  },
+  {
+   "l": "H",
+   "name": "ha",
+   "say": "Ha",
+   "ipa": "/haː/",
+   "approx": "HA:",
+   "word": "Haus",
+   "wordFr": "la maison",
+   "tip": "Breathe the h: 'ha', not the French 'ache'.",
+   "tts": "Ha",
+   "k": "32b305e33b6d0e",
+   "kw": "49f607a709d0f0"
+  },
+  {
+   "l": "I",
+   "name": "i",
+   "say": "I",
+   "ipa": "/iː/",
+   "approx": "I:",
+   "word": "Information",
+   "wordFr": "l'information",
+   "tip": "Long i.",
+   "tts": "I",
+   "k": "11a9aad9711c93",
+   "kw": "0e320d1431317d"
+  },
+  {
+   "l": "J",
+   "name": "jot",
+   "say": "Jot",
+   "ipa": "/jɔt/",
+   "approx": "YOTT",
+   "word": "Ja",
+   "wordFr": "oui",
+   "tip": "'yott', not 'ji'. J in German sounds like the French y.",
+   "tts": "Jott",
+   "k": "8ad98b12fc9a0c",
+   "kw": "083871f0ff37c8"
+  },
+  {
+   "l": "K",
+   "name": "ka",
+   "say": "Ka",
+   "ipa": "/kaː/",
+   "approx": "KʰA:",
+   "word": "Kaffee",
+   "wordFr": "le café",
+   "tip": "With a puff of air.",
+   "tts": "Ka",
+   "k": "7e7f78861663bb",
+   "kw": "338e4fb4032ba6"
+  },
+  {
+   "l": "L",
+   "name": "el",
+   "say": "El",
+   "ipa": "/ɛl/",
+   "approx": "ÈL",
+   "word": "Lampe",
+   "wordFr": "la lampe",
+   "tip": "",
+   "tts": "Ell",
+   "k": "27b35304c0e867",
+   "kw": "d460e4fa9359a7"
+  },
+  {
+   "l": "M",
+   "name": "em",
+   "say": "Em",
+   "ipa": "/ɛm/",
+   "approx": "ÈM",
+   "word": "Milch",
+   "wordFr": "le lait",
+   "tip": "",
+   "tts": "Emm",
+   "k": "498e448c7cdf43",
+   "kw": "ecb6bb62e29162"
+  },
+  {
+   "l": "N",
+   "name": "en",
+   "say": "En",
+   "ipa": "/ɛn/",
+   "approx": "ÈN",
+   "word": "Name",
+   "wordFr": "le nom",
+   "tip": "Not nasal: say the n clearly, never 'in'.",
+   "tts": "Enn",
+   "k": "a5a5e39df6a124",
+   "kw": "70ff56de94d50e"
+  },
+  {
+   "l": "O",
+   "name": "o",
+   "say": "O",
+   "ipa": "/oː/",
+   "approx": "O:",
+   "word": "Obst",
+   "wordFr": "les fruits",
+   "tip": "Long closed o, like 'beau'.",
+   "tts": "O",
+   "k": "a54ed0f834d360",
+   "kw": "4b21bedf0d7024"
+  },
+  {
+   "l": "P",
+   "name": "pe",
+   "say": "Pe",
+   "ipa": "/peː/",
+   "approx": "PʰÉ:",
+   "word": "Post",
+   "wordFr": "la poste",
+   "tip": "Puff of air on the p.",
+   "tts": "Pe",
+   "k": "af89b2c7f946ba",
+   "kw": "2c5fa86c4a9940"
+  },
+  {
+   "l": "Q",
+   "name": "ku",
+   "say": "Ku",
+   "ipa": "/kuː/",
+   "approx": "KʰOU:",
+   "word": "Quittung",
+   "wordFr": "le reçu",
+   "tip": "'kou', not the French 'ku'.",
+   "tts": "Ku",
+   "k": "100d31352e9255",
+   "kw": "fbc18ea38638d5"
+  },
+  {
+   "l": "R",
+   "name": "er",
+   "say": "Er",
+   "ipa": "/ɛʁ/",
+   "approx": "ÈR",
+   "word": "Rot",
+   "wordFr": "rouge",
+   "tip": "Your French r is fine here.",
+   "tts": "Err",
+   "k": "a1228780b431b3",
+   "kw": "82dc317fcd1393"
+  },
+  {
+   "l": "S",
+   "name": "es",
+   "say": "Es",
+   "ipa": "/ɛs/",
+   "approx": "ÈSS",
+   "word": "Sonne",
+   "wordFr": "le soleil",
+   "tip": "",
+   "tts": "Ess",
+   "k": "456183e840dc07",
+   "kw": "1c1ca3019b060b"
+  },
+  {
+   "l": "T",
+   "name": "te",
+   "say": "Te",
+   "ipa": "/teː/",
+   "approx": "TʰÉ:",
+   "word": "Tisch",
+   "wordFr": "la table",
+   "tip": "Puff of air on the t.",
+   "tts": "Te",
+   "k": "cd475a4ef4e5f0",
+   "kw": "967f88f2082b34"
+  },
+  {
+   "l": "U",
+   "name": "u",
+   "say": "U",
+   "ipa": "/uː/",
+   "approx": "OU:",
+   "word": "Uhr",
+   "wordFr": "l'heure, la montre",
+   "tip": "German U is 'ou'. The French 'u' sound is the German Ü.",
+   "tts": "U",
+   "k": "ef3586db0f76bf",
+   "kw": "83cd16665ba8c6"
+  },
+  {
+   "l": "V",
+   "name": "fau",
+   "say": "Fau",
+   "ipa": "/faʊ̯/",
+   "approx": "FAOU",
+   "word": "Vater",
+   "wordFr": "le père",
+   "tip": "'faou'. In German words v is said like f (Vater = FA:-ta).",
+   "tts": "Fau",
+   "k": "12fbbc3462c54e",
+   "kw": "0d688d0141e510"
+  },
+  {
+   "l": "W",
+   "name": "we",
+   "say": "We",
+   "ipa": "/veː/",
+   "approx": "VÉ:",
+   "word": "Wasser",
+   "wordFr": "l'eau",
+   "tip": "'vé'. The German w is a French v.",
+   "tts": "We",
+   "k": "53501fcbd7135d",
+   "kw": "8f27e232e58d86"
+  },
+  {
+   "l": "X",
+   "name": "iks",
+   "say": "Iks",
+   "ipa": "/ɪks/",
+   "approx": "IKS",
+   "word": "Taxi",
+   "wordFr": "le taxi",
+   "tip": "Short i, like French 'ix'.",
+   "tts": "Iks",
+   "k": "9c2ae9a519450a",
+   "kw": "a42288e5aaf25a"
+  },
+  {
+   "l": "Y",
+   "name": "ypsilon",
+   "say": "Ypsilon",
+   "ipa": "/ˈʏpsilɔn/",
+   "approx": "UP-si-lonn",
+   "word": "Handy",
+   "wordFr": "le portable",
+   "tip": "Stress on the first syllable; the y is a short ü.",
+   "tts": "Ypsilon",
+   "k": "9b47a9953f36a4",
+   "kw": "7f28f2fa874e69"
+  },
+  {
+   "l": "Z",
+   "name": "zett",
+   "say": "Zett",
+   "ipa": "/tsɛt/",
+   "approx": "TSÈTT",
+   "word": "Zug",
+   "wordFr": "le train",
+   "tip": "'tsètt'. German z is always ts: Zug = TSOU:K.",
+   "tts": "Zett",
+   "k": "a6c9ce7d0f80b3",
+   "kw": "9840c7a000fb2c"
+  },
+  {
+   "l": "Ä",
+   "name": "ä",
+   "say": "Ä",
+   "ipa": "/ɛː/",
+   "approx": "È:",
+   "word": "Ärztin",
+   "wordFr": "la médecin",
+   "tip": "Say 'a Umlaut' if someone does not understand: long open è.",
+   "tts": "Ä",
+   "k": "c667909bd0baaf",
+   "kw": "73c4032a050459"
+  },
+  {
+   "l": "Ö",
+   "name": "ö",
+   "say": "Ö",
+   "ipa": "/øː/",
+   "approx": "EU:",
+   "word": "Österreich",
+   "wordFr": "l'Autriche",
+   "tip": "'o Umlaut': the French 'eu' of 'deux'.",
+   "tts": "Ö",
+   "k": "823c9d4562f555",
+   "kw": "60187cd65c72ac"
+  },
+  {
+   "l": "Ü",
+   "name": "ü",
+   "say": "Ü",
+   "ipa": "/yː/",
+   "approx": "U:",
+   "word": "Übung",
+   "wordFr": "l'exercice",
+   "tip": "'u Umlaut': the French 'u' of 'tu'.",
+   "tts": "Ü",
+   "k": "4aabf1ad2e3561",
+   "kw": "95dde0ce3a8657"
+  },
+  {
+   "l": "ß",
+   "name": "eszett",
+   "say": "Eszett",
+   "ipa": "/ɛsˈtsɛt/",
+   "approx": "ès-TSÈTT",
+   "word": "Straße",
+   "wordFr": "la rue",
+   "tip": "Also called 'scharfes S'. Only after long vowels and diphthongs; Swiss spelling writes ss.",
+   "tts": "Eszett",
+   "k": "e84551c95f1c74",
+   "kw": "837d168604f2c0"
+  }
+ ],
+ "numbers": [
+  {
+   "n": "0",
+   "word": "null",
+   "ipa": "/nʊl/",
+   "approx": "NOULL",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "296bf936ec413b"
+  },
+  {
+   "n": "1",
+   "word": "eins",
+   "ipa": "/aɪ̯ns/",
+   "approx": "AÏNSS",
+   "tip": "Alone it is 'eins'; before a noun 'ein/eine'; in 21, 31 ... it is 'ein-': einundzwanzig.",
+   "group": "0 bis 20",
+   "k": "6ac502e927210c"
+  },
+  {
+   "n": "2",
+   "word": "zwei",
+   "ipa": "/tsvaɪ̯/",
+   "approx": "TSVAÏ",
+   "tip": "On the phone people often say 'zwo' so it is not confused with 'drei'.",
+   "group": "0 bis 20",
+   "k": "57ee21480c4ebf"
+  },
+  {
+   "n": "3",
+   "word": "drei",
+   "ipa": "/dʁaɪ̯/",
+   "approx": "DRAÏ",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "52d996fb20c2bd"
+  },
+  {
+   "n": "4",
+   "word": "vier",
+   "ipa": "/fiːɐ̯/",
+   "approx": "FI:A",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "0e5aa1cf2d174d"
+  },
+  {
+   "n": "5",
+   "word": "fünf",
+   "ipa": "/fʏnf/",
+   "approx": "FUNF",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "2d052e9b17f4e4"
+  },
+  {
+   "n": "6",
+   "word": "sechs",
+   "ipa": "/zɛks/",
+   "approx": "ZÈKS",
+   "tip": "Initial s is voiced (z) and chs is ks: ZÈKS.",
+   "group": "0 bis 20",
+   "k": "2ca0516fa5f79c"
+  },
+  {
+   "n": "7",
+   "word": "sieben",
+   "ipa": "/ˈziːbən/",
+   "approx": "ZI:-ben",
+   "tip": "Long i: ZI:-ben. In siebzehn and siebzig the -en disappears.",
+   "group": "0 bis 20",
+   "k": "dd887448f9a53c"
+  },
+  {
+   "n": "8",
+   "word": "acht",
+   "ipa": "/axt/",
+   "approx": "AkhT",
+   "tip": "Throaty ach-Laut after a.",
+   "group": "0 bis 20",
+   "k": "50d3451cbbe2b6"
+  },
+  {
+   "n": "9",
+   "word": "neun",
+   "ipa": "/nɔɪ̯n/",
+   "approx": "NOÏN",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "89a44f8f1ce1d1"
+  },
+  {
+   "n": "10",
+   "word": "zehn",
+   "ipa": "/tseːn/",
+   "approx": "TSÉ:N",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "f28f062f295e93"
+  },
+  {
+   "n": "11",
+   "word": "elf",
+   "ipa": "/ɛlf/",
+   "approx": "ÈLF",
+   "tip": "elf and zwölf are irregular, like French onze and douze.",
+   "group": "0 bis 20",
+   "k": "59751d1abd01e1"
+  },
+  {
+   "n": "12",
+   "word": "zwölf",
+   "ipa": "/tsvœlf/",
+   "approx": "TSVEULF",
+   "tip": "ö = French 'eu' of 'neuf', short.",
+   "group": "0 bis 20",
+   "k": "1e1204559e7fa6"
+  },
+  {
+   "n": "13",
+   "word": "dreizehn",
+   "ipa": "/ˈdʁaɪ̯tseːn/",
+   "approx": "DRAÏ-tsé:n",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "13f6dfb6768f42"
+  },
+  {
+   "n": "14",
+   "word": "vierzehn",
+   "ipa": "/ˈfɪʁtseːn/",
+   "approx": "FIR-tsé:n",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "04e5101beab7c5"
+  },
+  {
+   "n": "15",
+   "word": "fünfzehn",
+   "ipa": "/ˈfʏnftseːn/",
+   "approx": "FUNF-tsé:n",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "2af7f05e118106"
+  },
+  {
+   "n": "16",
+   "word": "sechzehn",
+   "ipa": "/ˈzɛçtseːn/",
+   "approx": "ZÈch'-tsé:n",
+   "tip": "sechzehn has no s: ZÈch'-tsé:n, with the soft ich-Laut.",
+   "group": "0 bis 20",
+   "k": "03f5338bc39906"
+  },
+  {
+   "n": "17",
+   "word": "siebzehn",
+   "ipa": "/ˈziːptseːn/",
+   "approx": "ZI:P-tsé:n",
+   "tip": "siebzehn, not siebenzehn.",
+   "group": "0 bis 20",
+   "k": "d6b9e72c5987fc"
+  },
+  {
+   "n": "18",
+   "word": "achtzehn",
+   "ipa": "/ˈaxtseːn/",
+   "approx": "AkhT-tsé:n",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "6a95705a618485"
+  },
+  {
+   "n": "19",
+   "word": "neunzehn",
+   "ipa": "/ˈnɔɪ̯ntseːn/",
+   "approx": "NOÏN-tsé:n",
+   "tip": "",
+   "group": "0 bis 20",
+   "k": "6b83c52f33806d"
+  },
+  {
+   "n": "20",
+   "word": "zwanzig",
+   "ipa": "/ˈtsvantsɪç/",
+   "approx": "TSVANN-tsich'",
+   "tip": "-zig ends in the soft ich-Laut [ɪç] (in Switzerland often -zg).",
+   "group": "0 bis 20",
+   "k": "be4627b3499fad"
+  },
+  {
+   "n": "21",
+   "word": "einundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 29: units first",
+   "k": "0062d2bd02a69b"
+  },
+  {
+   "n": "22",
+   "word": "zweiundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 29: units first",
+   "k": "38918d2576325a"
+  },
+  {
+   "n": "23",
+   "word": "dreiundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 29: units first",
+   "k": "8599276e58484a"
+  },
+  {
+   "n": "24",
+   "word": "vierundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 29: units first",
+   "k": "c3d9228874552a"
+  },
+  {
+   "n": "25",
+   "word": "fünfundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 29: units first",
+   "k": "f4590d0a33e4b3"
+  },
+  {
+   "n": "26",
+   "word": "sechsundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 29: units first",
+   "k": "b0a7043c76854f"
+  },
+  {
+   "n": "27",
+   "word": "siebenundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 29: units first",
+   "k": "fec589354fe585"
+  },
+  {
+   "n": "28",
+   "word": "achtundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 29: units first",
+   "k": "578f72be407729"
+  },
+  {
+   "n": "29",
+   "word": "neunundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 29: units first",
+   "k": "4aeb6e3eb22f4c"
+  },
+  {
+   "n": "30",
+   "word": "dreißig",
+   "ipa": "/ˈdʁaɪ̯sɪç/",
+   "approx": "DRAÏ-sich'",
+   "tip": "dreißig is the only ten with ß instead of z.",
+   "group": "Tens",
+   "k": "86335eb47ebf2a"
+  },
+  {
+   "n": "40",
+   "word": "vierzig",
+   "ipa": "/ˈfɪʁtsɪç/",
+   "approx": "FIR-tsich'",
+   "tip": "",
+   "group": "Tens",
+   "k": "048f55f8cc1242"
+  },
+  {
+   "n": "50",
+   "word": "fünfzig",
+   "ipa": "/ˈfʏnftsɪç/",
+   "approx": "FUNF-tsich'",
+   "tip": "",
+   "group": "Tens",
+   "k": "ee37b56f2f95ec"
+  },
+  {
+   "n": "60",
+   "word": "sechzig",
+   "ipa": "/ˈzɛçtsɪç/",
+   "approx": "ZÈch'-tsich'",
+   "tip": "sechzig: no s, soft ch.",
+   "group": "Tens",
+   "k": "009add744f09e1"
+  },
+  {
+   "n": "70",
+   "word": "siebzig",
+   "ipa": "/ˈziːptsɪç/",
+   "approx": "ZI:P-tsich'",
+   "tip": "siebzig: no -en.",
+   "group": "Tens",
+   "k": "7b0d9be54107dc"
+  },
+  {
+   "n": "80",
+   "word": "achtzig",
+   "ipa": "/ˈaxtsɪç/",
+   "approx": "AkhT-tsich'",
+   "tip": "",
+   "group": "Tens",
+   "k": "1ceeace765cc62"
+  },
+  {
+   "n": "90",
+   "word": "neunzig",
+   "ipa": "/ˈnɔɪ̯ntsɪç/",
+   "approx": "NOÏN-tsich'",
+   "tip": "",
+   "group": "Tens",
+   "k": "ac3071141cbc82"
+  },
+  {
+   "n": "31",
+   "word": "einunddreißig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 99: units first",
+   "k": "2f0e97d75648b7"
+  },
+  {
+   "n": "45",
+   "word": "fünfundvierzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 99: units first",
+   "k": "fe82bb5960db6b"
+  },
+  {
+   "n": "58",
+   "word": "achtundfünfzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 99: units first",
+   "k": "49e29347b2264d"
+  },
+  {
+   "n": "67",
+   "word": "siebenundsechzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 99: units first",
+   "k": "dad4d57b647f1c"
+  },
+  {
+   "n": "76",
+   "word": "sechsundsiebzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 99: units first",
+   "k": "e17c4c4527e60b"
+  },
+  {
+   "n": "83",
+   "word": "dreiundachtzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 99: units first",
+   "k": "aa014ae1b5f90f"
+  },
+  {
+   "n": "99",
+   "word": "neunundneunzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "21 bis 99: units first",
+   "k": "17cf18b7d4d05e"
+  },
+  {
+   "n": "100",
+   "word": "einhundert",
+   "ipa": "/ˈhʊndɐt/",
+   "approx": "HOUN-dat",
+   "tip": "hundert: final d is said t.",
+   "group": "Hundreds",
+   "k": "47c3de28c224b4"
+  },
+  {
+   "n": "101",
+   "word": "einhunderteins",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Hundreds",
+   "k": "03c78f35f32d5c"
+  },
+  {
+   "n": "120",
+   "word": "einhundertzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Hundreds",
+   "k": "bc5ef515a4c270"
+  },
+  {
+   "n": "199",
+   "word": "einhundertneunundneunzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Hundreds",
+   "k": "542ec238d8c87a"
+  },
+  {
+   "n": "200",
+   "word": "zweihundert",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Hundreds",
+   "k": "7ccb79608b88af"
+  },
+  {
+   "n": "365",
+   "word": "dreihundertfünfundsechzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Hundreds",
+   "k": "9c3b26696e70d7"
+  },
+  {
+   "n": "999",
+   "word": "neunhundertneunundneunzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Hundreds",
+   "k": "28b96517c2d1f4"
+  },
+  {
+   "n": "1000",
+   "word": "eintausend",
+   "ipa": "/ˈtaʊ̯zənt/",
+   "approx": "TAOU-zent",
+   "tip": "",
+   "group": "Thousands",
+   "k": "37726bb20fe5c0"
+  },
+  {
+   "n": "2000",
+   "word": "zweitausend",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Thousands",
+   "k": "f4a62c4ccaaa10"
+  },
+  {
+   "n": "2500",
+   "word": "zweitausendfünfhundert",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Thousands",
+   "k": "8f67dac8a46719"
+  },
+  {
+   "n": "10000",
+   "word": "zehntausend",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Thousands",
+   "k": "a1daa89c65edcc"
+  },
+  {
+   "n": "100000",
+   "word": "einhunderttausend",
+   "ipa": "",
+   "approx": "",
+   "tip": "",
+   "group": "Thousands",
+   "k": "3b2b5dbf3ff65f"
+  },
+  {
+   "n": "1 000 000",
+   "word": "eine Million",
+   "ipa": "/ˈaɪ̯nə mɪˈli̯oːn/",
+   "approx": "AÏ-ne mi-LIO:N",
+   "tip": "Million is a noun: eine Million, zwei Millionen.",
+   "group": "Thousands",
+   "k": "e8e2a08795c8d8"
+  },
+  {
+   "n": "1995",
+   "word": "neunzehnhundertfünfundneunzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "Years before 2000 are said in hundreds: neunzehnhundert... Never 'tausendneunhundert'.",
+   "group": "Years",
+   "k": "af09f9c5929947"
+  },
+  {
+   "n": "2000",
+   "word": "zweitausend",
+   "ipa": "",
+   "approx": "",
+   "tip": "From 2000 on: zweitausend...",
+   "group": "Years",
+   "k": "f4a62c4ccaaa10"
+  },
+  {
+   "n": "2026",
+   "word": "zweitausendsechsundzwanzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "From 2000 on: zweitausend...",
+   "group": "Years",
+   "k": "313a4417d49951"
+  },
+  {
+   "n": "12,50 CHF",
+   "word": "zwölf Franken fünfzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "Prices: Franken first, then the Rappen without the word Rappen.",
+   "group": "Prices, times, dates, phone",
+   "k": "c32731cbe36325"
+  },
+  {
+   "n": "3,90 €",
+   "word": "drei Euro neunzig",
+   "ipa": "",
+   "approx": "",
+   "tip": "Same with euros: drei Euro neunzig.",
+   "group": "Prices, times, dates, phone",
+   "k": "f1160b6079f38e"
+  },
+  {
+   "n": "14:30",
+   "word": "vierzehn Uhr dreißig",
+   "ipa": "",
+   "approx": "",
+   "tip": "Official time: hour, Uhr, minutes. Informally: halb drei.",
+   "group": "Prices, times, dates, phone",
+   "k": "8ed18af6fcac07"
+  },
+  {
+   "n": "8:15",
+   "word": "acht Uhr fünfzehn",
+   "ipa": "",
+   "approx": "",
+   "tip": "Informally: Viertel nach acht.",
+   "group": "Prices, times, dates, phone",
+   "k": "3431ea6031e21b"
+  },
+  {
+   "n": "Gleis 7",
+   "word": "Gleis sieben",
+   "ipa": "",
+   "approx": "",
+   "tip": "Platforms, rooms and buses: just the number.",
+   "group": "Prices, times, dates, phone",
+   "k": "40f90c036b55fc"
+  },
+  {
+   "n": "22. Mai",
+   "word": "der zweiundzwanzigste Mai",
+   "ipa": "",
+   "approx": "",
+   "tip": "Dates use ordinals: am zweiundzwanzigsten Mai.",
+   "group": "Prices, times, dates, phone",
+   "k": "56d65cd30b6a2f"
+  },
+  {
+   "n": "079 482 15 36",
+   "word": "null sieben neun, vier acht zwei, fünfzehn, sechsunddreißig",
+   "ipa": "",
+   "approx": "",
+   "tip": "Swiss phone numbers: often in groups, pairs as two-digit numbers.",
+   "group": "Prices, times, dates, phone",
+   "k": "22f016539d696c"
+  }
+ ],
+ "dictNums": [
+  {
+   "n": 12,
+   "word": "zwölf",
+   "k": "1e1204559e7fa6"
+  },
+  {
+   "n": 13,
+   "word": "dreizehn",
+   "k": "13f6dfb6768f42"
+  },
+  {
+   "n": 14,
+   "word": "vierzehn",
+   "k": "04e5101beab7c5"
+  },
+  {
+   "n": 15,
+   "word": "fünfzehn",
+   "k": "2af7f05e118106"
+  },
+  {
+   "n": 16,
+   "word": "sechzehn",
+   "k": "03f5338bc39906"
+  },
+  {
+   "n": 17,
+   "word": "siebzehn",
+   "k": "d6b9e72c5987fc"
+  },
+  {
+   "n": 18,
+   "word": "achtzehn",
+   "k": "6a95705a618485"
+  },
+  {
+   "n": 19,
+   "word": "neunzehn",
+   "k": "6b83c52f33806d"
+  },
+  {
+   "n": 20,
+   "word": "zwanzig",
+   "k": "be4627b3499fad"
+  },
+  {
+   "n": 21,
+   "word": "einundzwanzig",
+   "k": "0062d2bd02a69b"
+  },
+  {
+   "n": 22,
+   "word": "zweiundzwanzig",
+   "k": "38918d2576325a"
+  },
+  {
+   "n": 25,
+   "word": "fünfundzwanzig",
+   "k": "f4590d0a33e4b3"
+  },
+  {
+   "n": 28,
+   "word": "achtundzwanzig",
+   "k": "578f72be407729"
+  },
+  {
+   "n": 30,
+   "word": "dreißig",
+   "k": "86335eb47ebf2a"
+  },
+  {
+   "n": 32,
+   "word": "zweiunddreißig",
+   "k": "dff92e94b7179b"
+  },
+  {
+   "n": 34,
+   "word": "vierunddreißig",
+   "k": "f13a698a847a59"
+  },
+  {
+   "n": 36,
+   "word": "sechsunddreißig",
+   "k": "e8075f7e041925"
+  },
+  {
+   "n": 37,
+   "word": "siebenunddreißig",
+   "k": "c03c2c62c47f82"
+  },
+  {
+   "n": 38,
+   "word": "achtunddreißig",
+   "k": "d50a9fedc1e735"
+  },
+  {
+   "n": 40,
+   "word": "vierzig",
+   "k": "048f55f8cc1242"
+  },
+  {
+   "n": 42,
+   "word": "zweiundvierzig",
+   "k": "d9dd93be1b8ada"
+  },
+  {
+   "n": 43,
+   "word": "dreiundvierzig",
+   "k": "2569989e0fb462"
+  },
+  {
+   "n": 47,
+   "word": "siebenundvierzig",
+   "k": "c972c53412dec5"
+  },
+  {
+   "n": 50,
+   "word": "fünfzig",
+   "k": "ee37b56f2f95ec"
+  },
+  {
+   "n": 52,
+   "word": "zweiundfünfzig",
+   "k": "4e27bbb5585515"
+  },
+  {
+   "n": 54,
+   "word": "vierundfünfzig",
+   "k": "2b8066453dcfa2"
+  },
+  {
+   "n": 58,
+   "word": "achtundfünfzig",
+   "k": "49e29347b2264d"
+  },
+  {
+   "n": 60,
+   "word": "sechzig",
+   "k": "009add744f09e1"
+  },
+  {
+   "n": 63,
+   "word": "dreiundsechzig",
+   "k": "cb15139e40f764"
+  },
+  {
+   "n": 65,
+   "word": "fünfundsechzig",
+   "k": "cee065ca2dbf01"
+  },
+  {
+   "n": 68,
+   "word": "achtundsechzig",
+   "k": "1dbef93d82f4f0"
+  },
+  {
+   "n": 69,
+   "word": "neunundsechzig",
+   "k": "356d1067a4f97f"
+  },
+  {
+   "n": 70,
+   "word": "siebzig",
+   "k": "7b0d9be54107dc"
+  },
+  {
+   "n": 73,
+   "word": "dreiundsiebzig",
+   "k": "b329ff82886120"
+  },
+  {
+   "n": 74,
+   "word": "vierundsiebzig",
+   "k": "8c06b4bc830c25"
+  },
+  {
+   "n": 76,
+   "word": "sechsundsiebzig",
+   "k": "e17c4c4527e60b"
+  },
+  {
+   "n": 80,
+   "word": "achtzig",
+   "k": "1ceeace765cc62"
+  },
+  {
+   "n": 85,
+   "word": "fünfundachtzig",
+   "k": "9020c081db0aab"
+  },
+  {
+   "n": 86,
+   "word": "sechsundachtzig",
+   "k": "af0f9180f2bb96"
+  },
+  {
+   "n": 87,
+   "word": "siebenundachtzig",
+   "k": "cdf8d88b0d1c27"
+  },
+  {
+   "n": 89,
+   "word": "neunundachtzig",
+   "k": "9411d7b2ff6d06"
+  },
+  {
+   "n": 90,
+   "word": "neunzig",
+   "k": "ac3071141cbc82"
+  },
+  {
+   "n": 91,
+   "word": "einundneunzig",
+   "k": "53e5c39c11a06d"
+  },
+  {
+   "n": 96,
+   "word": "sechsundneunzig",
+   "k": "b9e8f1f7ef0764"
+  },
+  {
+   "n": 98,
+   "word": "achtundneunzig",
+   "k": "e8bb70fd21a2a8"
+  },
+  {
+   "n": 101,
+   "word": "einhunderteins",
+   "k": "03c78f35f32d5c"
+  },
+  {
+   "n": 115,
+   "word": "einhundertfünfzehn",
+   "k": "3c8abbfc6edc5c"
+  },
+  {
+   "n": 130,
+   "word": "einhundertdreißig",
+   "k": "4561c8365033b8"
+  },
+  {
+   "n": 150,
+   "word": "einhundertfünfzig",
+   "k": "26e48ebdf2447e"
+  },
+  {
+   "n": 153,
+   "word": "einhundertdreiundfünfzig",
+   "k": "8d8325e32d7358"
+  },
+  {
+   "n": 203,
+   "word": "zweihundertdrei",
+   "k": "a721984c902ce0"
+  },
+  {
+   "n": 229,
+   "word": "zweihundertneunundzwanzig",
+   "k": "a1d3457df3855b"
+  },
+  {
+   "n": 230,
+   "word": "zweihundertdreißig",
+   "k": "f565d3d2ca8acc"
+  },
+  {
+   "n": 295,
+   "word": "zweihundertfünfundneunzig",
+   "k": "b88d2a18adcfca"
+  },
+  {
+   "n": 303,
+   "word": "dreihundertdrei",
+   "k": "e9b7c4c390310c"
+  },
+  {
+   "n": 312,
+   "word": "dreihundertzwölf",
+   "k": "f1c27b195f385f"
+  },
+  {
+   "n": 317,
+   "word": "dreihundertsiebzehn",
+   "k": "51d05631eeff1e"
+  },
+  {
+   "n": 318,
+   "word": "dreihundertachtzehn",
+   "k": "0f16119f0e4c6c"
+  },
+  {
+   "n": 321,
+   "word": "dreihunderteinundzwanzig",
+   "k": "20843e8036812e"
+  },
+  {
+   "n": 404,
+   "word": "vierhundertvier",
+   "k": "df0c80f0eb7776"
+  },
+  {
+   "n": 440,
+   "word": "vierhundertvierzig",
+   "k": "3bb6f1e2d91dc7"
+  },
+  {
+   "n": 492,
+   "word": "vierhundertzweiundneunzig",
+   "k": "ed330448654fd6"
+  },
+  {
+   "n": 512,
+   "word": "fünfhundertzwölf",
+   "k": "ef9ee811c89058"
+  },
+  {
+   "n": 594,
+   "word": "fünfhundertvierundneunzig",
+   "k": "f120dc6e6203e2"
+  },
+  {
+   "n": 666,
+   "word": "sechshundertsechsundsechzig",
+   "k": "28c92637b30370"
+  },
+  {
+   "n": 672,
+   "word": "sechshundertzweiundsiebzig",
+   "k": "d3d069a97e0124"
+  },
+  {
+   "n": 676,
+   "word": "sechshundertsechsundsiebzig",
+   "k": "bff72dca8033bd"
+  },
+  {
+   "n": 755,
+   "word": "siebenhundertfünfundfünfzig",
+   "k": "4a1ee6a843c8bb"
+  },
+  {
+   "n": 769,
+   "word": "siebenhundertneunundsechzig",
+   "k": "764e5c4e76d3f2"
+  },
+  {
+   "n": 777,
+   "word": "siebenhundertsiebenundsiebzig",
+   "k": "01ece1cfea8a8a"
+  },
+  {
+   "n": 778,
+   "word": "siebenhundertachtundsiebzig",
+   "k": "2fcebcbba2815b"
+  },
+  {
+   "n": 808,
+   "word": "achthundertacht",
+   "k": "7e20b3d8e2bf60"
+  },
+  {
+   "n": 824,
+   "word": "achthundertvierundzwanzig",
+   "k": "bf0e4083178016"
+  },
+  {
+   "n": 891,
+   "word": "achthunderteinundneunzig",
+   "k": "601a93ac9b58c7"
+  },
+  {
+   "n": 911,
+   "word": "neunhundertelf",
+   "k": "e3461096800986"
+  },
+  {
+   "n": 966,
+   "word": "neunhundertsechsundsechzig",
+   "k": "06fe23ea54e9be"
+  },
+  {
+   "n": 986,
+   "word": "neunhundertsechsundachtzig",
+   "k": "f0ba3b9272bbd7"
+  },
+  {
+   "n": 1010,
+   "word": "eintausendzehn",
+   "k": "0534f3d28511d1"
+  },
+  {
+   "n": 1500,
+   "word": "eintausendfünfhundert",
+   "k": "254fcb1832cab5"
+  },
+  {
+   "n": 1686,
+   "word": "eintausendsechshundertsechsundachtzig",
+   "k": "4bf0db80f2865a"
+  },
+  {
+   "n": 2020,
+   "word": "zweitausendzwanzig",
+   "k": "3e61439c333fde"
+  },
+  {
+   "n": 2196,
+   "word": "zweitausendeinhundertsechsundneunzig",
+   "k": "e30d2395706005"
+  },
+  {
+   "n": 3580,
+   "word": "dreitausendfünfhundertachtzig",
+   "k": "39ec4ba1e9db84"
+  },
+  {
+   "n": 4200,
+   "word": "viertausendzweihundert",
+   "k": "83629ff06c5196"
+  },
+  {
+   "n": 4220,
+   "word": "viertausendzweihundertzwanzig",
+   "k": "a3eade549d2aba"
+  },
+  {
+   "n": 4906,
+   "word": "viertausendneunhundertsechs",
+   "k": "aaf1830b201ae9"
+  },
+  {
+   "n": 7089,
+   "word": "siebentausendneunundachtzig",
+   "k": "56663ce2a20dc3"
+  },
+  {
+   "n": 7664,
+   "word": "siebentausendsechshundertvierundsechzig",
+   "k": "1337294521f6d7"
+  },
+  {
+   "n": 7894,
+   "word": "siebentausendachthundertvierundneunzig",
+   "k": "bba3b33623a72d"
+  },
+  {
+   "n": 8925,
+   "word": "achttausendneunhundertfünfundzwanzig",
+   "k": "366010dcff91fd"
+  }
+ ],
+ "spell": [
+  {
+   "w": "Genf",
+   "say": "ge, e, en, ef",
+   "tts": "Ge, E, Enn, Eff.",
+   "k": "cedb4ac3400cc2"
+  },
+  {
+   "w": "Zürich",
+   "say": "zett, ü, er, i, ce, ha",
+   "tts": "Zett, Ü, Err, I, Zeh, Ha.",
+   "k": "7836a4327a62fc"
+  },
+  {
+   "w": "Benjelloun",
+   "say": "be, e, en, jot, e, el, el, o, u, en",
+   "tts": "Be, E, Enn, Jott, E, Ell, Ell, O, U, Enn.",
+   "k": "c6f238e5087071"
+  },
+  {
+   "w": "Alexandre",
+   "say": "a, el, e, iks, a, en, de, er, e",
+   "tts": "A, Ell, E, Iks, A, Enn, De, Err, E.",
+   "k": "05e33cb65ee9d0"
+  },
+  {
+   "w": "Bahnhof",
+   "say": "be, a, ha, en, ha, o, ef",
+   "tts": "Be, A, Ha, Enn, Ha, O, Eff.",
+   "k": "7a0511fa0f09d7"
+  },
+  {
+   "w": "Wohnung",
+   "say": "we, o, ha, en, u, en, ge",
+   "tts": "We, O, Ha, Enn, U, Enn, Ge.",
+   "k": "7b730df351edd8"
+  },
+  {
+   "w": "Tennis",
+   "say": "te, e, en, en, i, es",
+   "tts": "Te, E, Enn, Enn, I, Ess.",
+   "k": "296fe654c08a09"
+  },
+  {
+   "w": "Fitness",
+   "say": "ef, i, te, en, e, es, es",
+   "tts": "Eff, I, Te, Enn, E, Ess, Ess.",
+   "k": "26448f0f099f9c"
+  },
+  {
+   "w": "Computer",
+   "say": "ce, o, em, pe, u, te, e, er",
+   "tts": "Zeh, O, Emm, Pe, U, Te, E, Err.",
+   "k": "c5cb1bfa078835"
+  },
+  {
+   "w": "Montag",
+   "say": "em, o, en, te, a, ge",
+   "tts": "Emm, O, Enn, Te, A, Ge.",
+   "k": "02bb9934fcf6af"
+  },
+  {
+   "w": "Käse",
+   "say": "ka, ä, es, e",
+   "tts": "Ka, Ä, Ess, E.",
+   "k": "393b7b2b54a56c"
+  },
+  {
+   "w": "Brötchen",
+   "say": "be, er, ö, te, ce, ha, e, en",
+   "tts": "Be, Err, Ö, Te, Zeh, Ha, E, Enn.",
+   "k": "38a064a12f9964"
+  },
+  {
+   "w": "Straße",
+   "say": "es, te, er, a, eszett, e",
+   "tts": "Ess, Te, Err, A, Eszett, E.",
+   "k": "14e76f58fe20fd"
+  },
+  {
+   "w": "Quittung",
+   "say": "ku, u, i, te, te, u, en, ge",
+   "tts": "Ku, U, I, Te, Te, U, Enn, Ge.",
+   "k": "9ce2672964b527"
+  },
+  {
+   "w": "Jacke",
+   "say": "jot, a, ce, ka, e",
+   "tts": "Jott, A, Zeh, Ka, E.",
+   "k": "25d846bffd8aef"
+  },
+  {
+   "w": "Vogel",
+   "say": "fau, o, ge, e, el",
+   "tts": "Fau, O, Ge, E, Ell.",
+   "k": "540208e9b3f7fb"
+  },
+  {
+   "w": "Wasser",
+   "say": "we, a, es, es, e, er",
+   "tts": "We, A, Ess, Ess, E, Err.",
+   "k": "e1fa6776f7e010"
+  },
+  {
+   "w": "Yoga",
+   "say": "ypsilon, o, ge, a",
+   "tts": "Ypsilon, O, Ge, A.",
+   "k": "5d7241e4745892"
+  },
+  {
+   "w": "Zug",
+   "say": "zett, u, ge",
+   "tts": "Zett, U, Ge.",
+   "k": "fda36a7045096c"
+  },
+  {
+   "w": "Hexe",
+   "say": "ha, e, iks, e",
+   "tts": "Ha, E, Iks, E.",
+   "k": "945d09f8178d0b"
+  },
+  {
+   "w": "Juli",
+   "say": "jot, u, el, i",
+   "tts": "Jott, U, Ell, I.",
+   "k": "752ad568c23434"
+  },
+  {
+   "w": "Familie",
+   "say": "ef, a, em, i, el, i, e",
+   "tts": "Eff, A, Emm, I, Ell, I, E.",
+   "k": "36562cf5214fad"
+  },
+  {
+   "w": "Schweiz",
+   "say": "es, ce, ha, we, e, i, zett",
+   "tts": "Ess, Zeh, Ha, We, E, I, Zett.",
+   "k": "c5d2ced8f25f11"
+  },
+  {
+   "w": "Gleis",
+   "say": "ge, el, e, i, es",
+   "tts": "Ge, Ell, E, I, Ess.",
+   "k": "9f83f43bc0dee2"
+  },
+  {
+   "w": "Frühstück",
+   "say": "ef, er, ü, ha, es, te, ü, ce, ka",
+   "tts": "Eff, Err, Ü, Ha, Ess, Te, Ü, Zeh, Ka.",
+   "k": "6d14ceb1922278"
+  },
+  {
+   "w": "Telefon",
+   "say": "te, e, el, e, ef, o, en",
+   "tts": "Te, E, Ell, E, Eff, O, Enn.",
+   "k": "6883bf692fc37d"
+  },
+  {
+   "w": "Kaffee",
+   "say": "ka, a, ef, ef, e, e",
+   "tts": "Ka, A, Eff, Eff, E, E.",
+   "k": "ca551919b27606"
+  },
+  {
+   "w": "Österreich",
+   "say": "ö, es, te, e, er, er, e, i, ce, ha",
+   "tts": "Ö, Ess, Te, E, Err, Err, E, I, Zeh, Ha.",
+   "k": "68af9d55e62ef2"
+  },
+  {
+   "w": "Hotel",
+   "say": "ha, o, te, e, el",
+   "tts": "Ha, O, Te, E, Ell.",
+   "k": "1de3d69d05c5fc"
+  },
+  {
+   "w": "Rechnung",
+   "say": "er, e, ce, ha, en, u, en, ge",
+   "tts": "Err, E, Zeh, Ha, Enn, U, Enn, Ge.",
+   "k": "f4551e46e777d3"
+  },
+  {
+   "w": "Apotheke",
+   "say": "a, pe, o, te, ha, e, ka, e",
+   "tts": "A, Pe, O, Te, Ha, E, Ka, E.",
+   "k": "188b4ebf825424"
+  },
+  {
+   "w": "Termin",
+   "say": "te, e, er, em, i, en",
+   "tts": "Te, E, Err, Emm, I, Enn.",
+   "k": "2ae8c4c646aaff"
+  },
+  {
+   "w": "Fahrkarte",
+   "say": "ef, a, ha, er, ka, a, er, te, e",
+   "tts": "Eff, A, Ha, Err, Ka, A, Err, Te, E.",
+   "k": "75342204a9ba02"
+  },
+  {
+   "w": "Krankenkasse",
+   "say": "ka, er, a, en, ka, e, en, ka, a, es, es, e",
+   "tts": "Ka, Err, A, Enn, Ka, E, Enn, Ka, A, Ess, Ess, E.",
+   "k": "1c8ba298b17912"
+  },
+  {
+   "w": "Postleitzahl",
+   "say": "pe, o, es, te, el, e, i, te, zett, a, ha, el",
+   "tts": "Pe, O, Ess, Te, Ell, E, I, Te, Zett, A, Ha, Ell.",
+   "k": "14120509dda02a"
+  },
+  {
+   "w": "Ausweis",
+   "say": "a, u, es, we, e, i, es",
+   "tts": "A, U, Ess, We, E, I, Ess.",
+   "k": "beb4de87854a2c"
+  },
+  {
+   "w": "Mittwoch",
+   "say": "em, i, te, te, we, o, ce, ha",
+   "tts": "Emm, I, Te, Te, We, O, Zeh, Ha.",
+   "k": "8bb071c709d0e6"
+  },
+  {
+   "w": "Geburtstag",
+   "say": "ge, e, be, u, er, te, es, te, a, ge",
+   "tts": "Ge, E, Be, U, Err, Te, Ess, Te, A, Ge.",
+   "k": "20f7194967d661"
+  },
+  {
+   "w": "Wetter",
+   "say": "we, e, te, te, e, er",
+   "tts": "We, E, Te, Te, E, Err.",
+   "k": "a0d5b357d06a1e"
+  },
+  {
+   "w": "Arzt",
+   "say": "a, er, zett, te",
+   "tts": "A, Err, Zett, Te.",
+   "k": "083d7e2b2999d6"
+  }
+ ]
+}

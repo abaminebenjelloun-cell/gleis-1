@@ -1,0 +1,4686 @@
+{
+ "sections": [
+  {
+   "id": "vowel-length-a",
+   "title": "Vowel length: a / aa",
+   "focus": "vowel length",
+   "explain": "<p>German has <b>long</b> and <b>short</b> vowels, and the length changes the meaning: <i>Staat</i> (state) is not <i>Stadt</i> (city). French has no such contrast, so French speakers tend to give every vowel the same medium length, and Germans hear the wrong word.</p><p>Spelling tells you the length:</p><ul><li><b>Long</b>: double vowel (<i>Staat</i>), vowel + h (<i>Bahn</i>), one consonant after the vowel (<i>Tag, Name</i>).</li><li><b>Short</b>: double consonant (<i>Stadt</i> has dt, <i>Kamm</i> has mm) or two or more consonants (<i>Apfel, Mann</i>).</li></ul><p>For <b>a</b>, the quality barely changes: only the duration does. So timing is everything.</p>",
+   "howto": "<ol><li>Open your mouth as for the French <i>a</i> in <i>papa</i>, tongue low and flat.</li><li>Long a: hold the vowel for about two beats, like a relaxed sigh <i>aaah</i>, then close softly: <i>BA:N</i>.</li><li>Short a: one quick beat, then cut it off hard with the next consonant, as if the consonant arrives early: <i>BANN</i>.</li><li>Practise by tapping: two taps for long a, one tap for short a.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Staat",
+      "ipa": "/ʃtaːt/",
+      "approx": "CHTA:T",
+      "fr": "l'État",
+      "k": "3802f83fa45fff"
+     },
+     "b": {
+      "w": "Stadt",
+      "ipa": "/ʃtat/",
+      "approx": "CHTATT",
+      "fr": "la ville",
+      "k": "a1efe468fa5dfd"
+     },
+     "note": "Same consonants, only the a changes length (dt is just t).",
+     "heardBforA": "You said Staat but it sounded like Stadt: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said Stadt but it sounded like Staat: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Bahn",
+      "ipa": "/baːn/",
+      "approx": "BA:N",
+      "fr": "le train, la voie",
+      "k": "5d381fefbf7a63"
+     },
+     "b": {
+      "w": "Bann",
+      "ipa": "/ban/",
+      "approx": "BANN",
+      "fr": "l'emprise, le charme",
+      "k": "edcf7aa89e49ca"
+     },
+     "note": "The h after a only marks length; double n marks a short a.",
+     "heardBforA": "You said Bahn but it sounded like Bann: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said Bann but it sounded like Bahn: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Wahl",
+      "ipa": "/vaːl/",
+      "approx": "VA:L",
+      "fr": "l'élection, le choix",
+      "k": "ae56f08e615dac"
+     },
+     "b": {
+      "w": "Wall",
+      "ipa": "/val/",
+      "approx": "VALL",
+      "fr": "le rempart",
+      "k": "e979d4d2b7eb02"
+     },
+     "note": "Same pattern: ah = long, ll = short.",
+     "heardBforA": "You said Wahl but it sounded like Wall: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said Wall but it sounded like Wahl: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "kam",
+      "ipa": "/kaːm/",
+      "approx": "KʰA:M",
+      "fr": "(il) est venu, (il) vint",
+      "k": "d803550a7932a1"
+     },
+     "b": {
+      "w": "Kamm",
+      "ipa": "/kam/",
+      "approx": "KʰAMM",
+      "fr": "le peigne",
+      "k": "386e2c63adcd8c"
+     },
+     "note": "One m = long a, mm = short a.",
+     "heardBforA": "You said kam but it sounded like Kamm: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said Kamm but it sounded like kam: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Saat",
+      "ipa": "/zaːt/",
+      "approx": "ZA:T",
+      "fr": "la semence",
+      "k": "39def26a6e1ce4"
+     },
+     "b": {
+      "w": "satt",
+      "ipa": "/zat/",
+      "approx": "ZATT",
+      "fr": "rassasié",
+      "k": "00a6c784be16fe"
+     },
+     "note": "Double vowel = long, double consonant = short.",
+     "heardBforA": "You said Saat but it sounded like satt: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said satt but it sounded like Saat: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "lahm",
+      "ipa": "/laːm/",
+      "approx": "LA:M",
+      "fr": "boiteux, lent",
+      "k": "90e1a374521b62"
+     },
+     "b": {
+      "w": "Lamm",
+      "ipa": "/lam/",
+      "approx": "LAMM",
+      "fr": "l'agneau",
+      "k": "07a55376dc1715"
+     },
+     "note": "ah = long, mm = short.",
+     "heardBforA": "You said lahm but it sounded like Lamm: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said Lamm but it sounded like lahm: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Haken",
+      "ipa": "/ˈhaːkən/",
+      "approx": "HA:-ken",
+      "fr": "le crochet",
+      "k": "5a18c59ce2d614"
+     },
+     "b": {
+      "w": "hacken",
+      "ipa": "/ˈhakən/",
+      "approx": "HAK-ken",
+      "fr": "hacher",
+      "k": "c577c73293c405"
+     },
+     "note": "ck counts as a double consonant, so the a before it is short.",
+     "heardBforA": "You said Haken but it sounded like hacken: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said hacken but it sounded like Haken: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Rate",
+      "ipa": "/ˈʁaːtə/",
+      "approx": "RA:-te",
+      "fr": "le versement, la mensualité",
+      "k": "3e1085a37d29fc"
+     },
+     "b": {
+      "w": "Ratte",
+      "ipa": "/ˈʁatə/",
+      "approx": "RAT-te",
+      "fr": "le rat",
+      "k": "5a7eb278e8f4ec"
+     },
+     "note": "One t = long a, tt = short a.",
+     "heardBforA": "You said Rate but it sounded like Ratte: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said Ratte but it sounded like Rate: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Schal",
+      "ipa": "/ʃaːl/",
+      "approx": "CHA:L",
+      "fr": "l'écharpe",
+      "k": "1b9e1601e5f10c"
+     },
+     "b": {
+      "w": "Schall",
+      "ipa": "/ʃal/",
+      "approx": "CHALL",
+      "fr": "le son",
+      "k": "484b977f60b0f3"
+     },
+     "note": "One l = long a, ll = short a.",
+     "heardBforA": "You said Schal but it sounded like Schall: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said Schall but it sounded like Schal: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Maße",
+      "ipa": "/ˈmaːsə/",
+      "approx": "MA:-sse",
+      "fr": "les mesures",
+      "k": "b027012dc69585"
+     },
+     "b": {
+      "w": "Masse",
+      "ipa": "/ˈmasə/",
+      "approx": "MAS-se",
+      "fr": "la masse",
+      "k": "2e77d21fe0584e"
+     },
+     "note": "ß after a long vowel, ss after a short vowel: the spelling itself tells you the length.",
+     "heardBforA": "You said Maße but it sounded like Masse: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said Masse but it sounded like Maße: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Kahn",
+      "ipa": "/kaːn/",
+      "approx": "KʰA:N",
+      "fr": "la barque",
+      "k": "1ee5ac48c70d95"
+     },
+     "b": {
+      "w": "kann",
+      "ipa": "/kan/",
+      "approx": "KʰANN",
+      "fr": "(je) peux, (il) peut",
+      "k": "12d20c88afac41"
+     },
+     "note": "kann is a top A1 word: keep it short.",
+     "heardBforA": "You said Kahn but it sounded like kann: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said kann but it sounded like Kahn: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Wahn",
+      "ipa": "/vaːn/",
+      "approx": "VA:N",
+      "fr": "la folie, le délire",
+      "k": "82c23fad8f3d9d"
+     },
+     "b": {
+      "w": "wann",
+      "ipa": "/van/",
+      "approx": "VANN",
+      "fr": "quand",
+      "k": "7d3b04ee3f4a8c"
+     },
+     "note": "wann (when?) is a key question word: short a.",
+     "heardBforA": "You said Wahn but it sounded like wann: your a was too short. Hold it about twice as long, like a relaxed sigh 'aaah'. Keep the same open a: only the length changes.",
+     "heardAforB": "You said wann but it sounded like Wahn: your a was too long. Make it short and crisp, like the a in French 'patte', and snap straight into the next consonant."
+    }
+   ],
+   "words": [
+    {
+     "w": "Bahn",
+     "ipa": "/baːn/",
+     "approx": "BA:N",
+     "fr": "le train",
+     "k": "5d381fefbf7a63"
+    },
+    {
+     "w": "Jahr",
+     "ipa": "/jaːɐ̯/",
+     "approx": "YA:A",
+     "fr": "l'année",
+     "k": "2f8cb51c1a55bb"
+    },
+    {
+     "w": "Name",
+     "ipa": "/ˈnaːmə/",
+     "approx": "NA:-me",
+     "fr": "le nom",
+     "k": "70ff56de94d50e"
+    },
+    {
+     "w": "Tag",
+     "ipa": "/taːk/",
+     "approx": "TʰA:K",
+     "fr": "le jour",
+     "k": "6c5a329b375db7"
+    },
+    {
+     "w": "Vater",
+     "ipa": "/ˈfaːtɐ/",
+     "approx": "FA:-ta",
+     "fr": "le père",
+     "k": "0d688d0141e510"
+    },
+    {
+     "w": "Abend",
+     "ipa": "/ˈaːbənt/",
+     "approx": "A:-bent",
+     "fr": "le soir",
+     "k": "a675f1ed234f77"
+    },
+    {
+     "w": "haben",
+     "ipa": "/ˈhaːbən/",
+     "approx": "HA:-ben",
+     "fr": "avoir",
+     "k": "1105f2378dd562"
+    },
+    {
+     "w": "fahren",
+     "ipa": "/ˈfaːʁən/",
+     "approx": "FA:-ren",
+     "fr": "aller (en véhicule)",
+     "k": "017044d15116d0"
+    },
+    {
+     "w": "sagen",
+     "ipa": "/ˈzaːɡən/",
+     "approx": "ZA:-guen",
+     "fr": "dire",
+     "k": "74dbee1bd84152"
+    },
+    {
+     "w": "Zahl",
+     "ipa": "/tsaːl/",
+     "approx": "TSA:L",
+     "fr": "le nombre",
+     "k": "6909cf84d28765"
+    },
+    {
+     "w": "Mann",
+     "ipa": "/man/",
+     "approx": "MANN",
+     "fr": "l'homme",
+     "k": "47b1486f5f61fb"
+    },
+    {
+     "w": "Wasser",
+     "ipa": "/ˈvasɐ/",
+     "approx": "VAS-sa",
+     "fr": "l'eau",
+     "k": "8f27e232e58d86"
+    },
+    {
+     "w": "machen",
+     "ipa": "/ˈmaxən/",
+     "approx": "MA-khen",
+     "fr": "faire",
+     "k": "74d769a38531d5"
+    },
+    {
+     "w": "Apfel",
+     "ipa": "/ˈapfəl/",
+     "approx": "AP-fel",
+     "fr": "la pomme",
+     "k": "d655f53d5ced59"
+    },
+    {
+     "w": "Stadt",
+     "ipa": "/ʃtat/",
+     "approx": "CHTATT",
+     "fr": "la ville",
+     "k": "a1efe468fa5dfd"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Der Staat ist groß, die Stadt ist klein.",
+     "fr": "L'État est grand, la ville est petite.",
+     "focus": "long a vs short a",
+     "k": "0949acaf4a0224"
+    },
+    {
+     "s": "Ich fahre mit der Bahn nach Genf.",
+     "fr": "Je vais à Genève en train.",
+     "focus": "long a in fahre and Bahn",
+     "k": "17410efe003e1b"
+    },
+    {
+     "s": "Wann kommt die Bahn?",
+     "fr": "Quand arrive le train ?",
+     "focus": "short a in wann, long a in Bahn",
+     "k": "b768fec071791a"
+    },
+    {
+     "s": "Der Mann hat einen Kamm.",
+     "fr": "L'homme a un peigne.",
+     "focus": "short a",
+     "k": "b6bcd1d8a773dc"
+    },
+    {
+     "s": "Nach dem Essen bin ich satt.",
+     "fr": "Après le repas, je suis rassasié.",
+     "focus": "short a in satt",
+     "k": "a15469caa594b9"
+    },
+    {
+     "s": "Mein Vater hat einen Schal.",
+     "fr": "Mon père a une écharpe.",
+     "focus": "long a in Vater and Schal",
+     "k": "db7db1e2340ad4"
+    }
+   ]
+  },
+  {
+   "id": "vowel-length-e",
+   "title": "Vowel length: e / ee / eh",
+   "focus": "vowel length",
+   "explain": "<p>With <b>e</b>, length and quality change together. Long e is a closed, tense <b>é</b> held long (<i>Beet</i>, <i>Weg</i>). Short e is an open <b>è</b>, cut short (<i>Bett</i>, <i>weg</i>). The letter <b>ä</b> sounds like short e when short (<i>fällen</i>).</p><p>French has both <i>é</i> and <i>è</i>, which helps, but French never holds a vowel long, so <i>wen</i> and <i>wenn</i> can sound the same.</p><p>Spelling: <b>ee</b>, <b>eh</b> or e + one consonant = long (<i>Beet, fehlen, den</i>). Double consonant or a consonant cluster = short (<i>Bett, denn, stellen</i>). <i>Weg</i> (way) is long but <i>weg</i> (away) is short: learn that one by heart.</p>",
+   "howto": "<ol><li>Long e: smile slightly, tongue high and tense, say French <i>é</i> and hold it for two beats: <i>BÉ:T</i>.</li><li>Short e: relax the jaw a little lower, say French <i>è</i> and stop it after one beat: <i>BÈTT</i>.</li><li>Do not glide: German long e stays pure, no <i>é-i</i> like in English <i>day</i>.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Beet",
+      "ipa": "/beːt/",
+      "approx": "BÉ:T",
+      "fr": "la plate-bande",
+      "k": "ad25cc11fcd5b6"
+     },
+     "b": {
+      "w": "Bett",
+      "ipa": "/bɛt/",
+      "approx": "BÈTT",
+      "fr": "le lit",
+      "k": "5a7e89dd7ecfd4"
+     },
+     "note": "ee = long closed é, tt = short open è.",
+     "heardBforA": "You said Beet but it sounded like Bett: your e was too short. Hold it about twice as long, like a closed French 'é' (as in 'été') stretched out, and keep it tense.",
+     "heardAforB": "You said Bett but it sounded like Beet: your e was too long. Make it an open, short 'è' as in French 'mettre', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "wen",
+      "ipa": "/veːn/",
+      "approx": "VÉ:N",
+      "fr": "qui (accusatif)",
+      "k": "29cae7d644178f"
+     },
+     "b": {
+      "w": "wenn",
+      "ipa": "/vɛn/",
+      "approx": "VÈNN",
+      "fr": "quand, si",
+      "k": "480ec8c64967a9"
+     },
+     "note": "One n = long, nn = short.",
+     "heardBforA": "You said wen but it sounded like wenn: your e was too short. Hold it about twice as long, like a closed French 'é' (as in 'été') stretched out, and keep it tense.",
+     "heardAforB": "You said wenn but it sounded like wen: your e was too long. Make it an open, short 'è' as in French 'mettre', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "den",
+      "ipa": "/deːn/",
+      "approx": "DÉ:N",
+      "fr": "le (accusatif)",
+      "k": "6346427e010b0b"
+     },
+     "b": {
+      "w": "denn",
+      "ipa": "/dɛn/",
+      "approx": "DÈNN",
+      "fr": "car, donc",
+      "k": "5046633724664a"
+     },
+     "note": "den is often weak in fast speech; say it carefully here.",
+     "heardBforA": "You said den but it sounded like denn: your e was too short. Hold it about twice as long, like a closed French 'é' (as in 'été') stretched out, and keep it tense.",
+     "heardAforB": "You said denn but it sounded like den: your e was too long. Make it an open, short 'è' as in French 'mettre', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Weg",
+      "ipa": "/veːk/",
+      "approx": "VÉ:K",
+      "fr": "le chemin",
+      "k": "62c4295f0e64bd"
+     },
+     "b": {
+      "w": "weg",
+      "ipa": "/vɛk/",
+      "approx": "VÈKK",
+      "fr": "parti, loin",
+      "k": "0057c3568bc79e"
+     },
+     "note": "Same spelling, different length: der Weg is long, weg (away) is short. Both end in a k sound.",
+     "heardBforA": "You said Weg but it sounded like weg: your e was too short. Hold it about twice as long, like a closed French 'é' (as in 'été') stretched out, and keep it tense.",
+     "heardAforB": "You said weg but it sounded like Weg: your e was too long. Make it an open, short 'è' as in French 'mettre', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "stehlen",
+      "ipa": "/ˈʃteːlən/",
+      "approx": "CHTÉ:-len",
+      "fr": "voler (dérober)",
+      "k": "3834af49cb68a3"
+     },
+     "b": {
+      "w": "stellen",
+      "ipa": "/ˈʃtɛlən/",
+      "approx": "CHTÈL-len",
+      "fr": "poser, mettre debout",
+      "k": "cba501db95a370"
+     },
+     "note": "eh = long, ll = short.",
+     "heardBforA": "You said stehlen but it sounded like stellen: your e was too short. Hold it about twice as long, like a closed French 'é' (as in 'été') stretched out, and keep it tense.",
+     "heardAforB": "You said stellen but it sounded like stehlen: your e was too long. Make it an open, short 'è' as in French 'mettre', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "fehlen",
+      "ipa": "/ˈfeːlən/",
+      "approx": "FÉ:-len",
+      "fr": "manquer",
+      "k": "4993354433c20e"
+     },
+     "b": {
+      "w": "fällen",
+      "ipa": "/ˈfɛlən/",
+      "approx": "FÈL-len",
+      "fr": "abattre (un arbre)",
+      "k": "d886539f4e835d"
+     },
+     "note": "Short ä sounds exactly like short e.",
+     "heardBforA": "You said fehlen but it sounded like fällen: your e was too short. Hold it about twice as long, like a closed French 'é' (as in 'été') stretched out, and keep it tense.",
+     "heardAforB": "You said fällen but it sounded like fehlen: your e was too long. Make it an open, short 'è' as in French 'mettre', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Kehle",
+      "ipa": "/ˈkeːlə/",
+      "approx": "KʰÉ:-le",
+      "fr": "la gorge",
+      "k": "9adceb1ea86e45"
+     },
+     "b": {
+      "w": "Kelle",
+      "ipa": "/ˈkɛlə/",
+      "approx": "KʰÈL-le",
+      "fr": "la louche",
+      "k": "f7deac28114429"
+     },
+     "note": "eh = long, ll = short.",
+     "heardBforA": "You said Kehle but it sounded like Kelle: your e was too short. Hold it about twice as long, like a closed French 'é' (as in 'été') stretched out, and keep it tense.",
+     "heardAforB": "You said Kelle but it sounded like Kehle: your e was too long. Make it an open, short 'è' as in French 'mettre', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "fehlt",
+      "ipa": "/feːlt/",
+      "approx": "FÉ:LT",
+      "fr": "(il) manque",
+      "k": "cf314dacdbb9d0"
+     },
+     "b": {
+      "w": "Feld",
+      "ipa": "/fɛlt/",
+      "approx": "FÈLT",
+      "fr": "le champ",
+      "k": "35937a32c38a52"
+     },
+     "note": "eh = long closed é; Feld is short because of the cluster ld. Both end in a t sound (final d = t).",
+     "heardBforA": "You said fehlt but it sounded like Feld: your e was too short. Hold it about twice as long, like a closed French 'é' (as in 'été') stretched out, and keep it tense.",
+     "heardAforB": "You said Feld but it sounded like fehlt: your e was too long. Make it an open, short 'è' as in French 'mettre', and snap straight into the l."
+    },
+    {
+     "a": {
+      "w": "beten",
+      "ipa": "/ˈbeːtən/",
+      "approx": "BÉ:-ten",
+      "fr": "prier",
+      "k": "dd775d8bd6b7a3"
+     },
+     "b": {
+      "w": "Betten",
+      "ipa": "/ˈbɛtən/",
+      "approx": "BÈT-ten",
+      "fr": "les lits",
+      "k": "b7dbf11ea68cd8"
+     },
+     "note": "One t = long, tt = short.",
+     "heardBforA": "You said beten but it sounded like Betten: your e was too short. Hold it about twice as long, like a closed French 'é' (as in 'été') stretched out, and keep it tense.",
+     "heardAforB": "You said Betten but it sounded like beten: your e was too long. Make it an open, short 'è' as in French 'mettre', and snap straight into the next consonant."
+    }
+   ],
+   "words": [
+    {
+     "w": "See",
+     "ipa": "/zeː/",
+     "approx": "ZÉ:",
+     "fr": "le lac",
+     "k": "1d95e563976c21"
+    },
+    {
+     "w": "Tee",
+     "ipa": "/teː/",
+     "approx": "TʰÉ:",
+     "fr": "le thé",
+     "k": "78f4c8207fb749"
+    },
+    {
+     "w": "gehen",
+     "ipa": "/ˈɡeːən/",
+     "approx": "GUÉ:-en",
+     "fr": "aller (à pied)",
+     "k": "7e1b851d855009"
+    },
+    {
+     "w": "lesen",
+     "ipa": "/ˈleːzən/",
+     "approx": "LÉ:-zen",
+     "fr": "lire",
+     "k": "05a25a6a5ed3c6"
+    },
+    {
+     "w": "zehn",
+     "ipa": "/tseːn/",
+     "approx": "TSÉ:N",
+     "fr": "dix",
+     "k": "f28f062f295e93"
+    },
+    {
+     "w": "Weg",
+     "ipa": "/veːk/",
+     "approx": "VÉ:K",
+     "fr": "le chemin",
+     "k": "62c4295f0e64bd"
+    },
+    {
+     "w": "sehr",
+     "ipa": "/zeːɐ̯/",
+     "approx": "ZÉ:A",
+     "fr": "très",
+     "k": "444c9ae6d34d24"
+    },
+    {
+     "w": "Schnee",
+     "ipa": "/ʃneː/",
+     "approx": "CHNÉ:",
+     "fr": "la neige",
+     "k": "82c02d86a34668"
+    },
+    {
+     "w": "Bett",
+     "ipa": "/bɛt/",
+     "approx": "BÈTT",
+     "fr": "le lit",
+     "k": "5a7e89dd7ecfd4"
+    },
+    {
+     "w": "essen",
+     "ipa": "/ˈɛsən/",
+     "approx": "ÈS-sen",
+     "fr": "manger",
+     "k": "9777f418089d23"
+    },
+    {
+     "w": "Geld",
+     "ipa": "/ɡɛlt/",
+     "approx": "GUÈLT",
+     "fr": "l'argent",
+     "k": "5c585fae56f623"
+    },
+    {
+     "w": "Hemd",
+     "ipa": "/hɛmt/",
+     "approx": "HÈMT",
+     "fr": "la chemise",
+     "k": "9e3a2ad88d248f"
+    },
+    {
+     "w": "Ende",
+     "ipa": "/ˈɛndə/",
+     "approx": "ÈN-de",
+     "fr": "la fin",
+     "k": "c2f00796d335bf"
+    },
+    {
+     "w": "wenn",
+     "ipa": "/vɛn/",
+     "approx": "VÈNN",
+     "fr": "quand, si",
+     "k": "480ec8c64967a9"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Das Bett steht im Zimmer.",
+     "fr": "Le lit est dans la chambre.",
+     "focus": "short e in Bett",
+     "k": "170be9462634ad"
+    },
+    {
+     "s": "Wir gehen den Weg zum See.",
+     "fr": "Nous prenons le chemin vers le lac.",
+     "focus": "long e in gehen, den, Weg, See",
+     "k": "4f5d2a1586ce10"
+    },
+    {
+     "s": "Ich trinke Tee, denn ich bin müde.",
+     "fr": "Je bois du thé, car je suis fatigué.",
+     "focus": "long e in Tee, short e in denn",
+     "k": "d92f887b141c12"
+    },
+    {
+     "s": "Wenn es regnet, lese ich.",
+     "fr": "Quand il pleut, je lis.",
+     "focus": "short e in wenn, long e in regnet and lese",
+     "k": "f72e4889b36203"
+    },
+    {
+     "s": "Er kennt den Weg, aber jetzt ist er weg.",
+     "fr": "Il connaît le chemin, mais maintenant il est parti.",
+     "focus": "Weg (long) vs weg (short)",
+     "k": "8c23ab6d3f2bf2"
+    }
+   ]
+  },
+  {
+   "id": "vowel-length-i",
+   "title": "Vowel length: i / ie",
+   "focus": "vowel length",
+   "explain": "<p>Long i (<b>ie</b>, <b>ih</b>, sometimes i + one consonant) is a tense French <i>i</i> held long: <i>Miete</i>. Short i (before a double consonant or a cluster) is shorter and more open, almost between French <i>i</i> and <i>é</i>: <i>Mitte</i>.</p><p>French speakers usually say every i as a short tense French <i>i</i>. That makes <i>Miete</i> too short and <i>Mitte</i> too tense, and the two words merge.</p><p>Spelling rule: <b>ie</b> is always long (<i>Lied, Bier, vier</i>). <b>ih</b> is long (<i>ihn, ihr</i>). i before <b>tt, ss, ll, ff, nn</b> or two consonants is short (<i>Mitte, Schiff, Kind</i>).</p>",
+   "howto": "<ol><li>Long i: wide smile, tongue high and tense, hold for two beats: <i>MI:-te</i>.</li><li>Short i: relax the lips and let the tongue drop a tiny bit, one beat only: <i>MIT-te</i>.</li><li>Think of short i as the vowel in English <i>sit</i>, not French <i>si</i>.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Miete",
+      "ipa": "/ˈmiːtə/",
+      "approx": "MI:-te",
+      "fr": "le loyer",
+      "k": "b5acf64c43b89d"
+     },
+     "b": {
+      "w": "Mitte",
+      "ipa": "/ˈmɪtə/",
+      "approx": "MIT-te",
+      "fr": "le milieu",
+      "k": "10da48fb317b76"
+     },
+     "note": "ie = long, tt = short.",
+     "heardBforA": "You said Miete but it sounded like Mitte: your i was too short. Hold it about twice as long: a tense French 'i' (as in 'si') stretched over two beats, with a wide smile.",
+     "heardAforB": "You said Mitte but it sounded like Miete: your i was too long. Make it short and a bit more open, halfway towards French 'é', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "ihn",
+      "ipa": "/iːn/",
+      "approx": "I:N",
+      "fr": "le, lui (accusatif)",
+      "k": "5d521e8e100cf2"
+     },
+     "b": {
+      "w": "in",
+      "ipa": "/ɪn/",
+      "approx": "INN",
+      "fr": "dans",
+      "k": "0614d2e31692a6"
+     },
+     "note": "ih = long; in is short and relaxed.",
+     "heardBforA": "You said ihn but it sounded like in: your i was too short. Hold it about twice as long: a tense French 'i' (as in 'si') stretched over two beats, with a wide smile.",
+     "heardAforB": "You said in but it sounded like ihn: your i was too long. Make it short and a bit more open, halfway towards French 'é', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "bieten",
+      "ipa": "/ˈbiːtən/",
+      "approx": "BI:-ten",
+      "fr": "offrir",
+      "k": "6c61d6fd23b8ee"
+     },
+     "b": {
+      "w": "bitten",
+      "ipa": "/ˈbɪtən/",
+      "approx": "BIT-ten",
+      "fr": "demander, prier",
+      "k": "3dec15ea385c63"
+     },
+     "note": "ie = long, tt = short.",
+     "heardBforA": "You said bieten but it sounded like bitten: your i was too short. Hold it about twice as long: a tense French 'i' (as in 'si') stretched over two beats, with a wide smile.",
+     "heardAforB": "You said bitten but it sounded like bieten: your i was too long. Make it short and a bit more open, halfway towards French 'é', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "ihm",
+      "ipa": "/iːm/",
+      "approx": "I:M",
+      "fr": "lui (datif)",
+      "k": "56f8045d043339"
+     },
+     "b": {
+      "w": "im",
+      "ipa": "/ɪm/",
+      "approx": "IMM",
+      "fr": "dans le (in dem)",
+      "k": "3d702c96a77da1"
+     },
+     "note": "ih = long; im (in dem) is short. Both are top A1 words.",
+     "heardBforA": "You said ihm but it sounded like im: your i was too short. Hold it about twice as long: a tense French 'i' (as in 'si') stretched over two beats, with a wide smile.",
+     "heardAforB": "You said im but it sounded like ihm: your i was too long. Make it short and a bit more open, halfway towards French 'é', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Stiel",
+      "ipa": "/ʃtiːl/",
+      "approx": "CHTI:L",
+      "fr": "la tige, le manche",
+      "k": "b8820b6ab8e2df"
+     },
+     "b": {
+      "w": "still",
+      "ipa": "/ʃtɪl/",
+      "approx": "CHTILL",
+      "fr": "calme, silencieux",
+      "k": "a3fa68b9e05d5d"
+     },
+     "note": "ie = long, ll = short.",
+     "heardBforA": "You said Stiel but it sounded like still: your i was too short. Hold it about twice as long: a tense French 'i' (as in 'si') stretched over two beats, with a wide smile.",
+     "heardAforB": "You said still but it sounded like Stiel: your i was too long. Make it short and a bit more open, halfway towards French 'é', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "schief",
+      "ipa": "/ʃiːf/",
+      "approx": "CHI:F",
+      "fr": "de travers",
+      "k": "dbc99ac509a964"
+     },
+     "b": {
+      "w": "Schiff",
+      "ipa": "/ʃɪf/",
+      "approx": "CHIFF",
+      "fr": "le bateau",
+      "k": "f1ed2e264f5cfe"
+     },
+     "note": "ie = long, ff = short.",
+     "heardBforA": "You said schief but it sounded like Schiff: your i was too short. Hold it about twice as long: a tense French 'i' (as in 'si') stretched over two beats, with a wide smile.",
+     "heardAforB": "You said Schiff but it sounded like schief: your i was too long. Make it short and a bit more open, halfway towards French 'é', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "wieder",
+      "ipa": "/ˈviːdɐ/",
+      "approx": "VI:-da",
+      "fr": "de nouveau",
+      "k": "71a0d5ed2346ba"
+     },
+     "b": {
+      "w": "Widder",
+      "ipa": "/ˈvɪdɐ/",
+      "approx": "VID-da",
+      "fr": "le bélier",
+      "k": "f18608206dd7e7"
+     },
+     "note": "ie = long, dd = short.",
+     "heardBforA": "You said wieder but it sounded like Widder: your i was too short. Hold it about twice as long: a tense French 'i' (as in 'si') stretched over two beats, with a wide smile.",
+     "heardAforB": "You said Widder but it sounded like wieder: your i was too long. Make it short and a bit more open, halfway towards French 'é', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Riese",
+      "ipa": "/ˈʁiːzə/",
+      "approx": "RI:-ze",
+      "fr": "le géant",
+      "k": "0f792a607f9061"
+     },
+     "b": {
+      "w": "Risse",
+      "ipa": "/ˈʁɪsə/",
+      "approx": "RIS-se",
+      "fr": "les fissures",
+      "k": "492b0546c80da4"
+     },
+     "note": "The s also changes: voiced z after long ie, voiceless ss after short i.",
+     "heardBforA": "You said Riese but it sounded like Risse: your i was too short. Hold it about twice as long: a tense French 'i' (as in 'si') stretched over two beats, with a wide smile.",
+     "heardAforB": "You said Risse but it sounded like Riese: your i was too long. Make it short and a bit more open, halfway towards French 'é', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Bienen",
+      "ipa": "/ˈbiːnən/",
+      "approx": "BI:-nen",
+      "fr": "les abeilles",
+      "k": "3ba958b2c2cbff"
+     },
+     "b": {
+      "w": "binnen",
+      "ipa": "/ˈbɪnən/",
+      "approx": "BIN-nen",
+      "fr": "en l'espace de",
+      "k": "12b637616d0fcc"
+     },
+     "note": "ie = long, nn = short.",
+     "heardBforA": "You said Bienen but it sounded like binnen: your i was too short. Hold it about twice as long: a tense French 'i' (as in 'si') stretched over two beats, with a wide smile.",
+     "heardAforB": "You said binnen but it sounded like Bienen: your i was too long. Make it short and a bit more open, halfway towards French 'é', and snap straight into the next consonant."
+    }
+   ],
+   "words": [
+    {
+     "w": "Bier",
+     "ipa": "/biːɐ̯/",
+     "approx": "BI:A",
+     "fr": "la bière",
+     "k": "1128b89b2202fe"
+    },
+    {
+     "w": "Liebe",
+     "ipa": "/ˈliːbə/",
+     "approx": "LI:-be",
+     "fr": "l'amour",
+     "k": "1ea7af6517bd22"
+    },
+    {
+     "w": "spielen",
+     "ipa": "/ˈʃpiːlən/",
+     "approx": "CHPI:-len",
+     "fr": "jouer",
+     "k": "029c44911076f8"
+    },
+    {
+     "w": "vier",
+     "ipa": "/fiːɐ̯/",
+     "approx": "FI:A",
+     "fr": "quatre",
+     "k": "0e5aa1cf2d174d"
+    },
+    {
+     "w": "Brief",
+     "ipa": "/bʁiːf/",
+     "approx": "BRI:F",
+     "fr": "la lettre",
+     "k": "fe1d92b2f832ea"
+    },
+    {
+     "w": "ihr",
+     "ipa": "/iːɐ̯/",
+     "approx": "I:A",
+     "fr": "vous (tutoiement pluriel)",
+     "k": "bed7bdc0d0e20f"
+    },
+    {
+     "w": "Kino",
+     "ipa": "/ˈkiːno/",
+     "approx": "KʰI:-no",
+     "fr": "le cinéma",
+     "k": "32f8806ca5927b"
+    },
+    {
+     "w": "Tisch",
+     "ipa": "/tɪʃ/",
+     "approx": "TʰICH",
+     "fr": "la table",
+     "k": "967f88f2082b34"
+    },
+    {
+     "w": "bitte",
+     "ipa": "/ˈbɪtə/",
+     "approx": "BIT-te",
+     "fr": "s'il te plaît, s'il vous plaît",
+     "k": "44637eb62d722a"
+    },
+    {
+     "w": "Kind",
+     "ipa": "/kɪnt/",
+     "approx": "KʰINT",
+     "fr": "l'enfant",
+     "k": "2254a1f26e28cf"
+    },
+    {
+     "w": "Zimmer",
+     "ipa": "/ˈtsɪmɐ/",
+     "approx": "TSIM-ma",
+     "fr": "la pièce, la chambre",
+     "k": "33b13a31cade78"
+    },
+    {
+     "w": "mit",
+     "ipa": "/mɪt/",
+     "approx": "MITT",
+     "fr": "avec",
+     "k": "6dc0c94135cc2e"
+    },
+    {
+     "w": "nicht",
+     "ipa": "/nɪçt/",
+     "approx": "NIch'T",
+     "fr": "ne ... pas",
+     "k": "7b410f5d4526e1"
+    },
+    {
+     "w": "trinken",
+     "ipa": "/ˈtʁɪŋkən/",
+     "approx": "TRING-ken",
+     "fr": "boire",
+     "k": "bfec9cba4885ef"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Die Miete ist hoch.",
+     "fr": "Le loyer est élevé.",
+     "focus": "long ie in Miete",
+     "k": "57935aa2d608c7"
+    },
+    {
+     "s": "Ich wohne in der Mitte der Stadt.",
+     "fr": "J'habite au centre de la ville.",
+     "focus": "short i in in, Mitte",
+     "k": "b49a56d943267a"
+    },
+    {
+     "s": "Ich spiele wieder Tennis.",
+     "fr": "Je rejoue au tennis.",
+     "focus": "long ie in spiele, wieder",
+     "k": "dca2aa51547d5d"
+    },
+    {
+     "s": "Ein Bier, bitte!",
+     "fr": "Une bière, s'il vous plaît !",
+     "focus": "long ie in Bier, short i in bitte",
+     "k": "ff31444f7491ad"
+    },
+    {
+     "s": "Ich liebe dieses Lied.",
+     "fr": "J'adore cette chanson.",
+     "focus": "long ie in liebe, dieses, Lied (but short i in ich)",
+     "k": "9f07e67b91da0c"
+    },
+    {
+     "s": "Ich sehe ihn im Kino.",
+     "fr": "Je le vois au cinéma.",
+     "focus": "long ih in ihn, short i in im",
+     "k": "c71e50637dfe52"
+    }
+   ]
+  },
+  {
+   "id": "vowel-length-o",
+   "title": "Vowel length: o / oo / oh",
+   "focus": "vowel length",
+   "explain": "<p>Long o is closed and rounded, like French <b>ô</b> in <i>eau</i> or <i>côte</i>, but held longer: <i>Ofen</i>. Short o is open, like French <b>o</b> in <i>porte</i>, and short: <i>offen</i>.</p><p>French has both qualities, so the main job is timing. French speakers often shorten the long o, so <i>Ofen</i> drifts towards <i>offen</i>.</p><p>Spelling: <b>oo</b>, <b>oh</b> or o + one consonant = long (<i>Boot, Sohn, Ton, Brot</i>). o before a double consonant or a cluster = short (<i>offen, Sonne, Post</i>).</p>",
+   "howto": "<ol><li>Long o: round the lips into a small circle, as for French <i>eau</i>, and hold two beats: <i>O:-fen</i>.</li><li>Short o: open the jaw a little more, lips less rounded, as in <i>porte</i>, one beat: <i>OF-fen</i>.</li><li>Keep long o pure: no glide to <i>ou</i> at the end.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Ofen",
+      "ipa": "/ˈoːfən/",
+      "approx": "O:-fen",
+      "fr": "le four",
+      "k": "2ff5d9998ede5d"
+     },
+     "b": {
+      "w": "offen",
+      "ipa": "/ˈɔfən/",
+      "approx": "OF-fen",
+      "fr": "ouvert",
+      "k": "de01a0522e671c"
+     },
+     "note": "One f = long closed o, ff = short open o.",
+     "heardBforA": "You said Ofen but it sounded like offen: your o was too short. Hold it about twice as long, a closed French 'ô' (as in 'eau', 'côte') held long, lips well rounded, and keep it tense.",
+     "heardAforB": "You said offen but it sounded like Ofen: your o was too long. Make it a short, open 'o' as in French 'porte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Mode",
+      "ipa": "/ˈmoːdə/",
+      "approx": "MO:-de",
+      "fr": "la mode",
+      "k": "bca67dd2a0cf82"
+     },
+     "b": {
+      "w": "Motte",
+      "ipa": "/ˈmɔtə/",
+      "approx": "MOT-te",
+      "fr": "la mite",
+      "k": "366a30f12ef0d8"
+     },
+     "note": "Near-minimal: d vs tt also differ, but the vowel is the key.",
+     "heardBforA": "You said Mode but it sounded like Motte: your o was too short. Hold it about twice as long, a closed French 'ô' (as in 'eau', 'côte') held long, lips well rounded, and keep it tense.",
+     "heardAforB": "You said Motte but it sounded like Mode: your o was too long. Make it a short, open 'o' as in French 'porte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Schoß",
+      "ipa": "/ʃoːs/",
+      "approx": "CHO:S",
+      "fr": "les genoux, le giron",
+      "k": "3a1e94dafe7a5c"
+     },
+     "b": {
+      "w": "schoss",
+      "ipa": "/ʃɔs/",
+      "approx": "CHOSS",
+      "fr": "(il) tirait, (il) a tiré (er schoss ein Tor : il a marqué un but)",
+      "k": "6cb8abde3af780"
+     },
+     "note": "ß after a long vowel, ss after a short vowel: the spelling shows the length.",
+     "heardBforA": "You said Schoß but it sounded like schoss: your o was too short. Hold it about twice as long, a closed French 'ô' (as in 'eau', 'côte') held long, lips well rounded, and keep it tense.",
+     "heardAforB": "You said schoss but it sounded like Schoß: your o was too long. Make it a short, open 'o' as in French 'porte', and snap straight into the s."
+    },
+    {
+     "a": {
+      "w": "Ton",
+      "ipa": "/toːn/",
+      "approx": "TʰO:N",
+      "fr": "le son, le ton",
+      "k": "5005b33125d0ac"
+     },
+     "b": {
+      "w": "Tonne",
+      "ipa": "/ˈtɔnə/",
+      "approx": "TʰON-ne",
+      "fr": "la tonne, la poubelle",
+      "k": "528b268cc19675"
+     },
+     "note": "Near-minimal: Tonne has an extra syllable.",
+     "heardBforA": "You said Ton but it sounded like Tonne: your o was too short. Hold it about twice as long, a closed French 'ô' (as in 'eau', 'côte') held long, lips well rounded, and keep it tense.",
+     "heardAforB": "You said Tonne but it sounded like Ton: your o was too long and the final e got lost. Make the o short and open as in French 'porte', snap into the n, then add a light e muet: TʰON-ne."
+    },
+    {
+     "a": {
+      "w": "wohne",
+      "ipa": "/ˈvoːnə/",
+      "approx": "VO:-ne",
+      "fr": "(j')habite",
+      "k": "7349fe803b8cd1"
+     },
+     "b": {
+      "w": "Wonne",
+      "ipa": "/ˈvɔnə/",
+      "approx": "VON-ne",
+      "fr": "le délice",
+      "k": "e953ab02cd1310"
+     },
+     "note": "oh = long, nn = short.",
+     "heardBforA": "You said wohne but it sounded like Wonne: your o was too short. Hold it about twice as long, a closed French 'ô' (as in 'eau', 'côte') held long, lips well rounded, and keep it tense.",
+     "heardAforB": "You said Wonne but it sounded like wohne: your o was too long. Make it a short, open 'o' as in French 'porte', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Sohn",
+      "ipa": "/zoːn/",
+      "approx": "ZO:N",
+      "fr": "le fils",
+      "k": "7420058cd4ceb9"
+     },
+     "b": {
+      "w": "Sonne",
+      "ipa": "/ˈzɔnə/",
+      "approx": "ZON-ne",
+      "fr": "le soleil",
+      "k": "1c1ca3019b060b"
+     },
+     "note": "Near-minimal: Sonne has an extra syllable.",
+     "heardBforA": "You said Sohn but it sounded like Sonne: your o was too short. Hold it about twice as long, a closed French 'ô' (as in 'eau', 'côte') held long, lips well rounded, and keep it tense.",
+     "heardAforB": "You said Sonne but it sounded like Sohn: your o was too long and the final e got lost. Make the o short and open as in French 'porte', snap into the n, then add a light e muet: ZON-ne."
+    },
+    {
+     "a": {
+      "w": "Polen",
+      "ipa": "/ˈpoːlən/",
+      "approx": "PʰO:-len",
+      "fr": "la Pologne",
+      "k": "8509c2a8644903"
+     },
+     "b": {
+      "w": "Pollen",
+      "ipa": "/ˈpɔlən/",
+      "approx": "PʰOL-len",
+      "fr": "le pollen",
+      "k": "ceb3a25c0495e0"
+     },
+     "note": "One l = long, ll = short.",
+     "heardBforA": "You said Polen but it sounded like Pollen: your o was too short. Hold it about twice as long, a closed French 'ô' (as in 'eau', 'côte') held long, lips well rounded, and keep it tense.",
+     "heardAforB": "You said Pollen but it sounded like Polen: your o was too long. Make it a short, open 'o' as in French 'porte', and snap straight into the next consonant."
+    }
+   ],
+   "words": [
+    {
+     "w": "Brot",
+     "ipa": "/bʁoːt/",
+     "approx": "BRO:T",
+     "fr": "le pain",
+     "k": "916760d29b1a7f"
+    },
+    {
+     "w": "rot",
+     "ipa": "/ʁoːt/",
+     "approx": "RO:T",
+     "fr": "rouge",
+     "k": "f3a371a5e17d77"
+    },
+    {
+     "w": "wohnen",
+     "ipa": "/ˈvoːnən/",
+     "approx": "VO:-nen",
+     "fr": "habiter",
+     "k": "865f4b5bd9dd18"
+    },
+    {
+     "w": "Montag",
+     "ipa": "/ˈmoːntaːk/",
+     "approx": "MO:N-ta:k",
+     "fr": "le lundi",
+     "k": "e3e1158145e162"
+    },
+    {
+     "w": "Boot",
+     "ipa": "/boːt/",
+     "approx": "BO:T",
+     "fr": "le bateau",
+     "k": "a6b14be0b716e5"
+    },
+    {
+     "w": "Telefon",
+     "ipa": "/teleˈfoːn/",
+     "approx": "té-lé-FO:N",
+     "fr": "le téléphone",
+     "k": "012bfde368f3eb"
+    },
+    {
+     "w": "Sonne",
+     "ipa": "/ˈzɔnə/",
+     "approx": "ZON-ne",
+     "fr": "le soleil",
+     "k": "1c1ca3019b060b"
+    },
+    {
+     "w": "kommen",
+     "ipa": "/ˈkɔmən/",
+     "approx": "KʰOM-men",
+     "fr": "venir",
+     "k": "02f4f023f15249"
+    },
+    {
+     "w": "Woche",
+     "ipa": "/ˈvɔxə/",
+     "approx": "VO-khe",
+     "fr": "la semaine",
+     "k": "288478460d0fda"
+    },
+    {
+     "w": "Post",
+     "ipa": "/pɔst/",
+     "approx": "PʰOST",
+     "fr": "la poste",
+     "k": "2c5fa86c4a9940"
+    },
+    {
+     "w": "doch",
+     "ipa": "/dɔx/",
+     "approx": "DOkh",
+     "fr": "si, pourtant",
+     "k": "1eea442ca804a1"
+    },
+    {
+     "w": "oft",
+     "ipa": "/ɔft/",
+     "approx": "OFT",
+     "fr": "souvent",
+     "k": "a1c0699900c32b"
+    },
+    {
+     "w": "Morgen",
+     "ipa": "/ˈmɔʁɡən/",
+     "approx": "MOR-guen",
+     "fr": "le matin",
+     "k": "35d4997162f6b9"
+    },
+    {
+     "w": "Tochter",
+     "ipa": "/ˈtɔxtɐ/",
+     "approx": "TʰOkh-ta",
+     "fr": "la fille",
+     "k": "0a8197fe904cd4"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Mein Sohn liebt die Sonne.",
+     "fr": "Mon fils adore le soleil.",
+     "focus": "Sohn (long) vs Sonne (short)",
+     "k": "6adaf8e28c0562"
+    },
+    {
+     "s": "Die Post ist offen.",
+     "fr": "La poste est ouverte.",
+     "focus": "short o in Post, offen",
+     "k": "cdec402d078172"
+    },
+    {
+     "s": "Ich wohne in Genf.",
+     "fr": "J'habite à Genève.",
+     "focus": "long o in wohne",
+     "k": "560b45eb29acb8"
+    },
+    {
+     "s": "Das Brot ist im Ofen.",
+     "fr": "Le pain est dans le four.",
+     "focus": "long o in Brot, Ofen",
+     "k": "38dc1202b150d9"
+    },
+    {
+     "s": "Am Montag kommt mein Sohn.",
+     "fr": "Lundi, mon fils vient.",
+     "focus": "long o in Montag, Sohn, short o in kommt",
+     "k": "64958383f38064"
+    }
+   ]
+  },
+  {
+   "id": "vowel-length-u",
+   "title": "Vowel length: u / uh",
+   "focus": "vowel length",
+   "explain": "<p>German <b>u</b> is always French <b>ou</b>, never French <i>u</i>. Long u is a tense <i>ou</i> held long: <i>Mus, Mut, Fuß</i>. Short u is shorter and a little more open, between <i>ou</i> and <i>o</i>: <i>muss, Mutter</i>.</p><p>French speakers usually make every u the same, and the very common <i>muss</i> then sounds like <i>Mus</i> (purée).</p><p>Spelling: <b>uh</b>, <b>u + ß</b> or u + one consonant = long (<i>Ruhm, Fuß, gut</i>). u before <b>ss, tt, nn, ck</b> or a cluster = short (<i>muss, Mutter, Hund</i>).</p>",
+   "howto": "<ol><li>Long u: push the lips forward into a tight circle, tongue back, hold two beats: <i>MOU:T</i>.</li><li>Short u: lips less tight, jaw a bit lower, one beat: <i>MOUSS</i>.</li><li>Never read German u as French <i>u</i> (that is German ü).</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Mus",
+      "ipa": "/muːs/",
+      "approx": "MOU:S",
+      "fr": "la compote, la purée",
+      "k": "8864df8ede6157"
+     },
+     "b": {
+      "w": "muss",
+      "ipa": "/mʊs/",
+      "approx": "MOUSS",
+      "fr": "(je) dois, (il) doit",
+      "k": "df820c20c3155d"
+     },
+     "note": "One s = long, ss = short. muss is a top A1 word.",
+     "heardBforA": "You said Mus but it sounded like muss: your u was too short. Hold it about twice as long, a French 'ou' held for two beats with tightly rounded lips, and keep it tense.",
+     "heardAforB": "You said muss but it sounded like Mus: your u was too long. Make it a short, relaxed 'ou', almost towards French 'o', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Ruhm",
+      "ipa": "/ʁuːm/",
+      "approx": "ROU:M",
+      "fr": "la gloire",
+      "k": "ad162140e6aff4"
+     },
+     "b": {
+      "w": "Rum",
+      "ipa": "/ʁʊm/",
+      "approx": "ROUMM",
+      "fr": "le rhum",
+      "k": "accb6d545f7289"
+     },
+     "note": "uh = long; Rum is short despite one m (a loanword exception).",
+     "heardBforA": "You said Ruhm but it sounded like Rum: your u was too short. Hold it about twice as long, a French 'ou' held for two beats with tightly rounded lips, and keep it tense.",
+     "heardAforB": "You said Rum but it sounded like Ruhm: your u was too long. Make it a short, relaxed 'ou', almost towards French 'o', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Buße",
+      "ipa": "/ˈbuːsə/",
+      "approx": "BOU:-sse",
+      "fr": "la pénitence, l'amende",
+      "k": "fe9bd8fb39a7a4"
+     },
+     "b": {
+      "w": "Busse",
+      "ipa": "/ˈbʊsə/",
+      "approx": "BOUS-se",
+      "fr": "les bus",
+      "k": "dbdc31551f10e1"
+     },
+     "note": "ß after long u, ss after short u. Note: in Switzerland, which never writes ß, Busse also means a fine.",
+     "heardBforA": "You said Buße but it sounded like Busse: your u was too short. Hold it about twice as long, a French 'ou' held for two beats with tightly rounded lips, and keep it tense.",
+     "heardAforB": "You said Busse but it sounded like Buße: your u was too long. Make it a short, relaxed 'ou', almost towards French 'o', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "spuken",
+      "ipa": "/ˈʃpuːkən/",
+      "approx": "CHPOU:-ken",
+      "fr": "hanter",
+      "k": "c15fd99b2ef016"
+     },
+     "b": {
+      "w": "spucken",
+      "ipa": "/ˈʃpʊkən/",
+      "approx": "CHPOUK-ken",
+      "fr": "cracher",
+      "k": "7f71a95ee8a55c"
+     },
+     "note": "ck makes the u short.",
+     "heardBforA": "You said spuken but it sounded like spucken: your u was too short. Hold it about twice as long, a French 'ou' held for two beats with tightly rounded lips, and keep it tense.",
+     "heardAforB": "You said spucken but it sounded like spuken: your u was too long. Make it a short, relaxed 'ou', almost towards French 'o', and snap straight into the next consonant."
+    },
+    {
+     "a": {
+      "w": "Mut",
+      "ipa": "/muːt/",
+      "approx": "MOU:T",
+      "fr": "le courage",
+      "k": "3284bd33140b74"
+     },
+     "b": {
+      "w": "Mutter",
+      "ipa": "/ˈmʊtɐ/",
+      "approx": "MOUT-ta",
+      "fr": "la mère",
+      "k": "562f89fbc88c63"
+     },
+     "note": "Near-minimal: Mutter has an extra syllable, but the first u is short.",
+     "heardBforA": "You said Mut but it sounded like Mutter: your u was too short. Hold it about twice as long, a French 'ou' held for two beats with tightly rounded lips, and keep it tense.",
+     "heardAforB": "You said Mutter but it sounded like Mut: your u was too long and the -er ending got lost. Make the u short and relaxed, snap into the t, then add a light 'a': MOUT-ta."
+    },
+    {
+     "a": {
+      "w": "Fuß",
+      "ipa": "/fuːs/",
+      "approx": "FOU:S",
+      "fr": "le pied",
+      "k": "ed3f37974a424b"
+     },
+     "b": {
+      "w": "Fluss",
+      "ipa": "/flʊs/",
+      "approx": "FLOUSS",
+      "fr": "la rivière",
+      "k": "4bb22a775abe24"
+     },
+     "note": "Near-minimal: Fluss has an extra l. ß = long u, ss = short u.",
+     "heardBforA": "You said Fuß but it sounded like Fluss: an l crept in after the f, or your u was too short. Go straight from f to a long, tense 'ou' held two beats: FOU:S.",
+     "heardAforB": "You said Fluss but it sounded like Fuß: the l after f disappeared and your u was too long. Keep the l clear (F-LOUSS) and make the u short, snapping into the ss."
+    }
+   ],
+   "words": [
+    {
+     "w": "gut",
+     "ipa": "/ɡuːt/",
+     "approx": "GOU:T",
+     "fr": "bon, bien",
+     "k": "b1d3efea1ed279"
+    },
+    {
+     "w": "Buch",
+     "ipa": "/buːx/",
+     "approx": "BOU:kh",
+     "fr": "le livre",
+     "k": "8a723f1e048496"
+    },
+    {
+     "w": "Zug",
+     "ipa": "/tsuːk/",
+     "approx": "TSOU:K",
+     "fr": "le train",
+     "k": "9840c7a000fb2c"
+    },
+    {
+     "w": "Uhr",
+     "ipa": "/uːɐ̯/",
+     "approx": "OU:A",
+     "fr": "l'heure, la montre",
+     "k": "83cd16665ba8c6"
+    },
+    {
+     "w": "Schule",
+     "ipa": "/ˈʃuːlə/",
+     "approx": "CHOU:-le",
+     "fr": "l'école",
+     "k": "9916763f78619d"
+    },
+    {
+     "w": "Bruder",
+     "ipa": "/ˈbʁuːdɐ/",
+     "approx": "BROU:-da",
+     "fr": "le frère",
+     "k": "4e1d37190d1c70"
+    },
+    {
+     "w": "Juni",
+     "ipa": "/ˈjuːni/",
+     "approx": "YOU:-ni",
+     "fr": "juin",
+     "k": "7563ce35f989e4"
+    },
+    {
+     "w": "null",
+     "ipa": "/nʊl/",
+     "approx": "NOULL",
+     "fr": "zéro",
+     "k": "296bf936ec413b"
+    },
+    {
+     "w": "Hund",
+     "ipa": "/hʊnt/",
+     "approx": "HOUNT",
+     "fr": "le chien",
+     "k": "ab06c76e439a61"
+    },
+    {
+     "w": "und",
+     "ipa": "/ʊnt/",
+     "approx": "OUNT",
+     "fr": "et",
+     "k": "6c7d79dc753827"
+    },
+    {
+     "w": "Stunde",
+     "ipa": "/ˈʃtʊndə/",
+     "approx": "CHTOUN-de",
+     "fr": "l'heure (durée)",
+     "k": "2dc7dce2b1c1e2"
+    },
+    {
+     "w": "Butter",
+     "ipa": "/ˈbʊtɐ/",
+     "approx": "BOUT-ta",
+     "fr": "le beurre",
+     "k": "f9ee996952cd09"
+    },
+    {
+     "w": "Mutter",
+     "ipa": "/ˈmʊtɐ/",
+     "approx": "MOUT-ta",
+     "fr": "la mère",
+     "k": "562f89fbc88c63"
+    },
+    {
+     "w": "dunkel",
+     "ipa": "/ˈdʊŋkəl/",
+     "approx": "DOUNG-kel",
+     "fr": "sombre",
+     "k": "d4783ff892cf4f"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Ich muss zur Arbeit.",
+     "fr": "Je dois aller au travail.",
+     "focus": "short u in muss",
+     "k": "88d4474a5a2409"
+    },
+    {
+     "s": "Das Buch ist gut.",
+     "fr": "Le livre est bon.",
+     "focus": "long u in Buch, gut",
+     "k": "8313a03f140887"
+    },
+    {
+     "s": "Meine Mutter hat Mut.",
+     "fr": "Ma mère a du courage.",
+     "focus": "Mutter (short) vs Mut (long)",
+     "k": "f7e2667f9d3cf0"
+    },
+    {
+     "s": "Ich gehe zu Fuß zum Fluss.",
+     "fr": "Je vais à pied à la rivière.",
+     "focus": "Fuß (long) vs Fluss (short)",
+     "k": "6a24c1e281ae85"
+    },
+    {
+     "s": "Um zwei Uhr kommt der Bus.",
+     "fr": "Le bus arrive à deux heures.",
+     "focus": "short u in um, Bus, long u in Uhr",
+     "k": "704a33acf71bac"
+    }
+   ]
+  },
+  {
+   "id": "vowel-length-umlauts",
+   "title": "Vowel length: ü, ö, ä",
+   "focus": "vowel length",
+   "explain": "<p>Good news: French already has the umlaut sounds. German <b>ü</b> = French <i>u</i> (<i>tu</i>), long <b>ö</b> = French <i>eu</i> in <i>deux</i>, short <b>ö</b> = French <i>eu</i> in <i>peur</i>.</p><p>The challenge is again <b>length</b>. Long ü and ö are tense and held (<i>Hüte, Höhle</i>). Short ü and ö are quick and a bit more relaxed (<i>Hütte, Hölle</i>).</p><p>Spelling works as for the other vowels: <b>üh/öh</b> or one consonant = long; double consonant or cluster = short. <b>ä</b> is long è in <i>wählen</i>, short è in <i>Hände</i> or <i>Äpfel</i>.</p>",
+   "howto": "<ol><li>Long ü: say French <i>tu</i>, then hold the vowel two beats: <i>HU:-te</i>.</li><li>Short ü: same lips, slightly looser, one beat: <i>HUT-te</i>.</li><li>Long ö: French <i>deux</i>, held: <i>HEU:-le</i>. Short ö: French <i>peur</i>, one beat: <i>HEUL-le</i>.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Höhle",
+      "ipa": "/ˈhøːlə/",
+      "approx": "HEU:-le",
+      "fr": "la grotte",
+      "k": "d5bc547e8ec5b5"
+     },
+     "b": {
+      "w": "Hölle",
+      "ipa": "/ˈhœlə/",
+      "approx": "HEUL-le",
+      "fr": "l'enfer",
+      "k": "4b2141e1f3ab89"
+     },
+     "note": "Long closed ö (deux) vs short open ö (peur).",
+     "heardBforA": "You said Höhle but it sounded like Hölle: your ö was too short. Hold it for two beats with tense, rounded lips.",
+     "heardAforB": "You said Hölle but it sounded like Höhle: your ö was too long. Keep it short and slightly relaxed, then go straight into the consonant."
+    },
+    {
+     "a": {
+      "w": "Hüte",
+      "ipa": "/ˈhyːtə/",
+      "approx": "HU:-te",
+      "fr": "les chapeaux",
+      "k": "1e803a69a4aac7"
+     },
+     "b": {
+      "w": "Hütte",
+      "ipa": "/ˈhʏtə/",
+      "approx": "HUT-te",
+      "fr": "la cabane",
+      "k": "7a5d82f384229c"
+     },
+     "note": "One t = long ü, tt = short ü.",
+     "heardBforA": "You said Hüte but it sounded like Hütte: your ü was too short. Hold it for two beats with tense, rounded lips.",
+     "heardAforB": "You said Hütte but it sounded like Hüte: your ü was too long. Keep it short and slightly relaxed, then go straight into the consonant."
+    },
+    {
+     "a": {
+      "w": "fühlen",
+      "ipa": "/ˈfyːlən/",
+      "approx": "FU:-len",
+      "fr": "sentir, ressentir",
+      "k": "3304c559458b1f"
+     },
+     "b": {
+      "w": "füllen",
+      "ipa": "/ˈfʏlən/",
+      "approx": "FUL-len",
+      "fr": "remplir",
+      "k": "9fa0abfb1eb11b"
+     },
+     "note": "üh = long, ll = short.",
+     "heardBforA": "You said fühlen but it sounded like füllen: your ü was too short. Hold it for two beats with tense, rounded lips.",
+     "heardAforB": "You said füllen but it sounded like fühlen: your ü was too long. Keep it short and slightly relaxed, then go straight into the consonant."
+    },
+    {
+     "a": {
+      "w": "Düne",
+      "ipa": "/ˈdyːnə/",
+      "approx": "DU:-ne",
+      "fr": "la dune",
+      "k": "d08e9368f9e82a"
+     },
+     "b": {
+      "w": "dünne",
+      "ipa": "/ˈdʏnə/",
+      "approx": "DUN-ne",
+      "fr": "mince (forme fléchie)",
+      "k": "56852907ee0037"
+     },
+     "note": "One n = long, nn = short.",
+     "heardBforA": "You said Düne but it sounded like dünne: your ü was too short. Hold it for two beats with tense, rounded lips.",
+     "heardAforB": "You said dünne but it sounded like Düne: your ü was too long. Keep it short and slightly relaxed, then go straight into the consonant."
+    },
+    {
+     "a": {
+      "w": "Mühle",
+      "ipa": "/ˈmyːlə/",
+      "approx": "MU:-le",
+      "fr": "le moulin",
+      "k": "e190b290981fef"
+     },
+     "b": {
+      "w": "Müll",
+      "ipa": "/mʏl/",
+      "approx": "MULL",
+      "fr": "les déchets",
+      "k": "5472da711c4761"
+     },
+     "note": "Near-minimal: Mühle has an extra syllable.",
+     "heardBforA": "You said Mühle but it sounded like Müll: your ü was too short and the final e got lost. Hold the ü for two beats with rounded lips, then add a light e muet: MU:-le.",
+     "heardAforB": "You said Müll but it sounded like Mühle: your ü was too long, or you added a final e. Keep it short and slightly relaxed and stop on the l: MULL."
+    },
+    {
+     "a": {
+      "w": "Wüste",
+      "ipa": "/ˈvyːstə/",
+      "approx": "VU:S-te",
+      "fr": "le désert",
+      "k": "256257e2b3e075"
+     },
+     "b": {
+      "w": "wüsste",
+      "ipa": "/ˈvʏstə/",
+      "approx": "VUS-te",
+      "fr": "(je) saurais",
+      "k": "9c6bef38e18e09"
+     },
+     "note": "True minimal pair: Wüste has a long ü (an exception before st), ss in wüsste marks a short ü.",
+     "heardBforA": "You said Wüste but it sounded like wüsste: your ü was too short. Hold it for two beats with tense, rounded lips, as in French 'tu' stretched out.",
+     "heardAforB": "You said wüsste but it sounded like Wüste: your ü was too long. Keep it short and slightly relaxed, then go straight into the s."
+    },
+    {
+     "a": {
+      "w": "wählen",
+      "ipa": "/ˈvɛːlən/",
+      "approx": "VÈ:-len",
+      "fr": "choisir, voter",
+      "k": "7c83275c2a7ec1"
+     },
+     "b": {
+      "w": "Wellen",
+      "ipa": "/ˈvɛlən/",
+      "approx": "VÈL-len",
+      "fr": "les vagues",
+      "k": "4828cbe0178f0d"
+     },
+     "note": "Long ä vs short e. Many Germans say long ä like long é; the Swiss keep a clear long è.",
+     "heardBforA": "You said wählen but it sounded like Wellen: your ä was too short. Hold it for two beats as a long open 'è' (as in French 'fête'), lips spread, not rounded.",
+     "heardAforB": "You said Wellen but it sounded like wählen: your e was too long. Make it a short, open 'è' as in French 'mettre', and go straight into the l."
+    }
+   ],
+   "words": [
+    {
+     "w": "Tür",
+     "ipa": "/tyːɐ̯/",
+     "approx": "TʰU:A",
+     "fr": "la porte",
+     "k": "6211a71e890adf"
+    },
+    {
+     "w": "grün",
+     "ipa": "/ɡʁyːn/",
+     "approx": "GRU:N",
+     "fr": "vert",
+     "k": "92c8c8019d1588"
+    },
+    {
+     "w": "über",
+     "ipa": "/ˈyːbɐ/",
+     "approx": "U:-ba",
+     "fr": "au-dessus de, sur",
+     "k": "4200c7e9195242"
+    },
+    {
+     "w": "hören",
+     "ipa": "/ˈhøːʁən/",
+     "approx": "HEU:-ren",
+     "fr": "entendre, écouter",
+     "k": "5b27075d0eb47f"
+    },
+    {
+     "w": "schön",
+     "ipa": "/ʃøːn/",
+     "approx": "CHEU:N",
+     "fr": "beau",
+     "k": "33132601c68f86"
+    },
+    {
+     "w": "Brötchen",
+     "ipa": "/ˈbʁøːtçən/",
+     "approx": "BREU:T-ch'en",
+     "fr": "le petit pain",
+     "k": "9a2f4fa64a841d"
+    },
+    {
+     "w": "Käse",
+     "ipa": "/ˈkɛːzə/",
+     "approx": "KʰÈ:-ze",
+     "fr": "le fromage",
+     "k": "b2f72a7fe0a058"
+    },
+    {
+     "w": "Mädchen",
+     "ipa": "/ˈmɛːtçən/",
+     "approx": "MÈ:T-ch'en",
+     "fr": "la fille",
+     "k": "c44a193cdeb7c4"
+    },
+    {
+     "w": "fünf",
+     "ipa": "/fʏnf/",
+     "approx": "FUNF",
+     "fr": "cinq",
+     "k": "2d052e9b17f4e4"
+    },
+    {
+     "w": "Glück",
+     "ipa": "/ɡlʏk/",
+     "approx": "GLUK",
+     "fr": "la chance, le bonheur",
+     "k": "bd5067318f6142"
+    },
+    {
+     "w": "Stück",
+     "ipa": "/ʃtʏk/",
+     "approx": "CHTUK",
+     "fr": "le morceau",
+     "k": "c2e5ec36a98af9"
+    },
+    {
+     "w": "können",
+     "ipa": "/ˈkœnən/",
+     "approx": "KʰEUN-nen",
+     "fr": "pouvoir",
+     "k": "138d85af5b4bae"
+    },
+    {
+     "w": "zwölf",
+     "ipa": "/tsvœlf/",
+     "approx": "TSVEULF",
+     "fr": "douze",
+     "k": "1e1204559e7fa6"
+    },
+    {
+     "w": "Müll",
+     "ipa": "/mʏl/",
+     "approx": "MULL",
+     "fr": "les déchets",
+     "k": "5472da711c4761"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Die Hütte ist schön.",
+     "fr": "La cabane est belle.",
+     "focus": "short ü in Hütte, long ö in schön",
+     "k": "25f4a9d90f038c"
+    },
+    {
+     "s": "Ich fühle mich gut.",
+     "fr": "Je me sens bien.",
+     "focus": "long ü in fühle",
+     "k": "3b8ddf3e8dd153"
+    },
+    {
+     "s": "Bitte füllen Sie das Formular aus.",
+     "fr": "Veuillez remplir le formulaire.",
+     "focus": "short ü in füllen",
+     "k": "fa73f18d984201"
+    },
+    {
+     "s": "Ich höre gern Musik.",
+     "fr": "J'aime écouter de la musique.",
+     "focus": "long ö in höre",
+     "k": "901c0db5945e90"
+    },
+    {
+     "s": "Fünf Brötchen, bitte.",
+     "fr": "Cinq petits pains, s'il vous plaît.",
+     "focus": "short ü in fünf, long ö in Brötchen",
+     "k": "86a3eb0561eeae"
+    },
+    {
+     "s": "Am Sonntag wählen wir.",
+     "fr": "Dimanche, nous votons.",
+     "focus": "long ä in wählen",
+     "k": "510649bd9d908e"
+    }
+   ]
+  },
+  {
+   "id": "word-stress",
+   "title": "Word stress",
+   "focus": "word stress",
+   "explain": "<p>French puts a light accent on the <b>last</b> syllable of a word group. German stresses one syllable per word <b>strongly</b> (louder, longer, higher), and the others are reduced.</p><ul><li>Native German words: stress on the <b>first syllable</b> (<i>ARbeit, MORgen, AUFstehen, BAHNhof</i>).</li><li>Prefixes <b>be-, ver-, ge-, er-, ent-, zer-</b> are never stressed: the stress goes to the stem (<i>verSTEhen, beZAHlen</i>).</li><li>Loanwords, often French ones, stress <b>late</b> (<i>MuSIK, ToiLETte, UniversiTÄT</i>). Verbs in <b>-ieren</b> stress <i>-IE-</i> (<i>studIEren</i>).</li></ul><p>A few words change meaning with stress (<i>UMfahren</i> knock over vs <i>umFAHren</i> drive around).</p>",
+   "howto": "<ol><li>Find the stressed syllable (capitals in the approximation).</li><li>Make it louder and longer, and raise the pitch slightly.</li><li>Reduce the other syllables, especially e in -en, -e, -el: almost swallow them.</li><li>Clap once on the stressed syllable while you speak.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "umfahren",
+      "ipa": "/ˈʊmfaːʁən/",
+      "approx": "OUM-fa:-ren",
+      "fr": "renverser (avec un véhicule)",
+      "k": "060e97cf3c1c88"
+     },
+     "b": {
+      "w": "umfahren",
+      "ipa": "/ʊmˈfaːʁən/",
+      "approx": "oum-FA:-ren",
+      "fr": "contourner",
+      "k": "060e97cf3c1c88"
+     },
+     "note": "Same spelling: stress on um- means knock over, stress on -fah- means drive around. The voice may read both the same way; follow the IPA.",
+     "heardBforA": "Stress cannot be checked by the recognizer; compare your recording with the model.",
+     "heardAforB": "Stress cannot be checked by the recognizer; compare your recording with the model."
+    },
+    {
+     "a": {
+      "w": "übersetzen",
+      "ipa": "/ˈyːbɐzɛtsən/",
+      "approx": "U:-ba-zèt-sen",
+      "fr": "faire traverser (en bateau)",
+      "k": "65e6e54f2b744d"
+     },
+     "b": {
+      "w": "übersetzen",
+      "ipa": "/yːbɐˈzɛtsən/",
+      "approx": "u:-ba-ZÈT-sen",
+      "fr": "traduire",
+      "k": "65e6e54f2b744d"
+     },
+     "note": "Same spelling: the everyday word (translate) stresses -set-. The voice may read both the same way; follow the IPA.",
+     "heardBforA": "Stress cannot be checked by the recognizer; compare your recording with the model.",
+     "heardAforB": "Stress cannot be checked by the recognizer; compare your recording with the model."
+    },
+    {
+     "a": {
+      "w": "August",
+      "ipa": "/ˈaʊ̯ɡʊst/",
+      "approx": "AOU-goust",
+      "fr": "Auguste (prénom)",
+      "k": "143e21b1f3c103"
+     },
+     "b": {
+      "w": "August",
+      "ipa": "/aʊ̯ˈɡʊst/",
+      "approx": "aou-GOUST",
+      "fr": "août",
+      "k": "143e21b1f3c103"
+     },
+     "note": "Same spelling: the month stresses the second syllable. The voice may read both the same way; follow the IPA.",
+     "heardBforA": "Stress cannot be checked by the recognizer; compare your recording with the model.",
+     "heardAforB": "Stress cannot be checked by the recognizer; compare your recording with the model."
+    },
+    {
+     "a": {
+      "w": "modern",
+      "ipa": "/ˈmoːdɐn/",
+      "approx": "MO:-dan",
+      "fr": "pourrir",
+      "k": "aacb50afe03306"
+     },
+     "b": {
+      "w": "modern",
+      "ipa": "/moˈdɛʁn/",
+      "approx": "mo-DÈRN",
+      "fr": "moderne",
+      "k": "aacb50afe03306"
+     },
+     "note": "Same spelling: the common adjective (modern) stresses the end. The voice may read both the same way; follow the IPA.",
+     "heardBforA": "Stress cannot be checked by the recognizer; compare your recording with the model.",
+     "heardAforB": "Stress cannot be checked by the recognizer; compare your recording with the model."
+    }
+   ],
+   "words": [
+    {
+     "w": "Arbeit",
+     "ipa": "/ˈaʁbaɪ̯t/",
+     "approx": "AR-baït",
+     "fr": "le travail",
+     "k": "775a200a84ca37"
+    },
+    {
+     "w": "Morgen",
+     "ipa": "/ˈmɔʁɡən/",
+     "approx": "MOR-guen",
+     "fr": "le matin",
+     "k": "35d4997162f6b9"
+    },
+    {
+     "w": "Wochenende",
+     "ipa": "/ˈvɔxənˌɛndə/",
+     "approx": "VO-khen-èn-de",
+     "fr": "le week-end",
+     "k": "2d1f3745005346"
+    },
+    {
+     "w": "Bahnhof",
+     "ipa": "/ˈbaːnˌhoːf/",
+     "approx": "BA:N-ho:f",
+     "fr": "la gare",
+     "k": "e07318e45b128a"
+    },
+    {
+     "w": "aufstehen",
+     "ipa": "/ˈaʊ̯fˌʃteːən/",
+     "approx": "AOUF-chté:-en",
+     "fr": "se lever",
+     "k": "4e64e1c3f12f26"
+    },
+    {
+     "w": "einkaufen",
+     "ipa": "/ˈaɪ̯nˌkaʊ̯fən/",
+     "approx": "AÏN-kaou-fen",
+     "fr": "faire les courses",
+     "k": "2a20c398bfb5f5"
+    },
+    {
+     "w": "Frühstück",
+     "ipa": "/ˈfʁyːˌʃtʏk/",
+     "approx": "FRU:-chtuk",
+     "fr": "le petit-déjeuner",
+     "k": "70af5661a527b0"
+    },
+    {
+     "w": "Fahrrad",
+     "ipa": "/ˈfaːɐ̯ˌʁaːt/",
+     "approx": "FA:A-ra:t",
+     "fr": "le vélo",
+     "k": "820f31587861fd"
+    },
+    {
+     "w": "Deutschland",
+     "ipa": "/ˈdɔʏ̯tʃlant/",
+     "approx": "DOÏTCH-lannt",
+     "fr": "l'Allemagne",
+     "k": "b73ccefbe19387"
+    },
+    {
+     "w": "verstehen",
+     "ipa": "/fɛɐ̯ˈʃteːən/",
+     "approx": "fèa-CHTÉ:-en",
+     "fr": "comprendre",
+     "k": "b3b839795f9f52"
+    },
+    {
+     "w": "bezahlen",
+     "ipa": "/bəˈtsaːlən/",
+     "approx": "be-TSA:-len",
+     "fr": "payer",
+     "k": "27792656db5d88"
+    },
+    {
+     "w": "gefallen",
+     "ipa": "/ɡəˈfalən/",
+     "approx": "gue-FAL-len",
+     "fr": "plaire",
+     "k": "31f67691108c8f"
+    },
+    {
+     "w": "entschuldigen",
+     "ipa": "/ɛntˈʃʊldɪɡən/",
+     "approx": "ènt-CHOUL-di-guen",
+     "fr": "excuser",
+     "k": "c2de36b6297bf3"
+    },
+    {
+     "w": "erklären",
+     "ipa": "/ɛɐ̯ˈklɛːʁən/",
+     "approx": "èa-KLÈ:-ren",
+     "fr": "expliquer",
+     "k": "38684fadc00ddd"
+    },
+    {
+     "w": "beginnen",
+     "ipa": "/bəˈɡɪnən/",
+     "approx": "be-GUIN-nen",
+     "fr": "commencer",
+     "k": "60cc0f06541e86"
+    },
+    {
+     "w": "Musik",
+     "ipa": "/muˈziːk/",
+     "approx": "mou-ZI:K",
+     "fr": "la musique",
+     "k": "5c0f93fbe82cce"
+    },
+    {
+     "w": "Toilette",
+     "ipa": "/toaˈlɛtə/",
+     "approx": "to-a-LÈT-te",
+     "fr": "les toilettes",
+     "k": "0a1fa7f398d22c"
+    },
+    {
+     "w": "Universität",
+     "ipa": "/univɛʁziˈtɛːt/",
+     "approx": "ou-ni-vèr-zi-TÈ:T",
+     "fr": "l'université",
+     "k": "a11790cc7ce08b"
+    },
+    {
+     "w": "Informatik",
+     "ipa": "/ɪnfɔʁˈmaːtɪk/",
+     "approx": "in-for-MA:-tik",
+     "fr": "l'informatique",
+     "k": "7cdfe403e429e6"
+    },
+    {
+     "w": "Bibliothek",
+     "ipa": "/biblioˈteːk/",
+     "approx": "bi-bli-o-TÉ:K",
+     "fr": "la bibliothèque",
+     "k": "b0deba25257f1b"
+    },
+    {
+     "w": "Papier",
+     "ipa": "/paˈpiːɐ̯/",
+     "approx": "pa-PʰI:A",
+     "fr": "le papier",
+     "k": "3ebfa3f61c7208"
+    },
+    {
+     "w": "Restaurant",
+     "ipa": "/ʁɛstoˈʁãː/",
+     "approx": "rès-to-RAN",
+     "fr": "le restaurant",
+     "note": "In Switzerland you often hear the stress on the first syllable: RÈS-to-ran.",
+     "k": "9a27a0afc9eb78"
+    },
+    {
+     "w": "Telefon",
+     "ipa": "/teleˈfoːn/",
+     "approx": "té-lé-FO:N",
+     "fr": "le téléphone",
+     "k": "012bfde368f3eb"
+    },
+    {
+     "w": "Problem",
+     "ipa": "/pʁoˈbleːm/",
+     "approx": "pro-BLÉ:M",
+     "fr": "le problème",
+     "k": "775de52b5c44ac"
+    },
+    {
+     "w": "Hotel",
+     "ipa": "/hoˈtɛl/",
+     "approx": "ho-TÈL",
+     "fr": "l'hôtel",
+     "k": "f5e407dfd73e86"
+    },
+    {
+     "w": "Büro",
+     "ipa": "/byˈʁoː/",
+     "approx": "bu-RO:",
+     "fr": "le bureau",
+     "k": "d8a122a63adbc3"
+    },
+    {
+     "w": "Kaffee",
+     "ipa": "/ˈkafe/",
+     "approx": "KʰAF-fé",
+     "fr": "le café",
+     "note": "In Germany stress on the first syllable; in Austria Kaffee with stress on -fee (ka-FÉ:) is common. In Switzerland you mostly hear KAF-fé (or Kafi in dialect).",
+     "k": "338e4fb4032ba6"
+    },
+    {
+     "w": "telefonieren",
+     "ipa": "/telefoˈniːʁən/",
+     "approx": "té-lé-fo-NI:-ren",
+     "fr": "téléphoner",
+     "k": "ac3f4b17f0990f"
+    },
+    {
+     "w": "studieren",
+     "ipa": "/ʃtuˈdiːʁən/",
+     "approx": "chtou-DI:-ren",
+     "fr": "étudier",
+     "k": "67a2bcccf110e5"
+    },
+    {
+     "w": "trainieren",
+     "ipa": "/tʁɛˈniːʁən/",
+     "approx": "trè-NI:-ren",
+     "fr": "s'entraîner",
+     "k": "2d06e34f905d8e"
+    },
+    {
+     "w": "Fitnessstudio",
+     "ipa": "/ˈfɪtnɛsˌʃtuːdi̯o/",
+     "approx": "FIT-nès-chtou:-dio",
+     "fr": "la salle de sport",
+     "k": "fbe24b49636327"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Ich verstehe das Problem.",
+     "fr": "Je comprends le problème.",
+     "focus": "verSTEhe, ProBLEM",
+     "k": "b72842b5d3da40"
+    },
+    {
+     "s": "Ich studiere Informatik an der Universität.",
+     "fr": "J'étudie l'informatique à l'université.",
+     "focus": "stuDIEre, InforMAtik, UniversiTÄT",
+     "k": "dceffeeffb7113"
+    },
+    {
+     "s": "Am Wochenende gehe ich ins Restaurant.",
+     "fr": "Le week-end, je vais au restaurant.",
+     "focus": "WOchenende, RestauRANT",
+     "k": "9c31b556cb17bf"
+    },
+    {
+     "s": "Wo ist die Toilette, bitte?",
+     "fr": "Où sont les toilettes, s'il vous plaît ?",
+     "focus": "ToiLETte, BITte",
+     "k": "9d79d1424d22ac"
+    },
+    {
+     "s": "Ich telefoniere mit meiner Mutter.",
+     "fr": "Je téléphone à ma mère.",
+     "focus": "telefoNIEre",
+     "k": "3633842b093cfa"
+    },
+    {
+     "s": "Im August fahre ich nach Marokko.",
+     "fr": "En août, je vais au Maroc.",
+     "focus": "AuGUST, MaROKko",
+     "k": "b8d6075c54b6c0"
+    }
+   ]
+  },
+  {
+   "id": "ich-laut",
+   "title": "The ich-Laut [ç]",
+   "focus": "ich-Laut",
+   "explain": "<p>The <b>ich-Laut</b> [ç] is the sound in <i>ich, nicht, Milch</i>. French has no such sound, so French speakers replace it with <b>ch</b> as in <i>chat</i> and say <i>isch</i>. To a German ear that is <b>sch</b>, so <i>Kirche</i> (church) becomes <i>Kirsche</i> (cherry), and <i>mich</i> becomes <i>misch</i>.</p><p>[ç] is a whispered French <b>y</b> (as in <i>yeux</i>): air hissing between the middle of the tongue and the hard palate, lips <b>not</b> rounded.</p><p>Where: after e, i, ä, ö, ü, ei, eu, after l, n, r, in <b>-chen</b> and in the ending <b>-ig</b> (<i>richtig, zwanzig</i>). In Switzerland, -ig is often said with a k (<i>zwanzik</i>); for the exam either is fine.</p>",
+   "howto": "<ol><li>Say French <i>yeux</i> slowly and freeze on the <i>y</i>.</li><li>Now whisper it: no voice, just air. That hiss is [ç].</li><li>Keep a slight smile; do not round or push the lips forward (that would make sch).</li><li>Practise <i>i + hiss</i>: <i>i... ç</i>, then <i>ich, mich, dich, nicht</i>.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Kirche",
+      "ipa": "/ˈkɪʁçə/",
+      "approx": "KʰIR-ch'e",
+      "fr": "l'église",
+      "k": "925985e8031a4e"
+     },
+     "b": {
+      "w": "Kirsche",
+      "ipa": "/ˈkɪʁʃə/",
+      "approx": "KʰIR-che",
+      "fr": "la cerise",
+      "k": "04e30a8823702a"
+     },
+     "note": "Only the ch / sch differs.",
+     "heardBforA": "You said Kirche but it sounded like Kirsche: you used the French 'ch' of 'chat'. Unround your lips into a smile, keep the tongue tip behind the lower teeth, raise the middle of the tongue as for the 'y' of 'yeux' and blow air: a soft hiss, no voice.",
+     "heardAforB": "You said Kirsche but it sounded like Kirche: your sch lost its lip rounding and became a flat hiss from the middle of the tongue. Push the lips forward and round them, lift the tongue tip towards the ridge behind the upper teeth, as for French 'chat'."
+    },
+    {
+     "a": {
+      "w": "mich",
+      "ipa": "/mɪç/",
+      "approx": "MIch'",
+      "fr": "me (accusatif)",
+      "k": "f224930b2fe8d0"
+     },
+     "b": {
+      "w": "misch",
+      "ipa": "/mɪʃ/",
+      "approx": "MICH",
+      "fr": "mélange ! (impératif)",
+      "k": "2997e5a51ecfb2"
+     },
+     "note": "Only the final sound differs.",
+     "heardBforA": "You said mich but it sounded like misch: you used the French 'ch' of 'chat'. Unround your lips into a smile, keep the tongue tip behind the lower teeth, raise the middle of the tongue as for the 'y' of 'yeux' and blow air: a soft hiss, no voice.",
+     "heardAforB": "You said misch but it sounded like mich: your sch lost its lip rounding and became a flat hiss from the middle of the tongue. Push the lips forward and round them, lift the tongue tip towards the ridge behind the upper teeth, as for French 'chat'."
+    },
+    {
+     "a": {
+      "w": "Löcher",
+      "ipa": "/ˈlœçɐ/",
+      "approx": "LEU-ch'a",
+      "fr": "les trous",
+      "k": "22a75666871e7f"
+     },
+     "b": {
+      "w": "Löscher",
+      "ipa": "/ˈlœʃɐ/",
+      "approx": "LEU-cha",
+      "fr": "l'extincteur",
+      "k": "6eadbe9dce34d5"
+     },
+     "note": "Only the ch / sch differs.",
+     "heardBforA": "You said Löcher but it sounded like Löscher: you used the French 'ch' of 'chat'. Unround your lips into a smile, keep the tongue tip behind the lower teeth, raise the middle of the tongue as for the 'y' of 'yeux' and blow air: a soft hiss, no voice.",
+     "heardAforB": "You said Löscher but it sounded like Löcher: your sch lost its lip rounding and became a flat hiss from the middle of the tongue. Push the lips forward and round them, lift the tongue tip towards the ridge behind the upper teeth, as for French 'chat'."
+    },
+    {
+     "a": {
+      "w": "Fichte",
+      "ipa": "/ˈfɪçtə/",
+      "approx": "FIch'-te",
+      "fr": "l'épicéa",
+      "k": "6ed4c87ffa65f6"
+     },
+     "b": {
+      "w": "fischte",
+      "ipa": "/ˈfɪʃtə/",
+      "approx": "FICH-te",
+      "fr": "(il) pêchait",
+      "k": "8f9dd12837108d"
+     },
+     "note": "Only the ch / sch differs.",
+     "heardBforA": "You said Fichte but it sounded like fischte: you used the French 'ch' of 'chat'. Unround your lips into a smile, keep the tongue tip behind the lower teeth, raise the middle of the tongue as for the 'y' of 'yeux' and blow air: a soft hiss, no voice.",
+     "heardAforB": "You said fischte but it sounded like Fichte: your sch lost its lip rounding and became a flat hiss from the middle of the tongue. Push the lips forward and round them, lift the tongue tip towards the ridge behind the upper teeth, as for French 'chat'."
+    },
+    {
+     "a": {
+      "w": "Männchen",
+      "ipa": "/ˈmɛnçən/",
+      "approx": "MÈN-ch'en",
+      "fr": "le petit homme, le mâle (animal)",
+      "k": "1e8085838d3307"
+     },
+     "b": {
+      "w": "Menschen",
+      "ipa": "/ˈmɛnʃən/",
+      "approx": "MÈN-chen",
+      "fr": "les gens, les êtres humains",
+      "k": "5b0ad5e9d91e13"
+     },
+     "note": "ä and short e sound the same here, so only the ch / sch differs.",
+     "heardBforA": "You said Männchen but it sounded like Menschen: you used the French 'ch' of 'chat'. Unround your lips into a smile, keep the tongue tip behind the lower teeth, raise the middle of the tongue as for the 'y' of 'yeux' and blow air: a soft hiss, no voice.",
+     "heardAforB": "You said Menschen but it sounded like Männchen: your sch lost its lip rounding and became a flat hiss from the middle of the tongue. Push the lips forward and round them, lift the tongue tip towards the ridge behind the upper teeth, as for French 'chat'."
+    },
+    {
+     "a": {
+      "w": "dich",
+      "ipa": "/dɪç/",
+      "approx": "DIch'",
+      "fr": "te (accusatif)",
+      "k": "fd925c55034fe3"
+     },
+     "b": {
+      "w": "Tisch",
+      "ipa": "/tɪʃ/",
+      "approx": "TʰICH",
+      "fr": "la table",
+      "k": "967f88f2082b34"
+     },
+     "note": "Near-minimal: d vs t at the start too, but the ending is the point.",
+     "heardBforA": "You said dich but it sounded like Tisch: you used the French 'ch' of 'chat'. Unround your lips into a smile, keep the tongue tip behind the lower teeth, raise the middle of the tongue as for the 'y' of 'yeux' and blow air: a soft hiss, no voice.",
+     "heardAforB": "You said Tisch but it sounded like dich: your sch lost its lip rounding and became a flat hiss from the middle of the tongue. Push the lips forward and round them, lift the tongue tip towards the ridge behind the upper teeth, as for French 'chat'. Also give the t a puff of air (TʰICH), otherwise it sounds like d."
+    }
+   ],
+   "words": [
+    {
+     "w": "ich",
+     "ipa": "/ɪç/",
+     "approx": "Ich'",
+     "fr": "je",
+     "k": "9fa2397e4e4700"
+    },
+    {
+     "w": "mich",
+     "ipa": "/mɪç/",
+     "approx": "MIch'",
+     "fr": "me",
+     "k": "f224930b2fe8d0"
+    },
+    {
+     "w": "dich",
+     "ipa": "/dɪç/",
+     "approx": "DIch'",
+     "fr": "te",
+     "k": "fd925c55034fe3"
+    },
+    {
+     "w": "nicht",
+     "ipa": "/nɪçt/",
+     "approx": "NIch'T",
+     "fr": "ne ... pas",
+     "k": "7b410f5d4526e1"
+    },
+    {
+     "w": "Milch",
+     "ipa": "/mɪlç/",
+     "approx": "MILch'",
+     "fr": "le lait",
+     "k": "ecb6bb62e29162"
+    },
+    {
+     "w": "Licht",
+     "ipa": "/lɪçt/",
+     "approx": "LIch'T",
+     "fr": "la lumière",
+     "k": "470e35e573bafc"
+    },
+    {
+     "w": "sechzig",
+     "ipa": "/ˈzɛçtsɪç/",
+     "approx": "ZÈch'-tsich'",
+     "fr": "soixante",
+     "k": "009add744f09e1"
+    },
+    {
+     "w": "richtig",
+     "ipa": "/ˈʁɪçtɪç/",
+     "approx": "RIch'-tich'",
+     "fr": "juste, correct",
+     "k": "f18f3c4c334895"
+    },
+    {
+     "w": "Mädchen",
+     "ipa": "/ˈmɛːtçən/",
+     "approx": "MÈ:T-ch'en",
+     "fr": "la fille",
+     "k": "c44a193cdeb7c4"
+    },
+    {
+     "w": "Brötchen",
+     "ipa": "/ˈbʁøːtçən/",
+     "approx": "BREU:T-ch'en",
+     "fr": "le petit pain",
+     "k": "9a2f4fa64a841d"
+    },
+    {
+     "w": "Küche",
+     "ipa": "/ˈkʏçə/",
+     "approx": "KʰU-ch'e",
+     "fr": "la cuisine",
+     "k": "38df5ef01274f8"
+    },
+    {
+     "w": "Bücher",
+     "ipa": "/ˈbyːçɐ/",
+     "approx": "BU:-ch'a",
+     "fr": "les livres",
+     "k": "e2f0eebeb2655f"
+    },
+    {
+     "w": "München",
+     "ipa": "/ˈmʏnçən/",
+     "approx": "MUN-ch'en",
+     "fr": "Munich",
+     "k": "0a1e37faa18e2c"
+    },
+    {
+     "w": "wichtig",
+     "ipa": "/ˈvɪçtɪç/",
+     "approx": "VIch'-tich'",
+     "fr": "important",
+     "k": "55b8151f6bf6fc"
+    },
+    {
+     "w": "zwanzig",
+     "ipa": "/ˈtsvantsɪç/",
+     "approx": "TSVANN-tsich'",
+     "fr": "vingt",
+     "k": "be4627b3499fad"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Ich trinke Milch.",
+     "fr": "Je bois du lait.",
+     "focus": "ich-Laut in ich, Milch",
+     "k": "fe6713ef934ee1"
+    },
+    {
+     "s": "Das ist nicht richtig.",
+     "fr": "Ce n'est pas juste.",
+     "focus": "ich-Laut in nicht, richtig",
+     "k": "43bedb791b5e72"
+    },
+    {
+     "s": "Ich möchte zwei Brötchen.",
+     "fr": "Je voudrais deux petits pains.",
+     "focus": "ich-Laut in ich, möchte, Brötchen",
+     "k": "79140207178901"
+    },
+    {
+     "s": "Das Mädchen liest Bücher.",
+     "fr": "La fille lit des livres.",
+     "focus": "ich-Laut in Mädchen, Bücher",
+     "k": "8636b33788978f"
+    },
+    {
+     "s": "Ich hebe sechzig Kilo.",
+     "fr": "Je soulève soixante kilos.",
+     "focus": "ich-Laut in ich, sechzig",
+     "k": "222daab5432c89"
+    },
+    {
+     "s": "Die Küche ist hell.",
+     "fr": "La cuisine est claire.",
+     "focus": "ich-Laut in Küche",
+     "k": "f5a1f80611e64e"
+    }
+   ]
+  },
+  {
+   "id": "ich-vs-ach",
+   "title": "ich-Laut vs ach-Laut",
+   "focus": "ich-Laut",
+   "explain": "<p>German <b>ch</b> has two sounds, and the vowel before it decides which one:</p><ul><li><b>ach-Laut</b> [x] after <b>a, o, u, au</b>: a throaty friction at the back, like Spanish <i>jota</i> (<i>Bach, Buch, Nacht, auch</i>). French speakers usually find this easy: it is close to a voiceless French r.</li><li><b>ich-Laut</b> [ç] everywhere else: after e, i, ä, ö, ü, ei, eu, after consonants, and always in <b>-chen</b> (<i>Bäche, Bücher, Nächte, euch, Mädchen</i>).</li></ul><p>Plurals with umlaut switch the sound: <i>Buch</i> [x] becomes <i>Bücher</i> [ç]. The tongue simply follows the vowel.</p>",
+   "howto": "<ol><li>ach-Laut: after a back vowel, raise the back of the tongue towards the soft palate and push air: <i>BAKH</i>.</li><li>ich-Laut: after a front vowel, the hiss moves forward to the hard palate, lips in a smile: <i>BÈ-ch'e</i>.</li><li>Say the pairs in a row (<i>Buch, Bücher</i>) and feel the friction slide from the back to the front of the mouth.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Bach",
+      "ipa": "/bax/",
+      "approx": "BAkh",
+      "fr": "le ruisseau",
+      "k": "6ba9d121ed72a6"
+     },
+     "b": {
+      "w": "Bäche",
+      "ipa": "/ˈbɛçə/",
+      "approx": "BÈ-ch'e",
+      "fr": "les ruisseaux",
+      "k": "181bce70dcb87b"
+     },
+     "note": "Singular with ach-Laut, plural with ich-Laut.",
+     "heardBforA": "You said Bach but it was heard as Bäche: an extra vowel appeared at the end. Stop right after the throaty kh: BAKH.",
+     "heardAforB": "You said Bäche but it was heard as Bach: the final e or the è sound got lost. Say a clear short è, then a soft ich-Laut and a light e: BÈ-ch'e."
+    },
+    {
+     "a": {
+      "w": "Buch",
+      "ipa": "/buːx/",
+      "approx": "BOU:kh",
+      "fr": "le livre",
+      "k": "8a723f1e048496"
+     },
+     "b": {
+      "w": "Bücher",
+      "ipa": "/ˈbyːçɐ/",
+      "approx": "BU:-ch'a",
+      "fr": "les livres",
+      "k": "e2f0eebeb2655f"
+     },
+     "note": "u + ach-Laut vs ü + ich-Laut.",
+     "heardBforA": "You said Buch but it was heard as Bücher: your vowel moved towards ü or you added an ending. Keep a deep 'ou' and finish on the throaty kh.",
+     "heardAforB": "You said Bücher but it was heard as Buch: your ü sounded like 'ou' and the ending was lost. Round the lips for French 'u', use the soft ich-Laut and end on a light 'a'."
+    },
+    {
+     "a": {
+      "w": "Dach",
+      "ipa": "/dax/",
+      "approx": "DAkh",
+      "fr": "le toit",
+      "k": "d30bae1a52c926"
+     },
+     "b": {
+      "w": "Dächer",
+      "ipa": "/ˈdɛçɐ/",
+      "approx": "DÈ-ch'a",
+      "fr": "les toits",
+      "k": "10480ba857cb11"
+     },
+     "note": "a + ach-Laut vs ä + ich-Laut.",
+     "heardBforA": "You said Dach but it was heard as Dächer: an extra syllable crept in. End cleanly on kh: DAKH.",
+     "heardAforB": "You said Dächer but it was heard as Dach: the ending -er was swallowed. Say DÈ-ch'a, with a light 'a' at the end."
+    },
+    {
+     "a": {
+      "w": "Nacht",
+      "ipa": "/naxt/",
+      "approx": "NAkhT",
+      "fr": "la nuit",
+      "k": "e907d1422cea69"
+     },
+     "b": {
+      "w": "Nächte",
+      "ipa": "/ˈnɛçtə/",
+      "approx": "NÈch'-te",
+      "fr": "les nuits",
+      "k": "e96ef2fe83c2b6"
+     },
+     "note": "a + ach-Laut vs ä + ich-Laut.",
+     "heardBforA": "You said Nacht but it was heard as Nächte: an extra syllable crept in. End on kh + t: NAKHT.",
+     "heardAforB": "You said Nächte but it was heard as Nacht: the final -e was lost. Say NÈCH'-te with a light e muet."
+    },
+    {
+     "a": {
+      "w": "Loch",
+      "ipa": "/lɔx/",
+      "approx": "LOkh",
+      "fr": "le trou",
+      "k": "ac883e48a6c307"
+     },
+     "b": {
+      "w": "Löcher",
+      "ipa": "/ˈlœçɐ/",
+      "approx": "LEU-ch'a",
+      "fr": "les trous",
+      "k": "22a75666871e7f"
+     },
+     "note": "o + ach-Laut vs ö + ich-Laut.",
+     "heardBforA": "You said Loch but it was heard as Löcher: an ending crept in. Stop after the throaty kh: LOKH.",
+     "heardAforB": "You said Löcher but it was heard as Loch: the ending -er was lost. Round lips for 'eu', soft ich-Laut, light 'a': LEU-ch'a."
+    },
+    {
+     "a": {
+      "w": "Koch",
+      "ipa": "/kɔx/",
+      "approx": "KʰOkh",
+      "fr": "le cuisinier",
+      "k": "c65f4aa5b050fa"
+     },
+     "b": {
+      "w": "Köche",
+      "ipa": "/ˈkœçə/",
+      "approx": "KʰEU-ch'e",
+      "fr": "les cuisiniers",
+      "k": "9c06febfd37a37"
+     },
+     "note": "o + ach-Laut vs ö + ich-Laut.",
+     "heardBforA": "You said Koch but it was heard as Köche: an ending crept in. Stop after kh: KʰOKH.",
+     "heardAforB": "You said Köche but it was heard as Koch: the final -e was lost. Say KʰEU-ch'e with a light e muet."
+    },
+    {
+     "a": {
+      "w": "auch",
+      "ipa": "/aʊ̯x/",
+      "approx": "AOUkh",
+      "fr": "aussi",
+      "k": "d222dc9c23f723"
+     },
+     "b": {
+      "w": "euch",
+      "ipa": "/ɔʏ̯ç/",
+      "approx": "OÏch'",
+      "fr": "vous (accusatif, datif)",
+      "k": "84e6f05daf8c73"
+     },
+     "note": "au + ach-Laut vs eu + ich-Laut.",
+     "heardBforA": "You said auch but it was heard as euch: your diphthong sounded like 'oï'. Start with an open 'a' and glide to 'ou': AOUKH.",
+     "heardAforB": "You said euch but it was heard as auch: your diphthong sounded like 'aou'. Start with an open 'o' and glide to 'i': OÏCH', and keep the ch soft."
+    }
+   ],
+   "words": [
+    {
+     "w": "ach",
+     "ipa": "/ax/",
+     "approx": "Akh",
+     "fr": "ah, oh",
+     "k": "656e566810ba2c"
+    },
+    {
+     "w": "acht",
+     "ipa": "/axt/",
+     "approx": "AkhT",
+     "fr": "huit",
+     "k": "50d3451cbbe2b6"
+    },
+    {
+     "w": "machen",
+     "ipa": "/ˈmaxən/",
+     "approx": "MA-khen",
+     "fr": "faire",
+     "k": "74d769a38531d5"
+    },
+    {
+     "w": "lachen",
+     "ipa": "/ˈlaxən/",
+     "approx": "LA-khen",
+     "fr": "rire",
+     "k": "4198532c89d136"
+    },
+    {
+     "w": "Woche",
+     "ipa": "/ˈvɔxə/",
+     "approx": "VO-khe",
+     "fr": "la semaine",
+     "k": "288478460d0fda"
+    },
+    {
+     "w": "kochen",
+     "ipa": "/ˈkɔxən/",
+     "approx": "KʰO-khen",
+     "fr": "cuisiner",
+     "k": "0f5c9c23b09490"
+    },
+    {
+     "w": "Kuchen",
+     "ipa": "/ˈkuːxən/",
+     "approx": "KʰOU:-khen",
+     "fr": "le gâteau",
+     "k": "343cbe4cdd65ca"
+    },
+    {
+     "w": "Sprache",
+     "ipa": "/ˈʃpʁaːxə/",
+     "approx": "CHPRA:-khe",
+     "fr": "la langue",
+     "k": "afb65d8bd5ab4c"
+    },
+    {
+     "w": "Bauch",
+     "ipa": "/baʊ̯x/",
+     "approx": "BAOUkh",
+     "fr": "le ventre",
+     "k": "a2f5ab1db4124f"
+    },
+    {
+     "w": "ich",
+     "ipa": "/ɪç/",
+     "approx": "Ich'",
+     "fr": "je",
+     "k": "9fa2397e4e4700"
+    },
+    {
+     "w": "sprechen",
+     "ipa": "/ˈʃpʁɛçən/",
+     "approx": "CHPRÈ-ch'en",
+     "fr": "parler",
+     "k": "9341918d3fb668"
+    },
+    {
+     "w": "leicht",
+     "ipa": "/laɪ̯çt/",
+     "approx": "LAÏch'T",
+     "fr": "facile, léger",
+     "k": "51b10804a742c2"
+    },
+    {
+     "w": "Küche",
+     "ipa": "/ˈkʏçə/",
+     "approx": "KʰU-ch'e",
+     "fr": "la cuisine",
+     "k": "38df5ef01274f8"
+    },
+    {
+     "w": "Milch",
+     "ipa": "/mɪlç/",
+     "approx": "MILch'",
+     "fr": "le lait",
+     "k": "ecb6bb62e29162"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Ich koche heute Abend.",
+     "fr": "Je cuisine ce soir.",
+     "focus": "ich-Laut in ich, ach-Laut in koche",
+     "k": "5e83befcb995bf"
+    },
+    {
+     "s": "Die Nacht ist lang, die Nächte sind kalt.",
+     "fr": "La nuit est longue, les nuits sont froides.",
+     "focus": "Nacht [x] vs Nächte [ç]",
+     "k": "1a8d4660b2a982"
+    },
+    {
+     "s": "Ich lese ein Buch, du liest zwei Bücher.",
+     "fr": "Je lis un livre, tu lis deux livres.",
+     "focus": "Buch [x] vs Bücher [ç]",
+     "k": "545c5d4c77ea4b"
+    },
+    {
+     "s": "Ich spreche auch Deutsch.",
+     "fr": "Je parle aussi allemand.",
+     "focus": "ich-Laut in ich, spreche; ach-Laut in auch",
+     "k": "d980d1cc0abfa2"
+    },
+    {
+     "s": "Der Koch macht einen Kuchen.",
+     "fr": "Le cuisinier fait un gâteau.",
+     "focus": "ach-Laut in Koch, macht, Kuchen",
+     "k": "c6097318d41dde"
+    }
+   ]
+  },
+  {
+   "id": "aspiration",
+   "title": "Aspirated p, t, k",
+   "focus": "aspiration",
+   "explain": "<p>At the start of a stressed syllable, German <b>p, t, k</b> are <b>aspirated</b>: a little puff of air follows them, like a whispered <i>h</i>: <i>Tee</i> = tʰÉ:. French p, t, k have <b>no</b> puff.</p><p>The problem: German <b>b, d, g</b> are often only weakly voiced. So German ears tell p from b mainly by the <b>puff</b>, not by voicing. A French unaspirated <i>p</i> therefore sounds like a German <i>b</i>: <i>Pass</i> becomes <i>Bass</i>, <i>Tank</i> becomes <i>Dank</i>, <i>Karten</i> becomes <i>Garten</i>.</p><p>No puff after <b>s/sch</b> (<i>Sport, Stadt</i>) and less in unstressed syllables.</p>",
+   "howto": "<ol><li>Hold a sheet of paper or your hand in front of your mouth.</li><li>Say <i>p</i> + a short whispered <i>h</i> before the vowel: <i>pʰ-ASS</i>. The paper should move.</li><li>Say <i>b</i> the French way: the paper should not move.</li><li>Do the same with <i>t/d</i> and <i>k/g</i>.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Pass",
+      "ipa": "/pas/",
+      "approx": "PʰASS",
+      "fr": "le passeport",
+      "k": "1f63990205bd11"
+     },
+     "b": {
+      "w": "Bass",
+      "ipa": "/bas/",
+      "approx": "BASS",
+      "fr": "la basse",
+      "k": "cd162d9d3ee609"
+     },
+     "note": "Same vowel and ending; only the puff after p separates them.",
+     "heardBforA": "You said Pass but it sounded like Bass: your p had no puff of air, so a German ear hears b. Push a small burst of air after the p, like a whispered 'h': PʰASS. A paper held in front of your mouth should move.",
+     "heardAforB": "You said Bass but it sounded like Pass: you added a puff of air. German b at the start has no breath after it: say it softly, like a French b."
+    },
+    {
+     "a": {
+      "w": "packen",
+      "ipa": "/ˈpakən/",
+      "approx": "PʰAK-ken",
+      "fr": "emballer, faire (sa valise)",
+      "k": "c3c130330c6213"
+     },
+     "b": {
+      "w": "backen",
+      "ipa": "/ˈbakən/",
+      "approx": "BAK-ken",
+      "fr": "cuire au four",
+      "k": "d8862a5f70001f"
+     },
+     "note": "Only p vs b.",
+     "heardBforA": "You said packen but it sounded like backen: your p had no puff of air, so a German ear hears b. Push a small burst of air after the p, like a whispered 'h': PʰAK-ken. A paper held in front of your mouth should move.",
+     "heardAforB": "You said backen but it sounded like packen: you added a puff of air. German b at the start has no breath after it: say it softly, like a French b."
+    },
+    {
+     "a": {
+      "w": "Tank",
+      "ipa": "/taŋk/",
+      "approx": "TʰANGK",
+      "fr": "le réservoir",
+      "k": "0587407ea75671"
+     },
+     "b": {
+      "w": "Dank",
+      "ipa": "/daŋk/",
+      "approx": "DANGK",
+      "fr": "la gratitude, le merci",
+      "k": "0afa298e424a9a"
+     },
+     "note": "Only t vs d.",
+     "heardBforA": "You said Tank but it sounded like Dank: your t had no puff of air, so a German ear hears d. Push a small burst of air after the t, like a whispered 'h': TʰANGK. A paper held in front of your mouth should move.",
+     "heardAforB": "You said Dank but it sounded like Tank: you added a puff of air. German d at the start has no breath after it: say it softly, like a French d."
+    },
+    {
+     "a": {
+      "w": "Teich",
+      "ipa": "/taɪ̯ç/",
+      "approx": "TʰAÏch'",
+      "fr": "l'étang",
+      "k": "6dc04640d640c4"
+     },
+     "b": {
+      "w": "Deich",
+      "ipa": "/daɪ̯ç/",
+      "approx": "DAÏch'",
+      "fr": "la digue",
+      "k": "61ad617b38a1cf"
+     },
+     "note": "Only t vs d.",
+     "heardBforA": "You said Teich but it sounded like Deich: your t had no puff of air, so a German ear hears d. Push a small burst of air after the t, like a whispered 'h': TʰAÏCH'. A paper held in front of your mouth should move.",
+     "heardAforB": "You said Deich but it sounded like Teich: you added a puff of air. German d at the start has no breath after it: say it softly, like a French d."
+    },
+    {
+     "a": {
+      "w": "Tier",
+      "ipa": "/tiːɐ̯/",
+      "approx": "TʰI:A",
+      "fr": "l'animal",
+      "k": "494adaa0f92503"
+     },
+     "b": {
+      "w": "dir",
+      "ipa": "/diːɐ̯/",
+      "approx": "DI:A",
+      "fr": "te, à toi",
+      "k": "eaf30be16114f2"
+     },
+     "note": "Only t vs d.",
+     "heardBforA": "You said Tier but it sounded like dir: your t had no puff of air, so a German ear hears d. Push a small burst of air after the t, like a whispered 'h': TʰI:A. A paper held in front of your mouth should move.",
+     "heardAforB": "You said dir but it sounded like Tier: you added a puff of air. German d at the start has no breath after it: say it softly, like a French d."
+    },
+    {
+     "a": {
+      "w": "Kasse",
+      "ipa": "/ˈkasə/",
+      "approx": "KʰAS-se",
+      "fr": "la caisse",
+      "k": "1e1410302c520b"
+     },
+     "b": {
+      "w": "Gasse",
+      "ipa": "/ˈɡasə/",
+      "approx": "GAS-se",
+      "fr": "la ruelle",
+      "k": "6ee1d1a028d20b"
+     },
+     "note": "Only k vs g. Gasse is common in Swiss old towns.",
+     "heardBforA": "You said Kasse but it sounded like Gasse: your k had no puff of air, so a German ear hears g. Push a small burst of air after the k, like a whispered 'h': KʰAS-se. A paper held in front of your mouth should move.",
+     "heardAforB": "You said Gasse but it sounded like Kasse: you added a puff of air. German g at the start has no breath after it: say it softly, like a French g."
+    },
+    {
+     "a": {
+      "w": "Kuss",
+      "ipa": "/kʊs/",
+      "approx": "KʰOUSS",
+      "fr": "le baiser",
+      "k": "d583378bc5eb58"
+     },
+     "b": {
+      "w": "Guss",
+      "ipa": "/ɡʊs/",
+      "approx": "GOUSS",
+      "fr": "l'averse, la fonte",
+      "k": "8c110cd55b0a2e"
+     },
+     "note": "Only k vs g.",
+     "heardBforA": "You said Kuss but it sounded like Guss: your k had no puff of air, so a German ear hears g. Push a small burst of air after the k, like a whispered 'h': KʰOUSS. A paper held in front of your mouth should move.",
+     "heardAforB": "You said Guss but it sounded like Kuss: you added a puff of air. German g at the start has no breath after it: say it softly, like a French g."
+    },
+    {
+     "a": {
+      "w": "Karten",
+      "ipa": "/ˈkaʁtən/",
+      "approx": "KʰAR-ten",
+      "fr": "les cartes, les billets",
+      "k": "b07cf60382f99a"
+     },
+     "b": {
+      "w": "Garten",
+      "ipa": "/ˈɡaʁtən/",
+      "approx": "GAR-ten",
+      "fr": "le jardin",
+      "k": "77c826cb04054b"
+     },
+     "note": "Only k vs g.",
+     "heardBforA": "You said Karten but it sounded like Garten: your k had no puff of air, so a German ear hears g. Push a small burst of air after the k, like a whispered 'h': KʰAR-ten. A paper held in front of your mouth should move.",
+     "heardAforB": "You said Garten but it sounded like Karten: you added a puff of air. German g at the start has no breath after it: say it softly, like a French g."
+    },
+    {
+     "a": {
+      "w": "Paar",
+      "ipa": "/paːɐ̯/",
+      "approx": "PʰA:A",
+      "fr": "la paire, le couple",
+      "k": "f8475ef78a58a7"
+     },
+     "b": {
+      "w": "Bar",
+      "ipa": "/baːɐ̯/",
+      "approx": "BA:A",
+      "fr": "le bar",
+      "k": "b015777bd25cfd"
+     },
+     "note": "Only p vs b.",
+     "heardBforA": "You said Paar but it sounded like Bar: your p had no puff of air, so a German ear hears b. Push a small burst of air after the p, like a whispered 'h': PʰA:A. A paper held in front of your mouth should move.",
+     "heardAforB": "You said Bar but it sounded like Paar: you added a puff of air. German b at the start has no breath after it: say it softly, like a French b."
+    },
+    {
+     "a": {
+      "w": "Kern",
+      "ipa": "/kɛʁn/",
+      "approx": "KʰÈRN",
+      "fr": "le noyau",
+      "k": "3eeb0d9312e128"
+     },
+     "b": {
+      "w": "gern",
+      "ipa": "/ɡɛʁn/",
+      "approx": "GUÈRN",
+      "fr": "volontiers",
+      "k": "f83a655b6f899f"
+     },
+     "note": "Only k vs g. gern is a top A1 word.",
+     "heardBforA": "You said Kern but it sounded like gern: your k had no puff of air, so a German ear hears g. Push a small burst of air after the k, like a whispered 'h': KʰÈRN. A paper held in front of your mouth should move.",
+     "heardAforB": "You said gern but it sounded like Kern: you added a puff of air. German g at the start has no breath after it: say it softly, like a French g."
+    }
+   ],
+   "words": [
+    {
+     "w": "Tee",
+     "ipa": "/teː/",
+     "approx": "TʰÉ:",
+     "fr": "le thé",
+     "k": "78f4c8207fb749"
+    },
+    {
+     "w": "Tag",
+     "ipa": "/taːk/",
+     "approx": "TʰA:K",
+     "fr": "le jour",
+     "k": "6c5a329b375db7"
+    },
+    {
+     "w": "Kaffee",
+     "ipa": "/ˈkafe/",
+     "approx": "KʰAF-fé",
+     "fr": "le café",
+     "k": "338e4fb4032ba6"
+    },
+    {
+     "w": "Kino",
+     "ipa": "/ˈkiːno/",
+     "approx": "KʰI:-no",
+     "fr": "le cinéma",
+     "k": "32f8806ca5927b"
+    },
+    {
+     "w": "Post",
+     "ipa": "/pɔst/",
+     "approx": "PʰOST",
+     "fr": "la poste",
+     "k": "2c5fa86c4a9940"
+    },
+    {
+     "w": "Papier",
+     "ipa": "/paˈpiːɐ̯/",
+     "approx": "pa-PʰI:A",
+     "fr": "le papier",
+     "k": "3ebfa3f61c7208"
+    },
+    {
+     "w": "Tennis",
+     "ipa": "/ˈtɛnɪs/",
+     "approx": "TʰÈN-nis",
+     "fr": "le tennis",
+     "k": "6e5bfe7b445721"
+    },
+    {
+     "w": "Kilo",
+     "ipa": "/ˈkiːlo/",
+     "approx": "KʰI:-lo",
+     "fr": "le kilo",
+     "k": "907860bbd3a0ac"
+    },
+    {
+     "w": "Kopf",
+     "ipa": "/kɔpf/",
+     "approx": "KʰOPF",
+     "fr": "la tête",
+     "k": "d65f8088831851"
+    },
+    {
+     "w": "Tante",
+     "ipa": "/ˈtantə/",
+     "approx": "TʰANN-te",
+     "fr": "la tante",
+     "k": "44f2faaa8259fd"
+    },
+    {
+     "w": "Preis",
+     "ipa": "/pʁaɪ̯s/",
+     "approx": "PʰRAÏS",
+     "fr": "le prix",
+     "k": "f0bc9d07ee15bf"
+    },
+    {
+     "w": "Computer",
+     "ipa": "/kɔmˈpjuːtɐ/",
+     "approx": "kom-PʰYOU:-ta",
+     "fr": "l'ordinateur",
+     "k": "94390f352c510b"
+    },
+    {
+     "w": "kalt",
+     "ipa": "/kalt/",
+     "approx": "KʰALT",
+     "fr": "froid",
+     "k": "45e6ac7808432d"
+    },
+    {
+     "w": "Tür",
+     "ipa": "/tyːɐ̯/",
+     "approx": "TʰU:A",
+     "fr": "la porte",
+     "k": "6211a71e890adf"
+    },
+    {
+     "w": "Sport",
+     "ipa": "/ʃpɔʁt/",
+     "approx": "CHPORT",
+     "fr": "le sport",
+     "note": "No puff after sch: Sport, Stadt, Straße.",
+     "k": "fae9b6c7d0e8b1"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Ich trinke gern Tee.",
+     "fr": "J'aime boire du thé.",
+     "focus": "aspirated t in trinke, Tee",
+     "k": "629825fff35f56"
+    },
+    {
+     "s": "Ich spiele Tennis im Park.",
+     "fr": "Je joue au tennis au parc.",
+     "focus": "aspirated t in Tennis, p in Park; no puff in spiele",
+     "k": "c3848d9558f42b"
+    },
+    {
+     "s": "Wo ist die Kasse?",
+     "fr": "Où est la caisse ?",
+     "focus": "aspirated k in Kasse",
+     "k": "4cacf28ccc8294"
+    },
+    {
+     "s": "Ich packe meinen Koffer.",
+     "fr": "Je fais ma valise.",
+     "focus": "aspirated p in packe, k in Koffer",
+     "k": "4d6e69fd44fb33"
+    },
+    {
+     "s": "Ein Kaffee kostet vier Franken.",
+     "fr": "Un café coûte quatre francs.",
+     "focus": "aspirated k in Kaffee, kostet",
+     "k": "faae257474d854"
+    },
+    {
+     "s": "Danke für die Karten.",
+     "fr": "Merci pour les billets.",
+     "focus": "d in Danke (no puff), k in Karten (puff)",
+     "k": "685d7c00b04f09"
+    }
+   ]
+  },
+  {
+   "id": "final-devoicing",
+   "title": "Final devoicing (Auslautverhärtung)",
+   "focus": "final devoicing",
+   "explain": "<p>At the <b>end of a word or syllable</b>, German <b>b, d, g</b> are pronounced <b>p, t, k</b>: <i>Tag</i> = TA:K, <i>Hund</i> = HOUNT, <i>gelb</i> = GUÈLP. French keeps them voiced (<i>bague, grande</i>), so French speakers say a soft d or g, often with a little e muet after it.</p><p>When an ending is added, the consonant moves into the next syllable and becomes voiced again: <i>Tag</i> (k) but <i>Tage</i> (g), <i>Hund</i> (t) but <i>Hunde</i> (d).</p><p>So some words are perfect homophones: <i>Rad</i> = <i>Rat</i>, <i>seid</i> = <i>seit</i>. Note: the recognizer usually still understands a voiced final, so listen to the model and copy the hard ending.</p>",
+   "howto": "<ol><li>At the end of a word, read b, d, g as p, t, k: no vibration in the throat (touch your throat to check).</li><li>Stop cleanly: no little vowel after the consonant (not <i>Tague</i>, just <i>TA:K</i>).</li><li>When an ending follows (<i>Tage, Hunde</i>), switch back to a soft, voiced b, d, g.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Rad",
+      "ipa": "/ʁaːt/",
+      "approx": "RA:T",
+      "fr": "la roue, le vélo",
+      "k": "8682a73df105bc"
+     },
+     "b": {
+      "w": "Rat",
+      "ipa": "/ʁaːt/",
+      "approx": "RA:T",
+      "fr": "le conseil",
+      "k": "30bfd1fff5479e"
+     },
+     "note": "Homophones: final d sounds exactly like t.",
+     "heardBforA": "Rad and Rat sound exactly the same in German, so this counts as correct. Context tells the listener which word you mean.",
+     "heardAforB": "Rad and Rat sound exactly the same in German, so this counts as correct. Context tells the listener which word you mean."
+    },
+    {
+     "a": {
+      "w": "Bund",
+      "ipa": "/bʊnt/",
+      "approx": "BOUNT",
+      "fr": "la fédération (en Suisse : la Confédération)",
+      "k": "a765417639b264"
+     },
+     "b": {
+      "w": "bunt",
+      "ipa": "/bʊnt/",
+      "approx": "BOUNT",
+      "fr": "coloré",
+      "k": "d9e37ce8cadd73"
+     },
+     "note": "Homophones: final d = t.",
+     "heardBforA": "Bund and bunt sound exactly the same in German, so this counts as correct. Context tells the listener which word you mean.",
+     "heardAforB": "Bund and bunt sound exactly the same in German, so this counts as correct. Context tells the listener which word you mean."
+    },
+    {
+     "a": {
+      "w": "Tod",
+      "ipa": "/toːt/",
+      "approx": "TʰO:T",
+      "fr": "la mort",
+      "k": "456d45c400f2fe"
+     },
+     "b": {
+      "w": "tot",
+      "ipa": "/toːt/",
+      "approx": "TʰO:T",
+      "fr": "mort (adjectif)",
+      "k": "7ea6ac9cdf8f39"
+     },
+     "note": "Homophones: final d = t.",
+     "heardBforA": "Tod and tot sound exactly the same in German, so this counts as correct. Context tells the listener which word you mean.",
+     "heardAforB": "Tod and tot sound exactly the same in German, so this counts as correct. Context tells the listener which word you mean."
+    },
+    {
+     "a": {
+      "w": "seid",
+      "ipa": "/zaɪ̯t/",
+      "approx": "ZAÏT",
+      "fr": "(vous) êtes",
+      "k": "4ff37014374158"
+     },
+     "b": {
+      "w": "seit",
+      "ipa": "/zaɪ̯t/",
+      "approx": "ZAÏT",
+      "fr": "depuis",
+      "k": "778a67712ce544"
+     },
+     "note": "Homophones: final d = t.",
+     "heardBforA": "seid and seit sound exactly the same in German, so this counts as correct. Context tells the listener which word you mean.",
+     "heardAforB": "seid and seit sound exactly the same in German, so this counts as correct. Context tells the listener which word you mean."
+    },
+    {
+     "a": {
+      "w": "Tag",
+      "ipa": "/taːk/",
+      "approx": "TʰA:K",
+      "fr": "le jour",
+      "k": "6c5a329b375db7"
+     },
+     "b": {
+      "w": "Tage",
+      "ipa": "/ˈtaːɡə/",
+      "approx": "TʰA:-gue",
+      "fr": "les jours",
+      "k": "6e3af59c34c9f3"
+     },
+     "note": "Alternation: k at the end, g before the ending.",
+     "heardBforA": "You said Tag but it was heard as Tage: you released the last consonant with a little vowel after it. End on a crisp, voiceless k and stop: TʰA:K.",
+     "heardAforB": "You said Tage but it was heard as Tag: the ending was swallowed. Pronounce it clearly: TʰA:-gue. Inside the word the consonant is voiced again."
+    },
+    {
+     "a": {
+      "w": "Hund",
+      "ipa": "/hʊnt/",
+      "approx": "HOUNT",
+      "fr": "le chien",
+      "k": "ab06c76e439a61"
+     },
+     "b": {
+      "w": "Hunde",
+      "ipa": "/ˈhʊndə/",
+      "approx": "HOUN-de",
+      "fr": "les chiens",
+      "k": "be58c51312b57c"
+     },
+     "note": "Alternation: t at the end, d before the ending.",
+     "heardBforA": "You said Hund but it was heard as Hunde: you released the last consonant with a little vowel after it. End on a crisp, voiceless t and stop: HOUNT.",
+     "heardAforB": "You said Hunde but it was heard as Hund: the ending was swallowed. Pronounce it clearly: HOUN-de. Inside the word the consonant is voiced again."
+    },
+    {
+     "a": {
+      "w": "Kind",
+      "ipa": "/kɪnt/",
+      "approx": "KʰINT",
+      "fr": "l'enfant",
+      "k": "2254a1f26e28cf"
+     },
+     "b": {
+      "w": "Kinder",
+      "ipa": "/ˈkɪndɐ/",
+      "approx": "KʰIN-da",
+      "fr": "les enfants",
+      "k": "fb108124ec6012"
+     },
+     "note": "Alternation: t at the end, d before the ending.",
+     "heardBforA": "You said Kind but it was heard as Kinder: you released the last consonant with a little vowel after it. End on a crisp, voiceless t and stop: KʰINT.",
+     "heardAforB": "You said Kinder but it was heard as Kind: the ending was swallowed. Pronounce it clearly: KʰIN-da. Inside the word the consonant is voiced again."
+    },
+    {
+     "a": {
+      "w": "gelb",
+      "ipa": "/ɡɛlp/",
+      "approx": "GUÈLP",
+      "fr": "jaune",
+      "k": "90b69d9e99ac4a"
+     },
+     "b": {
+      "w": "gelbe",
+      "ipa": "/ˈɡɛlbə/",
+      "approx": "GUÈL-be",
+      "fr": "jaune (forme fléchie)",
+      "k": "a12683880e56ed"
+     },
+     "note": "Alternation: p at the end, b before the ending.",
+     "heardBforA": "You said gelb but it was heard as gelbe: you released the last consonant with a little vowel after it. End on a crisp, voiceless p and stop: GUÈLP.",
+     "heardAforB": "You said gelbe but it was heard as gelb: the ending was swallowed. Pronounce it clearly: GUÈL-be. Inside the word the consonant is voiced again."
+    },
+    {
+     "a": {
+      "w": "lieb",
+      "ipa": "/liːp/",
+      "approx": "LI:P",
+      "fr": "gentil",
+      "k": "959c79a3b16f6c"
+     },
+     "b": {
+      "w": "lieben",
+      "ipa": "/ˈliːbən/",
+      "approx": "LI:-ben",
+      "fr": "aimer",
+      "k": "83ef077cae670d"
+     },
+     "note": "Alternation: p at the end, b before the ending.",
+     "heardBforA": "You said lieb but it was heard as lieben: you released the last consonant with a little vowel after it. End on a crisp, voiceless p and stop: LI:P.",
+     "heardAforB": "You said lieben but it was heard as lieb: the ending was swallowed. Pronounce it clearly: LI:-ben. Inside the word the consonant is voiced again."
+    },
+    {
+     "a": {
+      "w": "Zug",
+      "ipa": "/tsuːk/",
+      "approx": "TSOU:K",
+      "fr": "le train",
+      "k": "9840c7a000fb2c"
+     },
+     "b": {
+      "w": "Züge",
+      "ipa": "/ˈtsyːɡə/",
+      "approx": "TSU:-gue",
+      "fr": "les trains",
+      "k": "a7a7410b3d13d8"
+     },
+     "note": "Alternation: k at the end, g before the ending (and u becomes ü).",
+     "heardBforA": "You said Zug but it was heard as Züge: you released the last consonant with a little vowel after it. End on a crisp, voiceless k and stop: TSOU:K.",
+     "heardAforB": "You said Züge but it was heard as Zug: the ending was swallowed. Pronounce it clearly: TSU:-gue. Inside the word the consonant is voiced again."
+    },
+    {
+     "a": {
+      "w": "Berg",
+      "ipa": "/bɛʁk/",
+      "approx": "BÈRK",
+      "fr": "la montagne",
+      "k": "d33d95b3b6f770"
+     },
+     "b": {
+      "w": "Berge",
+      "ipa": "/ˈbɛʁɡə/",
+      "approx": "BÈR-gue",
+      "fr": "les montagnes",
+      "k": "9bd8752f1b5458"
+     },
+     "note": "Alternation: k at the end, g before the ending.",
+     "heardBforA": "You said Berg but it was heard as Berge: you released the last consonant with a little vowel after it. End on a crisp, voiceless k and stop: BÈRK.",
+     "heardAforB": "You said Berge but it was heard as Berg: the ending was swallowed. Pronounce it clearly: BÈR-gue. Inside the word the consonant is voiced again."
+    },
+    {
+     "a": {
+      "w": "Abend",
+      "ipa": "/ˈaːbənt/",
+      "approx": "A:-bent",
+      "fr": "le soir",
+      "k": "a675f1ed234f77"
+     },
+     "b": {
+      "w": "Abende",
+      "ipa": "/ˈaːbəndə/",
+      "approx": "A:-ben-de",
+      "fr": "les soirs",
+      "k": "403621b7426636"
+     },
+     "note": "Alternation: t at the end, d before the ending.",
+     "heardBforA": "You said Abend but it was heard as Abende: you released the last consonant with a little vowel after it. End on a crisp, voiceless t and stop: A:-bent.",
+     "heardAforB": "You said Abende but it was heard as Abend: the ending was swallowed. Pronounce it clearly: A:-ben-de. Inside the word the consonant is voiced again."
+    }
+   ],
+   "words": [
+    {
+     "w": "Tag",
+     "ipa": "/taːk/",
+     "approx": "TʰA:K",
+     "fr": "le jour",
+     "k": "6c5a329b375db7"
+    },
+    {
+     "w": "Hund",
+     "ipa": "/hʊnt/",
+     "approx": "HOUNT",
+     "fr": "le chien",
+     "k": "ab06c76e439a61"
+    },
+    {
+     "w": "Kind",
+     "ipa": "/kɪnt/",
+     "approx": "KʰINT",
+     "fr": "l'enfant",
+     "k": "2254a1f26e28cf"
+    },
+    {
+     "w": "gelb",
+     "ipa": "/ɡɛlp/",
+     "approx": "GUÈLP",
+     "fr": "jaune",
+     "k": "90b69d9e99ac4a"
+    },
+    {
+     "w": "Zug",
+     "ipa": "/tsuːk/",
+     "approx": "TSOU:K",
+     "fr": "le train",
+     "k": "9840c7a000fb2c"
+    },
+    {
+     "w": "Berg",
+     "ipa": "/bɛʁk/",
+     "approx": "BÈRK",
+     "fr": "la montagne",
+     "k": "d33d95b3b6f770"
+    },
+    {
+     "w": "Abend",
+     "ipa": "/ˈaːbənt/",
+     "approx": "A:-bent",
+     "fr": "le soir",
+     "k": "a675f1ed234f77"
+    },
+    {
+     "w": "Geld",
+     "ipa": "/ɡɛlt/",
+     "approx": "GUÈLT",
+     "fr": "l'argent",
+     "k": "5c585fae56f623"
+    },
+    {
+     "w": "Bad",
+     "ipa": "/baːt/",
+     "approx": "BA:T",
+     "fr": "la salle de bain",
+     "k": "504efa8d49eb59"
+    },
+    {
+     "w": "und",
+     "ipa": "/ʊnt/",
+     "approx": "OUNT",
+     "fr": "et",
+     "k": "6c7d79dc753827"
+    },
+    {
+     "w": "Freund",
+     "ipa": "/fʁɔʏ̯nt/",
+     "approx": "FROÏNT",
+     "fr": "l'ami",
+     "k": "56d5f486eba908"
+    },
+    {
+     "w": "halb",
+     "ipa": "/halp/",
+     "approx": "HALP",
+     "fr": "demi",
+     "k": "de84ab5ec9fcff"
+    },
+    {
+     "w": "Flug",
+     "ipa": "/fluːk/",
+     "approx": "FLOU:K",
+     "fr": "le vol",
+     "k": "24a2c018e73d89"
+    },
+    {
+     "w": "Wald",
+     "ipa": "/valt/",
+     "approx": "VALT",
+     "fr": "la forêt",
+     "k": "47521108e22792"
+    },
+    {
+     "w": "mag",
+     "ipa": "/maːk/",
+     "approx": "MA:K",
+     "fr": "(j')aime bien",
+     "k": "9a6f72ec8a5cdc"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Der Hund ist lieb.",
+     "fr": "Le chien est gentil.",
+     "focus": "t in Hund, p in lieb",
+     "k": "ce53e059410f57"
+    },
+    {
+     "s": "Ich habe einen Freund in Genf.",
+     "fr": "J'ai un ami à Genève.",
+     "focus": "t in Freund",
+     "k": "958c2b9c345b0b"
+    },
+    {
+     "s": "Am Abend nehme ich den Zug.",
+     "fr": "Le soir, je prends le train.",
+     "focus": "t in Abend, k in Zug",
+     "k": "6305ccf16f5bcd"
+    },
+    {
+     "s": "Das Kind hat ein gelbes Rad.",
+     "fr": "L'enfant a un vélo jaune.",
+     "focus": "t in Kind, Rad; b voiced in gelbes",
+     "k": "66391e30b57fe7"
+    },
+    {
+     "s": "Ich gehe jeden Tag ins Fitnessstudio.",
+     "fr": "Je vais tous les jours à la salle de sport.",
+     "focus": "k in Tag",
+     "k": "e34d7ebd090167"
+    }
+   ]
+  },
+  {
+   "id": "vocalized-r",
+   "title": "Vocalized r and the -er ending",
+   "focus": "vocalized r",
+   "explain": "<p>After a vowel, German <b>r</b> is usually not a consonant at all: it becomes a light <b>a</b>-like vowel. <i>vier</i> = FI:A, <i>Uhr</i> = OU:A, <i>hier</i> = HI:A.</p><p>The ending <b>-er</b> becomes a short, open <b>a</b> [ɐ]: <i>Lehrer</i> = LÉ:-ra, <i>Mutter</i> = MOUT-ta. French speakers tend to read it as <i>-ère</i> with a full r (<i>Lehrère</i>), or as an e muet, which turns <i>bitter</i> into <i>bitte</i>.</p><p>The ending <b>-e</b> stays a weak e muet. So <i>-e</i> vs <i>-er</i> is a real contrast: <i>Miete</i> (rent) vs <i>Mieter</i> (tenant).</p>",
+   "howto": "<ol><li>For -e: barely say a French <i>e</i> as in <i>le</i>, jaw almost closed.</li><li>For -er: drop the jaw a little and say a short, light <i>a</i>, without any r friction.</li><li>For r after a long vowel (<i>vier, Uhr</i>): hold the vowel, then glide into a soft <i>a</i>.</li><li>Before a vowel (<i>Lehrer</i>: the first r), keep your normal French r.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "bitte",
+      "ipa": "/ˈbɪtə/",
+      "approx": "BIT-te",
+      "fr": "s'il te plaît",
+      "k": "44637eb62d722a"
+     },
+     "b": {
+      "w": "bitter",
+      "ipa": "/ˈbɪtɐ/",
+      "approx": "BIT-ta",
+      "fr": "amer",
+      "k": "3d21ad33950ae3"
+     },
+     "note": "Only the final vowel differs: e muet vs light a.",
+     "heardBforA": "You said bitte but it sounded like bitter: the end was too open. Keep the final e very weak, like the French e in 'le', and do not add any r.",
+     "heardAforB": "You said bitter but it sounded like bitte: your -er sounded like a weak e muet. Open the mouth into a short, light 'a': BIT-ta. Do not roll or rub an r at the end."
+    },
+    {
+     "a": {
+      "w": "Lehre",
+      "ipa": "/ˈleːʁə/",
+      "approx": "LÉ:-re",
+      "fr": "l'apprentissage",
+      "k": "7c0bb673fd4af2"
+     },
+     "b": {
+      "w": "Lehrer",
+      "ipa": "/ˈleːʁɐ/",
+      "approx": "LÉ:-ra",
+      "fr": "le professeur",
+      "k": "2146076722fb5b"
+     },
+     "note": "Only the ending differs.",
+     "heardBforA": "You said Lehre but it sounded like Lehrer: the end was too open. Keep the final e very weak, like the French e in 'le', and do not add any r.",
+     "heardAforB": "You said Lehrer but it sounded like Lehre: your -er sounded like a weak e muet. Open the mouth into a short, light 'a': LÉ:-ra. Do not roll or rub an r at the end."
+    },
+    {
+     "a": {
+      "w": "Miete",
+      "ipa": "/ˈmiːtə/",
+      "approx": "MI:-te",
+      "fr": "le loyer",
+      "k": "b5acf64c43b89d"
+     },
+     "b": {
+      "w": "Mieter",
+      "ipa": "/ˈmiːtɐ/",
+      "approx": "MI:-ta",
+      "fr": "le locataire",
+      "k": "a25104b2be030c"
+     },
+     "note": "Only the ending differs.",
+     "heardBforA": "You said Miete but it sounded like Mieter: the end was too open. Keep the final e very weak, like the French e in 'le', and do not add any r.",
+     "heardAforB": "You said Mieter but it sounded like Miete: your -er sounded like a weak e muet. Open the mouth into a short, light 'a': MI:-ta. Do not roll or rub an r at the end."
+    },
+    {
+     "a": {
+      "w": "wunde",
+      "ipa": "/ˈvʊndə/",
+      "approx": "VOUN-de",
+      "fr": "blessée, endolorie (forme fléchie)",
+      "k": "c319a2663d46b3"
+     },
+     "b": {
+      "w": "Wunder",
+      "ipa": "/ˈvʊndɐ/",
+      "approx": "VOUN-da",
+      "fr": "le miracle",
+      "k": "7afb5e8af1902e"
+     },
+     "note": "Only the ending differs.",
+     "heardBforA": "You said wunde but it sounded like Wunder: the end was too open. Keep the final e very weak, like the French e in 'le', and do not add any r.",
+     "heardAforB": "You said Wunder but it sounded like wunde: your -er sounded like a weak e muet. Open the mouth into a short, light 'a': VOUN-da. Do not roll or rub an r at the end."
+    },
+    {
+     "a": {
+      "w": "Fähre",
+      "ipa": "/ˈfɛːʁə/",
+      "approx": "FÈ:-re",
+      "fr": "le ferry",
+      "k": "c4acd60c5f091f"
+     },
+     "b": {
+      "w": "Fahrer",
+      "ipa": "/ˈfaːʁɐ/",
+      "approx": "FA:-ra",
+      "fr": "le conducteur",
+      "k": "25d54a1f66cb56"
+     },
+     "note": "Near-minimal: the first vowel is also different (long è vs long a).",
+     "heardBforA": "You said Fähre but it sounded like Fahrer: the end was too open and your first vowel drifted to 'a'. Start with a long open 'è' (FÈ:), keep the final e very weak like the French e in 'le', and do not add any r.",
+     "heardAforB": "You said Fahrer but it sounded like Fähre: your -er sounded like a weak e muet and your first vowel drifted to 'è'. Say a long, open 'a', then a short, light 'a' at the end: FA:-ra. Do not roll or rub an r at the end."
+    },
+    {
+     "a": {
+      "w": "Wette",
+      "ipa": "/ˈvɛtə/",
+      "approx": "VÈT-te",
+      "fr": "le pari",
+      "k": "fc10e8d41f3d0c"
+     },
+     "b": {
+      "w": "Wetter",
+      "ipa": "/ˈvɛtɐ/",
+      "approx": "VÈT-ta",
+      "fr": "le temps (météo)",
+      "k": "ca7e61f8a931c7"
+     },
+     "note": "Only the ending differs. Wetter is a key small-talk word.",
+     "heardBforA": "You said Wette but it sounded like Wetter: the end was too open. Keep the final e very weak, like the French e in 'le', and do not add any r.",
+     "heardAforB": "You said Wetter but it sounded like Wette: your -er sounded like a weak e muet. Open the mouth into a short, light 'a': VÈT-ta. Do not roll or rub an r at the end."
+    },
+    {
+     "a": {
+      "w": "leise",
+      "ipa": "/ˈlaɪ̯zə/",
+      "approx": "LAÏ-ze",
+      "fr": "doucement, à voix basse",
+      "k": "a06bb39af7e5c3"
+     },
+     "b": {
+      "w": "leiser",
+      "ipa": "/ˈlaɪ̯zɐ/",
+      "approx": "LAÏ-za",
+      "fr": "plus bas, moins fort",
+      "k": "b7f35b556e2fdd"
+     },
+     "note": "Only the ending differs.",
+     "heardBforA": "You said leise but it sounded like leiser: the end was too open. Keep the final e very weak, like the French e in 'le', and do not add any r.",
+     "heardAforB": "You said leiser but it sounded like leise: your -er sounded like a weak e muet. Open the mouth into a short, light 'a': LAÏ-za. Do not roll or rub an r at the end."
+    }
+   ],
+   "words": [
+    {
+     "w": "Uhr",
+     "ipa": "/uːɐ̯/",
+     "approx": "OU:A",
+     "fr": "l'heure, la montre",
+     "k": "83cd16665ba8c6"
+    },
+    {
+     "w": "Tür",
+     "ipa": "/tyːɐ̯/",
+     "approx": "TʰU:A",
+     "fr": "la porte",
+     "k": "6211a71e890adf"
+    },
+    {
+     "w": "Bier",
+     "ipa": "/biːɐ̯/",
+     "approx": "BI:A",
+     "fr": "la bière",
+     "k": "1128b89b2202fe"
+    },
+    {
+     "w": "hier",
+     "ipa": "/hiːɐ̯/",
+     "approx": "HI:A",
+     "fr": "ici",
+     "k": "4810d379a31388"
+    },
+    {
+     "w": "mehr",
+     "ipa": "/meːɐ̯/",
+     "approx": "MÉ:A",
+     "fr": "plus",
+     "k": "b3432649eb6dad"
+    },
+    {
+     "w": "Jahr",
+     "ipa": "/jaːɐ̯/",
+     "approx": "YA:A",
+     "fr": "l'année",
+     "k": "2f8cb51c1a55bb"
+    },
+    {
+     "w": "sehr",
+     "ipa": "/zeːɐ̯/",
+     "approx": "ZÉ:A",
+     "fr": "très",
+     "k": "444c9ae6d34d24"
+    },
+    {
+     "w": "der",
+     "ipa": "/deːɐ̯/",
+     "approx": "DÉ:A",
+     "fr": "le (article)",
+     "k": "1aca905df03191"
+    },
+    {
+     "w": "wir",
+     "ipa": "/viːɐ̯/",
+     "approx": "VI:A",
+     "fr": "nous",
+     "k": "2869daa1b38147"
+    },
+    {
+     "w": "vier",
+     "ipa": "/fiːɐ̯/",
+     "approx": "FI:A",
+     "fr": "quatre",
+     "k": "0e5aa1cf2d174d"
+    },
+    {
+     "w": "Lehrer",
+     "ipa": "/ˈleːʁɐ/",
+     "approx": "LÉ:-ra",
+     "fr": "le professeur",
+     "k": "2146076722fb5b"
+    },
+    {
+     "w": "Mutter",
+     "ipa": "/ˈmʊtɐ/",
+     "approx": "MOUT-ta",
+     "fr": "la mère",
+     "k": "562f89fbc88c63"
+    },
+    {
+     "w": "Vater",
+     "ipa": "/ˈfaːtɐ/",
+     "approx": "FA:-ta",
+     "fr": "le père",
+     "k": "0d688d0141e510"
+    },
+    {
+     "w": "Schwester",
+     "ipa": "/ˈʃvɛstɐ/",
+     "approx": "CHVÈS-ta",
+     "fr": "la sœur",
+     "k": "6e5bc7a20e5159"
+    },
+    {
+     "w": "Computer",
+     "ipa": "/kɔmˈpjuːtɐ/",
+     "approx": "kom-PʰYOU:-ta",
+     "fr": "l'ordinateur",
+     "k": "94390f352c510b"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Wir trinken hier ein Bier.",
+     "fr": "Nous buvons une bière ici.",
+     "focus": "vocalized r in wir, hier, Bier",
+     "k": "368609c83b6150"
+    },
+    {
+     "s": "Das Wetter ist sehr gut.",
+     "fr": "Il fait très beau.",
+     "focus": "-er in Wetter, r in sehr",
+     "k": "a03887cc9ab89a"
+    },
+    {
+     "s": "Meine Schwester ist Lehrerin.",
+     "fr": "Ma sœur est enseignante.",
+     "focus": "-er in Schwester; Lehrerin keeps a consonant r before -in",
+     "k": "813050981a7261"
+    },
+    {
+     "s": "Um vier Uhr kommt mein Vater.",
+     "fr": "Mon père arrive à quatre heures.",
+     "focus": "vier, Uhr, Vater",
+     "k": "95c269c1e4182f"
+    },
+    {
+     "s": "Mein Bruder arbeitet am Computer.",
+     "fr": "Mon frère travaille sur l'ordinateur.",
+     "focus": "-er in Bruder, Computer",
+     "k": "4c392cc8f6344d"
+    },
+    {
+     "s": "Der Kaffee ist bitter. Milch, bitte!",
+     "fr": "Le café est amer. Du lait, s'il vous plaît !",
+     "focus": "bitter vs bitte, -ee in Kaffee",
+     "k": "3348cc74babb3c"
+    }
+   ]
+  },
+  {
+   "id": "h-sound",
+   "title": "The German h",
+   "focus": "h",
+   "explain": "<p>In French, <b>h</b> is never pronounced. In German, <b>h at the start of a word or syllable</b> is always breathed out, like fogging up a mirror: <i>Haus</i>, <i>Hund</i>, <i>hier</i>. Without it, <i>Haus</i> becomes <i>aus</i> and <i>Hund</i> becomes <i>und</i>.</p><p>Some French speakers then overcorrect and add h to words starting with a vowel (<i>Hende</i> for <i>Ende</i>).</p><p>Important: <b>h after a vowel is silent</b>. It only shows that the vowel is long: <i>sehr</i> = ZÉ:A, <i>gehen</i> = GUÉ:-en, <i>Uhr</i> = OU:A, <i>fahren</i> = FA:-ren.</p>",
+   "howto": "<ol><li>Open your mouth for the vowel, then breathe out through it before the vowel starts: <i>h-aus</i>.</li><li>The h is pure breath: no friction in the throat (not the ach-Laut, not a French r).</li><li>For words with a vowel start (<i>aus, und, Ende</i>), begin the vowel crisply with no breath.</li><li>Inside words after a vowel (<i>gehen, sehr</i>), ignore the h and lengthen the vowel.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Haus",
+      "ipa": "/haʊ̯s/",
+      "approx": "HAOUS",
+      "fr": "la maison",
+      "k": "49f607a709d0f0"
+     },
+     "b": {
+      "w": "aus",
+      "ipa": "/aʊ̯s/",
+      "approx": "AOUS",
+      "fr": "de, hors de",
+      "k": "90ad73d01ac986"
+     },
+     "note": "Only the h differs.",
+     "heardBforA": "You said Haus but it sounded like aus: your h was silent, as in French 'homme'. Breathe out audibly before the vowel, as if fogging up a mirror: HAOUS.",
+     "heardAforB": "You said aus but it sounded like Haus: you added an h. Start the vowel cleanly, with no breath before it, like a surprised 'oh!'."
+    },
+    {
+     "a": {
+      "w": "Hund",
+      "ipa": "/hʊnt/",
+      "approx": "HOUNT",
+      "fr": "le chien",
+      "k": "ab06c76e439a61"
+     },
+     "b": {
+      "w": "und",
+      "ipa": "/ʊnt/",
+      "approx": "OUNT",
+      "fr": "et",
+      "k": "6c7d79dc753827"
+     },
+     "note": "Only the h differs.",
+     "heardBforA": "You said Hund but it sounded like und: your h was silent, as in French 'homme'. Breathe out audibly before the vowel, as if fogging up a mirror: HOUNT.",
+     "heardAforB": "You said und but it sounded like Hund: you added an h. Start the vowel cleanly, with no breath before it, like a surprised 'oh!'."
+    },
+    {
+     "a": {
+      "w": "hier",
+      "ipa": "/hiːɐ̯/",
+      "approx": "HI:A",
+      "fr": "ici",
+      "k": "4810d379a31388"
+     },
+     "b": {
+      "w": "ihr",
+      "ipa": "/iːɐ̯/",
+      "approx": "I:A",
+      "fr": "vous (tutoiement pluriel)",
+      "k": "bed7bdc0d0e20f"
+     },
+     "note": "Only the h differs (the h in ihr is silent).",
+     "heardBforA": "You said hier but it sounded like ihr: your h was silent, as in French 'homme'. Breathe out audibly before the vowel, as if fogging up a mirror: HI:A.",
+     "heardAforB": "You said ihr but it sounded like hier: you added an h. Start the vowel cleanly, with no breath before it, like a surprised 'oh!'."
+    },
+    {
+     "a": {
+      "w": "Hecke",
+      "ipa": "/ˈhɛkə/",
+      "approx": "HÈK-ke",
+      "fr": "la haie",
+      "k": "22079d2a7ed327"
+     },
+     "b": {
+      "w": "Ecke",
+      "ipa": "/ˈɛkə/",
+      "approx": "ÈK-ke",
+      "fr": "le coin",
+      "k": "237b4318fe3809"
+     },
+     "note": "Only the h differs.",
+     "heardBforA": "You said Hecke but it sounded like Ecke: your h was silent, as in French 'homme'. Breathe out audibly before the vowel, as if fogging up a mirror: HÈK-ke.",
+     "heardAforB": "You said Ecke but it sounded like Hecke: you added an h. Start the vowel cleanly, with no breath before it, like a surprised 'oh!'."
+    },
+    {
+     "a": {
+      "w": "halt",
+      "ipa": "/halt/",
+      "approx": "HALT",
+      "fr": "stop, simplement",
+      "k": "1a6c1e59a90066"
+     },
+     "b": {
+      "w": "alt",
+      "ipa": "/alt/",
+      "approx": "ALT",
+      "fr": "vieux",
+      "k": "a68ca5508e4e70"
+     },
+     "note": "Only the h differs.",
+     "heardBforA": "You said halt but it sounded like alt: your h was silent, as in French 'homme'. Breathe out audibly before the vowel, as if fogging up a mirror: HALT.",
+     "heardAforB": "You said alt but it sounded like halt: you added an h. Start the vowel cleanly, with no breath before it, like a surprised 'oh!'."
+    },
+    {
+     "a": {
+      "w": "hoffen",
+      "ipa": "/ˈhɔfən/",
+      "approx": "HOF-fen",
+      "fr": "espérer",
+      "k": "9f0a4f53035a33"
+     },
+     "b": {
+      "w": "offen",
+      "ipa": "/ˈɔfən/",
+      "approx": "OF-fen",
+      "fr": "ouvert",
+      "k": "de01a0522e671c"
+     },
+     "note": "Only the h differs.",
+     "heardBforA": "You said hoffen but it sounded like offen: your h was silent, as in French 'homme'. Breathe out audibly before the vowel, as if fogging up a mirror: HOF-fen.",
+     "heardAforB": "You said offen but it sounded like hoffen: you added an h. Start the vowel cleanly, with no breath before it, like a surprised 'oh!'."
+    },
+    {
+     "a": {
+      "w": "Hände",
+      "ipa": "/ˈhɛndə/",
+      "approx": "HÈN-de",
+      "fr": "les mains",
+      "k": "73e509890efc5c"
+     },
+     "b": {
+      "w": "Ende",
+      "ipa": "/ˈɛndə/",
+      "approx": "ÈN-de",
+      "fr": "la fin",
+      "k": "c2f00796d335bf"
+     },
+     "note": "Only the h differs (ä and e sound the same here).",
+     "heardBforA": "You said Hände but it sounded like Ende: your h was silent, as in French 'homme'. Breathe out audibly before the vowel, as if fogging up a mirror: HÈN-de.",
+     "heardAforB": "You said Ende but it sounded like Hände: you added an h. Start the vowel cleanly, with no breath before it, like a surprised 'oh!'."
+    }
+   ],
+   "words": [
+    {
+     "w": "Hallo",
+     "ipa": "/haˈloː/",
+     "approx": "ha-LO:",
+     "fr": "bonjour, salut",
+     "k": "2bf19b3f9e497c"
+    },
+    {
+     "w": "haben",
+     "ipa": "/ˈhaːbən/",
+     "approx": "HA:-ben",
+     "fr": "avoir",
+     "k": "1105f2378dd562"
+    },
+    {
+     "w": "heute",
+     "ipa": "/ˈhɔʏ̯tə/",
+     "approx": "HOÏ-te",
+     "fr": "aujourd'hui",
+     "k": "403add73080c2c"
+    },
+    {
+     "w": "heißen",
+     "ipa": "/ˈhaɪ̯sən/",
+     "approx": "HAÏ-ssen",
+     "fr": "s'appeler",
+     "k": "2942c651077553"
+    },
+    {
+     "w": "Hotel",
+     "ipa": "/hoˈtɛl/",
+     "approx": "ho-TÈL",
+     "fr": "l'hôtel",
+     "k": "f5e407dfd73e86"
+    },
+    {
+     "w": "hören",
+     "ipa": "/ˈhøːʁən/",
+     "approx": "HEU:-ren",
+     "fr": "entendre, écouter",
+     "k": "5b27075d0eb47f"
+    },
+    {
+     "w": "Herbst",
+     "ipa": "/hɛʁpst/",
+     "approx": "HÈRPST",
+     "fr": "l'automne",
+     "k": "a00a7f4a7e48ca"
+    },
+    {
+     "w": "helfen",
+     "ipa": "/ˈhɛlfən/",
+     "approx": "HÈL-fen",
+     "fr": "aider",
+     "k": "5fac7d6502bcbc"
+    },
+    {
+     "w": "Hand",
+     "ipa": "/hant/",
+     "approx": "HANNT",
+     "fr": "la main",
+     "k": "4eb0c855503348"
+    },
+    {
+     "w": "sehr",
+     "ipa": "/zeːɐ̯/",
+     "approx": "ZÉ:A",
+     "fr": "très",
+     "note": "Silent h: it only makes the e long.",
+     "k": "444c9ae6d34d24"
+    },
+    {
+     "w": "gehen",
+     "ipa": "/ˈɡeːən/",
+     "approx": "GUÉ:-en",
+     "fr": "aller",
+     "note": "Silent h between vowels.",
+     "k": "7e1b851d855009"
+    },
+    {
+     "w": "Uhr",
+     "ipa": "/uːɐ̯/",
+     "approx": "OU:A",
+     "fr": "l'heure",
+     "note": "Silent h: long u.",
+     "k": "83cd16665ba8c6"
+    },
+    {
+     "w": "fahren",
+     "ipa": "/ˈfaːʁən/",
+     "approx": "FA:-ren",
+     "fr": "aller (en véhicule)",
+     "note": "Silent h: long a.",
+     "k": "017044d15116d0"
+    },
+    {
+     "w": "wohnen",
+     "ipa": "/ˈvoːnən/",
+     "approx": "VO:-nen",
+     "fr": "habiter",
+     "note": "Silent h: long o.",
+     "k": "865f4b5bd9dd18"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Hallo, ich heiße Alexandre.",
+     "fr": "Salut, je m'appelle Alexandre.",
+     "focus": "h in Hallo, heiße",
+     "k": "8231e9ff35764b"
+    },
+    {
+     "s": "Ich habe heute keine Zeit.",
+     "fr": "Je n'ai pas le temps aujourd'hui.",
+     "focus": "h in habe, heute",
+     "k": "2442411df6ef20"
+    },
+    {
+     "s": "Der Hund ist im Haus.",
+     "fr": "Le chien est dans la maison.",
+     "focus": "h in Hund, Haus",
+     "k": "e51bb559f76319"
+    },
+    {
+     "s": "Ich gehe nach Hause.",
+     "fr": "Je rentre à la maison.",
+     "focus": "silent h in gehe, breathed h in Hause",
+     "k": "7fd5171e33fd58"
+    },
+    {
+     "s": "Ich hoffe, die Bank ist offen.",
+     "fr": "J'espère que la banque est ouverte.",
+     "focus": "hoffe vs offen",
+     "k": "403122c3d6c0ea"
+    },
+    {
+     "s": "Wir sehen uns um acht Uhr.",
+     "fr": "On se voit à huit heures.",
+     "focus": "silent h in sehen, Uhr",
+     "k": "835f47c2fdaaa3"
+    }
+   ]
+  },
+  {
+   "id": "ue-ui-oe",
+   "title": "ü and ö vs i, u, o, e",
+   "focus": "ü / ö",
+   "explain": "<p>This is your <b>French advantage</b>: German <b>ü</b> is French <i>u</i> (<i>tu</i>), German <b>ö</b> is French <i>eu</i> (<i>deux, peur</i>). English and Spanish speakers struggle here; you do not.</p><p>But there are two traps:</p><ul><li><b>Spelling trap</b>: German <b>u</b> is French <b>ou</b>. If you read <i>Mutter</i> the French way, you say <i>Mütter</i> (mothers).</li><li><b>Plurals</b>: many plurals add an umlaut (<i>Bruder, Brüder</i>; <i>Tochter, Töchter</i>). Make the umlaut clearly audible, or the plural disappears.</li></ul><p>Also keep i (spread lips) and ü (rounded lips) apart: <i>vier</i> vs <i>für</i>.</p>",
+   "howto": "<ol><li>German u = French <i>ou</i>. German ü = French <i>u</i>. Never mix them.</li><li>German long o = French <i>ô</i> (<i>eau</i>), short o = <i>o</i> of <i>porte</i>. German ö = French <i>eu</i> (long: <i>deux</i>, short: <i>peur</i>).</li><li>i vs ü: same tongue position; only the lips change, spread for i, rounded for ü.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "vier",
+      "ipa": "/fiːɐ̯/",
+      "approx": "FI:A",
+      "fr": "quatre",
+      "k": "0e5aa1cf2d174d"
+     },
+     "b": {
+      "w": "für",
+      "ipa": "/fyːɐ̯/",
+      "approx": "FU:A",
+      "fr": "pour",
+      "k": "0e6b911bc49d5e"
+     },
+     "note": "Same tongue, only the lips change.",
+     "heardBforA": "You said vier but it sounded like für: your lips were rounded. For i keep a wide smile, lips spread.",
+     "heardAforB": "You said für but it sounded like vier: your lips were spread. For ü say French 'u' as in 'tu': lips pushed forward and rounded."
+    },
+    {
+     "a": {
+      "w": "Tier",
+      "ipa": "/tiːɐ̯/",
+      "approx": "TʰI:A",
+      "fr": "l'animal",
+      "k": "494adaa0f92503"
+     },
+     "b": {
+      "w": "Tür",
+      "ipa": "/tyːɐ̯/",
+      "approx": "TʰU:A",
+      "fr": "la porte",
+      "k": "6211a71e890adf"
+     },
+     "note": "Same tongue, only the lips change.",
+     "heardBforA": "You said Tier but it sounded like Tür: your lips were rounded. For i keep a wide smile, lips spread.",
+     "heardAforB": "You said Tür but it sounded like Tier: your lips were spread. For ü say French 'u' as in 'tu': lips pushed forward and rounded."
+    },
+    {
+     "a": {
+      "w": "Kiste",
+      "ipa": "/ˈkɪstə/",
+      "approx": "KʰIS-te",
+      "fr": "la caisse, la boîte",
+      "k": "083cca2e93964b"
+     },
+     "b": {
+      "w": "Küste",
+      "ipa": "/ˈkʏstə/",
+      "approx": "KʰUS-te",
+      "fr": "la côte",
+      "k": "eadcf02652fde6"
+     },
+     "note": "Short i vs short ü.",
+     "heardBforA": "You said Kiste but it sounded like Küste: your lips were rounded. For i keep a wide smile, lips spread.",
+     "heardAforB": "You said Küste but it sounded like Kiste: your lips were spread. For ü say French 'u' as in 'tu': lips pushed forward and rounded."
+    },
+    {
+     "a": {
+      "w": "Kissen",
+      "ipa": "/ˈkɪsən/",
+      "approx": "KʰIS-sen",
+      "fr": "le coussin",
+      "k": "52c82e511e2503"
+     },
+     "b": {
+      "w": "küssen",
+      "ipa": "/ˈkʏsən/",
+      "approx": "KʰUS-sen",
+      "fr": "embrasser",
+      "k": "a4d2d861c7dd57"
+     },
+     "note": "Short i vs short ü.",
+     "heardBforA": "You said Kissen but it sounded like küssen: your lips were rounded. For i keep a wide smile, lips spread.",
+     "heardAforB": "You said küssen but it sounded like Kissen: your lips were spread. For ü say French 'u' as in 'tu': lips pushed forward and rounded."
+    },
+    {
+     "a": {
+      "w": "Mutter",
+      "ipa": "/ˈmʊtɐ/",
+      "approx": "MOUT-ta",
+      "fr": "la mère",
+      "k": "562f89fbc88c63"
+     },
+     "b": {
+      "w": "Mütter",
+      "ipa": "/ˈmʏtɐ/",
+      "approx": "MUT-ta",
+      "fr": "les mères",
+      "k": "edd5df90aed8c0"
+     },
+     "note": "Singular vs plural: only the umlaut.",
+     "heardBforA": "You said Mutter but it sounded like Mütter: you read the German u like French 'u'. German u is always French 'ou'.",
+     "heardAforB": "You said Mütter but it sounded like Mutter: your ü came out as 'ou'. Say French 'u' as in 'tu', tongue forward."
+    },
+    {
+     "a": {
+      "w": "Bruder",
+      "ipa": "/ˈbʁuːdɐ/",
+      "approx": "BROU:-da",
+      "fr": "le frère",
+      "k": "4e1d37190d1c70"
+     },
+     "b": {
+      "w": "Brüder",
+      "ipa": "/ˈbʁyːdɐ/",
+      "approx": "BRU:-da",
+      "fr": "les frères",
+      "k": "4c2fba504519dc"
+     },
+     "note": "Singular vs plural: only the umlaut.",
+     "heardBforA": "You said Bruder but it sounded like Brüder: you read the German u like French 'u'. German u is always French 'ou'.",
+     "heardAforB": "You said Brüder but it sounded like Bruder: your ü came out as 'ou'. Say French 'u' as in 'tu', tongue forward."
+    },
+    {
+     "a": {
+      "w": "schon",
+      "ipa": "/ʃoːn/",
+      "approx": "CHO:N",
+      "fr": "déjà",
+      "k": "ebd796012fa1e0"
+     },
+     "b": {
+      "w": "schön",
+      "ipa": "/ʃøːn/",
+      "approx": "CHEU:N",
+      "fr": "beau",
+      "k": "33132601c68f86"
+     },
+     "note": "Two very common words: o vs ö.",
+     "heardBforA": "You said schon but it sounded like schön: you read o as 'eu'. Keep it a clear French 'ô', tongue back.",
+     "heardAforB": "You said schön but it sounded like schon: your ö came out as 'o'. Say French 'eu' as in 'deux', tongue forward, lips rounded."
+    },
+    {
+     "a": {
+      "w": "Ofen",
+      "ipa": "/ˈoːfən/",
+      "approx": "O:-fen",
+      "fr": "le four",
+      "k": "2ff5d9998ede5d"
+     },
+     "b": {
+      "w": "Öfen",
+      "ipa": "/ˈøːfən/",
+      "approx": "EU:-fen",
+      "fr": "les fours",
+      "k": "3df6571fc838a6"
+     },
+     "note": "Singular vs plural: only the umlaut.",
+     "heardBforA": "You said Ofen but it sounded like Öfen: you read o as 'eu'. Keep it a clear French 'ô', tongue back.",
+     "heardAforB": "You said Öfen but it sounded like Ofen: your ö came out as 'o'. Say French 'eu' as in 'deux', tongue forward, lips rounded."
+    },
+    {
+     "a": {
+      "w": "Tochter",
+      "ipa": "/ˈtɔxtɐ/",
+      "approx": "TʰOkh-ta",
+      "fr": "la fille (de quelqu'un)",
+      "k": "0a8197fe904cd4"
+     },
+     "b": {
+      "w": "Töchter",
+      "ipa": "/ˈtœçtɐ/",
+      "approx": "TʰEUch'-ta",
+      "fr": "les filles",
+      "k": "83dbe4c22a9afb"
+     },
+     "note": "Singular vs plural: the vowel changes and ach-Laut becomes ich-Laut.",
+     "heardBforA": "You said Tochter but it sounded like Töchter: you read o as 'eu'. Keep it a clear French 'ô', tongue back. Then use the throaty kh.",
+     "heardAforB": "You said Töchter but it sounded like Tochter: your ö came out as 'o'. Say French 'eu' as in 'deux', tongue forward, lips rounded. Then use the soft ich-Laut."
+    },
+    {
+     "a": {
+      "w": "lesen",
+      "ipa": "/ˈleːzən/",
+      "approx": "LÉ:-zen",
+      "fr": "lire",
+      "k": "05a25a6a5ed3c6"
+     },
+     "b": {
+      "w": "lösen",
+      "ipa": "/ˈløːzən/",
+      "approx": "LEU:-zen",
+      "fr": "résoudre",
+      "k": "2d5829f206ea12"
+     },
+     "note": "Long e vs long ö: same tongue, only the lips change.",
+     "heardBforA": "You said lesen but it sounded like lösen: your lips were rounded. For long e, smile and say French 'é'.",
+     "heardAforB": "You said lösen but it sounded like lesen: your lips were spread. For ö, round them as for French 'deux'."
+    }
+   ],
+   "words": [
+    {
+     "w": "für",
+     "ipa": "/fyːɐ̯/",
+     "approx": "FU:A",
+     "fr": "pour",
+     "k": "0e6b911bc49d5e"
+    },
+    {
+     "w": "Tür",
+     "ipa": "/tyːɐ̯/",
+     "approx": "TʰU:A",
+     "fr": "la porte",
+     "k": "6211a71e890adf"
+    },
+    {
+     "w": "über",
+     "ipa": "/ˈyːbɐ/",
+     "approx": "U:-ba",
+     "fr": "au-dessus de, sur",
+     "k": "4200c7e9195242"
+    },
+    {
+     "w": "müde",
+     "ipa": "/ˈmyːdə/",
+     "approx": "MU:-de",
+     "fr": "fatigué",
+     "k": "31e5a392aadfdf"
+    },
+    {
+     "w": "Glück",
+     "ipa": "/ɡlʏk/",
+     "approx": "GLUK",
+     "fr": "la chance",
+     "k": "bd5067318f6142"
+    },
+    {
+     "w": "fünf",
+     "ipa": "/fʏnf/",
+     "approx": "FUNF",
+     "fr": "cinq",
+     "k": "2d052e9b17f4e4"
+    },
+    {
+     "w": "grün",
+     "ipa": "/ɡʁyːn/",
+     "approx": "GRU:N",
+     "fr": "vert",
+     "k": "92c8c8019d1588"
+    },
+    {
+     "w": "schön",
+     "ipa": "/ʃøːn/",
+     "approx": "CHEU:N",
+     "fr": "beau",
+     "k": "33132601c68f86"
+    },
+    {
+     "w": "hören",
+     "ipa": "/ˈhøːʁən/",
+     "approx": "HEU:-ren",
+     "fr": "entendre, écouter",
+     "k": "5b27075d0eb47f"
+    },
+    {
+     "w": "Öl",
+     "ipa": "/øːl/",
+     "approx": "EU:L",
+     "fr": "l'huile",
+     "k": "9c43b4a2caa344"
+    },
+    {
+     "w": "zwölf",
+     "ipa": "/tsvœlf/",
+     "approx": "TSVEULF",
+     "fr": "douze",
+     "k": "1e1204559e7fa6"
+    },
+    {
+     "w": "Österreich",
+     "ipa": "/ˈøːstəʁaɪ̯ç/",
+     "approx": "EU:S-te-raïch'",
+     "fr": "l'Autriche",
+     "k": "60187cd65c72ac"
+    },
+    {
+     "w": "Zürich",
+     "ipa": "/ˈtsyːʁɪç/",
+     "approx": "TSU:-rich'",
+     "fr": "Zurich",
+     "k": "1a9e2136c2e490"
+    },
+    {
+     "w": "Gemüse",
+     "ipa": "/ɡəˈmyːzə/",
+     "approx": "gue-MU:-ze",
+     "fr": "les légumes",
+     "k": "af57cc633c5955"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Die Tür ist offen.",
+     "fr": "La porte est ouverte.",
+     "focus": "ü in Tür",
+     "k": "398b1ffd1bf46f"
+    },
+    {
+     "s": "Mein Bruder wohnt in Zürich.",
+     "fr": "Mon frère habite à Zurich.",
+     "focus": "u in Bruder vs ü in Zürich",
+     "k": "42b85492b83ab4"
+    },
+    {
+     "s": "Das Wetter ist schön.",
+     "fr": "Il fait beau.",
+     "focus": "ö in schön",
+     "k": "3b0cc98a990bd6"
+    },
+    {
+     "s": "Ich bin müde.",
+     "fr": "Je suis fatigué.",
+     "focus": "long ü in müde",
+     "k": "443fbbf1e1e253"
+    },
+    {
+     "s": "Vier Brötchen für mich, bitte.",
+     "fr": "Quatre petits pains pour moi, s'il vous plaît.",
+     "focus": "vier vs für",
+     "k": "a595fa3e38f68e"
+    },
+    {
+     "s": "Ich lese ein Buch über Österreich.",
+     "fr": "Je lis un livre sur l'Autriche.",
+     "focus": "lese, über, Österreich",
+     "k": "16eb08c2a0d034"
+    }
+   ]
+  },
+  {
+   "id": "uvular-r",
+   "title": "Uvular r (your French advantage)",
+   "focus": "uvular r",
+   "explain": "<p>Good news: the standard German <b>r</b> at the start of a word or syllable, or after a consonant, is the same <b>uvular r</b> as in French: <i>rot, Reis, Brot, drei</i>. You can use your normal French r here.</p><p>In Zürich you will also hear a rolled, tongue-tip r. Both are correct; for the exam, your French r is perfect.</p><p>Only after a vowel does the German r soften into a light <i>a</i> (<i>vier, Uhr, Lehrer</i>): see the section on vocalized r.</p>",
+   "howto": "<ol><li>Use your French r before vowels and after consonants: <i>Brot, Frau, grün</i>.</li><li>Keep it light: a soft friction, not a strong scrape.</li><li>Do not drop it in clusters: <i>Straße</i> = CHTRA:-sse, with a clear r.</li></ol>",
+   "pairs": [
+    {
+     "a": {
+      "w": "Rand",
+      "ipa": "/ʁant/",
+      "approx": "RANT",
+      "fr": "le bord",
+      "k": "252a13de676421"
+     },
+     "b": {
+      "w": "Land",
+      "ipa": "/lant/",
+      "approx": "LANT",
+      "fr": "le pays, la campagne",
+      "k": "6cac3c8b3ef2d2"
+     },
+     "note": "Only r vs l.",
+     "heardBforA": "You said Rand but it sounded like Land: your r sounded like an l. Use your normal French r at the back of the throat.",
+     "heardAforB": "You said Land but it sounded like Rand: your l was too far back. Touch the tongue tip behind the upper teeth for l."
+    },
+    {
+     "a": {
+      "w": "Reis",
+      "ipa": "/ʁaɪ̯s/",
+      "approx": "RAÏS",
+      "fr": "le riz",
+      "k": "088df874385d70"
+     },
+     "b": {
+      "w": "Eis",
+      "ipa": "/aɪ̯s/",
+      "approx": "AÏS",
+      "fr": "la glace",
+      "k": "e92b425828760e"
+     },
+     "note": "Only the r differs.",
+     "heardBforA": "You said Reis but it sounded like Eis: the r was too weak. Start with a clear French r: RAÏS.",
+     "heardAforB": "You said Eis but it sounded like Reis: an r crept in. Start the vowel cleanly: AÏS."
+    },
+    {
+     "a": {
+      "w": "Brot",
+      "ipa": "/bʁoːt/",
+      "approx": "BRO:T",
+      "fr": "le pain",
+      "k": "916760d29b1a7f"
+     },
+     "b": {
+      "w": "Boot",
+      "ipa": "/boːt/",
+      "approx": "BO:T",
+      "fr": "le bateau",
+      "k": "a6b14be0b716e5"
+     },
+     "note": "Only the r differs.",
+     "heardBforA": "You said Brot but it sounded like Boot: the r after b disappeared. Keep it audible: B-RO:T.",
+     "heardAforB": "You said Boot but it sounded like Brot: you added an r. Go straight from b to a long o: BO:T."
+    }
+   ],
+   "words": [
+    {
+     "w": "rot",
+     "ipa": "/ʁoːt/",
+     "approx": "RO:T",
+     "fr": "rouge",
+     "k": "f3a371a5e17d77"
+    },
+    {
+     "w": "Reis",
+     "ipa": "/ʁaɪ̯s/",
+     "approx": "RAÏS",
+     "fr": "le riz",
+     "k": "088df874385d70"
+    },
+    {
+     "w": "Brot",
+     "ipa": "/bʁoːt/",
+     "approx": "BRO:T",
+     "fr": "le pain",
+     "k": "916760d29b1a7f"
+    },
+    {
+     "w": "drei",
+     "ipa": "/dʁaɪ̯/",
+     "approx": "DRAÏ",
+     "fr": "trois",
+     "k": "52d996fb20c2bd"
+    },
+    {
+     "w": "Frau",
+     "ipa": "/fʁaʊ̯/",
+     "approx": "FRAOU",
+     "fr": "la femme, Madame",
+     "k": "6af6b678a933f7"
+    },
+    {
+     "w": "Straße",
+     "ipa": "/ˈʃtʁaːsə/",
+     "approx": "CHTRA:-sse",
+     "fr": "la rue",
+     "k": "837d168604f2c0"
+    },
+    {
+     "w": "grün",
+     "ipa": "/ɡʁyːn/",
+     "approx": "GRU:N",
+     "fr": "vert",
+     "k": "92c8c8019d1588"
+    },
+    {
+     "w": "Regen",
+     "ipa": "/ˈʁeːɡən/",
+     "approx": "RÉ:-guen",
+     "fr": "la pluie",
+     "k": "f200ead2be3b13"
+    },
+    {
+     "w": "Rücken",
+     "ipa": "/ˈʁʏkən/",
+     "approx": "RUK-ken",
+     "fr": "le dos",
+     "k": "715cfa37a8461b"
+    },
+    {
+     "w": "rechts",
+     "ipa": "/ʁɛçts/",
+     "approx": "RÈch'TS",
+     "fr": "à droite",
+     "k": "482ad2352e87f4"
+    },
+    {
+     "w": "Freitag",
+     "ipa": "/ˈfʁaɪ̯taːk/",
+     "approx": "FRAÏ-ta:k",
+     "fr": "le vendredi",
+     "k": "d43e59971136c7"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Ich esse Reis mit Gemüse.",
+     "fr": "Je mange du riz avec des légumes.",
+     "focus": "r in Reis",
+     "k": "a95d48f3d0ab96"
+    },
+    {
+     "s": "Das Brot ist frisch.",
+     "fr": "Le pain est frais.",
+     "focus": "r in Brot, frisch",
+     "k": "cb6c4fa5d96662"
+    },
+    {
+     "s": "Es regnet in Genf.",
+     "fr": "Il pleut à Genève.",
+     "focus": "r in regnet",
+     "k": "ffcc6c506d48fe"
+    },
+    {
+     "s": "Die Straße ist rechts.",
+     "fr": "La rue est à droite.",
+     "focus": "r in Straße, rechts",
+     "k": "c5d9a1c57eda32"
+    },
+    {
+     "s": "Am Freitag trainiere ich drei Stunden.",
+     "fr": "Vendredi, je m'entraîne trois heures.",
+     "focus": "r in Freitag, trainiere, drei",
+     "k": "b3ed6b904ac022"
+    }
+   ]
+  },
+  {
+   "id": "shadowing",
+   "title": "Shadowing: everything together",
+   "focus": "shadowing",
+   "explain": "<p><b>Shadowing</b> means repeating a sentence right after the model voice, copying its rhythm, melody and sounds as exactly as you can. It trains everything at once: vowel length, stress, ich-Laut, aspiration, final devoicing, -er and h.</p><p>Each sentence below lists its main traps. Listen first, then speak along with the voice, then alone into the microphone.</p><p>Do short sessions every day: five sentences, five minutes. Regular short practice fixes rhythm faster than one long session per week.</p>",
+   "howto": "<ol><li>Listen to the sentence twice without speaking.</li><li>Read the focus line and find the traps in the sentence.</li><li>Speak together with the voice, at the same speed.</li><li>Record yourself alone and compare. Repeat until the recognizer gets every word.</li></ol>",
+   "pairs": [],
+   "words": [
+    {
+     "w": "Genf",
+     "ipa": "/ɡɛnf/",
+     "approx": "GUÈNF",
+     "fr": "Genève",
+     "k": "49f64faef8bccd"
+    },
+    {
+     "w": "Zürich",
+     "ipa": "/ˈtsyːʁɪç/",
+     "approx": "TSU:-rich'",
+     "fr": "Zurich",
+     "k": "1a9e2136c2e490"
+    },
+    {
+     "w": "Marokko",
+     "ipa": "/maˈʁɔko/",
+     "approx": "ma-ROK-ko",
+     "fr": "le Maroc",
+     "k": "56ec24d34b5000"
+    },
+    {
+     "w": "Informatiker",
+     "ipa": "/ɪnfɔʁˈmaːtɪkɐ/",
+     "approx": "in-for-MA:-ti-ka",
+     "fr": "l'informaticien",
+     "k": "756aa7acd38fe7"
+    },
+    {
+     "w": "Prüfung",
+     "ipa": "/ˈpʁyːfʊŋ/",
+     "approx": "PʰRU:-foung",
+     "fr": "l'examen",
+     "k": "36b571055875e7"
+    },
+    {
+     "w": "Wochenende",
+     "ipa": "/ˈvɔxənˌɛndə/",
+     "approx": "VO-khen-èn-de",
+     "fr": "le week-end",
+     "k": "2d1f3745005346"
+    }
+   ],
+   "sentences": [
+    {
+     "s": "Ich heiße Alexandre und wohne in Genf.",
+     "fr": "Je m'appelle Alexandre et j'habite à Genève.",
+     "focus": "ich-Laut in ich, h in heiße, long o in wohne, final t in und",
+     "k": "4d5ad3162972a4"
+    },
+    {
+     "s": "Morgen fahre ich mit dem Zug nach Zürich.",
+     "fr": "Demain, je vais à Zurich en train.",
+     "focus": "long a in fahre, final k in Zug, ach-Laut in nach, ich-Laut in Zürich",
+     "k": "450ec4c4574add"
+    },
+    {
+     "s": "Am Abend gehe ich ins Fitnessstudio.",
+     "fr": "Le soir, je vais à la salle de sport.",
+     "focus": "long a and final t in Abend, silent h in gehe, stress on FIT-",
+     "k": "d05919757d6e29"
+    },
+    {
+     "s": "Ich spiele gern Tennis.",
+     "fr": "J'aime jouer au tennis.",
+     "focus": "long ie in spiele, aspirated t in Tennis",
+     "k": "3cfe81f17f240f"
+    },
+    {
+     "s": "Ich arbeite als Informatiker.",
+     "fr": "Je travaille comme informaticien.",
+     "focus": "stress on AR- and -MA-, -er ending in Informatiker",
+     "k": "88346dddf21a1b"
+    },
+    {
+     "s": "Ich komme aus Marokko.",
+     "fr": "Je viens du Maroc.",
+     "focus": "aspirated k in komme, short o, stress on -ROK-",
+     "k": "90ffcbd9be4695"
+    },
+    {
+     "s": "Ich trinke jeden Morgen Kaffee.",
+     "fr": "Je bois un café tous les matins.",
+     "focus": "aspirated t and k, stress on KAF-",
+     "k": "bd8fb8386bf524"
+    },
+    {
+     "s": "Ich möchte ein Brötchen, bitte.",
+     "fr": "Je voudrais un petit pain, s'il vous plaît.",
+     "focus": "ich-Laut in ich, möchte, Brötchen; long ö",
+     "k": "f39fa87e707415"
+    },
+    {
+     "s": "Wie viel kostet das?",
+     "fr": "Combien ça coûte ?",
+     "focus": "long ie, aspirated k",
+     "k": "345e4e699163d2"
+    },
+    {
+     "s": "Das Wetter ist heute sehr schön.",
+     "fr": "Il fait très beau aujourd'hui.",
+     "focus": "-er in Wetter, h in heute, silent h in sehr, long ö",
+     "k": "50e7df87c4304c"
+    },
+    {
+     "s": "Mein Bruder hat zwei Kinder.",
+     "fr": "Mon frère a deux enfants.",
+     "focus": "long u, -er in Bruder and Kinder, h in hat",
+     "k": "44aeb0a1277a88"
+    },
+    {
+     "s": "Die Miete in Genf ist hoch.",
+     "fr": "Le loyer à Genève est élevé.",
+     "focus": "long ie in Miete, short i in in, h and ach-Laut in hoch",
+     "k": "4c98df28f82906"
+    },
+    {
+     "s": "Ich verstehe das nicht.",
+     "fr": "Je ne comprends pas.",
+     "focus": "unstressed ver-, ich-Laut in ich and nicht",
+     "k": "f2df784d19f944"
+    },
+    {
+     "s": "Um acht Uhr beginnt die Arbeit.",
+     "fr": "Le travail commence à huit heures.",
+     "focus": "ach-Laut in acht, vocalized r in Uhr, stress be-GINNT",
+     "k": "c55985d2074a35"
+    },
+    {
+     "s": "Wo ist der Bahnhof, bitte?",
+     "fr": "Où est la gare, s'il vous plaît ?",
+     "focus": "long a in Bahnhof, stress on BAHN-, h in -hof",
+     "k": "3582b945ec959d"
+    },
+    {
+     "s": "Ich habe am Wochenende Zeit.",
+     "fr": "J'ai du temps le week-end.",
+     "focus": "h in habe, stress on WO-",
+     "k": "596b19b51e10da"
+    },
+    {
+     "s": "Sprechen Sie Deutsch? Ein bisschen.",
+     "fr": "Vous parlez allemand ? Un peu.",
+     "focus": "ich-Laut in sprechen and bisschen",
+     "k": "02b832444b5b1b"
+    },
+    {
+     "s": "Ich lerne Deutsch für die Prüfung.",
+     "fr": "J'apprends l'allemand pour l'examen.",
+     "focus": "ü in für and Prüfung, aspirated p",
+     "k": "40c76a565cb00e"
+    },
+    {
+     "s": "Danke, das ist sehr nett.",
+     "fr": "Merci, c'est très gentil.",
+     "focus": "no puff on d, short e in nett",
+     "k": "c16af48974d1ce"
+    }
+   ]
+  }
+ ]
+}
