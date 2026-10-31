@@ -5,10 +5,62 @@ import { esc, ICON, toast } from './ui.js';
 import { compareWords, classifyPair, analyzeVowel, compareVowel } from './grading.js';
 import { update } from './store.js';
 
-const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+// In the native iPhone app (Capacitor) recognition comes from the SpeechRecognition plugin,
+// wrapped to look like the browser's SpeechRecognition so the rest of this file is shared.
+const CAP = window.Capacitor;
+export const isNative = !!(CAP && CAP.isNativePlatform && CAP.isNativePlatform());
+const nativePlugin = isNative ? ((CAP.Plugins && CAP.Plugins.SpeechRecognition) || (CAP.registerPlugin && CAP.registerPlugin('SpeechRecognition'))) : null;
+
+function nativeSR(plugin) {
+  return class {
+    constructor() { this.lang = 'de-DE'; this.maxAlternatives = 5; this.ended = false; this.handles = []; this.quiet = null; }
+    start() {
+      (async () => {
+        try {
+          let perm = await plugin.checkPermissions();
+          if (perm.speechRecognition !== 'granted') perm = await plugin.requestPermissions();
+          if (perm.speechRecognition !== 'granted') throw { error: 'not-allowed' };
+          const av = await plugin.available();
+          if (!av.available) throw { error: 'service-not-allowed' };
+          this.handles.push(await plugin.addListener('partialResults', d => {
+            const matches = (d && d.matches) || [];
+            if (!matches.length) return;
+            const res = matches.map(t => ({ transcript: t }));
+            res.isFinal = true;
+            if (this.onresult) this.onresult({ results: [res] });
+            // stop by itself after a short silence once something was heard
+            clearTimeout(this.quiet);
+            this.quiet = setTimeout(() => this.stop(), 1400);
+          }));
+          this.handles.push(await plugin.addListener('listeningState', d => { if (d && d.status === 'stopped') this._end(); }));
+          if (this.ended) return;
+          await plugin.start({ language: this.lang, maxResults: this.maxAlternatives, partialResults: true, popup: false });
+        } catch (e) {
+          if (this.onerror) this.onerror({ error: e.error || 'native: ' + (e.message || e) });
+          this._end();
+        }
+      })();
+    }
+    stop() {
+      clearTimeout(this.quiet);
+      plugin.stop().catch(() => {});
+      setTimeout(() => this._end(), 800); // in case no "stopped" event arrives
+    }
+    abort() { this.stop(); }
+    _end() {
+      if (this.ended) return;
+      this.ended = true;
+      clearTimeout(this.quiet);
+      this.handles.forEach(h => h && h.remove && h.remove());
+      if (this.onend) this.onend();
+    }
+  };
+}
+
+const SR = nativePlugin ? nativeSR(nativePlugin) : (window.SpeechRecognition || window.webkitSpeechRecognition);
 export const hasRecognition = !!SR;
 export const hasRecorder = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder);
-export const standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+export const standalone = !isNative && (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true);
 let recognitionBroken = false; // set when the browser refuses recognition during recording
 
 function pickMime() {
@@ -68,7 +120,7 @@ export async function capture({ maxMs = 6000, recognize = true, onState = () => 
       pending++;
       rec.start();
     } catch (e) {
-      result.recError = e.name === 'NotAllowedError' ? 'Microphone access was refused. Allow it in Settings > Safari > Microphone (or in the browser prompt) and try again.' : 'Could not start the microphone: ' + e.message;
+      result.recError = e.name === 'NotAllowedError' ? (isNative ? 'Microphone access was refused. Open Settings > Apps > Gleis A1 and turn on Microphone.' : 'Microphone access was refused. Allow it in Settings > Safari > Microphone (or in the browser prompt) and try again.') : 'Could not start the microphone: ' + e.message;
       if (stream) stream.getTracks().forEach(t => t.stop());
       rec = null;
     }
@@ -126,6 +178,7 @@ function recogHelp(err) {
     : 'This browser has no speech recognition. Use Safari on iPhone (with Siri and dictation turned on) or Chrome on Android. Your recording still works.';
   if (!err) return '';
   if (err === 'no-speech') return 'Nothing was heard. Hold the phone closer and speak right after tapping.';
+  if (isNative && (err === 'not-allowed' || err === 'service-not-allowed')) return 'Speech recognition is not allowed. Open Settings > Apps > Gleis A1 and turn on Microphone and Speech Recognition.';
   if (err === 'not-allowed' || err === 'service-not-allowed') return 'Speech recognition was refused. On iPhone turn on Settings > General > Keyboard > Enable Dictation, and allow Speech Recognition for Safari.';
   if (err === 'network') return 'Recognition needs a connection on this phone. Your recording still works offline.';
   if (err === 'audio-capture') return 'The microphone was busy. Tap the record button again: the app will now listen without recording at the same time.';
@@ -270,7 +323,7 @@ async function vowelCheck(box, opts, res) {
 export function micStatusHTML() {
   const items = [];
   items.push(hasRecorder ? 'Recording: available' : 'Recording: not available in this browser');
-  items.push(hasRecognition ? 'Speech recognition (de-DE): available' : standalone ? 'Speech recognition: not available in home screen mode, open in Safari' : 'Speech recognition: not available in this browser');
+  items.push(isNative ? 'Native iPhone app: Apple speech recognition (de-DE)' : hasRecognition ? 'Speech recognition (de-DE): available' : standalone ? 'Speech recognition: not available in home screen mode, open in Safari' : 'Speech recognition: not available in this browser');
   if (!window.isSecureContext) items.push('The page must be opened over https for the microphone to work.');
   return `<ul class="small muted">${items.map(i => `<li>${esc(i)}</li>`).join('')}</ul>`;
 }

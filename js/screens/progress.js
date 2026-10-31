@@ -6,7 +6,7 @@ import { topicStats } from './grammar.js';
 import { best } from './exam.js';
 import { examResult } from '../grading.js';
 import { applyTheme } from '../main.js';
-import { micStatusHTML } from '../speech.js';
+import { micStatusHTML, isNative } from '../speech.js';
 
 export function render(main) {
   const s = get();
@@ -58,7 +58,7 @@ export function render(main) {
       <div class="row"><input type="number" id="npd" min="1" max="100" value="${s.settings.newPerDay}" style="max-width:110px"><span class="small muted">default 15</span></div>
       <label class="row" style="margin-top:12px"><input type="checkbox" id="dark" ${s.settings.dark ? 'checked' : ''} style="width:24px;height:24px"> Dark mode</label>
     </div>
-    <div class="card"><h3 style="margin-top:0">Offline</h3><p class="small">The app works offline once its files are saved on the phone. Audio clips are saved as you play them; download all 4,529 clips (54 MB) to have everything offline.</p>
+    <div class="card ${isNative ? 'hidden' : ''}"><h3 style="margin-top:0">Offline</h3><p class="small">The app works offline once its files are saved on the phone. Audio clips are saved as you play them; download all 4,529 clips (54 MB) to have everything offline.</p>
       <button class="btn block" id="dl">Download all audio for offline use</button><div class="progressbar hidden" id="dlbar"><i style="width:0"></i></div><p class="small muted" id="dlmsg"></p></div>
     <div class="card"><h3 style="margin-top:0">Microphone</h3>${micStatusHTML()}<a class="btn sm" href="#/pron/mic">Test the microphone</a></div>
     <div class="card"><h3 style="margin-top:0">Backup</h3><p class="small">Progress is saved on this phone after every action. Export it to a file to keep a copy or move it to another phone.</p>

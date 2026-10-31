@@ -36,6 +36,27 @@ git push -u origin main
 
 > Recognition on iPhone goes through Apple's servers, so that part needs a connection. Everything else (audio, flashcards, grammar, exams, recording, vowel check) works offline.
 
+## 1b. Or install it as a real iPhone app (.ipa)
+
+The same app can also be installed as a native app. It has two advantages over the home screen version: speech recognition comes straight from iOS (no Safari tab needed), and all audio is inside the app from the start. The drawback: with a free Apple ID, iOS stops opening the app after **7 days**, and you reinstall it (2 minutes, your progress is kept). A paid Apple Developer account ($99/year) makes that one year.
+
+**Build the .ipa (GitHub does it for you, free):**
+1. Push this folder to GitHub as in step 1A. The workflow in `.github/workflows/ios-ipa.yml` starts by itself on every push (or open the **Actions** tab, choose *Build iPhone app (.ipa)*, then **Run workflow**).
+2. Wait about 10 to 15 minutes until the run shows a green tick. If it shows a red cross, open the run, copy the error from the red step and send it to Claude.
+3. On the run's page, under **Artifacts**, download **GleisA1-ipa**. It is a zip: unzip it to get `GleisA1.ipa`.
+
+**Install it with Sideloadly (Windows):**
+1. Install **iTunes** and **iCloud** from apple.com (the classic installers, not the Microsoft Store versions: Sideloadly needs their drivers), then install **Sideloadly** from sideloadly.io.
+2. Connect the iPhone with a cable and tap **Trust** on the phone.
+3. In Sideloadly, drag `GleisA1.ipa` in, type your Apple ID, click **Start**, and enter your Apple ID password when asked. It is sent only to Apple, to sign the app.
+4. On the iPhone: **Settings > General > VPN & Device Management**, tap your Apple ID under *Developer App*, then **Trust**.
+5. First start: iOS 16 and later ask you to turn on **Developer Mode** (Settings > Privacy & Security > Developer Mode, then restart).
+6. Open Gleis A1 and tap a record button: allow **Microphone** and **Speech Recognition**.
+
+**Every 7 days:** connect the phone and click Start in Sideloadly again with the same .ipa. Your progress stays, because it is the same app.
+
+> The native app keeps its own progress, separate from the home screen web app. Use Progress > Export / Import to move it.
+
 ## 2. What is in the app
 
 Bottom tab bar, one column, large tap targets, white by default (dark mode in Progress > Settings).
@@ -57,6 +78,8 @@ Progress is saved on the phone (localStorage) after every action.
 No build step and no dependencies: plain HTML, CSS and JavaScript modules, so it runs as-is on GitHub Pages.
 
 ```
+.github/workflows/ios-ipa.yml  builds the unsigned .ipa on GitHub (macOS, Capacitor 7)
+package.json, capacitor.config.json, scripts/copy-web.mjs  native wrapper (copies the site into www/)
 index.html             app shell, bottom tab bar
 manifest.webmanifest   home screen app definition
 sw.js                  service worker: offline cache, Safari audio range requests
@@ -91,6 +114,7 @@ Then open http://localhost:8765/tests.html. 67 tests cover the typing check, let
 
 ## 4. Differences from the brief, and why
 - **Web app instead of Expo.** Putting an Expo development build on an iPhone from a Windows PC needs a paid Apple Developer account and Node.js. A home screen web app is free, works offline and has the in-app microphone. Everything else in the brief is implemented.
+- **Native build** uses Capacitor instead of Expo: it wraps this same web app, so there is one codebase. In the native app, recognition uses Apple's speech framework through `@capacitor-community/speech-recognition`.
 - **Speech recognition** uses the browser's `webkitSpeechRecognition` (Apple's recognizer on iPhone) instead of on-device `expo-speech-recognition`. It needs a connection and works most reliably in a Safari tab (see 1C). When it is not available, recording, playback and the vowel length check still work, and the app says why.
 - **Practise with Claude** blocks open a page with the prompt from the program, a Copy button and an Open Claude link.
 - **Fonts** load from Google Fonts on first use and are then cached for offline use. Charis SIL is not on Google Fonts, so IPA uses Noto Serif.

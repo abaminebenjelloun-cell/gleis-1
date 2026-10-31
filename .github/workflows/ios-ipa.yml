@@ -1,0 +1,63 @@
+# Builds an unsigned Gleis A1 .ipa on a GitHub macOS machine.
+# Download it from the run's "Artifacts" and install it with Sideloadly, which signs it with your Apple ID.
+name: Build iPhone app (.ipa)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  ipa:
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Capacitor
+        run: npm install --no-audit --no-fund
+
+      - name: Create the iOS project
+        run: |
+          npm run build:web
+          npx cap add ios
+          npx cap sync ios
+
+      - name: Permissions, icon and version
+        run: |
+          PLIST=ios/App/App/Info.plist
+          /usr/libexec/PlistBuddy -c "Add :NSMicrophoneUsageDescription string 'Gleis A1 records you so you can hear and check your German pronunciation.'" "$PLIST"
+          /usr/libexec/PlistBuddy -c "Add :NSSpeechRecognitionUsageDescription string 'Gleis A1 shows what a German listener heard when you speak.'" "$PLIST"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName 'Gleis A1'" "$PLIST" || /usr/libexec/PlistBuddy -c "Add :CFBundleDisplayName string 'Gleis A1'" "$PLIST"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString 1.0.${{ github.run_number }}" "$PLIST" || true
+          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "$PLIST" || true
+          ICONSET=ios/App/App/Assets.xcassets/AppIcon.appiconset
+          for f in "$ICONSET"/*.png; do cp icons/icon-1024.png "$f"; done
+          ls "$ICONSET"
+
+      - name: Build (unsigned)
+        run: |
+          cd ios/App
+          if [ -d App.xcworkspace ]; then TARGET="-workspace App.xcworkspace"; else TARGET="-project App.xcodeproj"; fi
+          xcodebuild $TARGET -scheme App -configuration Release -sdk iphoneos \
+            -destination 'generic/platform=iOS' -derivedDataPath "$GITHUB_WORKSPACE/build" \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build | tail -n 40
+          test -d "$GITHUB_WORKSPACE/build/Build/Products/Release-iphoneos/App.app"
+
+      - name: Package .ipa
+        run: |
+          mkdir -p Payload
+          cp -R build/Build/Products/Release-iphoneos/App.app Payload/
+          zip -qry GleisA1.ipa Payload
+          ls -lh GleisA1.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GleisA1-ipa
+          path: GleisA1.ipa
+          retention-days: 30

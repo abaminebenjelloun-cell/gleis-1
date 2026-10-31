@@ -140,7 +140,7 @@ async function start() {
   }
   window.addEventListener('hashchange', route);
   route();
-  if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol) && !(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform())) {
     navigator.serviceWorker.register('sw.js').catch(e => console.warn('sw', e));
   }
   save();

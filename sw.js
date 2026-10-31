@@ -1,5 +1,5 @@
 // Offline support: app shell + data precached, audio cached on first play (or via "Download all audio").
-const VERSION = 'gleis-shell-v4';
+const VERSION = 'gleis-shell-v5';
 const AUDIO = 'gleis-audio-v1';
 const FONTS = 'gleis-fonts-v1';
 const SHELL = [

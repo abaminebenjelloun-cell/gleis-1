@@ -1,0 +1,11 @@
+{
+  "appId": "ch.gleis.a1",
+  "appName": "Gleis A1",
+  "webDir": "www",
+  "backgroundColor": "#ffffff",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#ffffff",
+    "allowsLinkPreview": false
+  }
+}
