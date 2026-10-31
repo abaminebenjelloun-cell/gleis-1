@@ -10,6 +10,8 @@ on:
 jobs:
   ipa:
     runs-on: macos-15
+    permissions:
+      contents: write
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
@@ -30,23 +32,27 @@ jobs:
       - name: Permissions, icon and version
         run: |
           PLIST=ios/App/App/Info.plist
-          /usr/libexec/PlistBuddy -c "Add :NSMicrophoneUsageDescription string 'Gleis A1 records you so you can hear and check your German pronunciation.'" "$PLIST"
-          /usr/libexec/PlistBuddy -c "Add :NSSpeechRecognitionUsageDescription string 'Gleis A1 shows what a German listener heard when you speak.'" "$PLIST"
-          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName 'Gleis A1'" "$PLIST" || /usr/libexec/PlistBuddy -c "Add :CFBundleDisplayName string 'Gleis A1'" "$PLIST"
-          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString 1.0.${{ github.run_number }}" "$PLIST" || true
-          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "$PLIST" || true
+          # plutil -replace adds the key or overwrites it, and takes each value as one argument
+          plutil -replace NSMicrophoneUsageDescription -string "Gleis A1 records you so you can hear and check your German pronunciation." "$PLIST"
+          plutil -replace NSSpeechRecognitionUsageDescription -string "Gleis A1 shows what a German listener heard when you speak." "$PLIST"
+          plutil -replace CFBundleDisplayName -string "Gleis A1" "$PLIST"
+          plutil -replace CFBundleShortVersionString -string "1.0.${{ github.run_number }}" "$PLIST"
+          plutil -replace CFBundleVersion -string "${{ github.run_number }}" "$PLIST"
+          plutil -lint "$PLIST"
           ICONSET=ios/App/App/Assets.xcassets/AppIcon.appiconset
           for f in "$ICONSET"/*.png; do cp icons/icon-1024.png "$f"; done
           ls "$ICONSET"
 
       - name: Build (unsigned)
         run: |
+          set -o pipefail
           cd ios/App
           if [ -d App.xcworkspace ]; then TARGET="-workspace App.xcworkspace"; else TARGET="-project App.xcodeproj"; fi
           xcodebuild $TARGET -scheme App -configuration Release -sdk iphoneos \
             -destination 'generic/platform=iOS' -derivedDataPath "$GITHUB_WORKSPACE/build" \
-            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
-            build | tail -n 40
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" ENABLE_USER_SCRIPT_SANDBOXING=NO \
+            build > xcodebuild.log 2>&1 || { grep -E "error:|fatal" xcodebuild.log | head -n 40; tail -n 40 xcodebuild.log; exit 1; }
+          tail -n 5 xcodebuild.log
           test -d "$GITHUB_WORKSPACE/build/Build/Products/Release-iphoneos/App.app"
 
       - name: Package .ipa
@@ -61,3 +67,12 @@ jobs:
           name: GleisA1-ipa
           path: GleisA1.ipa
           retention-days: 30
+
+      # public direct link: https://github.com/<owner>/<repo>/releases/latest/download/GleisA1.ipa
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: Gleis A1 build ${{ github.run_number }}
+          body: Unsigned iPhone app. Install it with Sideloadly (see README, section 1b).
+          files: GleisA1.ipa
+          make_latest: true

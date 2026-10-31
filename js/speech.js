@@ -11,9 +11,18 @@ const CAP = window.Capacitor;
 export const isNative = !!(CAP && CAP.isNativePlatform && CAP.isNativePlatform());
 const nativePlugin = isNative ? ((CAP.Plugins && CAP.Plugins.SpeechRecognition) || (CAP.registerPlugin && CAP.registerPlugin('SpeechRecognition'))) : null;
 
+// plugin rejections are plain messages: map them to the browser's error codes
+function nativeError(e) {
+  if (e && e.error) return e.error;
+  const m = String((e && e.message) || e || '');
+  if (/permission|denied|restricted/i.test(m)) return 'not-allowed';
+  if (/in use|ongoing|unknown/i.test(m)) return 'audio-capture';
+  return 'native: ' + m;
+}
+
 function nativeSR(plugin) {
   return class {
-    constructor() { this.lang = 'de-DE'; this.maxAlternatives = 5; this.ended = false; this.handles = []; this.quiet = null; }
+    constructor() { this.lang = 'de-DE'; this.maxAlternatives = 5; this.ended = false; this.stopping = false; this.handles = []; this.quiet = null; }
     start() {
       (async () => {
         try {
@@ -21,37 +30,43 @@ function nativeSR(plugin) {
           if (perm.speechRecognition !== 'granted') perm = await plugin.requestPermissions();
           if (perm.speechRecognition !== 'granted') throw { error: 'not-allowed' };
           const av = await plugin.available();
-          if (!av.available) throw { error: 'service-not-allowed' };
+          if (!av.available) throw { error: 'native-unavailable' };
+          if (this.stopping) return this._end();
           this.handles.push(await plugin.addListener('partialResults', d => {
             const matches = (d && d.matches) || [];
-            if (!matches.length) return;
+            if (this.ended || !matches.length) return;
             const res = matches.map(t => ({ transcript: t }));
             res.isFinal = true;
             if (this.onresult) this.onresult({ results: [res] });
             // stop by itself after a short silence once something was heard
             clearTimeout(this.quiet);
-            this.quiet = setTimeout(() => this.stop(), 1400);
+            if (!this.stopping) this.quiet = setTimeout(() => this.stop(), 1400);
           }));
-          this.handles.push(await plugin.addListener('listeningState', d => { if (d && d.status === 'stopped') this._end(); }));
-          if (this.ended) return;
+          // "stopped" comes right after stop(); the final transcript follows it, so wait a moment for it
+          this.handles.push(await plugin.addListener('listeningState', d => { if (d && d.status === 'stopped') setTimeout(() => this._end(), 500); }));
+          if (this.stopping) return this._end();
           await plugin.start({ language: this.lang, maxResults: this.maxAlternatives, partialResults: true, popup: false });
+          if (this.stopping) plugin.stop().catch(() => {}); // stop() came while the engine was still starting
         } catch (e) {
-          if (this.onerror) this.onerror({ error: e.error || 'native: ' + (e.message || e) });
+          if (this.onerror) this.onerror({ error: nativeError(e) });
           this._end();
         }
       })();
     }
     stop() {
+      if (this.stopping) return;
+      this.stopping = true;
       clearTimeout(this.quiet);
       plugin.stop().catch(() => {});
-      setTimeout(() => this._end(), 800); // in case no "stopped" event arrives
+      setTimeout(() => this._end(), 1200); // in case no "stopped" event arrives
     }
     abort() { this.stop(); }
     _end() {
+      clearTimeout(this.quiet);
+      this.handles.forEach(h => h && h.remove && h.remove()); // also drops listeners added after an early end
+      this.handles = [];
       if (this.ended) return;
       this.ended = true;
-      clearTimeout(this.quiet);
-      this.handles.forEach(h => h && h.remove && h.remove());
       if (this.onend) this.onend();
     }
   };
@@ -178,6 +193,7 @@ function recogHelp(err) {
     : 'This browser has no speech recognition. Use Safari on iPhone (with Siri and dictation turned on) or Chrome on Android. Your recording still works.';
   if (!err) return '';
   if (err === 'no-speech') return 'Nothing was heard. Hold the phone closer and speak right after tapping.';
+  if (err === 'native-unavailable') return 'Apple speech recognition is not available right now. Check the connection, and that Siri & Dictation is turned on. Your recording still works.';
   if (isNative && (err === 'not-allowed' || err === 'service-not-allowed')) return 'Speech recognition is not allowed. Open Settings > Apps > Gleis A1 and turn on Microphone and Speech Recognition.';
   if (err === 'not-allowed' || err === 'service-not-allowed') return 'Speech recognition was refused. On iPhone turn on Settings > General > Keyboard > Enable Dictation, and allow Speech Recognition for Safari.';
   if (err === 'network') return 'Recognition needs a connection on this phone. Your recording still works offline.';
